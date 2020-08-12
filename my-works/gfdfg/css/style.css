@@ -1,6 +1,5 @@
 @import "normalize.css";
 @import "fonts.css";
-@import "media.css";
 /*
 	font-family: "Lato-Regular", sans-serif;
 	font-family: "Lato-Black", sans-serif;
@@ -127,7 +126,40 @@ p.discription-italic{
 	width: 100%;
 	line-height: 1.875;
 }
-.header__text > p.title{
+.header__text p.title{
 	font-size: 70px;
 }
+
+/*-------- Burger -------*/
+
+.header__burger__wrapper{
+	display: none;
+}
+.header__burger{
+	position: relative;
+	width: 30px;
+	height: 3px;
+	background: black;
+	border-radius: 3px;
+}
+.header__burger::after{
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 3px;
+	top: 6px;
+	background: black;
+	border-radius: 3px;
+}
+.header__burger::before{
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 3px;
+	bottom: 6px;
+	background: black;
+	border-radius: 3px;
+}
+
+/*-----------------------*/
 /*================================*/

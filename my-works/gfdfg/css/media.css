@@ -1,10 +1,32 @@
 @media screen and (max-width: 768px){
     .header__text p.title{
-        line-height: 1.2;
+        font-size: 50px;
+    }
+    .header__nav{
+        padding-top: 46px;
+        align-items: center;
+    }
+    .header{
+        height: 600px;
+    }
+    .mob{
+        display: none;
+    }
+    .header__burger__wrapper{
+        display: flex;
+        align-items: center;
+        height: 30px;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 768px){
+    .header__text p.title{
+        font-size: 24px;
+    }
+    .header__text{
+        text-align: center;
     }
     .header__text p.discription{
-        line-height: 1.2;
-        padding-top: 30px;
+        font-size: 14px;
     }
-
 }
