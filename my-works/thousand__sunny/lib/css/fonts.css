@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Inter-Regular'; /*Sans Serif*/
+    src: url('../../fonts/Inter-Regular.eot');
+    src: local('Inter-Regular'), local('Inter-Regular'),
+        url('../../fonts/Inter-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Inter-Regular.woff2') format('woff2'),
+        url('../../fonts/Inter-Regular.woff') format('woff'),
+        url('../../fonts/Inter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url('I../../fonts/nter-SemiBold.eot');
+    src: local('Inter-SemiBold'), local('Inter-SemiBold'),
+        url('../../fonts/Inter-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Inter-SemiBold.woff2') format('woff2'),
+        url('../../fonts/Inter-SemiBold.woff') format('woff'),
+        url('../../fonts/Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('../../fonts/Inter-Bold.eot');
+    src: local('Inter-Bold'), local('Inter-Bold'),
+        url('../../fonts/Inter-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Inter-Bold.woff2') format('woff2'),
+        url('../../fonts/Inter-Bold.woff') format('woff'),
+        url('../../fonts/Inter-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter-Medium';
+    src: url('../../fonts/Inter-Medium.eot');
+    src: local('Inter-Medium'), local('Inter-Medium'),
+        url('../../fonts/Inter-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Inter-Medium.woff2') format('woff2'),
+        url('../../fonts/Inter-Medium.woff') format('woff'),
+        url('../../fonts/Inter-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+/*------------------------------*/
+@font-face { /*Sans Serif*/
+    font-family: 'Muli-Regular';
+    src: url('../../fonts/Muli-Regular.eot');
+    src: local('Muli-Regular'), local('Muli-Regular'),
+        url('../../fonts/Muli-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Muli-Regular.woff') format('woff'),
+        url('../../fonts/Muli-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Muli-Light';
+    src: url('../../fonts/Muli-Light.eot');
+    src: local('Muli-Light'), local('Muli-Light'),
+        url('../../fonts/Muli-Light.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Muli-Light.woff') format('woff'),
+        url('../../fonts/Muli-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Muli-Bold';
+    src: url('../../fonts/Muli-Bold.eot');
+    src: local('Muli-Bold'), local('Muli-Bold'),
+        url('../../fonts/Muli-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Muli-Bold.woff') format('woff'),
+        url('../../fonts/Muli-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+/*------------------------------*/
+@font-face { /*Serif*/
+    font-family: 'PlayfairDisplay-Bold';
+    src: url('../../fonts/PlayfairDisplay-Bold.eot');
+    src: url('../../fonts/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/PlayfairDisplay-Bold.woff') format('woff'),
+        url('../../fonts/PlayfairDisplay-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
