@@ -77,7 +77,7 @@ a.menu__link--active, a.menu__link:hover{
     .mobile-menu{
         display: flex;
         position: relative;
-        z-index: 5;
+        z-index: 99;
     }
     .main__menu{
         display: none;
@@ -85,7 +85,7 @@ a.menu__link--active, a.menu__link:hover{
     .main__menu.menu-active{
         display: block;
         background-color: #222;
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
         width: 100%;
