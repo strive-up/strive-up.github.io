@@ -1,0 +1,568 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+html {
+    overflow: hidden;
+} 
+
+body{
+    background: #060606 url('../img/bg/mountain.png') no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+/*------------------------------------*/
+
+.tab-panel{
+    float: left;
+    width: 120px;
+    border-right: 2px solid rgba(255, 255, 255, .5);
+}
+
+.tab-panel .item{
+    width: 100%;
+    height: 33.3%;
+    background-color: rgba(6, 6, 6, 0.46);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 30px;
+    font-family: 'Rubik-Regular';
+    transition: .25s;
+}
+
+.item:hover{
+    background-color: rgba(6, 6, 6, 0.69);
+    color: white;
+    transition: .5s;
+}
+
+.item-text{
+    writing-mode: tb-rl;
+    transform: rotate(180deg);   
+}
+
+.tab-panel button.item-active{
+    background-color: rgba(6, 6, 6, 0.69);
+    color: white;
+}
+
+/*------------------------------------*/
+.login-content{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.signup-content{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+
+.recovery-content{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form .form-title{
+    margin-bottom: 80px;
+}
+.signup-content .form .form-title{
+    margin-bottom: 30px;
+}
+.signup-content .form .form-content .form-fields{
+    width: 375px;
+    margin-bottom: 20px;
+}
+/*------------------------------------*/
+.form-title{
+    color: white;
+    line-height: 0;
+}
+
+p.title-name{
+    font-size: 64px;
+    font-family: 'Roboto-Bold';
+}
+
+p.title-text{
+    font-size: 36px;
+    font-family: 'Roboto-Regular';
+}
+.form-item-text span{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.32);
+    padding-left: 10px;
+}
+/*------------------------------------*/
+.form-content{
+
+}
+
+.form-fields{
+    width: 375px;
+    margin-bottom: 45px;
+}
+
+.form-btn{
+    width: 375px;
+    height: 54px;
+    background-color: #E5E5E5;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 24px;
+    font-family: 'Roboto-Bold';
+    color: rgba(0, 0, 0, .78);
+    box-shadow: 0 4px 4px rgba(255, 255, 255, .13);
+}
+
+.form-item{
+    display: flex;
+    align-items: center;
+}
+
+.form-item .form-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(6, 6, 6, 0.78);
+}
+
+.form-item .form-input{
+    width: 315px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, .55);
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: white;
+    font-family: 'Roboto-Regular';
+    padding-left: 10px;
+    padding-right: 10px;
+    background: url('../img/input.png');
+}
+
+p.form-item-text{
+    font-size: 18px;
+    color: white;
+    font-family: 'Roboto-Regular';
+    line-height: 0;
+}
+/*------------------------------------*/
+.pass-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.text-pass{
+    color: #E5E5E5;
+    font-size: 18px;
+    font-family: 'Roboto-Light';
+}
+
+.pass-checkbox{
+    float: right;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.pass-checkbox span.text-pass{
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.checkbox{
+    display: none;
+}
+
+span.fake{
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: url('../img/border-checkbox.png') 1;
+    background-color: rgba(0, 0, 0, .58);
+    position: relative;
+    cursor: pointer;
+}
+
+span.fake::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 17px;
+    height: 17px;
+    background: url('../img/icons/tick.png');
+    opacity: 0;
+    transition: .5s;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.checkbox:checked ~ span.fake::after{
+    opacity: 1;
+}
+
+/*------------------------------------*/
+.right-side{
+    position: relative;
+}
+/*------------------------------------*/
+
+.signup-content .right-side .welcome{
+    margin-top: 40px; 
+}
+
+.recovery-content .form .welcome{
+    height: 200px;
+}
+
+.recovery-content .form .form-content .form-btn{
+    margin-top: 25px;
+}
+
+.welcome{
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    line-height: 0;
+    height: 190px;
+    min-height: 190px;
+}
+
+.welcome div{
+    padding-left: 20px;
+    animation: text .8s 1;
+    color: white;
+}
+
+span.welcome-line{
+    height: 100%;
+    border-left: 6px solid white;
+}
+
+p.welcome-title{
+    font-family: 'Roboto-Bold';
+    font-size: 48px;
+    
+}
+
+p.welcome-subtitle{
+    font-family: 'Roboto-Bold';
+    font-size: 36px;
+}
+
+p.welcome-text{
+    font-family: 'Roboto-Light';
+    font-size: 36px;
+}
+
+p.welcome-text span{
+    color: white;
+    font-family: 'Roboto-Bold';
+    font-size: 36px; 
+}
+
+@keyframes text {
+    0%{
+        margin-left: -15em;
+        color: transparent;
+    }
+    30%{
+        margin-left: 15px;
+        color: white;
+    }
+    55%{
+        margin-left: 35px;
+    }
+    80%{
+        color: white;
+        padding-left: 50px;
+    }
+}
+
+/*------------------------------------*/
+
+.right-side-img{
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    width: 982px;
+    height: 761px;
+    background-size: 100%;
+    background: url('../img/person/pers1.png');
+}
+
+.signup-content .right-side .right-side-img{
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    width: 977px;
+    height: 757px;
+    background-size: 100%;
+    background: url('../img/person/pers2.png');
+}
+
+.recovery-content .right-side .right-side-img{
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    width: 1016px;
+    height: 900px;
+    background-size: 100%;
+    background: url('../img/person/pers3.png');
+}
+
+/*------------------------------------*/
+
+@media (max-width: 1600px){
+    .right-side-img{
+        width: 794px;
+        height: 640px;
+        background-image: url('../img/person/m-pers1.png');
+    }
+    p.welcome-title{
+        font-size: 36px;
+        
+    }
+    
+    p.welcome-subtitle{
+        font-size: 24px;
+    }
+    
+    p.welcome-text{
+        font-size: 24px;
+    }
+    
+    p.welcome-text span{
+        font-size: 24px; 
+    }
+    .welcome{
+        margin-top: 90px;
+        margin-left: 90px;
+        height: 145px;
+        min-height: 145px;
+    }
+
+    @keyframes text {
+        0%{
+            margin-left: -12.5em;
+            color: transparent;
+        }
+        30%{
+            margin-left: 12.5px;
+            color: white;
+        }
+        55%{
+            margin-left: 30px;
+        }
+        80%{
+            color: white;
+            padding-left: 45px;
+        }
+    }
+    p.title-name{
+        font-size: 48px;
+    }
+    
+    p.title-text{
+        font-size: 24px;
+    }
+    .recovery-content .right-side .right-side-img{
+        position: absolute;
+        bottom: -10px;
+        right: 0;
+        width: 823px;
+        height: 735px;
+        background-size: 100%;
+        background: url('../img/person/m-pers3.png');
+    }
+}
+
+@media (max-width: 1024px){
+    .right-side-img{
+        width: 493px;
+        height: 402px;
+        background-image: url('../img/person/s-pers1.png');
+    }
+    .signup-content .right-side .right-side-img{
+        width: 626px;
+        height: 492px;
+        background-image: url('../img/person/s-pers2.png');
+    }
+}
+
+@media (max-width: 1280px){
+    .signup-content .right-side .welcome{
+        margin-top: 20px; 
+    }
+    
+    .recovery-content .form .welcome{
+        height: 150px;
+    }
+    
+    .recovery-content .form .form-content .form-btn{
+        margin-top: 25px;
+    }
+
+    .tab-panel{
+        width: 60px;
+    }
+    
+    .tab-panel .item{
+        font-size: 15px;
+    }
+    p.title-name{
+        font-size: 36px;
+    }
+    
+    p.title-text{
+        font-size: 18px;
+    }
+    p.welcome-title{
+        font-size: 24px;
+        
+    }
+    
+    p.welcome-subtitle{
+        font-size: 18px;
+    }
+    
+    p.welcome-text{
+        font-size: 18px;
+    }
+    
+    p.welcome-text span{
+        font-size: 18px; 
+    }
+    .welcome{
+        margin-top: 90px;
+        margin-left: 30px;
+        height: 100px;
+        min-height: 100px;
+    }
+
+    .form-fields{
+        width: 300px;
+        margin-bottom: 15px;
+    }
+    .form-btn{
+        width: 300px;
+        height: 35px;
+        border-radius: 3px;
+        font-size: 16px;
+    }
+    .form-item .form-img{
+        width: 40px;
+        height: 40px;
+    }
+    .form-item .form-input{
+        width: 260px;
+        height: 40px;
+        font-size: 16px;
+    }
+    p.form-item-text{
+        font-size: 16px;
+    }
+    .text-pass{
+        color: #E5E5E5;
+        font-size: 14px;
+        font-family: 'Roboto-Light';
+    }
+}
+@media (max-width: 800px){
+    .welcome{
+        margin-top: 90px;
+        margin-left: 0;
+        height: 100px;
+        min-height: 100px;
+    }
+    p.welcome-title{
+        font-size: 22px;
+        
+    }
+    
+    p.welcome-subtitle{
+        font-size: 16px;
+    }
+    
+    p.welcome-text{
+        font-size: 16px;
+    }
+    
+    p.welcome-text span{
+        font-size: 16px; 
+    }
+    @keyframes text {
+        0%{
+            margin-left: 0em;
+            color: transparent;
+        }
+        60%{
+            color: white;
+            padding-left: 40px;
+        }
+    }
+
+    .signup-content .form .form-content .form-fields{
+        width: 240px;
+    }
+    .signup-content .form .form-content .form-btn{
+        width: 240px;
+    }
+    .signup-content .form .form-content .form-item .form-img{
+        width: 40px;
+    }
+    .signup-content .form .form-content .form-item .form-input{
+        width: 200px;
+    }
+    .recovery-content .right-side .right-side-img{
+        position: absolute;
+        bottom: -10px;
+        right: 0;
+        width: 531px;
+        height: 486px;
+        background-size: 100%;
+        background: url('../img/person/s-pers3.png');
+    }
+}

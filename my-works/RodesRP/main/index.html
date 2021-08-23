@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-------------------------------------------------------------->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-------------------------------------------------------------->
+    <link rel="stylesheet" href="fonts/roboto/roboto.css">
+    <link rel="stylesheet" href="fonts/rubik/rubik.css">
+    <!-------------------------------------------------------------->
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-------------------------------------------------------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="left-panel">
+            <div class="item tablinks" onclick="openCity(event, 'login')" id = "defaultOpen">
+                <a href="" class="item-text">Авторизация</a>
+            </div>
+            <div class="item tablinks" onclick="openCity(event, 'register')">
+                <a href="" class="item-text">Регистрация</a>
+            </div>
+            <div class="item tablinks" onclick="openCity(event, 'recovery')">
+                <a href="" class="item-text">Восстановление</a>
+            </div>
+        </div>
+
+        <div class="content">
+
+            <div id="login" class="login-content tabcontent">
+                <div class="login-side">
+                    <div class="title">
+                        <p class="title_name">Авторизация</p>
+                        <p class="title_text">Вводите данные внимательно</p>
+                    </div>
+                    <div class="login-form">
+
+                        <div class="input">
+                            <p class="form-title">Логин</p>
+                            <div class="form-input">
+                                <div class="form-input_img">
+                                    <img src="img/icons/user.png">
+                                </div>
+                                <input type="text" class="input-login">
+                            </div>
+                        </div>
+                        <div class="input">
+                            <p class="form-title">Пароль</p>
+                            <div class="form-input">
+                                <div class="form-input_img">
+                                    <img src="img/icons/lock.png">
+                                </div>
+                                <input type="password" class="input-login">
+                            </div>
+                            <div class="pass-btn">
+                                <a href="#" class="text-pass">Забыли пароль?</a>
+                                <label class="pass-checkbox">
+                                    <input type="checkbox" class="checkbox">
+                                    <span class="fake"></span>
+                                    <span class="text-pass">Запомнить пароль</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <button class="send-btn">Авторизация</button>
+                    </div>
+                </div>
+
+                <div class="right-side">
+                    <div class="right-side-title">
+                        <span class="title-line"></span>
+                        <div class="title-text">
+                            <p class="title-name">Добро пожаловать!</p>
+                            <p class="title-tag">Приветствуем тебя на RODES RP</p>
+                            <p class="title-discript">Присоединяйся быстрее, ведь тебя ждет</p>
+                            <p class="title-discript">незабываемое приключение в <span>GTAV RP</span></p></p>
+                        </div>
+                    </div>
+                    <div class="right-side-img"><img src="img/person/pers1.png" alt=""></div>
+                </div>
+            </div>
+
+            <div id="register" class="register-content tabcontent">
+                <div class="login-side">
+                    <div class="title">
+                        <p class="title_name">Регистрация</p>
+                        <p class="title_text">Вводите данные внимательно</p>
+                    </div>
+                    <div class="login-form">
+
+                        <div class="input">
+                            <p class="form-title">Логин</p>
+                            <div class="form-input">
+                                <div class="form-input_img">
+                                    <img src="img/icons/user.png">
+                                </div>
+                                <input type="text" class="input-login">
+                            </div>
+                        </div>
+                        <div class="input">
+                            <p class="form-title">Пароль</p>
+                            <div class="form-input">
+                                <div class="form-input_img">
+                                    <img src="img/icons/lock.png">
+                                </div>
+                                <input type="password" class="input-login">
+                            </div>
+                        </div>
+                        <div class="input">
+                            <p class="form-title">Пароль</p>
+                            <div class="form-input">
+                                <div class="form-input_img">
+                                    <img src="img/icons/lock.png">
+                                </div>
+                                <input type="password" class="input-login">
+                            </div>
+                        </div>
+                        <div class="input">
+                            <p class="form-title">Почта</p>
+                            <div class="form-input">
+                                <div class="form-input_img">
+                                    <img src="img/icons/mail.png">
+                                </div>
+                                <input type="text" class="input-login">
+                            </div>
+                        </div>
+                        <div class="input">
+                            <p class="form-title">Код <span>(промокод игрока)</span></p>
+                            <div class="form-input">
+                                <div class="form-input_img">
+                                    <img src="img/icons/code.png">
+                                </div>
+                                <input type="text" class="input-login">
+                            </div>
+                        </div>
+
+                        <button class="send-btn">Регистрация</button>
+                    </div>
+                </div>
+
+                <div class="right-side">
+                    <div class="right-side-title">
+                        <span class="title-line"></span>
+                        <div class="title-text">
+                            <p class="title-name">Зарегестрируйтесь!</p>
+                            <p class="title-tag">Пройдите небольшую регистрацию на RODES RP</p>
+                            <p class="title-discript">Регистрируйся быстрее, чтобы погрузиться в</p>
+                            <p class="title-discript">мир <span>Role Play</span>, вместе с остальными играоками</p></p>
+                        </div>
+                    </div>
+                    <div class="right-side-img"><img src="img/person/pers2.png" alt=""></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript">                                                                 
+        document.getElementById("defaultOpen").click();
+        function openCity(evt, pageName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" item-active", "");
+            }
+            document.getElementById(pageName).style.display = "block";
+            evt.currentTarget.className += " item-active";
+        }
+        $('.tablinks').click(function() {
+            $('.tablinks').removeClass('item-active');
+            $(this).addClass('item-active')
+    });
+    </script>
+</body>
+</html>

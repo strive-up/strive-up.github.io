@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+
+<!-------------------------------------------------------------->
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-------------------------------------------------------------->
+
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="fonts/stylesheet.css">
+<link rel="stylesheet" href="css/animate.css">
+
+<!-------------------------------------------------------------->
+
+<div class="mobile_body">
+
+    <div class="mobile_download_page">
+
+        <div class="download_page_content">
+
+            <div class="logotype">
+                <img src="img/download_page/logo.svg" alt="">
+            </div>
+
+            <p class="text">Укажите верный тип APK файла<br>
+            для загрузки</p>
+
+            <div class="apk_type">
+
+                <div class="apk_type_item">
+
+                    <div class="logo_item">
+                        <img src="img/download_page/logo.svg" alt="">
+                    </div>
+
+                    <div class="text-item">Lite(~500MB)</div>
+
+                </div>
+
+                <div class="apk_type_item">
+
+                    <div class="logo_item">
+                        <img src="img/download_page/logo.svg" alt="">
+                    </div>
+
+                    <div class="text-item">Full(~1.9GB)</div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="mobile_load_page">
+
+        <div class="load_page_content">
+
+            <div class="logo">
+                <img src="img/load_page/logo.svg" alt="">
+            </div>
+
+            <div class="rocket">
+
+                <img src="img/rocket.svg" alt="">
+                <div class="text">Воспользуйтесь меню настроек, чтобы установить себе игровой ник.</div>
+
+            </div>
+
+            <div class="procent">100%</div>
+
+        </div>
+
+    </div>
+
+    <div class="mobile_main_page">
+
+        <div class="menu">
+
+            <div class="menu_item" onclick="openCity(event, 'servers')" id = "defaultOpen">
+                <img src="img/main_page/servera.svg" alt="">
+                <p>Сервера</p>
+            </div>
+
+            <div class="menu_item" onclick="openCity(event, 'settings')">
+                <img src="img/main_page/settings.svg" alt="">
+                <p>Настройки</p>
+            </div>
+
+            <div class="menu_item" onclick="openCity(event, 'donate')">
+                <img src="img/main_page/space.png" alt="">
+                <p>Донат</p>
+            </div>
+
+        </div>
+
+        <div class="main_page_content">
+
+            <div id="servers" class="menu_content">
+
+                <div class="project-name">
+                    <p>Rodes</p>
+                    <p>Role Play</p>
+                </div>
+
+                <div class="servers_items">
+
+                    <div class="server_item">
+
+                        <div class="server_item_content">
+
+                            <img src="img/server_ico/rocket.svg" alt="">
+
+                            <div class="server_text">
+
+                                <p class="name_server">Rodes RP | Rocket</p>
+                                <p class="online_server">Онлайн: <span>423/500</span></p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="server_item_active">
+
+                            <div class="server_item_active_wrapper">
+
+                                <p class="nickname">Padre Galante</p>
+                                <p class="time_on_server">Время: <span>234ч</span></p>
+
+                            </div>
+
+                            <button class="server-btn">Играть</button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="server_item">
+
+                        <div class="server_item_content">
+
+                            <img src="img/server_ico/star.svg" alt="">
+
+                            <div class="server_text">
+
+                                <p class="name_server">Rodes RP | Star</p>
+                                <p class="online_server">Онлайн: <span>453/500</span></p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="server_item_active">
+
+                            <div class="server_item_active_wrapper">
+
+                                <p class="nickname">Padre Galante</p>
+                                <p class="time_on_server">Время: <span>134ч</span></p>
+
+                            </div>
+
+                            <button class="server-btn">Играть</button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="server_item">
+
+                        <div class="server_item_content">
+
+                            <img src="img/server_ico/comet.svg" alt="">
+
+                            <div class="server_text">
+
+                                <p class="name_server">Rodes RP | Comet</p>
+                                <p class="online_server">Онлайн: <span>413/500</span></p>
+
+                            </div>
+                            
+                        </div>
+
+                        <div class="server_item_active">
+
+                            <div class="server_item_active_wrapper">
+
+                                <p class="nickname">Padre Galante</p>
+                                <p class="time_on_server">Время: <span>231ч</span></p>
+
+                            </div>
+
+                            <button class="server-btn">Играть</button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="server_item">
+
+                        <div class="server_item_content">
+
+                            <img src="img/server_ico/world.svg" alt="">
+
+                            <div class="server_text">
+
+                                <p class="name_server">Rodes RP | World</p>
+                                <p class="online_server">Онлайн: <span>323/500</span></p>
+
+                            </div>
+                            
+                        </div>
+
+                        <div class="server_item_active">
+
+                            <div class="server_item_active_wrapper">
+
+                                <p class="nickname">Padre Galante</p>
+                                <p class="time_on_server">Время: <span>24ч</span></p>
+
+                            </div>
+
+                            <button class="server-btn">Играть</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                
+            </div>
+
+            <div id="settings" class="menu_content">
+
+                <div class="settings_wrapper">
+
+                    <div class="project-name">
+                        <p>Rodes</p>
+                        <p>Role Play</p>
+                    </div>
+    
+                    <p class="page-name">Настройки</p>
+    
+                    <div class="nickname_btn">
+    
+                        <img src="img/user.svg" alt="">
+                        <p>Padre Galante</p>
+    
+                    </div>
+    
+                    <input type="button" class="btn-classic" value="Переустановить">
+                    <input type="button" class="btn-classic" value="Обновить">
+
+                    <div class="radio_settings">
+
+                        <div class="radio_settings_item">
+
+                            <p class="radio_settings_title">Улучшенная<br>графика</p>
+
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider"></span>
+                            </label>
+
+                        </div>
+
+                        <div class="radio_settings_item">
+
+                            <p class="radio_settings_title">Счетчик<br>FPS</p>
+
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider"></span>
+                            </label>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="donate" class="menu_content">
+
+                <div class="donate_wrapper">
+
+                    <div class="project-name">
+                        <p>Rodes</p>
+                        <p>Role Play</p>
+                    </div>
+    
+                    <p class="page-name">Донат</p>
+    
+                    <div class="nickname_btn">
+        
+                        <img src="img/user.svg" alt="">
+                        <p>Padre Galante</p>
+    
+                    </div>
+    
+                    <input type="number" class="btn-classic btn-money" placeholder="Введите сумму">
+                    <input type="button" class="btn-classic btn-select" value="Выберите сервер">
+
+                    <div class="select_server">
+
+                        <div class="server_item">
+
+                            <div class="server_item_content">
+    
+                                <img src="img/server_ico/rocket.svg" alt="">
+    
+                                <div class="server_text">
+    
+                                    <p class="name_server">Rodes RP | Rocket</p>
+                                    <p class="online_server">Онлайн: <span>323/500</span></p>
+    
+                                </div>
+                                
+                            </div>
+    
+                        </div>
+    
+                        <div class="server_item">
+    
+                            <div class="server_item_content">
+    
+                                <img src="img/server_ico/star.svg" alt="">
+    
+                                <div class="server_text">
+    
+                                    <p class="name_server">Rodes RP | Star</p>
+                                    <p class="online_server">Онлайн: <span>323/500</span></p>
+    
+                                </div>
+                                
+                            </div>
+    
+                        </div>
+    
+                        <div class="server_item">
+    
+                            <div class="server_item_content">
+    
+                                <img src="img/server_ico/comet.svg" alt="">
+    
+                                <div class="server_text">
+    
+                                    <p class="name_server">Rodes RP | Comet</p>
+                                    <p class="online_server">Онлайн: <span>323/500</span></p>
+    
+                                </div>
+                                
+                            </div>
+    
+                        </div>
+    
+                        <div class="server_item">
+    
+                            <div class="server_item_content">
+    
+                                <img src="img/server_ico/world.svg" alt="">
+    
+                                <div class="server_text">
+    
+                                    <p class="name_server">Rodes RP | World</p>
+                                    <p class="online_server">Онлайн: <span>323/500</span></p>
+    
+                                </div>
+                                
+                            </div>
+    
+                        </div>
+
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-------------------------------------------------------------->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+
+<!-------------------------------------------------------------->

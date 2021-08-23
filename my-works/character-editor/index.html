@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-------------------------------------------------------------->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-------------------------------------------------------------->
+
+    <link rel="stylesheet" href="fonts/roboto.css">
+    <!-------------------------------------------------------------->
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-------------------------------------------------------------->
+
+    <link rel="stylesheet" href="css/animate.css">
+    <!-------------------------------------------------------------->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-------------------------------------------------------------->
+
+    <script src="https://kit.fontawesome.com/abe3bddbe4.js" crossorigin="anonymous"></script>
+    <!-------------------------------------------------------------->
+</head>
+<body>
+
+    <div class="editor-wrapper">
+
+        <div class="tab-panel_wrapper">
+
+            <div id="tab-panel">
+
+                <div class="tab-panel_item" onclick="Tab(event, 'genetics')" id="defaultOpen">
+                    
+                    <div class="tab-panel_item-body"><img id="ico-genetics" src="img/tab-panel/genetics.svg" alt=""></div>
+                    <p class="tab-panel_item-name">Генетика</p>
+    
+                </div>
+    
+                <div class="tab-panel_item" onclick="Tab(event, 'appearance')">
+                    
+                    <div class="tab-panel_item-body"><img id="ico-appearance" src="img/tab-panel/appearance.svg" alt=""></div>
+                    <p class="tab-panel_item-name">Внешность</p>
+                    
+                </div>
+    
+                <div class="tab-panel_item" onclick="Tab(event, 'hairstyle')">
+                    
+                    <div class="tab-panel_item-body"><img id="ico-hairstyle" src="img/tab-panel/hairstyle.svg" alt=""></div>
+                    <p class="tab-panel_item-name">Прическа</p>
+    
+                </div>
+    
+                <div class="tab-panel_item" onclick="Tab(event, 'peculiarities')">
+                    
+                    <div class="tab-panel_item-body"><img id="ico-peculiarities" src="img/tab-panel/peculiarities.svg" alt=""></div>
+                    <p class="tab-panel_item-name">Особенности</p>
+                    
+                </div>
+    
+                <div class="tab-panel_item" onclick="Tab(event, 'clothes')">
+                    
+                    <div class="tab-panel_item-body"><img id="ico-clothes" src="img/tab-panel/clothes.svg" alt=""></div>
+                    <p class="tab-panel_item-name">Одежда</p>
+                    
+                </div>
+    
+            </div>
+
+        </div>
+
+        <div class="editor-content">
+
+            <!-------------------------------------------------------------->
+            <div id="genetics" class="content">
+
+                <div class="person-data">
+
+                    <form action="" class="data-person">
+
+                        <p class="title">Ваши данные</p>
+
+                        <div class="field">
+                            <input type="text" name="name" placeholder="Введите имя">
+                            <p class="reset"></p>
+                        </div>
+
+                        <div class="field">
+                            <input type="text" name="surname" placeholder="Введите фамилию">
+                            <p class="reset"></p>
+                        </div>
+
+                        <div class="field">
+                            <input type="text" name="age" placeholder="Введите возраст">
+                            <p class="reset"></p>
+                        </div>
+
+                    </form>
+
+                    <div class="parents">
+
+                        <p class="title">Сходство с родителями</p>
+
+                        <div class="parents-slide_items">
+
+                            <p class="title">Цвет кожи</p>
+
+                            <div class="mam-dad">
+                                <p class="mam">Мать</p>
+                                <p class="dad">Отец</p>
+                            </div>
+
+                            <input type="range" id="range-parents" name="color" min="1" max="100" value="50">
+                        
+                        </div>
+
+                        <div class="parents-slide_items">
+
+                            <p class="title">Телосложение</p>
+
+                            <div class="mam-dad">
+                                <p class="mam">Мать</p>
+                                <p class="dad">Отец</p>
+                            </div>
+
+                            <input type="range" id="range-parents" name="body-type" min="1" max="100" value="50">
+                        
+                        </div>
+
+                        <div class="parents-slide_items">
+
+                            <p class="title">Форма головы</p>
+                            
+                            <div class="mam-dad">
+                                <p class="mam">Мать</p>
+                                <p class="dad">Отец</p>
+                            </div>
+
+                            <input type="range" id="range-parents" name="head-shape" min="1" max="100" value="50">
+                        
+                        </div>
+
+                        <p class="reset reset_button"></p>
+
+                    </div>
+                  
+                </div>
+                
+                <div class="create-person">
+
+                    <p class="title-page">Создание персонажа</p>
+
+                    <div class="create-person_title">
+
+                        <p class="title">Родители</p>
+                        <button class="create-person_btn" onclick="parents(event, 'father')" id="defaultParents">Отец</button>
+                        <button class="create-person_btn" onclick="parents(event, 'mother')">Мать</button>
+
+                    </div>
+
+                    <div class="create-person_body">
+
+                        <div id="father" class="person_body-content">
+                            <div class="person_body-content_item"><img src="img/parents/father/parent_0.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/father/parent_1.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/father/parent_2.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/father/parent_3.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/father/parent_4.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/father/parent_5.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/father/parent_6.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/father/parent_7.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/father/parent_8.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/father/parent_9.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/father/parent_10.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/father/parent_11.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/father/parent_12.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/father/parent_13.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/father/parent_14.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/father/parent_15.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/father/parent_16.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/father/parent_17.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/father/parent_18.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/father/parent_19.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/father/parent_20.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/father/parent_42.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/father/parent_43.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/father/parent_44.svg" alt=""></div>
+                        </div>
+
+                        <div id="mother" class="person_body-content">
+                            <div class="person_body-content_item"><img src="img/parents/mother/parent_21.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/mother/parent_22.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/mother/parent_23.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/mother/parent_24.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/mother/parent_25.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/mother/parent_26.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/mother/parent_27.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/mother/parent_28.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/mother/parent_29.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/mother/parent_30.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/mother/parent_31.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/mother/parent_33.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/mother/parent_34.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/mother/parent_35.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/mother/parent_36.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/mother/parent_37.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/mother/parent_38.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/mother/parent_39.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/mother/parent_40.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/mother/parent_41.svg" alt=""></div>
+                            <div class="person_body-content_item"><img src="img/parents/mother/parent_45.svg" alt=""></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div id="appearance" class="content">2</div>
+            <div id="hairstyle" class="content">3</div>
+            <div id="peculiarities" class="content">
+
+                <div class="peculiarities-content">
+
+                    <p class="title-page">Особенности кожи</p>
+
+                    <div class="peculiarities-item">
+
+                        <p class="item-title">Прыщи</p>
+                        <div class="slider-wrap">
+
+                            <div class="slider-left">
+                                <img src="img/left-arrow.svg" alt="">
+                            </div>
+
+                            <div class="slider-item">Акне</div>
+
+                            <div class="slider-right">
+                                <img src="img/right-arrow.svg" alt="">
+                            </div>
+
+                        </div>
+    
+                    </div>
+    
+                    <div class="peculiarities-item">
+    
+                        <p class="item-title">Морщины</p>
+                        <input type="text">
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div id="clothes" class="content">5</div>
+            <!-------------------------------------------------------------->
+
+        </div>
+
+        <div class="exit-wrapper">
+
+            <button class="exit-btn">Выход</button>
+
+        </div>
+
+        <div class="create_btn-wrapper">
+
+            <button>Создать персонажа</button>
+            <button>Сгенерировать случайно</button>
+            <p class="mouse">Используйте правую кнопку мыши,<br>чтобы крутить персонажа </p>
+
+        </div>
+
+    </div>
+
+    <!-------------------------------------------------------------->
+
+    <script src="js/main.js"></script>
+
+    <!-------------------------------------------------------------->
+
+</body>
+</html>

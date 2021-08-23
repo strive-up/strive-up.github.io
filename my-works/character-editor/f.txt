@@ -1,0 +1,133 @@
+           <div id="genetics" class="content">
+
+                <form action="" class="data-person">
+
+                    <p class="title">Ваши данные</p>
+
+                    <input type="text" name="name" placeholder="Введите имя">
+                    <input type="text" name="surname" placeholder="Введите фамилию">
+                    <input type="text" name="age" placeholder="Введите возраст">
+
+                </form>
+
+                <div class="parents">
+
+                    <p class="title">Сходство с родителями</p>
+
+                    <div class="parents-slide_items">
+                        <p class="title">Цвет кожи</p>
+                        <div class="mam-dad">
+                            <p class="mam">Мать</p>
+                            <p class="dad">Отец</p>
+                        </div>
+                        <input type="range" name="color" min="1" max="100" value="50">
+                    </div>
+
+                    <div class="parents-slide_items">
+                        <p class="title">Телосложение</p>
+                        <div class="mam-dad">
+                            <p class="mam">Мать</p>
+                            <p class="dad">Отец</p>
+                        </div>
+                        <input type="range" name="body-type" min="1" max="100" value="50">
+                    </div>
+
+                    <div class="parents-slide_items">
+                        <p class="title">Форма головы</p>
+                        <div class="mam-dad">
+                            <p class="mam">Мать</p>
+                            <p class="dad">Отец</p>
+                        </div>
+                        <input type="range" name="head-shape" min="1" max="100" value="50">
+                    </div>
+
+                </div>
+
+.data-person{
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+    animation: fadeInRight;
+    animation-duration: .5s;
+}
+
+.data-person p.title{
+    padding-bottom: 10px;
+}
+
+.data-person input{
+    width: 385px;
+    height: 72px;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 21px;
+    font-family: 'Roboto-Regular';
+    color: rgba(255, 255, 255, 0.5);
+    border: none;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.data-person input:last-child{ margin-bottom: 0; }
+
+.parents{
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    animation: fadeInRight;
+    animation-duration: .5s;
+}
+
+.parents .title{
+    padding-bottom: 15px;
+}
+
+.parents-slide_items{
+    margin-bottom: 35px;
+}
+
+.parents-slide_items:last-child{
+    margin-bottom: 0;
+}
+
+.parents-slide_items input{
+    width: 388px;
+    height: 14px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 14px;
+    appearance: none;
+    outline: none;
+}
+
+.parents-slide_items input::-webkit-slider-thumb{
+    appearance: none;
+    background-color: rgba(101, 20, 233, 0.8);
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    transform: rotate(-45deg);
+}
+
+.parents-slide_items .title{
+    font-size: 18px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.mam-dad{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Roboto-Regular';
+    padding-bottom: 3px;
+}
+.mam-dad p{
+    margin: 0;
+    padding: 0;
+}
