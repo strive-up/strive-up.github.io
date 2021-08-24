@@ -271,3 +271,51 @@ a.color-btn{
     border-radius: 30px;
     background-color: #3DDABE;
 }
+
+/*
+    ========================================
+                    About Us
+    ========================================
+*/
+
+.about_us{
+    width: 100%;
+    padding: 50px 0;
+    padding-bottom: 80px;
+    background-color: #fff;
+    box-shadow: 0px 0px 40px -6px rgba(0, 0, 0, 0.25);
+    position: relative;
+    height: fit-content;
+}
+
+.about_us::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 437px;
+    height: 289px;
+    background: url('../img/Frame.svg') no-repeat;
+}
+
+.about_us_wrap{
+    padding: 0 40px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.about_us_text{
+    width: 650px;
+}
+
+.about_us_text .header_text{
+    padding-bottom: 50px;
+}
+
+.about_us_image img{
+    position: absolute;
+    right: 150px;
+    top: 163px;
+    z-index: 9;
+}
