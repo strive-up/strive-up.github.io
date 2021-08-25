@@ -79,6 +79,24 @@ a.color-btn{
     width: 0;
 }
 
+.transparent-btn{
+    font-size: 16px;
+    color: #3DDABE;
+    font-family: 'Poppins-Black';
+    text-transform: uppercase;
+    user-select: none;
+    border: 2px solid #3DDABE;
+    border-radius: 92px;
+    padding: 18px 45px;
+    transition: .15s linear;
+}
+
+.transparent-btn:hover{
+    background-color: #3DDABE;
+    color: white;
+    transition: .3s linear;
+}
+
 /*
     ========================================
                     Header
@@ -318,4 +336,96 @@ a.color-btn{
     right: 150px;
     top: 163px;
     z-index: 9;
+}
+
+/*
+    ========================================
+                    Services
+    ========================================
+*/
+
+.services_items_wrapper{
+    margin: 75px 0;
+    display: grid;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 50px 0;
+}
+
+.item_title{
+    font-size: 18px;
+    font-family: 'Poppins-SemiBold';
+    text-transform: uppercase;
+    user-select: none;
+    color: #333333;
+    text-align: center;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.item_text{
+    text-align: center;
+    font-size: 12px;
+    color: #828282;
+    font-family: 'Poppins-Medium';
+    user-select: none;
+    margin: 0;
+    padding: 0;
+}
+
+.services_item{
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services_item .item_img{
+    width: 67px;
+    height: 67px;
+    border: 0.5px solid #2CB49B;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services_item .item_img img{
+    position: absolute;
+    z-index: 99;
+    top: 55%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+.services_item .item_img::after{
+    content: '';
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    background-color: #3DDABE;
+    z-index: 9;
+    left: 2px;
+    top: 2px;
+}
+
+.services_item .item_img::before{
+    content: '';
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    background-color: #F0F0F0;
+    z-index: 8;
+    left: 4px;
+    top: 4px;
+}
+
+.services_btn{
+    margin-bottom: 75px;
+    text-align: center;
 }
