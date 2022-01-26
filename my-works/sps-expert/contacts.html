@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="application/xhtml+xml">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="fonts/gilroy.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="contacts">
+
+        <header class="header_body">
+
+            <div class="container">
+    
+                <div class="header">
+    
+                    <a href="#" class="logo">
+                        <img src="libs/img/sps-logo.svg" alt="">
+                    </a>
+            
+                    <div class="burger_menu">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        
+                    </div>
+
+                    <nav class="nav">
+
+                        <ul>
+
+                            <li class="nav_list"><a class="">Услуги</a></li>
+                            <li class="nav_list"><a class="">Специалисты</a></li>
+                            <li class="nav_list"><a class="">Работы</a></li>
+                            <li class="nav_list"><a class="">Документы</a></li>
+                            <li class="nav_list"><a class="">Новости</a></li>
+                            <li class="nav_list"><a class="active_list">Контакты</a></li>
+                            
+                        </ul>
+
+                        <button class="btn-close">Закрыть</button>
+                        
+                    </nav>
+    
+                </div>
+    
+            </div>
+    
+        </header>
+
+        <main class="main_body">
+            
+            <div class="contact_body">
+
+                <div class="container">
+
+                    <p class="contact adress_title">Адрес:</p>
+
+                    <p class="contact adress">
+                        109028, г. Москва, вн.тер. г. Таганский, 
+                        пер. Певческий, 4, стр.1, ком. 16
+                    </p>
+
+                    <p class="contact number">тел: +7 (919) 871-32-96</p>
+                    <p class="contact email">info@sps-expert.com</p>
+
+                    <button class="btn-send">Написать</button>
+
+                </div>
+                
+
+            </div>
+
+            <div id="map" class="map"></div>
+
+        </main>
+
+        <footer class="footer_body">
+
+            <div class="container">
+
+                <p>Общество с ограниченной ответственностью <br>«СПС-Экспертиза»<br> © 2021</p>
+                <p>ООО «СПС-Экспертиза»<br>   
+                    © 2021</p>
+
+            </div>
+            
+        </footer>
+
+    </div>
+
+    <!---------------   Скрипты --------------->
+
+    <script type="text/javascript" src="libs/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="libs/scripts/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8zGj_dVQmRJ8BusOL1F0XRPlPSOyT2To&callback=initMap&v=weekly" async></script>
+
+</body>
+</html>
