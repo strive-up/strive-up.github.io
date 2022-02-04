@@ -1,0 +1,38 @@
+// main: ../../style.less
+
+.header{
+    width: 100%;
+    background: @grey url('../images/bg_header.svg');
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    
+    .header_slogan{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 820px;
+        user-select: none;
+
+        .slogan_title{
+            color: @white;
+            font-size: 64px;
+            font-family: @semibold;
+            text-align: center;
+            line-height: 96px;
+        }
+
+        .slogan_title2{
+            color: @white;
+            font-size: 24px;
+            font-family: @medium;
+            text-align: center;
+            line-height: 48px;
+        }
+    }
+}
+
+// navigation
+
+@import "nav";

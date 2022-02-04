@@ -1,0 +1,45 @@
+// main: ../../style.less
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 27px;
+    user-select: none;
+}
+
+ul.menu_list{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+
+    li.menu_item{
+        list-style: none;
+
+        a{
+            font-size: 24px;
+            font-family: @medium;
+            color: @white;
+
+            &:hover{
+                color: @blue;
+                transition: .3s;
+            }
+            
+        }
+
+        a.menu_btn{
+            color: @blue;
+            background-color: @white;
+            border-radius: 10px;
+            padding: 15px 44px;
+        }
+    }
+}
+
+a.logo{
+    font-size: 48px;
+    color: @white;
+    font-family: @medium;
+}
