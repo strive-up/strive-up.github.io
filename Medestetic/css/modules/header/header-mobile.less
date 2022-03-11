@@ -71,6 +71,24 @@
                         bottom: -16px;
                         position: absolute;
                     }
+
+                    &.burger-active{
+                        width: 0;
+                        background-color: transparent;
+                        transition: transform .3s ease-in-out;
+                        &::after{
+                            width: 39px;
+                            bottom: 0;
+                            transform: rotate(45deg);
+                            transition: transform .3s ease-in;
+                        }
+                        &::before{
+                            width: 39px;
+                            top: 0;
+                            transform: rotate(135deg);
+                            transition: transform .3s ease-out;
+                        }
+                    }
                 }
 
                 .nav__content--mobile{

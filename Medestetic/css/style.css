@@ -391,6 +391,23 @@ main {
     bottom: -16px;
     position: absolute;
   }
+  .header .header__container .header__nav--mobile .burger__wrapper.burger-active {
+    width: 0;
+    background-color: transparent;
+    transition: transform 0.3s ease-in-out;
+  }
+  .header .header__container .header__nav--mobile .burger__wrapper.burger-active::after {
+    width: 39px;
+    bottom: 0;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease-in;
+  }
+  .header .header__container .header__nav--mobile .burger__wrapper.burger-active::before {
+    width: 39px;
+    top: 0;
+    transform: rotate(135deg);
+    transition: transform 0.3s ease-out;
+  }
   .header .header__container .header__nav--mobile .nav__content--mobile {
     width: 100%;
     height: fit-content;
