@@ -24,7 +24,7 @@ $('.search__icons').click(function() {
       searchValid = true;
     } else {
       $('.search__icons').css('background', '#F9E8FA');
-      $('.search__input').css('display', 'none');
+      //$('.search__input').css('display', 'none');
       $('.search__input').css('width', '0');
       $('.search__icons').css('border-radius', '3px');
       $('.contact__number').css('display', 'block');
@@ -47,8 +47,8 @@ $('.burger__wrapper').click(function() {
   if(menuValid == false){
     $('.nav__content--mobile').addClass('mobile-active');
     $('.burger__wrapper').addClass('burger-active');
-    menuValid == true;
-  } if(menuValid == true) {
+    menuValid = true;
+  } else {
     $('.nav__content--mobile').removeClass('mobile-active');
     $('.burger__wrapper').removeClass('burger-active');
     menuValid = false;

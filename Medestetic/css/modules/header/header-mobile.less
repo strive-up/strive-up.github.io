@@ -75,18 +75,18 @@
                     &.burger-active{
                         width: 0;
                         background-color: transparent;
-                        transition: transform .3s ease-in-out;
+                        transition: transform .5s ease-in-out;
                         &::after{
                             width: 39px;
                             bottom: 0;
                             transform: rotate(45deg);
-                            transition: transform .3s ease-in;
+                            transition: transform .5s ease-in;
                         }
                         &::before{
                             width: 39px;
                             top: 0;
                             transform: rotate(135deg);
-                            transition: transform .3s ease-out;
+                            transition: transform .5s ease-out;
                         }
                     }
                 }
@@ -101,12 +101,12 @@
                     left: 0;
                     top: -1000%;
                     z-index: 99;
-                    transition: top .5s ease-out;
+                    transition: top .5s ease;
                 }
 
                 .nav__content--mobile.mobile-active{
-                    top: 0;
                     transition: top .5s ease;
+                    top: 0;
                 }
 
                 .nav__content__wrapper{

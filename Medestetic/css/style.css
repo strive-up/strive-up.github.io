@@ -394,19 +394,19 @@ main {
   .header .header__container .header__nav--mobile .burger__wrapper.burger-active {
     width: 0;
     background-color: transparent;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.5s ease-in-out;
   }
   .header .header__container .header__nav--mobile .burger__wrapper.burger-active::after {
     width: 39px;
     bottom: 0;
     transform: rotate(45deg);
-    transition: transform 0.3s ease-in;
+    transition: transform 0.5s ease-in;
   }
   .header .header__container .header__nav--mobile .burger__wrapper.burger-active::before {
     width: 39px;
     top: 0;
     transform: rotate(135deg);
-    transition: transform 0.3s ease-out;
+    transition: transform 0.5s ease-out;
   }
   .header .header__container .header__nav--mobile .nav__content--mobile {
     width: 100%;
@@ -418,11 +418,11 @@ main {
     left: 0;
     top: -1000%;
     z-index: 99;
-    transition: top 0.5s ease-out;
+    transition: top 0.5s ease;
   }
   .header .header__container .header__nav--mobile .nav__content--mobile.mobile-active {
-    top: 0;
     transition: top 0.5s ease;
+    top: 0;
   }
   .header .header__container .header__nav--mobile .nav__content__wrapper {
     width: 100%;
