@@ -412,7 +412,6 @@ main {
     width: 100%;
     height: fit-content;
     min-height: 100vh;
-    overflow: hidden;
     background-color: #fff;
     position: absolute;
     left: 0;
@@ -980,7 +979,7 @@ main {
   }
   .footer .footer__container .footer__contacts {
     flex-direction: column;
-    order: 2;
+    order: 3;
   }
   .footer .footer__container .footer__menu {
     flex-direction: column;
@@ -988,10 +987,10 @@ main {
     align-items: center;
     order: 1;
     margin-top: 0;
-    padding-bottom: 50px;
   }
   .footer .footer__container .footer__copyright {
-    order: 3;
+    order: 2;
     text-align: center;
+    padding-bottom: 50px;
   }
 }
