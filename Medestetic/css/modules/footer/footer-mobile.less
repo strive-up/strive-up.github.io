@@ -28,15 +28,25 @@
     .footer{
 
         .footer__container{
+            display: flex;
+            flex-direction: column;
 
             .footer__contacts{
                 flex-direction: column;
+                order: 2;
             }
 
             .footer__menu{
                 flex-direction: column;
                 gap: 20px;
                 align-items: center;
+                order: 1;
+                margin-top: 0;
+                padding-bottom: 50px;
+            }
+
+            .footer__copyright{
+                order: 3;
             }
         }
     }
