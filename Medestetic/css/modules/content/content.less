@@ -14,35 +14,22 @@
                 margin-bottom: 0;
             }
 
-            .content__header{
-                color: @purple;
-                font-size: 40px;
-                font-family: @bold;
-                line-height: 55px;
-            }
-
-            .content__text{
-                font-size: 18px;
-                font-family: @medium;
-                line-height: 30px;
-                color: @gray-second;
-                padding-top: 20px;
-            }
-
             .content__image{
+                float: left;
                 margin-top: 20px;
-                display: flex;
-                align-items: center;
+                padding-right: 20px;
+            }
+        }
+    }
+}
 
-                .content__text{
-                    padding-top: 0;
-                    margin-left: 20px;
-
-                    .content__text{
-                        padding-top: 20px;
-                        margin-left: 0;
-                    }
-                }
+@media (max-width: 1550px){
+    .content{
+    
+        .content__container{
+            
+            .content__blog{
+                width: 80%;
             }
         }
     }
@@ -86,6 +73,10 @@
         .content__container{
             
             .content__blog{
+
+                .content__image{
+                    padding-bottom: 20px;
+                }
 
                 .content__header{
                     color: @purple;

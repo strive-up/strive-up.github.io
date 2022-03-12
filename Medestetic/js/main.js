@@ -71,3 +71,22 @@ $('img.img-svg').each(function(){
     $img.replaceWith($svg);
   }, 'xml');
 });
+
+document.getElementById("defaultOpen").click();
+function switchPrices(evt, pageName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("contents");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("btn--switch");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" btn--switch--active", "");
+    }
+    document.getElementById(pageName).style.display = "block";
+    evt.currentTarget.className += " btn--switch--active";
+}
+$('.btn--switch').click(function() {
+  $('.btn--switch').removeClass('btn--switch--active');
+  $(this).addClass('btn--switch--active')
+});
