@@ -35,7 +35,7 @@
   color: #3B3B3B;
 }
 .btn--white:hover {
-  background-color: #EFEFEF;
+  background-color: #C8C8C8;
   transition: background-color 0.3s ease-out;
 }
 *,
@@ -772,5 +772,107 @@ main {
   .header .header__container .header__number--mobile img {
     width: 15px;
     height: 15px;
+  }
+}
+.footer {
+  width: 100%;
+  background-color: #333;
+  padding-top: 30px;
+  padding-bottom: 55px;
+}
+.footer .footer__container .footer__contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.footer .footer__container .footer__contacts .footer__contacts__wrapper {
+  display: flex;
+  gap: 70px;
+}
+.footer .footer__container .footer__contacts .footer__contacts__wrapper .contact__number {
+  font-size: 25px;
+  font-family: "Montserrat-Medium";
+  color: #FFFFFF;
+}
+.footer .footer__container .footer__contacts .footer__contacts__wrapper .contact__adress {
+  display: flex;
+  align-items: center;
+}
+.footer .footer__container .footer__contacts .footer__contacts__wrapper .contact__adress .adress__info {
+  margin-left: 17px;
+  color: #FFFFFF;
+  font-size: 13px;
+  font-family: "Montserrat-Medium";
+  line-height: 20px;
+}
+.footer .footer__container .footer__menu {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  user-select: none;
+}
+.footer .footer__container .footer__menu .menu__item {
+  color: #FFFFFF;
+  font-family: "Montserrat-Bold";
+  font-size: 20px;
+}
+.footer .footer__container .footer__menu .menu__item:hover {
+  color: #814684;
+  transition: 0.3s ease;
+}
+.footer .footer__container .footer__menu .menu__item--active {
+  color: #814684;
+}
+.footer .footer__container .footer__copyright {
+  margin-top: 50px;
+}
+.footer .footer__container .footer__copyright p {
+  color: #C8C8C8;
+  font-size: 15px;
+  font-family: "Montserrat-Medium";
+  line-height: 25px;
+}
+.footer .footer__container .footer__copyright p a {
+  color: #814684;
+}
+.footer .footer__container .footer__copyright p span {
+  padding-left: 200px;
+}
+@media (max-width: 1480px) {
+  .footer .footer__container .footer__copyright p span {
+    padding-left: 125px;
+  }
+}
+@media (max-width: 1400px) {
+  .footer .footer__container .footer__contacts .footer__contacts__wrapper:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .footer .footer__container .footer__contacts .footer__contacts__wrapper .contact__number {
+    font-size: 22px;
+  }
+  .footer .footer__container .footer__menu {
+    width: 80%;
+  }
+  .footer .footer__container .footer__menu .menu__item {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1405px) {
+  .footer .footer__container .footer__copyright p span {
+    padding-left: 75px;
+  }
+}
+@media (max-width: 1360px) {
+  .footer .footer__container .footer__copyright p:first-child {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .footer__container .footer__copyright p:first-child span {
+    padding-left: 0;
   }
 }
