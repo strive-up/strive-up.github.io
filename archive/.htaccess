@@ -1,0 +1,37 @@
+# Кодировка сервера
+AddDefaultCharset UTF-8
+
+# Запрет прямого доступа к системным файлам
+<Files "*.dat"> 
+  deny from all
+</Files>
+
+# Начальный файл
+DirectoryIndex index.php
+
+# Запрет листинга если нет начального файла
+Options -Indexes
+
+# Страницы ошибок
+#-Нет права доступа
+ErrorDocument 401 /pages/401.html
+#-Запрещено
+ErrorDocument 403 /pages/403.html
+#-Не найдено
+ErrorDocument 404 /pages/404.html
+#-Внутренняя ошибка сервера
+ErrorDocument 500 /pages/500.html
+
+# Ссылки 
+RewriteEngine on
+
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]  
+RewriteCond %{HTTP_HOST} ^www\.sps-expert\.com [NC] 
+RewriteRule ^(.*)$ https://sps-expert.com/$1 [L,R=301]
+
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/?$ /index.php [L]
