@@ -2,5 +2,42 @@
 
 
 @media (max-width: 991px){
-    
+    .footer{
+
+        .footer__container{
+
+            .footer__contacts{
+
+                .footer__contacts__wrapper{
+
+                    &:last-child{
+                        flex-direction: column;
+                        gap: 20px;
+                    }
+                }
+            }
+
+            .footer__menu{
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 730px){
+    .footer{
+
+        .footer__container{
+
+            .footer__contacts{
+                flex-direction: column;
+            }
+
+            .footer__menu{
+                flex-direction: column;
+                gap: 20px;
+                align-items: center;
+            }
+        }
+    }
 }
