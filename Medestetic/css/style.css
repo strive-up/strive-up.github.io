@@ -781,6 +781,7 @@ main {
 }
 .intro .intro__container {
   display: flex;
+  align-items: center;
 }
 .intro .intro__container .intro__content {
   width: 700px;
@@ -800,7 +801,65 @@ main {
   margin-bottom: 50px;
 }
 .intro .intro__container .intro__image {
-  margin-left: 250px;
+  margin-left: 300px;
+}
+@media (max-width: 1650px) {
+  .intro .intro__container .intro__image {
+    margin-left: 150px;
+  }
+}
+@media (max-width: 1520px) {
+  .intro .intro__container {
+    justify-content: space-between;
+  }
+  .intro .intro__container .intro__image {
+    margin-left: 0;
+  }
+}
+@media (max-width: 991px) {
+  .intro .intro__container {
+    flex-direction: column-reverse;
+  }
+  .intro .intro__container .intro__content {
+    width: 500px;
+    margin-top: 50px;
+  }
+  .intro .intro__container .intro__image {
+    margin-left: 0;
+  }
+}
+@media (max-width: 768px) {
+  .intro .intro__container {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .intro .intro__container .intro__content {
+    width: 100%;
+  }
+  .intro .intro__container .intro__content .intro__header {
+    font-size: 25px;
+    font-family: "Montserrat-SemiBold";
+    text-transform: uppercase;
+    color: #000;
+    line-height: 40px;
+  }
+  .intro .intro__container .intro__content .intro__price {
+    font-size: 37px;
+    font-family: "Montserrat-Medium";
+    color: #535353;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+  .intro .intro__container .intro__image img {
+    width: 314px;
+    height: 215px;
+  }
+}
+@media (max-width: 370px) {
+  .intro .intro__container .intro__image img {
+    width: 280px;
+    height: 190px;
+  }
 }
 .footer {
   width: 100%;
@@ -933,5 +992,6 @@ main {
   }
   .footer .footer__container .footer__copyright {
     order: 3;
+    text-align: center;
   }
 }
