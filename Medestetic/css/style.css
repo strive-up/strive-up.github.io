@@ -1061,6 +1061,45 @@ main {
 .services__item .services__item__info .services__item__price {
   font-family: "Montserrat-Bold";
 }
+@media (max-width: 640px) {
+  .services__item {
+    height: fit-content;
+  }
+  .services__item .services__item__info {
+    justify-content: center;
+    width: 80%;
+    flex-direction: column;
+    height: 100px;
+  }
+  .services__item .services__item__info .services__item__price {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .services__item {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .services__item .btn {
+    align-self: center;
+    margin-left: 10px;
+  }
+  .services__item .services__item__info {
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    flex-direction: column;
+    height: 100px;
+  }
+  .services__item .services__item__info::after {
+    content: '';
+    width: 0;
+    height: 0;
+  }
+  .services__item .services__item__info .services__item__price {
+    padding-top: 20px;
+  }
+}
 .footer {
   width: 100%;
   background-color: #333;
