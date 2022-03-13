@@ -56,6 +56,22 @@
   background-color: #F9E8FA;
   transition: 0.5s ease;
 }
+.btn--more {
+  padding: 25px 18px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .btn--more {
+    padding: 20px 15px;
+  }
+  .btn--more img {
+    width: 20px;
+    height: 10px;
+  }
+}
 .content__header {
   color: #814684;
   font-size: 40px;
@@ -472,6 +488,7 @@ main {
     position: absolute;
     left: 0;
     top: -1000%;
+    overflow: hidden;
     z-index: 99;
     transition: top 0.5s ease;
   }
@@ -957,7 +974,7 @@ main {
   margin-top: 20px;
   padding-right: 20px;
 }
-@media (max-width: 1550px) {
+@media (max-width: 1897px) {
   .content .content__container .content__blog {
     width: 80%;
   }
@@ -1011,6 +1028,51 @@ main {
   .content .content__container .content__blog .content__image img {
     width: 80%;
     height: 80%;
+  }
+}
+.content__blog .services__wrapper {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.content__blog .services__wrapper .services__item {
+  width: 329px;
+  height: 248px;
+  border-radius: 3px;
+  border: 1px solid #E3E3E3;
+  padding: 20px 23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: url('../img/content/services-item-bg.png') no-repeat;
+}
+.content__blog .services__wrapper .services__item .services__item__header {
+  font-size: 20px;
+  font-family: "Montserrat-SemiBold";
+  color: #535353;
+}
+.content__blog .services__wrapper .services__item .services__item__price {
+  font-size: 20px;
+  font-family: "Montserrat-ExtraBold";
+  color: #535353;
+}
+@media (max-width: 768px) {
+  .content__blog .services__wrapper {
+    justify-content: center;
+  }
+  .content__blog .services__wrapper .services__item {
+    width: 293px;
+    height: 221px;
+    align-items: center;
+    text-align: center;
+  }
+  .content__blog .services__wrapper .services__item .services__item__header {
+    font-size: 18px;
+  }
+  .content__blog .services__wrapper .services__item .services__item__price {
+    font-size: 18px;
   }
 }
 .prices {
