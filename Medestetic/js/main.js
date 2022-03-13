@@ -90,3 +90,15 @@ $('.btn--switch').click(function() {
   $('.btn--switch').removeClass('btn--switch--active');
   $(this).addClass('btn--switch--active')
 });
+
+var swiper = new Swiper(".Experts", {
+  slidesPerView: 4,
+  spaceBetween: 10,
+  slidesPerGroup: 1,
+  loop: true,
+  loopFillGroupWithBlank: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});

@@ -1075,6 +1075,47 @@ main {
     font-size: 18px;
   }
 }
+.Experts {
+  margin-top: 35px;
+}
+.experts__body {
+  width: 235px;
+  height: 414px;
+  background-color: #F8F8F8;
+  padding: 22px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.experts__body .experts__images {
+  width: fit-content;
+  height: fit-content;
+}
+.experts__body .experts__images img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 147px;
+  height: 147px;
+  border-radius: 50%;
+}
+.experts__body .experts__name {
+  font-size: 18px;
+  font-family: "Montserrat-SemiBold";
+  color: #535353;
+  line-height: 25px;
+}
+.experts__body .experts__spec {
+  font-size: 18px;
+  font-family: "Montserrat-Regular";
+  color: #535353;
+  line-height: 25px;
+}
+.content__slider .content__container .content__blog {
+  width: 70%;
+}
 .prices {
   background-color: #F8F8F8;
   padding: 40px 0;
