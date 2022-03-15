@@ -160,6 +160,9 @@ body {
   font-family: "Montserrat-Medium";
   color: #535353;
 }
+img {
+  user-select: none;
+}
 [class*="__container"] {
   width: 100%;
   padding-left: 101px;
@@ -988,6 +991,9 @@ main {
   margin-top: 20px;
   padding-right: 20px;
 }
+.content .content__container .content__blog .content__text__flow-around .content__image img {
+  user-select: none;
+}
 .content__image__wrapper {
   display: flex;
   flex-direction: column;
@@ -1349,6 +1355,71 @@ main {
   }
   .banner .banner__container .banner__content .banner__contact {
     font-size: 18px;
+  }
+}
+.benefits__container {
+  margin-bottom: 50px;
+}
+.benefits {
+  width: 1065px;
+  background-color: #F9E8FA;
+  padding: 50px 0;
+}
+.benefits .content__header {
+  text-align: center;
+}
+.benefits .benefits__wrapper {
+  width: fit-content;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+.benefits .benefits__wrapper .benefits--col {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  margin-left: 40px;
+}
+.benefits .benefits__wrapper .benefits--col:first-child {
+  margin-left: 0;
+}
+.benefits .benefits__wrapper .benefits--col .benefits__items {
+  display: flex;
+  align-items: center;
+}
+.benefits .benefits__wrapper .benefits--col .benefits__items:last-child {
+  padding-bottom: 0;
+}
+.benefits .benefits__wrapper .benefits--col .benefits__items img {
+  user-select: none;
+}
+.benefits .benefits__wrapper .benefits--col .benefits__items .benefits__text {
+  font-size: 16px;
+  color: #3B3B3B;
+  font-family: "Montserrat-SemiBold";
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+@media (max-width: 1200px) {
+  .benefits__container {
+    padding: 0;
+  }
+  .benefits {
+    width: 100%;
+  }
+}
+@media (max-width: 870px) {
+  .benefits .benefits__wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-right: 15px;
+  }
+  .benefits .benefits__wrapper .benefits--col {
+    margin-left: 0;
+    margin-top: 20px;
   }
 }
 .license {
