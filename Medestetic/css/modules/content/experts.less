@@ -1,11 +1,9 @@
 // main: ../../style.less
 
-.Experts{
-    margin-top: 35px;
-}
 
 .experts__body{
-    width: 235px;
+    min-width: 235px;
+    max-width: 235px;
     height: 414px;
     background-color: #F8F8F8;
     padding: 22px 10px;
@@ -18,6 +16,7 @@
     .experts__images{
         width: fit-content;
         height: fit-content;
+        user-select: none;
         
         img{
             display: flex;
@@ -44,14 +43,82 @@
     }
 }
 
-.swiper-button-prev{
-    
+.experts__wrapper{
+    margin-top: 40px;
+    position: relative;
+    height: fit-content;
+    width: 1190px;
+
+    .owl-carousel{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .owl-stage-outer {
+            width: 95%;
+            margin: 0 auto;
+            position: relative;
+        }
+    }
+      
+    .owl-nav {
+        position: absolute;
+        width: 100%;
+        height: 0px;
+        top: 40%;
+        z-index: 999;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
-.content__slider{
-    .content__container{
-        .content__blog{
-            width: 70%;
+@media (max-width: 1300px){
+    .experts__wrapper{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1280px){
+    .experts__wrapper{
+        .owl-carousel{
+            .owl-stage-outer{
+                width: calc(100% - 80px);
+            }
+        }
+    }
+}
+
+@media (max-width: 1023px){
+    .experts__wrapper{
+        .owl-carousel{
+            .owl-stage-outer{
+                width: 80%;
+            }
+        }
+    }
+}
+
+@media (max-width: 1023px){
+    .experts__wrapper{
+        .owl-carousel{
+            .owl-stage-outer{
+                width: 85%;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .experts__wrapper{
+        .owl-carousel{
+            .owl-stage-outer{
+                width: 250px;
+                margin: 0 auto;
+            }
         }
     }
 }

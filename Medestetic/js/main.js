@@ -91,14 +91,39 @@ $('.btn--switch').click(function() {
   $(this).addClass('btn--switch--active')
 });
 
-var swiper = new Swiper(".Experts", {
-  slidesPerView: 4,
-  spaceBetween: 10,
-  slidesPerGroup: 1,
+/* const swiper = new Swiper('.swiper', {
+  // Optional parameters
   loop: true,
-  loopFillGroupWithBlank: true,
+  slidesPerView: 4,
+  slidesPerGroup: 3,
+
+  // Navigation arrows
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
   },
+});
+ */
+
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+    items: 4,
+    loop: true,
+    nav: true,
+    navText: ['<img src="img/arrow-prev.svg">','<img src="img/arrow-next.svg">'],
+    responsive:{
+      0:{
+        items: 1,
+      },
+      767:{
+        items: 2,
+      },
+      1024:{
+        items: 3,
+      },
+      1359:{
+        items: 4,
+      }
+    }
+  });
 });
