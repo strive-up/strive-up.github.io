@@ -46,10 +46,12 @@ let menuValid = false;
 $('.burger__wrapper').click(function() {
   if(menuValid == false){
     $('.nav__content--mobile').addClass('mobile-active');
+    $('.header__nav--mobile').addClass('mobile-active');
     $('.burger__wrapper').addClass('burger-active');
     menuValid = true;
   } else {
     $('.nav__content--mobile').removeClass('mobile-active');
+    $('.header__nav--mobile').removeClass('mobile-active');
     $('.burger__wrapper').removeClass('burger-active');
     menuValid = false;
   }
