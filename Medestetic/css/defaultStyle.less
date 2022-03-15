@@ -125,20 +125,30 @@
     padding-top: 20px;
 }
 
+.content__text__title{
+    color: @gray-second;
+    font-family: @medium;
+    line-height: 30px;
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
 @media (max-width: 768px){
     .content__header{
-        color: @purple;
         font-size: 30px;
-        font-family: @bold;
         line-height: 40px;
     }
 
     .content__text{
         font-size: 18px;
-        font-family: @medium;
         line-height: 30px;
-        color: @gray-second;
         padding-top: 20px;
+    }
+
+    .content__text__title{
+        line-height: 25px;
+        font-size: 22px;
+        padding-bottom: 30px;
     }
 }
 
@@ -153,5 +163,9 @@
     .content__text{
         font-size: 16px;
         line-height: 25px;
+    }
+    .content__text__title{
+        font-size: 20px;
+        padding-bottom: 20px;
     }
 }
