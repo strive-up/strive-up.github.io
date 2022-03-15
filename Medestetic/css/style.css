@@ -526,10 +526,10 @@ main {
     font-family: "Montserrat-Medium";
     font-size: 13px;
   }
-  .header .header__container .header__nav--mobile .nav__content__wrapper .contact__number {
+  .header .header__container .header__nav--mobile .nav__content__wrapper .contact__number--mob {
     margin-top: 20px;
   }
-  .header .header__container .header__nav--mobile .nav__content__wrapper .contact__number p {
+  .header .header__container .header__nav--mobile .nav__content__wrapper .contact__number--mob p {
     color: #535353;
     font-family: "Montserrat-Medium";
     font-size: 25px;
@@ -1354,7 +1354,7 @@ main {
   display: flex;
   gap: 70px;
 }
-.footer .footer__container .footer__contacts .footer__contacts__wrapper .contact__number {
+.footer .footer__container .footer__contacts .footer__contacts__wrapper .contact__number__fut {
   font-size: 25px;
   font-family: "Montserrat-Medium";
   color: #FFFFFF;
@@ -1416,7 +1416,7 @@ main {
     flex-direction: column;
     gap: 5px;
   }
-  .footer .footer__container .footer__contacts .footer__contacts__wrapper .contact__number {
+  .footer .footer__container .footer__contacts .footer__contacts__wrapper .contact__number__fut {
     font-size: 22px;
   }
   .footer .footer__container .footer__menu {
