@@ -1058,10 +1058,12 @@ main {
   }
 }
 .content__blog .services__wrapper {
+  width: 1065px;
+  justify-content: space-between;
   display: flex;
-  gap: 30px;
   flex-wrap: wrap;
   margin-top: 40px;
+  row-gap: 20px;
 }
 .content__blog .services__wrapper .services__item {
   width: 329px;
@@ -1085,15 +1087,16 @@ main {
   font-family: "Montserrat-ExtraBold";
   color: #535353;
 }
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
   .content__blog .services__wrapper {
-    justify-content: center;
+    width: 100%;
+    justify-content: flex-start;
+    row-gap: 20px;
+    column-gap: 20px;
   }
   .content__blog .services__wrapper .services__item {
     width: 293px;
     height: 221px;
-    align-items: center;
-    text-align: center;
   }
   .content__blog .services__wrapper .services__item .services__item__header {
     font-size: 18px;
@@ -1102,6 +1105,34 @@ main {
     font-size: 18px;
   }
 }
+@media (max-width: 666px) {
+  .content__blog .services__wrapper {
+    justify-content: center;
+  }
+}
+/* @media (max-width: 768px){
+    .content__blog{
+    
+        .services__wrapper{
+            justify-content: center;
+    
+            .services__item{
+                width: 293px;
+                height: 221px;
+                align-items: center;
+                text-align: center;
+
+                .services__item__header{
+                    font-size: 18px;
+                }
+    
+                .services__item__price{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+} */
 .experts__body {
   min-width: 235px;
   max-width: 235px;
@@ -1450,7 +1481,7 @@ main {
     flex-direction: column;
   }
   .license .license__container .license__wrapper .license__image {
-    margin-top: 40px;
+    margin-top: 20px;
   }
   .license .license__container .license__wrapper .license__text {
     width: 100%;
