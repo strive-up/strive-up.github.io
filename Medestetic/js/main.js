@@ -93,20 +93,6 @@ $('.btn--switch').click(function() {
   $(this).addClass('btn--switch--active')
 });
 
-/* const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  loop: true,
-  slidesPerView: 4,
-  slidesPerGroup: 3,
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-});
- */
-
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
     items: 4,
@@ -130,7 +116,7 @@ $(document).ready(function(){
   });
 });
 
-ymaps.ready(function () {
+/* ymaps.ready(function () {
   var myMap = new ymaps.Map('map', {
           center: [55.744115, 37.426716],
           zoom: 13
@@ -183,4 +169,4 @@ ymaps.ready(function () {
   myMap.geoObjects
       .add(myPlacemark)
       .add(myPlacemarkWithContent);
-});
+}); */
