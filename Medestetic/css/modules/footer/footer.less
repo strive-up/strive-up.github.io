@@ -17,12 +17,23 @@
 
             .footer__contacts__wrapper{
                 display: flex;
-                gap: 70px;
+
+                .btn{
+                    margin-right: 70px;
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                }
 
                 .contact__number__fut{
                     font-size: 25px;
                     font-family: @medium;
                     color: #FFFFFF;
+                    margin-left: 70px;
+
+                    &:first-child{
+                        margin-left: 0;
+                    }
                 }
 
                 .contact__adress{
