@@ -22,9 +22,9 @@
 
 .services__item{
     display: flex;
-    height: fit-content;
+    height: 50px;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 
     .btn{
         margin-left: 40px;
@@ -45,6 +45,7 @@
         justify-content: space-between;
         width: 877px;
         height: 50px;
+        align-items: center;
         position: relative;
 
         &::after{
@@ -53,7 +54,7 @@
             height: 1px;
             position: absolute;
             left: 0;
-            bottom: 0;
+            bottom: -25px;
             background-color: #9A9A9A;
         }
         
@@ -72,41 +73,23 @@
 @media (max-width: 640px){
     .services__item{
         height: fit-content;
-    
-        .services__item__info{
-            justify-content: center;
-            width: 80%;
-            flex-direction: column;
-            height: 100px;
-    
-            .services__item__price{
-                padding-top: 20px;
-            }
-        }
-    }
-}
-
-@media (max-width: 480px){
-    .services__item{
         flex-direction: column;
-        height: fit-content;
+        align-items: center;
 
         .btn{
-            align-self: center;
-            margin-left: 10px;
+            margin: 0;
+            margin-top: 15px;
         }
     
         .services__item__info{
-            justify-content: center;
             text-align: center;
-            width: 80%;
+            justify-content: center;
+            width: 50%;
             flex-direction: column;
             height: 100px;
 
             &::after{
-                content: '';
-                width: 0;
-                height: 0;
+                width:0;
             }
     
             .services__item__price{
