@@ -17,7 +17,6 @@
 	width: 100%;
 	height: 100vh;
 }
-
 .modal-close{
 	position: absolute;
 	top: -68px;
@@ -39,19 +38,22 @@
 @media (max-width: 660px){
 	.modal-close{
 		position: absolute;
-		top: 5px;
-		right: 5px;
 		cursor: pointer;
 		z-index: 999999999999999999999;
+		position: absolute;
+		top: 19px;
+		right: 19px;
+	}
+
+	.modal-close .img-svg{
+		width: 26px;
+		height: 26px;
 	}
 
 	.modal-close .img-svg path{
-		position: absolute;
-		top: 5px;
-		right: 5px;
 		cursor: pointer;
 		z-index: 999999999999999999999;
-		fill: #3B3B3B;
+		stroke: #3B3B3B;
 	}
 }
 
