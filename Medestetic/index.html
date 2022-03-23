@@ -10,8 +10,47 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="libs/owl.carousel.min.css">
     <link rel="stylesheet" href="libs/owl.theme.default.min.css">
+    <link rel="stylesheet" href="libs/modal/style.css">
 </head>
 <body>
+
+    <div class="modal">
+
+        <div class="modal__containers" data-target="first">
+
+            <a class="modal-close"><img class="img-svg" src="img/cross.svg" alt=""></a>
+
+            <div class="modal-content">
+
+                <div class="disappears">
+
+                    <div class="disappears__header">Записаться на прием</div>
+
+                    <input type="text" class="disappears__input" placeholder="Представьтесь">
+                    <input type="text" id="phone" class="disappears__input" placeholder="+7 (">
+
+                    <div class="disappears__policy">Нажимая на кнопку “Записаться на прием” я соглашаюсь на обработку <a href="#">персональных данных.</a></div>
+
+                    <div class="disappears__captcha">
+
+                        <div class="img__captcha">
+                            <img src="img/captcha.png" alt="">
+                        </div>
+
+                        <input type="text">
+
+                    </div>
+
+                    <button class="btn btn--purple">Записаться на примем</button>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
     <!------------------------------------->
 
     <div class="wrapper">
@@ -29,7 +68,7 @@
                 <!--    LogoType    -->
                 <div class="header__logo">
                     <a href="/"><img src="img/logo.svg" alt=""></a>
-                    <button class="btn btn--purple">Записаться на прием</button>
+                    <button class="btn btn--purple" data-path="first" data-animation="fade" data-speed="300">Записаться на прием</button>
                 </div>
                 
                 <!--    Navigation    -->
@@ -69,7 +108,7 @@
 
                         </div>
 
-                        <button class="btn btn--purple">Записаться на прием</button>
+                        <button class="btn btn--purple" data-path="first" data-animation="fade" data-speed="300">Записаться на прием</button>
 
                     </div>
 
@@ -207,7 +246,7 @@
                             <p>15 000 руб.</p>
                         </div>
 
-                        <button class="btn btn--purple">Записаться на прием</button>
+                        <button class="btn btn--purple" data-path="first" data-animation="fade" data-speed="300">Записаться на прием</button>
 
                     </div>
 
@@ -276,7 +315,7 @@
                                 <p class="services__item__price">бесплатно</p>
                             </div>
 
-                            <button class="btn btn--purple">Записаться</button>
+                            <button class="btn btn--purple" data-path="first" data-animation="fade" data-speed="300">Записаться</button>
 
                         </div>
 
@@ -287,7 +326,7 @@
                                 <p class="services__item__price">2500 руб.</p>
                             </div>
 
-                            <button class="btn btn--purple">Записаться</button>
+                            <button class="btn btn--purple" data-path="first" data-animation="fade" data-speed="300">Записаться</button>
 
                         </div>
 
@@ -298,7 +337,7 @@
                                 <p class="services__item__price">3500 руб.</p>
                             </div>
 
-                            <button class="btn btn--purple">Записаться</button>
+                            <button class="btn btn--purple" data-path="first" data-animation="fade" data-speed="300">Записаться</button>
 
                         </div>
 
@@ -309,7 +348,7 @@
                                 <p class="services__item__price">5000 руб.</p>
                             </div>
 
-                            <button class="btn btn--purple">Записаться</button>
+                            <button class="btn btn--purple" data-path="first" data-animation="fade" data-speed="300">Записаться</button>
 
                         </div>
 
@@ -320,7 +359,7 @@
                                 <p class="services__item__price">300 руб.</p>
                             </div>
 
-                            <button class="btn btn--purple">Записаться</button>
+                            <button class="btn btn--purple" data-path="first" data-animation="fade" data-speed="300">Записаться</button>
 
                         </div>
 
@@ -335,7 +374,7 @@
                                 <p class="services__item__price">бесплатно</p>
                             </div>
 
-                            <button class="btn btn--purple">Записаться</button>
+                            <button class="btn btn--purple" data-path="first" data-animation="fade" data-speed="300">Записаться</button>
 
                         </div>
 
@@ -346,7 +385,7 @@
                                 <p class="services__item__price">3500 руб.</p>
                             </div>
 
-                            <button class="btn btn--purple">Записаться</button>
+                            <button class="btn btn--purple" data-path="first" data-animation="fade" data-speed="300">Записаться</button>
 
                         </div>
 
@@ -357,7 +396,7 @@
                                 <p class="services__item__price">4500 руб.</p>
                             </div>
 
-                            <button class="btn btn--purple">Записаться</button>
+                            <button class="btn btn--purple" data-path="first" data-animation="fade" data-speed="300">Записаться</button>
 
                         </div>
 
@@ -368,7 +407,7 @@
                                 <p class="services__item__price">6000 руб.</p>
                             </div>
 
-                            <button class="btn btn--purple">Записаться</button>
+                            <button class="btn btn--purple" data-path="first" data-animation="fade" data-speed="300">Записаться</button>
 
                         </div>
 
@@ -379,7 +418,7 @@
                                 <p class="services__item__price">500 руб.</p>
                             </div>
 
-                            <button class="btn btn--purple">Записаться</button>
+                            <button class="btn btn--purple" data-path="first" data-animation="fade" data-speed="300">Записаться</button>
 
                         </div>
 
@@ -423,7 +462,7 @@
 
                         <div class="banner__text">Получите скидку на 1-е посещение</div>
                         <div class="banner__contact">8 (499) 390-11-15</div>
-                        <button class="btn btn--purple">Записаться на прием</button>
+                        <button class="btn btn--purple" data-path="first" data-animation="fade" data-speed="300">Записаться на прием</button>
 
                     </div>
 
@@ -516,7 +555,7 @@
                             
                                 <div class="experts__name">Викулова Виктория Сергеевна</div>
                                 <div class="experts__spec">Венеролог, дерматолог, косметолог, миколог</div>
-                                <button class="btn btn--purple">Записаться на прием</button>                                
+                                <button class="btn btn--purple" data-path="first" data-animation="fade" data-speed="300">Записаться на прием</button>                                
                 
                             </div>
                 
@@ -528,7 +567,7 @@
                             
                                 <div class="experts__name">Марина Томовна Суйтс</div>
                                 <div class="experts__spec">Дерматолог, косметолог, лазеротерапевт</div>
-                                <button class="btn btn--purple">Записаться на прием</button>
+                                <button class="btn btn--purple" data-path="first" data-animation="fade" data-speed="300">Записаться на прием</button>
                 
                             </div>
                 
@@ -540,7 +579,7 @@
                             
                                 <div class="experts__name">Гоар Альбертовна Тоноян</div>
                                 <div class="experts__spec">Дерматовенеролог, косметолог, трихолог</div>
-                                <button class="btn btn--purple">Записаться на прием</button>
+                                <button class="btn btn--purple" data-path="first" data-animation="fade" data-speed="300">Записаться на прием</button>
                 
                             </div>
                 
@@ -552,7 +591,7 @@
                             
                                 <div class="experts__name">Новый врач клиники</div>
                                 <div class="experts__spec">Дерматовенеролог</div>
-                                <button class="btn btn--purple">Записаться на прием</button>
+                                <button class="btn btn--purple" data-path="first" data-animation="fade" data-speed="300">Записаться на прием</button>
                 
                             </div>
 
@@ -564,7 +603,7 @@
                             
                                 <div class="experts__name">Новый врач клиники</div>
                                 <div class="experts__spec">Дерматовенеролог</div>
-                                <button class="btn btn--purple">Записаться на прием</button>
+                                <button class="btn btn--purple" data-path="first" data-animation="fade" data-speed="300">Записаться на прием</button>
                 
                             </div> 
 
@@ -726,7 +765,7 @@
 
                     <div class="footer__contacts__wrapper">
                         <button class="btn btn--white">Задать вопрос</button>
-                        <button class="btn btn--purple">Записаться на прием</button>                      
+                        <button class="btn btn--purple" data-path="first" data-animation="fade" data-speed="300">Записаться на прием</button>                      
                     </div>
 
                 </div>
@@ -761,6 +800,8 @@
     <script src="libs/owl.carousel.min.js"></script>
     <script type="text/javascript" src="js/less.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script src="libs/jquery.maskedinput.min.js"></script>
+    <script src="libs/modal/script.js"></script>
 
 </body>
 </html>
