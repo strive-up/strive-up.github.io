@@ -23,48 +23,10 @@
 	right: -54px;
 	cursor: pointer;
 	z-index: 999999999999999999999;
+	color: white;
+	font-size: 46px;
 }
 
-@media (max-width: 731px){
-	.modal-close{
-		position: absolute;
-		top: -48px;
-		right: -48px;
-		cursor: pointer;
-		z-index: 999999999999999999999;
-	}
-}
-
-@media (max-width: 660px){
-	.modal-close{
-		position: absolute;
-		cursor: pointer;
-		z-index: 999999999999999999999;
-		position: absolute;
-		top: 19px;
-		right: 19px;
-	}
-
-	.modal-close .img-svg{
-		width: 26px;
-		height: 26px;
-	}
-
-	.modal-close .img-svg path{
-		cursor: pointer;
-		z-index: 999999999999999999999;
-		stroke: #3B3B3B;
-	}
-}
-
-@media (max-width: 768px){
-	.modal__containers{
-		width: fit-content;
-		vertical-align: none;
-		position: absolute;
-		top: 0;
-	}
-}
 
 .modal::before {
 	content: '';
@@ -124,4 +86,44 @@
 	left: 0;
 	top: 0;
 	width: 100%;
+}
+
+@media (max-width: 731px){
+	.modal-close{
+		position: absolute;
+		top: -48px;
+		right: -48px;
+		cursor: pointer;
+		z-index: 999999999999999999999;
+	}
+}
+
+@media (max-width: 660px){
+	.modal-close{
+		position: absolute;
+		cursor: pointer;
+		z-index: 999999999999999999999;
+		position: absolute;
+		top: 19px;
+		right: 19px;
+		color: #3B3B3B;
+	}
+}
+
+@media (max-width: 400px){
+	.modal__containers{
+		width: 100%;
+		height: fit-content;
+		vertical-align: none;
+		position: absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+	}
+
+	.disappears{
+        width: 100%;
+		height: 100vh;
+		border-radius: 0;
+    }
 }
