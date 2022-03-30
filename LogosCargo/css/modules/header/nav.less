@@ -1,0 +1,86 @@
+// main: ../../style.less
+
+.header__nav{
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .nav__logo{
+        margin-top: 20px;
+    }
+
+    .nav__close__btn{
+        position: absolute;
+        right: 8px;
+        top: 8px;
+        cursor: pointer;
+        width: 30.25px;
+        height: 24.75px;
+        border: 3px #C4C4C4 solid;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span{
+            width: 13px;
+            height: 3px;
+            background-color: #C4C4C4;
+            position: relative;
+            transform: rotate(45deg);
+
+            &::before{
+                content: '';
+                position: absolute;
+                width: 13px;
+                height: 3px;
+                background-color: #C4C4C4;
+                transform: rotate(90deg);
+            }
+
+        }
+    }
+
+    ul.nav__list{
+        text-align: center;
+        margin-top: 35px;
+
+        li.nav__list__item{
+            margin-top: 20px;
+
+            &:first-child{
+                margin-top: 0;
+            }
+
+            a.nav__list__link{
+                font-family: @bold;
+                color: #FF9100;
+                font-size: 14px;
+            }
+        }
+    }
+
+    a.nav__number{
+        margin-top: 17.3%;
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+        color: black;
+
+        img{
+            padding-right: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .btn__request__call{
+        margin-top: 20px;
+    }
+}
