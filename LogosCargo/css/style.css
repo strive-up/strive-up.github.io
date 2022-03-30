@@ -117,7 +117,11 @@ footer {
   font-family: 'Raleway-SemiBold';
   font-size: 14px;
 }
+.header__nav.nav__active {
+  top: 0;
+}
 .header__nav {
+  top: -100%;
   position: fixed;
   background-color: #fff;
   width: 100%;
@@ -127,6 +131,7 @@ footer {
   flex-direction: column;
   align-items: center;
   overflow: auto;
+  transition: top 0.3s;
 }
 .header__nav .nav__logo {
   margin-top: 20px;
