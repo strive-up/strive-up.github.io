@@ -1,7 +1,7 @@
 @import "normalize.css";
 .btn__request__call {
   width: 180px;
-  height: 36px;
+  min-height: 36px;
   border: 2px solid #FF9100;
   font-family: 'Raleway-Bold';
   font-size: 14px;
@@ -121,11 +121,12 @@ footer {
   position: fixed;
   background-color: #fff;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   z-index: 4;
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: auto;
 }
 .header__nav .nav__logo {
   margin-top: 20px;
