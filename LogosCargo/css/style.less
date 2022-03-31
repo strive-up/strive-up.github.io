@@ -52,6 +52,8 @@ img{
 }
 
 [class*="__container"]{
+    max-width: 1210px;
+    width: 100%;
     padding: 0 15px;
 }
 
@@ -66,12 +68,16 @@ main{
     flex: 1 1 auto;
     position: relative;
     z-index: 1;
-    margin-bottom: 60px;
 }
 
 footer{
     position: relative;
     z-index: 1;
+}
+
+header{
+    position: relative;
+    z-index: 2;
 }
 
 
@@ -83,5 +89,7 @@ footer{
 @import "modules/header/menu.less";
 @import "modules/header/nav.less";
 
-// into
+// intro
 @import "modules/intro/intro.less";
+@import "modules/intro/delivery.less";
+@import "modules/intro/quality.less";
