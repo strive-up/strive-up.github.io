@@ -1,0 +1,114 @@
+@import "normalize.css";
+@import "defaultStyle";
+
+// reset & initial settings
+
+*, 
+*::after, 
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,
+ol,
+li{
+    list-style: none;
+}
+
+img{
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body{
+    height: 100%;
+    line-height: 1;
+}
+
+body{
+    font-family: @regular;
+    font-size: 16px;
+}
+
+img{
+    user-select: none;
+}
+
+[class*="__container"]{
+    max-width: 1210px;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+main{
+    flex: 1 1 auto;
+    position: relative;
+    z-index: 1;
+}
+
+footer{
+    position: relative;
+    z-index: 1;
+}
+
+header{
+    position: relative;
+    z-index: 2;
+}
+
+.section__padding{
+    margin: 60px 0;
+}
+
+
+// Include modules
+
+
+// header
+@import "modules/header/header.less";
+@import "modules/header/menu.less";
+@import "modules/header/nav.less";
+
+// intro
+@import "modules/intro/intro.less";
+@import "modules/intro/delivery.less";
+@import "modules/intro/quality.less";
+
+// section title
+@import "modules/section__title.less";
+
+// services
+@import "modules/services.less";
+
+// tariffs
+@import "modules/tariffs.less";
+
+// footer
+@import "modules/footer/footer.less";
+@import "modules/footer/nav.less";
+@import "modules/footer/contacts.less";
+@import "modules/footer/call.less";

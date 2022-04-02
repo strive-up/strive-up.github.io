@@ -1,0 +1,89 @@
+// main: ../style.less
+
+.tariffs{
+    .tariffs__container{
+        margin: 0 auto;
+
+        .tariffs__item__wrapp{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .tariffs__item{
+                width: 302px;
+                height: 410px;
+                position: relative;
+                img{
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .tariffs__item__info{
+                    width: 278px;
+                    height: 231px;
+                    background: rgba(255, 255, 255, 0.4);
+                    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.25);
+                    backdrop-filter: blur(27px);
+                    position: absolute;
+                    bottom: 0;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    padding-top: 20px;
+
+                    p.tariffs__name{
+                        font-size: 18px;
+                        font-family: @bold;
+                        text-transform: uppercase;
+                        color: @orange;
+                        padding-left: 15px;
+                    }
+
+                    .tariffs__price{
+                        width: 178px;
+                        height: 40px;
+                        background-color: black;
+                        color: white;
+                        font-size: 24px;
+                        font-family: @bold;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                    .tariffs__info{
+                        li{
+                            font-size: 14px;
+                            padding-left: 20px;
+                            position: relative;
+
+                            &::after{
+                                content: '';
+                                position: absolute;
+                                left: 10px;
+                                top: 50%;
+                                transform: translateY(-50%);
+                                width: 3px;
+                                height: 3px;
+                                background-color: black;
+                                border-radius: 50%;
+                            }
+
+                            span{
+                                font-family: @bold;
+                            }
+                        }
+                    }
+
+                    .btn.--payment{
+                        width: calc(100% - 4px);
+                        &::after{
+                            width: calc(100% + 4px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

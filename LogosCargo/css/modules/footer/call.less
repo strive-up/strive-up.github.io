@@ -1,0 +1,45 @@
+// main: ../../style.less
+
+.footer__call{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 45px 0;
+
+    p.footer__title{
+        font-size: 18px;
+        font-family: @bold;
+    }
+
+    p.footer__text{
+        font-size: 12px;
+    }
+
+    .footer__call__input{
+        outline: none;
+        background-color: #F4F4F4;
+        width: 280px;
+        height: 31px;
+        font-family: @bold;
+        font-size: 14px;
+        padding-left: 18px;
+        margin: 15px 0;
+
+        &::placeholder{
+            background-color: #F4F4F4;
+        }
+    }
+}
+
+@media (max-width: 425px){
+    .footer__call{
+        align-self: flex-start;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        .footer__call__input{
+            max-width: 318px;
+            min-width: 318px;
+        }
+    }
+}
