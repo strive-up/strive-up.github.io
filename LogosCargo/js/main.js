@@ -32,4 +32,5 @@ function closeMenu(){
 
 $(function(){
     $("#footer__call__input").mask("+7 (999) 999-9999");
+    $("#banner__call__input").mask("+7 (999) 999-9999");
 });

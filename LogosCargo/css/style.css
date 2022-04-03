@@ -123,7 +123,7 @@ header {
   z-index: 2;
 }
 .section__padding {
-  margin: 60px 0;
+  padding: 60px 0;
 }
 .header .header__container {
   margin: 0 auto;
@@ -872,6 +872,181 @@ p.intro__text {
 @media (max-width: 425px) {
   .tariffs .tariffs__container .tariffs__item__wrapp {
     column-gap: 10px;
+  }
+}
+.banner__container {
+  margin: 0 auto;
+  position: relative;
+}
+.banner__container .banner {
+  width: 821px;
+  padding: 45px 0;
+  background-color: #FF9100;
+  padding-left: 30px;
+}
+.banner__container .banner p.banner__title {
+  font-size: 48px;
+  font-family: 'Raleway-Bold';
+  line-height: 103%;
+  color: white;
+}
+.banner__container .banner p.banner__text {
+  color: white;
+  font-size: 18px;
+  line-height: 103%;
+  padding-top: 10px;
+}
+.banner__container .banner .banner__call {
+  margin-top: 35px;
+  display: flex;
+  column-gap: 45px;
+}
+.banner__container .banner .banner__call input {
+  width: 389px;
+  height: 48px;
+  background-color: #fff;
+  padding-left: 20px;
+  font-size: 18px;
+  font-family: 'Raleway-Bold';
+  outline: none;
+}
+.banner__container img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+@media (max-width: 1196px) {
+  .banner__container {
+    margin: 0 auto;
+    position: relative;
+  }
+  .banner__container .banner {
+    width: 100%;
+    padding: 45px 0;
+    background-color: #FF9100;
+    padding-left: 30px;
+  }
+  .banner__container .banner p.banner__title {
+    width: 680px;
+  }
+  .banner__container img {
+    width: 334px;
+    height: 218px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+@media (max-width: 990px) {
+  .banner__container {
+    margin: 0 auto;
+    position: relative;
+  }
+  .banner__container .banner {
+    width: 100%;
+    padding: 45px 0;
+    background-color: #FF9100;
+    padding-left: 30px;
+  }
+  .banner__container .banner p.banner__title {
+    max-width: 680px;
+    width: 100%;
+  }
+  .banner__container .banner .banner__call {
+    width: fit-content;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .banner__container .banner .banner__call .btn {
+    align-self: center;
+  }
+  .banner__container img {
+    width: 334px;
+    height: 218px;
+    top: 70%;
+    transform: translateY(-70%);
+  }
+}
+@media (max-width: 768px) {
+  .banner__container {
+    margin: 0 auto;
+    position: relative;
+  }
+  .banner__container .banner {
+    width: 100%;
+    padding: 45px 0;
+    background-color: #FF9100;
+    padding-left: 30px;
+  }
+  .banner__container .banner p.banner__title {
+    min-width: 100%;
+    margin-top: 55px;
+  }
+  .banner__container .banner .banner__call {
+    width: fit-content;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .banner__container .banner .banner__call .btn {
+    align-self: center;
+  }
+  .banner__container img {
+    width: 273px;
+    height: 178px;
+    top: 0;
+    transform: translateY(0);
+  }
+}
+@media (max-width: 533px) {
+  .banner__container {
+    margin: 0 auto;
+    position: relative;
+  }
+  .banner__container .banner {
+    width: 100%;
+    padding: 45px 0;
+    background-color: #FF9100;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .banner__container .banner p.banner__title {
+    max-width: 333px;
+    margin-top: 55px;
+    font-size: 24px;
+  }
+  .banner__container .banner p.banner__text {
+    color: white;
+    font-size: 14px;
+  }
+  .banner__container .banner .banner__call {
+    margin-top: 20px;
+    width: fit-content;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .banner__container .banner .banner__call input {
+    width: 320px;
+  }
+  .banner__container .banner .banner__call .btn {
+    align-self: center;
+  }
+  .banner__container img {
+    width: 222px;
+    height: 145px;
+    top: 0;
+    transform: translateY(0);
+  }
+}
+@media (max-width: 383px) {
+  .banner__container {
+    margin: 0 auto;
+    position: relative;
+  }
+  .banner__container .banner {
+    width: 100%;
+    padding: 45px 0;
+    background-color: #FF9100;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 .footer {
