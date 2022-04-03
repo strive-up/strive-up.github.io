@@ -87,3 +87,77 @@
         }
     }
 }
+
+@media (max-width: 1196px){
+    .tariffs{
+
+        .tariffs__container{
+
+            .tariffs__item__wrapp{
+                display: grid;
+                grid-template-columns: 302px 302px;
+                justify-content: center;
+                column-gap: 200px;
+                row-gap: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 990px){
+    .tariffs{
+
+        .tariffs__container{
+
+            .tariffs__item__wrapp{
+                column-gap: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .tariffs{
+
+        .tariffs__container{
+
+            .tariffs__item__wrapp{
+                grid-template-columns: 167px 167px;
+                column-gap: 50px;
+                row-gap: 70px;
+
+                .tariffs__item{
+                    width: fit-content;
+                    height: 380px;
+                    position: relative;
+                    display: flex;
+                    justify-content: center;                   
+                    img{
+                        width: 167px;
+                        height: 117px;
+                    }
+    
+                    .tariffs__item__info{
+                        width: 149px;
+                        height: 268px;
+                        .tariffs__price{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 425px){
+    .tariffs{
+
+        .tariffs__container{
+
+            .tariffs__item__wrapp{
+                column-gap: 10px;
+            }
+        }
+    }
+}
