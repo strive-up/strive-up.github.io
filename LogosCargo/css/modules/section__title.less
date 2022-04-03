@@ -3,6 +3,7 @@
 .section__title{
     position: relative;
     width: fit-content;
+    height: 60px;
     p{
         font-family: @bold;
         font-size: 48px;
@@ -17,7 +18,7 @@
         justify-content: center;
         align-items: center;
         position: absolute;
-        bottom: -10px;
+        bottom: 0;
         left: -30px;
         z-index: -1;
         overflow-x: hidden;
@@ -51,6 +52,10 @@
                 1px  1px 0   rgba( 214, 214, 214, 0.17 );
         }
     }
+
+    .keywords.keywords-rec{
+        bottom: 0;
+    }
 }
 
 .section__descripts{
@@ -76,6 +81,9 @@
 
         .keywords.keywords-small{
             bottom: -10px;
+        }
+        .keywords.keywords-rec{
+            bottom: 0px;
         }
     }
 }

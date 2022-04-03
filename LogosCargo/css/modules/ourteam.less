@@ -44,6 +44,24 @@
     }
 }
 
+@media (min-width: 1196px){
+    .ourteam__container{
+        .ourteam{
+            position: relative;
+            &::after{
+                content: '';
+                position: absolute;
+                background: url('../img/train.svg') no-repeat;
+                width: 702px;
+                height: 51px;
+                left: -402px;
+                bottom: -75px;
+            }
+        }
+        
+    }
+}
+
 @media (max-width: 1196px){
     .ourteam__container{
         margin: 0 auto;

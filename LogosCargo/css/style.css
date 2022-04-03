@@ -589,6 +589,7 @@ p.intro__text {
 .section__title {
   position: relative;
   width: fit-content;
+  height: 60px;
 }
 .section__title p {
   font-family: 'Raleway-Bold';
@@ -603,7 +604,7 @@ p.intro__text {
   justify-content: center;
   align-items: center;
   position: absolute;
-  bottom: -10px;
+  bottom: 0;
   left: -30px;
   z-index: -1;
   overflow-x: hidden;
@@ -619,6 +620,9 @@ p.intro__text {
 }
 .section__title .keywords p:first-child {
   margin-left: 0;
+}
+.section__title .keywords.keywords-rec {
+  bottom: 0;
 }
 .section__descripts {
   font-size: 18px;
@@ -639,6 +643,9 @@ p.intro__text {
   }
   .section__title .keywords.keywords-small {
     bottom: -10px;
+  }
+  .section__title .keywords.keywords-rec {
+    bottom: 0px;
   }
 }
 .services .services__container {
@@ -1089,6 +1096,20 @@ p.intro__text {
   font-size: 12px;
   padding-top: 5px;
 }
+@media (min-width: 1196px) {
+  .ourteam__container .ourteam {
+    position: relative;
+  }
+  .ourteam__container .ourteam::after {
+    content: '';
+    position: absolute;
+    background: url('../img/train.svg') no-repeat;
+    width: 702px;
+    height: 51px;
+    left: -402px;
+    bottom: -75px;
+  }
+}
 @media (max-width: 1196px) {
   .ourteam__container {
     margin: 0 auto;
@@ -1166,6 +1187,107 @@ p.intro__text {
     height: 68px;
     right: 0;
     bottom: -68px;
+  }
+}
+.recomended {
+  display: flex;
+  justify-content: center;
+}
+.recomended .recomended__container .recomended__video {
+  grid-area: video;
+}
+.recomended .recomended__container .section__title {
+  grid-area: title;
+}
+.recomended .recomended__container .section__descripts {
+  grid-area: discription;
+}
+.recomended .recomended__container .recomended__info {
+  grid-area: info;
+}
+.recomended .recomended__container .recomended__info p.recomended__info__title {
+  font-size: 14px;
+  font-family: 'Raleway-Bold';
+  line-height: 103%;
+  max-width: 580px;
+  width: 100%;
+  margin: 20px 0;
+}
+.recomended .recomended__container .recomended__info p.recomended__info__text {
+  font-size: 14px;
+  line-height: 103%;
+  max-width: 560px;
+  width: 100%;
+}
+@media (min-width: 1197px) {
+  .recomended {
+    display: flex;
+    justify-content: center;
+  }
+  .recomended .recomended__container {
+    display: grid;
+    grid-template-areas: "video title" "video discription" "video info";
+    grid-template-columns: 495px 1fr;
+    align-items: center;
+  }
+}
+@media (max-width: 1196px) {
+  .recomended {
+    display: flex;
+    justify-content: center;
+  }
+  .recomended .recomended__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .recomended .recomended__container .recomended__video {
+    order: 3;
+    margin-top: 20px;
+  }
+  .recomended .recomended__container .section__title {
+    order: 1;
+    align-self: start;
+  }
+  .recomended .recomended__container .section__descripts {
+    order: 2;
+    align-self: flex-start;
+  }
+  .recomended .recomended__container .recomended__info {
+    order: 4;
+  }
+}
+@media (max-width: 694px) {
+  .recomended {
+    display: flex;
+    justify-content: center;
+  }
+  .recomended .recomended__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .recomended .recomended__container .recomended__video {
+    order: 3;
+    margin-top: 20px;
+  }
+  .recomended .recomended__container .section__title {
+    order: 1;
+    align-self: start;
+  }
+  .recomended .recomended__container .section__descripts {
+    order: 2;
+    align-self: flex-start;
+    margin-top: 50px;
+  }
+  .recomended .recomended__container .recomended__info {
+    order: 4;
+  }
+}
+@media (max-width: 694px) and (max-width: 694px) {
+  .recomended .recomended__container .recomended__video video {
+    width: 321px;
+    height: 211px;
   }
 }
 .footer {
