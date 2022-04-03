@@ -150,7 +150,7 @@ a.header__number img {
   padding-right: 15px;
 }
 @media (max-width: 990px) {
-  .header .header__container {
+  .header {
     display: none;
   }
 }
@@ -613,6 +613,10 @@ p.intro__text {
 @media (max-width: 600px) {
   .section__descripts {
     width: 317px;
+  }
+  .section__title p::after {
+    left: 0;
+    width: 100%;
   }
 }
 .services .services__container {
