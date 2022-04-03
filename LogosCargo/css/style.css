@@ -593,6 +593,17 @@ p.intro__text {
 .section__title p {
   font-family: 'Raleway-Bold';
   font-size: 48px;
+  position: relative;
+}
+.section__title p::after {
+  content: '';
+  position: absolute;
+  left: -33px;
+  bottom: -10px;
+  width: 515px;
+  height: 34px;
+  background-color: #FF9100;
+  z-index: -1;
 }
 .section__descripts {
   font-size: 18px;

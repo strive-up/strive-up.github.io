@@ -6,6 +6,17 @@
     p{
         font-family: @bold;
         font-size: 48px;
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            left: -33px;
+            bottom: -10px;
+            width: 515px;
+            height: 34px;
+            background-color: @orange;
+            z-index: -1;
+        }
     }
 }
 
@@ -19,5 +30,4 @@
     .section__descripts{
         width: 317px;
     }
-    
 }
