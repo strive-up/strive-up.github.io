@@ -14,6 +14,19 @@
         }
     }
 
+    .bg-image-trucks--container{
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            width: 865px;
+            height: 573px;
+            background: url('../img/bg-image/trucks.png') no-repeat;
+            left: -30%;
+            bottom: -100px;
+        }
+    }
+
     .bg-image-auto{
         position: relative;
         &::after{

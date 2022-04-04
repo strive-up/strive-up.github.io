@@ -1753,19 +1753,19 @@ ul.footer__nav li.footer__nav__list a.footer__nav__link {
   width: 1px;
   background-color: #FF9100;
 }
-.footer__contacts .footer__social {
+.footer__social {
   margin-top: 50px;
   display: flex;
   align-items: center;
   column-gap: 15px;
 }
-.footer__contacts .footer__social a.footer__number {
+.footer__social a.footer__number {
   display: flex;
   align-items: center;
   font-size: 15px;
   color: black;
 }
-.footer__contacts .footer__social a.footer__number img {
+.footer__social a.footer__number img {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1773,16 +1773,16 @@ ul.footer__nav li.footer__nav__list a.footer__nav__link {
   height: 22px;
   margin-right: 10px;
 }
-.footer__contacts .footer__info__item {
+.footer__info__item {
   display: flex;
   align-items: flex-start;
   font-size: 15px;
   margin-top: 15px;
 }
-.footer__contacts .footer__info__item:first-child {
+.footer__info__item:first-child {
   margin-top: 0;
 }
-.footer__contacts .footer__info__item p {
+.footer__info__item p {
   margin-left: 10px;
 }
 @media (max-width: 520px) {
@@ -1853,6 +1853,18 @@ ul.footer__nav li.footer__nav__list a.footer__nav__link {
     height: 573px;
     background: url('../img/bg-image/trucks.png') no-repeat;
     left: 0;
+    bottom: -100px;
+  }
+  .bg-image-trucks--container {
+    position: relative;
+  }
+  .bg-image-trucks--container::after {
+    content: '';
+    position: absolute;
+    width: 865px;
+    height: 573px;
+    background: url('../img/bg-image/trucks.png') no-repeat;
+    left: -30%;
     bottom: -100px;
   }
   .bg-image-auto {
@@ -1927,4 +1939,80 @@ ul.footer__nav li.footer__nav__list a.footer__nav__link {
     right: -70%;
     bottom: -300px;
   }
+}
+.contacts {
+  display: flex;
+  justify-content: center;
+}
+.contacts .contacts__container .contacts__body {
+  margin-top: 40px;
+  position: relative;
+}
+.contacts .contacts__container .contacts__body .contacts__info {
+  width: 577px;
+  min-height: 287px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.25);
+  padding-top: 45px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 35px;
+}
+.contacts .contacts__container .contacts__body .contacts__info .footer__social {
+  margin-top: 30px;
+}
+.contacts .contacts__container .contacts__body .contacts__info p.contacts__info__title {
+  font-size: 18px;
+  font-family: 'Raleway-Bold';
+  color: #FF9100;
+}
+@media (min-width: 1197px) {
+  .contacts .contacts__container .contacts__body .contacts__info {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+@media (max-width: 1196px) {
+  .contacts .contacts__container .contacts__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacts .contacts__container .contacts__body .contacts__info {
+    width: 675px;
+  }
+}
+@media (max-width: 675px) {
+  .contacts .contacts__container .contacts__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacts .contacts__container .contacts__body .contacts__info {
+    width: 100%;
+    box-shadow: none;
+    position: relative;
+    padding-left: 15px;
+  }
+  .contacts .contacts__container .contacts__body .contacts__info::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 700px;
+    left: -20px;
+    height: 24px;
+    box-shadow: 0px 14px 7px -7px rgba(0, 0, 0, 0.05);
+  }
+  .map#map {
+    width: 100%;
+    height: 360px;
+    background-color: #E8E4DE;
+  }
+}
+.map#map {
+  width: 675px;
+  height: 360px;
+  background-color: #E8E4DE;
 }
