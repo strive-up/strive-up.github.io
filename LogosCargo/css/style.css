@@ -1414,6 +1414,35 @@ p.intro__text {
     height: 211px;
   }
 }
+.readmore__container {
+  margin: 0 auto;
+}
+.readmore__container .readmore {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+}
+.readmore__container .readmore p.readmore__title {
+  font-size: 18px;
+  font-family: 'Raleway-Bold';
+}
+.readmore__container .readmore p.readmore__text {
+  font-size: 14px;
+  margin-top: 15px;
+}
+.readmore__container .readmore a.readmore__link {
+  color: orange;
+  font-size: 14px;
+  margin-top: 30px;
+  position: relative;
+  width: fit-content;
+}
+.readmore__container .readmore a.readmore__link span {
+  font-size: 28px;
+  position: absolute;
+  top: -7px;
+  right: -35px;
+}
 .footer {
   width: 100%;
   height: fit-content;
