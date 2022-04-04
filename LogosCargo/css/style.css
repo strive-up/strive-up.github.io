@@ -1074,6 +1074,9 @@ p.intro__text {
     padding-right: 15px;
   }
 }
+.reviews-page.section__padding {
+  padding-top: 5px;
+}
 .reviews__container {
   margin: 0 auto;
 }
@@ -1939,6 +1942,9 @@ ul.footer__nav li.footer__nav__list a.footer__nav__link {
     right: -70%;
     bottom: -300px;
   }
+}
+.contacts.section__padding {
+  padding-top: 5px;
 }
 .contacts {
   display: flex;
