@@ -53,7 +53,7 @@
     
 }
 
-@media (min-width: 991px){
+@media (min-width: 1024px){
     .quality{
         padding-bottom: 170px;
         .quality__container.quality__wrapp{
@@ -127,13 +127,36 @@
     }
 }
 
-@media (max-width: 624px){
+@media (max-width: 524px){
+    .quality{
+        .quality__container{
+            grid-template-columns: 1fr 1fr;
+            column-gap: 30px;
+            row-gap: 20px;
+
+            .quality__item{
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 456px){
     .quality{
         .quality__container{
             grid-template-columns: 150px 150px;
+            column-gap: 30px;
+            row-gap: 20px;
 
             .quality__item{
                 width: 150px;
+                min-height: 196px;
+                padding-bottom: 10px;
+                padding-right: 0;
+                padding-left: 0;
+                img{
+                    padding-left: 20px;
+                }
             }
         }
     }

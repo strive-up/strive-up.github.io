@@ -62,12 +62,24 @@
     font-size: 18px;
     margin-top: 15px;
     width: 475px;
+
+    &.bold{
+        font-family: @bold;
+        font-size: 36px;
+        width: 100%;
+    }
 }
 
 @media (max-width: 600px){
     .section__descripts{
         width: 317px;
         margin-top: 30px;
+
+        &.bold{
+            font-family: @bold;
+            font-size: 26px;
+            width: 100%;
+        }
     }
 
     .section__title{
@@ -77,6 +89,10 @@
             min-width: 615px;
             width: 100%;
             bottom: 30%;
+        }
+
+        .words-big{
+            font-size: 34px;
         }
 
         .keywords.keywords-small{
