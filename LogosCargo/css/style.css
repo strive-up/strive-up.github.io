@@ -1089,8 +1089,8 @@ p.intro__text {
     align-self: center;
   }
   .banner__container img {
-    width: 222px;
-    height: 145px;
+    width: 254px;
+    height: 169px;
     top: 0;
     transform: translateY(0);
   }
@@ -2060,9 +2060,10 @@ ul.footer__nav li.footer__nav__list a.footer__nav__link {
   margin: 0 auto;
 }
 .scheme__container .scheme {
-  display: grid;
-  grid-template-columns: 355px 355px 355px;
-  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 35px;
   align-items: center;
   margin-top: 50px;
   row-gap: 30px;
