@@ -370,12 +370,14 @@ a.header__number img {
   justify-content: center;
   z-index: 10;
   padding-left: 50px;
-  background: rgba(0, 0, 0, 0.39);
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
   clip-path: polygon(0 10%, 94% 0, 100% 100%, 4% 100%);
 }
 @media (max-width: 1024px) {
   .intro .intro__bg {
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    backdrop-filter: blur(1px);
   }
   .intro .intro__bg .intro__container .intro__delivery {
     max-width: 100%;
@@ -561,29 +563,22 @@ p.intro__text {
   }
   .quality .quality__container.quality__wrapp {
     position: absolute;
-    top: -45px;
+    top: -75px;
     z-index: 55;
-  }
-}
-@media (max-width: 1196px) {
-  .quality .quality__container .quality__item {
-    width: 236px;
   }
 }
 @media (max-width: 1024px) {
   .quality {
-    margin: 50px 0;
+    margin: 30px 0;
+  }
+  .quality .quality__container {
+    display: grid;
+    grid-template-columns: 280px 280px;
+    justify-content: space-around;
+    row-gap: 30px;
   }
   .quality .quality__container.quality__wrapp {
     position: static;
-  }
-}
-@media (max-width: 1023px) {
-  .quality .quality__container .quality__item {
-    width: 200px;
-    min-height: 200px;
-    height: 100%;
-    padding-bottom: 10px;
   }
 }
 @media (max-width: 990px) {
@@ -598,41 +593,21 @@ p.intro__text {
     width: 250px;
   }
 }
-@media (max-width: 624px) {
-  .quality .quality__container {
-    grid-template-columns: 200px 200px;
-    column-gap: 30px;
-    row-gap: 20px;
-  }
-  .quality .quality__container .quality__item {
-    width: 200px;
-  }
-}
-@media (max-width: 524px) {
-  .quality .quality__container {
-    grid-template-columns: 1fr 1fr;
-    column-gap: 30px;
-    row-gap: 20px;
-  }
-  .quality .quality__container .quality__item {
-    width: 100%;
-  }
-}
-@media (max-width: 456px) {
+@media (max-width: 600px) {
   .quality .quality__container {
     grid-template-columns: 150px 150px;
-    column-gap: 30px;
-    row-gap: 20px;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 30px;
   }
   .quality .quality__container .quality__item {
     width: 150px;
-    min-height: 196px;
-    padding-bottom: 10px;
-    padding-right: 0;
-    padding-left: 0;
+    height: 260px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
-  .quality .quality__container .quality__item img {
-    padding-left: 20px;
+  .quality .quality__container .quality__item p.quality__item__text {
+    margin-top: 23%;
   }
 }
 .section__title {
@@ -843,17 +818,21 @@ p.intro__text {
 .tariffs .tariffs__container .tariffs__item__wrapp {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  column-gap: 20px;
   align-items: center;
 }
 .tariffs .tariffs__container .tariffs__item__wrapp .tariffs__item {
-  width: 302px;
-  height: 410px;
+  width: 278px;
+  height: 235px;
   position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 187px;
 }
 .tariffs .tariffs__container .tariffs__item__wrapp .tariffs__item img {
-  display: flex;
-  justify-content: center;
+  width: 278px;
+  height: 235px;
 }
 .tariffs .tariffs__container .tariffs__item__wrapp .tariffs__item .tariffs__item__info {
   width: 278px;
@@ -862,7 +841,7 @@ p.intro__text {
   box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(27px);
   position: absolute;
-  bottom: 0;
+  bottom: -167px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -927,32 +906,31 @@ p.intro__text {
 }
 @media (max-width: 768px) {
   .tariffs .tariffs__container .tariffs__item__wrapp {
-    grid-template-columns: 167px 167px;
-    column-gap: 50px;
-    row-gap: 70px;
+    grid-template-columns: 150px 150px;
+    column-gap: 20px;
+    row-gap: 50px;
   }
   .tariffs .tariffs__container .tariffs__item__wrapp .tariffs__item {
     width: fit-content;
-    height: 380px;
+    width: 150px;
+    height: 117px;
     position: relative;
     display: flex;
     justify-content: center;
+    margin-bottom: 280px;
   }
   .tariffs .tariffs__container .tariffs__item__wrapp .tariffs__item img {
-    width: 167px;
+    width: 150px;
     height: 117px;
   }
   .tariffs .tariffs__container .tariffs__item__wrapp .tariffs__item .tariffs__item__info {
-    width: 149px;
+    width: 150px;
     height: 268px;
+    bottom: -271px;
   }
   .tariffs .tariffs__container .tariffs__item__wrapp .tariffs__item .tariffs__item__info .tariffs__price {
     width: 100%;
-  }
-}
-@media (max-width: 425px) {
-  .tariffs .tariffs__container .tariffs__item__wrapp {
-    column-gap: 10px;
+    font-size: 24px;
   }
 }
 .banner__container {
