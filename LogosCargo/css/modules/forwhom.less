@@ -1,0 +1,199 @@
+// main: ../style.less
+
+.forwhom__container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    .forwhom{
+        width: 378px;
+        height: 258px;
+        background: url('../img/russia-china.png');
+        align-self: center;
+        margin-top: 70px;
+        position: relative;
+
+        p.forwhom__text{
+            font-size: 14px;
+            line-height: 103%;
+            position: relative;
+            width: 279px;
+
+            &::before{
+                content: '';
+                position: absolute;
+                background-color: @orange;
+                width: 35px;
+                height: 32px;
+                border-radius: 30px;
+            }
+
+            &.center{
+                text-align: center;
+                position: absolute;
+                bottom: -70px;
+                left: 50%;
+                transform: translateX(-50%);
+
+                &::before{
+                    left: 50%;
+                    transform: translateX(-50%);
+                    top: -45px;
+                }
+            }
+        }
+
+        .left{
+            position: absolute;
+            text-align: right;
+            left: calc(-100% + 75px);
+
+            p.forwhom__text{
+                padding-bottom: 70px;
+
+                &:first-child{
+                    padding-top: 30px;
+                }
+
+                &:last-child{
+                    padding-bottom: 0;
+                }
+
+                &::before{
+                    right: -45px;
+                }
+            }
+        }
+
+        .right{
+            position: absolute;
+            text-align: left;
+            right: calc(-100% + 75px);
+
+            p.forwhom__text{
+                padding-bottom: 70px;
+
+                &:first-child{
+                    padding-top: 30px;
+                }
+
+                &:last-child{
+                    padding-bottom: 0;
+                }
+
+                &::before{
+                    left: -45px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px){
+    .forwhom__container{
+    
+        .forwhom{
+            width: 258px;
+            height: 176px;
+            background-size: cover;
+
+            .left{
+                position: absolute;
+                text-align: right;
+                left: -305px;
+    
+                p.forwhom__text{
+                    padding-bottom: 30px;
+    
+                    &:first-child{
+                        padding-top: 30px;
+                    }
+    
+                    &:last-child{
+                        padding-bottom: 0;
+                    }
+    
+                    &::before{
+                        right: -45px;
+                    }
+                }
+            }
+    
+            .right{
+                position: absolute;
+                text-align: left;
+                right: -305px;
+    
+                p.forwhom__text{
+                    padding-bottom: 30px;
+    
+                    &:first-child{
+                        padding-top: 30px;
+                    }
+    
+                    &:last-child{
+                        padding-bottom: 0;
+                    }
+    
+                    &::before{
+                        left: -45px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 888px){
+    .forwhom__container{
+    
+        .forwhom{
+
+            .left{
+                position: absolute;
+                text-align: right;
+                left: -224px;
+            }
+
+            .right{
+                position: absolute;
+                text-align: left;
+                right: -224px;
+            }
+    
+            p.forwhom__text{
+                font-size: 14px;
+                line-height: 103%;
+                position: relative;
+                width: 196px;
+                padding-bottom: 10px;
+    
+                &:first-child{
+                    padding-top: 20px;
+                }
+
+                &:last-child{
+                    padding-bottom: 0;
+                }
+
+                &::before{
+                    right: -45px;
+                }
+
+                &.center{
+                    text-align: center;
+                    position: absolute;
+                    bottom: -98px;
+                    left: 50%;
+                    transform: translateX(-50%);
+    
+                    &::before{
+                        left: 50%;
+                        transform: translateX(-50%);
+                        top: -45px;
+                    }
+                }
+            }
+        }
+    }
+}
