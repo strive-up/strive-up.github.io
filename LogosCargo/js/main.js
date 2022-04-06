@@ -1,12 +1,12 @@
 if(window.innerWidth <= 990){
-    $('.header__logo').prependTo('.intro');
+    $('.header__logo').prependTo('.intro__bg');
     $('.header__nav__list').after('<a href="tel:+78124072897" class="header__number"><img src="img/menu/phone.svg" alt="">+7 (812) 407-28-97</a><button class="btn --call">Заказать звонок</button>');
 }
 
 let menuValid = false;
 
-if(window.innerWidth <= 640){
-    $('.intro__btn').prependTo('.intro__container');
+if(window.innerWidth <= 716){
+    $('.intro__btn').prependTo('.intro');
 }
 
 function openMenu(){
