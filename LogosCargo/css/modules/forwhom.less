@@ -27,69 +27,102 @@
                 height: 32px;
                 border-radius: 30px;
             }
+        }
+    }
+}
 
-            &.center{
-                text-align: center;
-                position: absolute;
-                bottom: -70px;
-                left: 50%;
-                transform: translateX(-50%);
-
+@media (min-width: 1024px){
+    .forwhom__container{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    
+        .forwhom{
+            width: 378px;
+            height: 258px;
+            background: url('../img/russia-china.png');
+            align-self: center;
+            margin-top: 70px;
+            position: relative;
+    
+            p.forwhom__text{
+                font-size: 14px;
+                line-height: 103%;
+                position: relative;
+                width: 279px;
+    
                 &::before{
+                    content: '';
+                    position: absolute;
+                    background-color: @orange;
+                    width: 35px;
+                    height: 32px;
+                    border-radius: 30px;
+                }
+    
+                &.center{
+                    text-align: center;
+                    position: absolute;
+                    bottom: -70px;
                     left: 50%;
                     transform: translateX(-50%);
-                    top: -45px;
+    
+                    &::before{
+                        left: 50%;
+                        transform: translateX(-50%);
+                        top: -45px;
+                    }
                 }
             }
-        }
-
-        .left{
-            position: absolute;
-            text-align: right;
-            left: calc(-100% + 75px);
-
-            p.forwhom__text{
-                padding-bottom: 70px;
-
-                &:first-child{
-                    padding-top: 30px;
-                }
-
-                &:last-child{
-                    padding-bottom: 0;
-                }
-
-                &::before{
-                    right: -45px;
+    
+            .left{
+                position: absolute;
+                text-align: right;
+                left: calc(-100% + 75px);
+    
+                p.forwhom__text{
+                    padding-bottom: 70px;
+    
+                    &:first-child{
+                        padding-top: 30px;
+                    }
+    
+                    &:last-child{
+                        padding-bottom: 0;
+                    }
+    
+                    &::before{
+                        right: -45px;
+                    }
                 }
             }
-        }
-
-        .right{
-            position: absolute;
-            text-align: left;
-            right: calc(-100% + 75px);
-
-            p.forwhom__text{
-                padding-bottom: 70px;
-
-                &:first-child{
-                    padding-top: 30px;
-                }
-
-                &:last-child{
-                    padding-bottom: 0;
-                }
-
-                &::before{
-                    left: -45px;
+    
+            .right{
+                position: absolute;
+                text-align: left;
+                right: calc(-100% + 75px);
+    
+                p.forwhom__text{
+                    padding-bottom: 70px;
+    
+                    &:first-child{
+                        padding-top: 30px;
+                    }
+    
+                    &:last-child{
+                        padding-bottom: 0;
+                    }
+    
+                    &::before{
+                        left: -45px;
+                    }
                 }
             }
         }
     }
 }
 
-@media (max-width: 1024px){
+@media (min-width: 888px){
     .forwhom__container{
     
         .forwhom{
@@ -115,6 +148,36 @@
     
                     &::before{
                         right: -45px;
+                    }
+                }
+            }
+
+            p.forwhom__text{
+                font-size: 14px;
+                line-height: 103%;
+                position: relative;
+                width: 279px;
+    
+                &::before{
+                    content: '';
+                    position: absolute;
+                    background-color: @orange;
+                    width: 35px;
+                    height: 32px;
+                    border-radius: 30px;
+                }
+    
+                &.center{
+                    text-align: center;
+                    position: absolute;
+                    bottom: -70px;
+                    left: 50%;
+                    transform: translateX(-50%);
+    
+                    &::before{
+                        left: 50%;
+                        transform: translateX(-50%);
+                        top: -45px;
                     }
                 }
             }
@@ -144,53 +207,136 @@
     }
 }
 
-@media (max-width: 888px){
+@media (max-width: 887px){
     .forwhom__container{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
     
         .forwhom{
-
-            .left{
+            background: url('../img/russia-china.png');
+            align-self: flex-start;
+            margin-top: 95px;
+            position: relative;
+            width: 306px;
+            height: 209px;
+            background-size: cover;
+            margin-left: 15px;
+    
+            .text__wrap{
+                display: flex;
+                flex-direction: column;
                 position: absolute;
-                text-align: right;
-                left: -224px;
+                left: 100%;
+                height: 247px;
+                padding-left: 20px;
+                top: 50%;
+                transform: translateY(-50%);
             }
 
             .right{
-                position: absolute;
-                text-align: left;
-                right: -224px;
-            }
+                padding-left: 45px;
     
+                p.forwhom__text{
+    
+                    &::before{
+                        left: -45px;
+                    }
+                }
+            }
+
+            .left{
+                padding-left: 45px;
+    
+                p.forwhom__text{
+    
+                    &::before{
+                        left: -45px;
+                    }
+                }
+            }
+
             p.forwhom__text{
                 font-size: 14px;
                 line-height: 103%;
                 position: relative;
-                width: 196px;
-                padding-bottom: 10px;
-    
-                &:first-child{
-                    padding-top: 20px;
-                }
-
-                &:last-child{
-                    padding-bottom: 0;
-                }
-
-                &::before{
-                    right: -45px;
-                }
+                width: 306px;
+                padding-top: 10px;
 
                 &.center{
-                    text-align: center;
-                    position: absolute;
-                    bottom: -98px;
-                    left: 50%;
-                    transform: translateX(-50%);
+                    padding-left: 45px;
+                    &::before{
+                        left: 0;
+                        right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 686px){
+    .forwhom__container{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    
+        .forwhom{
+            background: url('../img/russia-china.png');
+            align-self: flex-start;
+            margin-top: 95px;
+            position: relative;
+            width: 306px;
+            height: 209px;
+            background-size: cover;
+            margin-left: 15px;
+            margin-bottom: 247px;
+    
+            .text__wrap{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                left: -25px;
+                height: 247px;
+                padding-left: 20px;
+                top: 247px;
+                transform: none;
+            }
+
+            .right{
+                padding-left: 45px;
+    
+                p.forwhom__text{
     
                     &::before{
-                        left: 50%;
-                        transform: translateX(-50%);
-                        top: -45px;
+                        left: -45px;
+                    }
+                }
+            }
+
+            .left{
+                padding-left: 45px;
+    
+                p.forwhom__text{
+    
+                    &::before{
+                        left: -45px;
+                    }
+                }
+            }
+
+            p.forwhom__text{
+                font-size: 14px;
+                line-height: 103%;
+                position: relative;
+                width: 274px;
+                padding-top: 10px;
+
+                &.center{
+                    padding-left: 45px;
+                    &::before{
+                        left: 0;
+                        right: 0;
                     }
                 }
             }
