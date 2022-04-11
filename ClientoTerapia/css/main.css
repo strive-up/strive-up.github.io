@@ -123,9 +123,15 @@ img {
   margin: 0 auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 990px) {
   [class*=__container] {
     padding: 0 5.8411214953vw;
+  }
+}
+@media (min-width: 991px) {
+  [class*=__container] {
+    max-width: 75vw;
+    padding: 0 0.5208333333vw;
   }
 }
 .wrapper {
@@ -313,7 +319,90 @@ main.content {
   background: #FFFFFF;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 990px) {
+  .header__menu {
+    position: relative;
+  }
+  .header__menu .header__nav {
+    position: absolute;
+    right: 0;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 53.738317757vw;
+    height: 73.1308411215vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.08);
+    -webkit-box-shadow: 0px 51px 74px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 51px 74px rgba(0, 0, 0, 0.25);
+    -webkit-backdrop-filter: blur(52px);
+    backdrop-filter: blur(52px);
+    border-radius: 8.8785046729vw;
+    padding-left: 14.0186915888vw;
+    top: calc(100% + 9.8130841121vw);
+  }
+  .header__menu .header__nav::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 8.8785046729vw;
+    padding: 0.1869158879vw;
+    background: -o-linear-gradient(270.78deg, rgba(175, 253, 255, 0) 0.7%, #AFFDFF 52.82%, rgba(175, 253, 255, 0) 100.77%), -o-linear-gradient(0.08deg, rgba(175, 253, 255, 0) -1.09%, #AFFDFF 51.52%, rgba(175, 253, 255, 0) 99.92%);
+    background: linear-gradient(179.22deg, rgba(175, 253, 255, 0) 0.7%, #AFFDFF 52.82%, rgba(175, 253, 255, 0) 100.77%), linear-gradient(89.92deg, rgba(175, 253, 255, 0) -1.09%, #AFFDFF 51.52%, rgba(175, 253, 255, 0) 99.92%);
+    -webkit-mask: -webkit-gradient(linear, left top, left bottom, color-stop(0, white)) content-box, -webkit-gradient(linear, left top, left bottom, color-stop(0, white));
+    -webkit-mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+  .header__menu .header__nav ul.nav__list {
+    position: relative;
+  }
+  .header__menu .header__nav ul.nav__list::after {
+    content: "";
+    position: absolute;
+    left: -5.9579439252vw;
+    top: 0;
+    width: 0.4672897196vw;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.16);
+  }
+  .header__menu .header__nav ul.nav__list li.nav__item {
+    padding-bottom: 5.9579439252vw;
+  }
+  .header__menu .header__nav ul.nav__list li.nav__item:last-child {
+    padding-bottom: 0;
+  }
+  .header__menu .header__nav ul.nav__list li.nav__item a.nav__link {
+    font-family: "Montserrat-Medium";
+    font-size: 4.2056074766vw;
+    color: #fff;
+    position: relative;
+    z-index: 5;
+  }
+  .header__menu .header__nav ul.nav__list li.nav__item a.nav__link::after {
+    content: "";
+    position: absolute;
+    left: -8.761682243vw;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 6.191588785vw;
+    height: 1.8691588785vw;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    background: -o-radial-gradient(50% 50%, 50% 50%, rgba(0, 255, 255, 0.94433) 3.12%, #00FFFF 6.77%, rgba(0, 255, 255, 0.814433) 15.62%, rgba(0, 255, 255, 0.34) 25%, rgba(0, 255, 255, 0.1) 50.52%, rgba(0, 255, 255, 0) 97.92%);
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 255, 255, 0.94433) 3.12%, #00FFFF 6.77%, rgba(0, 255, 255, 0.814433) 15.62%, rgba(0, 255, 255, 0.34) 25%, rgba(0, 255, 255, 0.1) 50.52%, rgba(0, 255, 255, 0) 97.92%);
+  }
+
   .header__logo {
     width: 25.2336448598vw;
     height: 7.2429906542vw;
@@ -352,6 +441,130 @@ main.content {
   }
   .header__contacts p.header__schedule {
     font-size: 2.5700934579vw;
+  }
+}
+@media (min-width: 991px) {
+  .header {
+    height: 5.78125vw;
+  }
+
+  .header__menu {
+    position: relative;
+  }
+  .header__menu .header__nav {
+    position: absolute;
+    right: -0.78125vw;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 13.5416666667vw;
+    height: 16.3020833333vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.08);
+    -webkit-box-shadow: 0px 51px 74px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 51px 74px rgba(0, 0, 0, 0.25);
+    -webkit-backdrop-filter: blur(52px);
+    backdrop-filter: blur(52px);
+    border-radius: 1.9791666667vw;
+    padding-left: 4.1666666667vw;
+    top: calc(100% + 2.6041666667vw);
+  }
+  .header__menu .header__nav::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 1.9791666667vw;
+    padding: 0.0416666667vw;
+    background: -o-linear-gradient(270.78deg, rgba(175, 253, 255, 0) 0.7%, #AFFDFF 52.82%, rgba(175, 253, 255, 0) 100.77%), -o-linear-gradient(0.08deg, rgba(175, 253, 255, 0) -1.09%, #AFFDFF 51.52%, rgba(175, 253, 255, 0) 99.92%);
+    background: linear-gradient(179.22deg, rgba(175, 253, 255, 0) 0.7%, #AFFDFF 52.82%, rgba(175, 253, 255, 0) 100.77%), linear-gradient(89.92deg, rgba(175, 253, 255, 0) -1.09%, #AFFDFF 51.52%, rgba(175, 253, 255, 0) 99.92%);
+    -webkit-mask: -webkit-gradient(linear, left top, left bottom, color-stop(0, white)) content-box, -webkit-gradient(linear, left top, left bottom, color-stop(0, white));
+    -webkit-mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+  .header__menu .header__nav ul.nav__list {
+    position: relative;
+  }
+  .header__menu .header__nav ul.nav__list::after {
+    content: "";
+    position: absolute;
+    left: -1.328125vw;
+    top: 0;
+    width: 0.1041666667vw;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.16);
+  }
+  .header__menu .header__nav ul.nav__list li.nav__item {
+    padding-bottom: 1.328125vw;
+  }
+  .header__menu .header__nav ul.nav__list li.nav__item:last-child {
+    padding-bottom: 0;
+  }
+  .header__menu .header__nav ul.nav__list li.nav__item a.nav__link {
+    font-family: "Montserrat-Medium";
+    font-size: 0.9375vw;
+    color: #fff;
+    position: relative;
+    z-index: 5;
+  }
+  .header__menu .header__nav ul.nav__list li.nav__item a.nav__link::after {
+    content: "";
+    position: absolute;
+    left: -1.953125vw;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 1.3802083333vw;
+    height: 0.4166666667vw;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    background: -o-radial-gradient(50% 50%, 50% 50%, rgba(0, 255, 255, 0.94433) 3.12%, #00FFFF 6.77%, rgba(0, 255, 255, 0.814433) 15.62%, rgba(0, 255, 255, 0.34) 25%, rgba(0, 255, 255, 0.1) 50.52%, rgba(0, 255, 255, 0) 97.92%);
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 255, 255, 0.94433) 3.12%, #00FFFF 6.77%, rgba(0, 255, 255, 0.814433) 15.62%, rgba(0, 255, 255, 0.34) 25%, rgba(0, 255, 255, 0.1) 50.52%, rgba(0, 255, 255, 0) 97.92%);
+  }
+
+  .header__menu .header__burger {
+    width: 100%;
+    height: 1.6145833333vw;
+    margin-right: 2.0833333333vw;
+  }
+  .header__menu .header__burger span {
+    width: 1.875vw;
+    height: 0.1041666667vw;
+    border-radius: 0.15625vw;
+  }
+  .header__menu .header__burger span::before {
+    width: 1.875vw;
+    height: 0.1041666667vw;
+    top: -0.625vw;
+    border-radius: 0.15625vw;
+  }
+  .header__menu .header__burger span::after {
+    width: 1.875vw;
+    height: 0.1041666667vw;
+    bottom: -0.625vw;
+    border-radius: 0.15625vw;
+  }
+
+  .header__logo {
+    width: 11.8229166667vw;
+    height: 3.3333333333vw;
+  }
+
+  .header__contacts p.header__number {
+    font-size: 1.0416666667vw;
+    padding-bottom: 0.46875vw;
+  }
+  .header__contacts p.header__schedule {
+    font-size: 0.7291666667vw;
   }
 }
 .footer__copyright {
