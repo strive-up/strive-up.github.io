@@ -21,23 +21,7 @@ __webpack_require__.r(__webpack_exports__);
   \***********************************/
 /***/ (() => {
 
-var menuValid = true;
 
-if (menuValid == false) {
-  $('.header__nav').hide();
-} else {
-  $('.header__nav').show();
-}
-
-jQuery(function ($) {
-  $(document).mouseup(function (e) {
-    var div = $(".header__nav");
-
-    if (!div.is(e.target) && div.has(e.target).length === 0) {
-      div.hide();
-    }
-  });
-});
 
 /***/ })
 
