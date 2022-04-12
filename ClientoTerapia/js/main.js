@@ -21,7 +21,11 @@ __webpack_require__.r(__webpack_exports__);
   \***********************************/
 /***/ (() => {
 
+var menuValid = false;
 
+$('.header__burger').onclick = function () {
+  $('.header__nav').hide();
+};
 
 /***/ })
 
