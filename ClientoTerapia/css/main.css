@@ -682,6 +682,33 @@ main.content {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  position: relative;
+}
+.header__nav ul.nav__list::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 0.1041666667vw;
+  left: -1.5625vw;
+  background-color: rgba(255, 255, 255, 0.16);
+  border-radius: 50%;
+}
+.header__nav ul.nav__list li.nav__item {
+  position: relative;
+}
+.header__nav ul.nav__list li.nav__item::after {
+  content: "";
+  position: absolute;
+  top: 40%;
+  height: 0.46875vw;
+  width: 1.5625vw;
+  background: -o-radial-gradient(50% 50%, 50% 50%, rgba(0, 255, 255, 0.94433) 3.12%, #00FFFF 6.77%, rgba(0, 255, 255, 0.814433) 15.62%, rgba(0, 255, 255, 0.34) 25%, rgba(0, 255, 255, 0.1) 50.52%, rgba(0, 255, 255, 0) 97.92%);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 255, 255, 0.94433) 3.12%, #00FFFF 6.77%, rgba(0, 255, 255, 0.814433) 15.62%, rgba(0, 255, 255, 0.34) 25%, rgba(0, 255, 255, 0.1) 50.52%, rgba(0, 255, 255, 0) 97.92%);
+  left: -2.2916666667vw;
+  border-radius: 50%;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 .header__nav ul.nav__list li.nav__item a.nav__link {
   color: white;
@@ -746,6 +773,35 @@ main.content {
   .header__nav::before {
     border-radius: 9.5794392523vw;
     padding: 0.2336448598vw;
+  }
+  .header__nav ul.nav__list {
+    position: relative;
+  }
+  .header__nav ul.nav__list::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0.4672897196vw;
+    left: -5.8411214953vw;
+    background-color: rgba(255, 255, 255, 0.16);
+    border-radius: 50%;
+  }
+  .header__nav ul.nav__list li.nav__item {
+    position: relative;
+  }
+  .header__nav ul.nav__list li.nav__item::after {
+    content: "";
+    position: absolute;
+    top: 40%;
+    height: 1.6355140187vw;
+    width: 5.8411214953vw;
+    background: -o-radial-gradient(50% 50%, 50% 50%, rgba(0, 255, 255, 0.94433) 3.12%, #00FFFF 6.77%, rgba(0, 255, 255, 0.814433) 15.62%, rgba(0, 255, 255, 0.34) 25%, rgba(0, 255, 255, 0.1) 50.52%, rgba(0, 255, 255, 0) 97.92%);
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 255, 255, 0.94433) 3.12%, #00FFFF 6.77%, rgba(0, 255, 255, 0.814433) 15.62%, rgba(0, 255, 255, 0.34) 25%, rgba(0, 255, 255, 0.1) 50.52%, rgba(0, 255, 255, 0) 97.92%);
+    left: -8.4112149533vw;
+    border-radius: 50%;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
   }
   .header__nav ul.nav__list li.nav__item a.nav__link {
     font-size: 4.2056074766vw;
