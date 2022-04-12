@@ -646,9 +646,38 @@ main.content {
   line-height: 1.0416666667vw;
 }
 
+@-webkit-keyframes menuActive {
+  0% {
+    top: -18.75vw;
+  }
+  50% {
+    top: 50%;
+  }
+  100% {
+    top: calc(100% + 0.78125vw);
+  }
+}
+
+@keyframes menuActive {
+  0% {
+    top: -18.75vw;
+  }
+  50% {
+    top: 50%;
+  }
+  100% {
+    top: calc(100% + 0.78125vw);
+  }
+}
 .header__nav.menu__active {
   position: absolute;
-  top: -200%;
+  top: calc(100% + 0.78125vw);
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-name: menuActive;
+  animation-name: menuActive;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
 
 .header__nav {
@@ -662,7 +691,7 @@ main.content {
   backdrop-filter: blur(2.7083333333vw);
   border-radius: 2.1354166667vw;
   right: 13.0208333333vw;
-  top: calc(100% + 0.78125vw);
+  top: -18.75vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -777,6 +806,17 @@ main.content {
     padding-top: 1.1682242991vw;
   }
 
+  .header__nav.menu__active {
+    position: absolute;
+    top: calc(100% + 3.5046728972vw);
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-name: menuActive;
+    animation-name: menuActive;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
+
   .header__nav {
     width: 55.3738317757vw;
     height: 64.7196261682vw;
@@ -786,7 +826,7 @@ main.content {
     backdrop-filter: blur(12.1495327103vw);
     border-radius: 9.5794392523vw;
     right: 3.5046728972vw;
-    top: calc(100% + 3.5046728972vw);
+    top: -84.1121495327vw;
     padding: 9.3457943925vw 0;
   }
   .header__nav::before {

@@ -21,11 +21,11 @@ __webpack_require__.r(__webpack_exports__);
   \***********************************/
 /***/ (() => {
 
-var menuValid = false;
-
-$('.header__burger').onclick = function () {
-  $('.header__nav').hide();
-};
+var menuBtn = document.querySelector('.header__burger');
+var menu = document.querySelector('.header__nav');
+menuBtn.addEventListener('click', function () {
+  menu.classList.toggle('menu__active');
+});
 
 /***/ })
 
