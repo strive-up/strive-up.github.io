@@ -580,11 +580,11 @@ main.content {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  font-family: RFDewiExtended-Bold;
+  font-family: "DrukTextWide-Medium";
 }
 
 .btn.--transparent-fill {
-  font-family: RFDewiExtended-Bold;
+  font-family: "DrukTextWide-Medium";
   font-size: 0.7291666667vw;
   width: 11.40625vw;
   height: 2.65625vw;
@@ -1324,8 +1324,8 @@ main.content {
 p.problems__title {
   color: #fff;
   text-align: center;
-  font-family: "RFDewiExtended-Bold";
-  font-size: 2.2916666667vw;
+  font-family: "DrukTextWide-Bold";
+  font-size: 1.875vw;
   line-height: 120%;
   z-index: 5;
 }
@@ -1422,7 +1422,7 @@ p.problems__title {
   z-index: 5;
 }
 .cure__problems p.title {
-  font-family: RFDewiExtended-SemiBold;
+  font-family: "DrukTextWide-Medium";
   font-size: 1.5625vw;
   color: #fff;
   line-height: 140%;
@@ -1491,7 +1491,7 @@ p.problems__title {
   p.problems__title {
     color: #fff;
     text-align: center;
-    font-family: "RFDewiExtended-Bold";
+    font-family: "DrukTextWide-Medium";
     font-size: 4.2056074766vw;
     line-height: 120%;
     z-index: 5;
@@ -1505,10 +1505,10 @@ p.problems__title {
     z-index: 5;
   }
   .cure__problems p.title {
-    font-family: RFDewiExtended-SemiBold;
-    font-size: 3.738317757vw;
-    color: #fff;
-    line-height: 110%;
+    font-family: "DrukTextWide-Medium";
+    font-size: 3.2710280374vw;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 140%;
   }
   .cure__problems p.text {
     font-family: "Montserrat-Light";
