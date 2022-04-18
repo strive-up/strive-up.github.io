@@ -1,0 +1,235 @@
+{% if reviews %}
+	<div class="heading"><span>{{ heading_title }}</span></div>
+	<div class="uni-module review-module">
+		<div class="uni-module__wrapper">
+			{% for review in reviews %}
+				<div class="review-module__item uni-item">
+					<div class="review-module__row">
+						<div class="review-module__image">
+							<img src="{{ review.thumb }}" loading="lazy" alt="{{ review.name }}" title="{{ review.name }}" data-href="{{ review.href }}" class="uni-href img-responsive" width="{{ img_width }}" height="{{ img_height }}" />
+						</div>
+						<div class="review-module__description">
+							
+							<img src="/catalog/view/theme/unishop2/stylesheet/images/quote.png">
+							<p class="review-module__text">
+							    <a class="review-module__name" href="{{ review.href }}">{{ review.name }}</a>
+								{{ review.description }}
+								{% if show_all_button %}
+									<a title="{{ text_all_reviews }}" data-toggle="tooltip" data-href="{{ review.link_all_reviews }}" class="review-module__more uni-href">&rarr;</a>
+								{% endif %}
+							</p>
+						</div>
+					</div>
+					<div class="review-module__row">
+						{% if review.rating %}
+							<div class="review-module__rating rating">
+								{% for i in 1..5 %}<i class="{{ review.rating < i ? 'far fa-star' : 'fa fa-star' }}"></i>{% endfor %}
+							</div>
+						{% endif %}
+						<div class="review-module__posted posted">
+							<i class="fa fa-calendar"></i>{{ review.date_added }}
+							<i class="fa fa-user"></i><span class="author">{{ review.author }}</span>
+						</div>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+	<form class="review-form form-horizontal uni-form" id="form-review" style="display: none;">
+															<div class="form-group required">
+									<label class="col-sm-2 control-label" for="input-name">Ваше имя</label>
+									<div class="col-sm-10">
+										<input type="text" name="name" value="" id="input-name" class="form-control">
+									</div>
+								</div>
+																	<input type="hidden" name="plus" value="">
+									<input type="hidden" name="minus" value="">
+																<div class="form-group required">
+									<label class="col-sm-2 control-label" for="input-review">Ваш отзыв</label>
+									<div class="col-sm-10">
+										<textarea name="text" rows="5" id="input-review" class="form-control"></textarea>
+										<div class="help-block"><small><span style="color: #FF0000;">Примечание:</span> HTML разметка не поддерживается! Используйте обычный текст.</small></div>
+									</div>
+								</div>
+								<div class="form-group required">
+									<label class="col-sm-2 control-label">Рейтинг</label>
+									<div class="col-sm-10">
+										<input type="radio" name="rating" value="1" class="review-form__input">
+										<input type="radio" name="rating" value="2" class="review-form__input">
+										<input type="radio" name="rating" value="3" class="review-form__input">
+										<input type="radio" name="rating" value="4" class="review-form__input">
+										<input type="radio" name="rating" value="5" class="review-form__input">
+										
+										<div class="review-form__stars rating">
+											<i class="review-form__star fa-star fa"></i>
+											<i class="review-form__star fa-star fa"></i>
+											<i class="review-form__star fa-star fa"></i>
+											<i class="review-form__star fa-star fa"></i>
+											<i class="review-form__star fa-star fa"></i>
+										</div>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<div class="col-sm-2 hidden-xs"></div>
+									<div class="col-sm-10">
+										<button type="button" id="button-review" data-loading-text="Загрузка..." class="review-form__btn btn btn-lg btn-primary">Отправить свой отзыв</button>
+									</div>
+								</div>
+													</form>
+	<script>
+		$(function() {
+			$('.review-module').uniModules({
+				type:'{{ type_view ? type_view : 'carousel' }}',
+				items: {0:{items:1},580:{items:2},720:{items:2},1050:{items:3},1400:{items:4}},
+				loop: {{ reviews|length > 4 ? 'true' : 'false' }},
+				autoheight:['review-module__name', 'review-module__text']
+			});
+		});
+		
+		
+		
+		
+		
+		
+		$('.tab-review').on('click mouseover', function() {
+		$('#review').load('index.php?route=product/product/review&product_id={{ product_id }}');
+	});
+
+	$('#review').on('click', '.pagination a', function(e) {
+		e.preventDefault();
+		
+		var url = $(this).attr('href');
+		
+		$('#review').fadeOut(function() {
+			scroll_to('#tab-review');
+			
+			$(this).load(url, function() {
+				$('#review').fadeIn();
+				
+				if(!$('.review-pagination .active').next().find('a').length) {
+					$('.show-more-review').hide();
+				} else {
+					$('.show-more-review').show();
+				}
+			});
+		});
+	});
+	
+	$('#review').on('click', '.show-more-review', function() {
+		var url = $('.review-pagination .active').next().find('a').attr('href'),
+			show_more_btn = $(this),
+			show_more_btn_i = show_more_btn.find('i');
+		
+		if(typeof(url) == 'undefined' || url == '') return;
+	
+		$.ajax({
+			url: url,
+			type: 'get',
+			dataType: 'html',
+			beforeSend: function() {
+				show_more_btn_i.addClass('spin');
+			},
+			success: function(data) {
+				var $data = $(data);
+			
+				$data.find('.review-list__item').hide();
+				
+				$('.review-list').append($data.find('.review-list').html());
+				
+				$('.review-pagination .pagination').html($data.find('.pagination').html());
+				
+				if(!$('.review-pagination .active').next().find('a').length) {
+					show_more_btn.hide();
+				}
+			
+				show_more_btn_i.removeClass('spin');
+				
+				$('.review-list__item').fadeIn();
+			}
+		});
+	});
+
+	$('#button-review').on('click', function() {
+		$.ajax({
+			url: 'index.php?route=product/product/write&product_id={{ product_id }}',
+			type: 'post',
+			dataType: 'json',
+			data: $('#form-review').serialize(),
+			beforeSend: function() {
+				$('#button-review').button('loading');
+			},
+			complete: function() {
+				$('#button-review').button('reset');
+			},
+			success: function(json) {
+				if (json['error']) {
+					uniFlyAlert('danger', json['error']);
+				}
+
+				if (json['success']) {
+					$('#form-review').before('<div class="alert alert-success"><i class="fa fa-check-circle"></i> '+json['success']+' <button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+					$('#form-review input, #form-review textarea').val('');
+					$('.review_star input').attr('checked', false).prop('checked', false);
+					$('#form-review').slideToggle();
+					
+					scroll_to('.alert.alert-success');
+				}
+			}
+		});
+	});
+	
+	$('.review-form__input').on('mouseenter', function () {
+		$('.review-form__star:lt('+$(this).val()+')').removeClass('far').addClass('fa');
+		
+		$(this).on('mouseleave', function() {
+			$('.review-form__star').removeClass('fa').addClass('far');
+		
+			$('.review-form__input').each(function() {
+				if($(this).prop('checked')) {
+					$('.review-form__star:lt('+$(this).val()+')').removeClass('far').addClass('fa');
+				}
+			});
+		});
+	});
+
+	$('.review-form__input').on('click', function(){
+		$('.review-form__star:not(:lt('+$(this).val()+'))').removeClass('fa').addClass('far');
+	});
+	</script>
+	<style>
+	    .uni-module.review-module .uni-module__wrapper .review-module__item.uni-item {
+            max-width: 50%;
+            flex: 0 0 50%;
+            box-shadow: none !important;
+            border: none !important;
+        }
+        .uni-module.review-module .uni-module__wrapper {
+            opacity: 1 !important;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .uni-module.review-module {
+            padding: 0px 5%;
+        }
+        .review-module__image {
+            image-rendering: inherit;
+            display: none;
+        }
+        a.review-module__name {
+            display: none !important;
+        }
+        .review-module__rating.rating, .review-module__posted.posted {
+    display: none !important;
+}
+.review-module__description {
+    padding: 15px;
+    background: #985685;
+    color: white;
+}
+p.review-module__text {
+    font-size: 17px;
+}
+
+	</style>
+{% endif %}

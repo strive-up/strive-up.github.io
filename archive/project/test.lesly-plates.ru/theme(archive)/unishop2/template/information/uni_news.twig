@@ -1,0 +1,160 @@
+{{header}}
+<div class="container">
+	<ul class="breadcrumb mobile {{ menu_expanded ? 'col-md-offset-3 col-lg-offset-3 col-xxl-offset-4' }}">
+		{% for key, breadcrumb in breadcrumbs %}
+			{% if key + 1 < breadcrumbs|length %}
+				<li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+			{% else %}
+				{% if not hide_last_breadcrumb or (hide_last_breadcrumb and key == 1) %}<li>{{ breadcrumb.text }}</li>{% endif %}
+			{% endif %}
+		{% endfor %}
+	</ul>
+	<div class="row">
+		{{ column_left }}
+		{% if column_left and column_right %}
+			{% set class = 'col-sm-4 col-md-6 col-lg-6 col-xxl-12' %}
+		{% elseif column_left or column_right %}
+			{% set class = 'col-sm-8 col-md-9 col-lg-9 col-xxl-16' %}
+		{% else %}
+			{% set class = 'col-sm-12' %}
+		{% endif %}
+		<div id="content" class="{{ class }}">
+			{{content_top}}
+			<div class="heading-h1"><h1>{{ heading_title }}</h1></div>
+			{% if description %}
+				<div class="category-info">
+					{% if thumb %}
+						<div class="category-info__image"><img src="{{ thumb }}" alt="{{ heading_title }}" title="{{ heading_title }}" class="img-thumbnail" /></div>
+					{% endif %}
+					{% if description %}<div class="description">{{ description }}</div>{% endif %}
+				</div>
+			{% endif %}
+			{% if categories %}
+				<div class="category-list row row-flex">
+					{% for category in categories %}
+						<div class="{{ subcategory_column ? subcategory_column : 'col-sm-2' }}">
+							<a href="{{ category.href }}" class="category-list__item uni-item">
+								{% if category.thumb %}<img src="{{ category.thumb }}" alt="" title="" class="category-list__img img-responsive" />{% endif %}
+								{{ category.name }}
+							</a>
+						</div>
+					{% endfor %}
+				</div>
+			{% endif %}
+			{% if news_data %}
+				<div class="sorts-block">
+					<div class="sorts-block__item hidden-xs"></div>
+					<div class="sorts-block__item">
+						<select id="input-sort" class="sorts-block__select form-control" onchange="location = this.value;">
+							{% for sorts in sorts %}
+								{% if sorts.value == '%s-%s'|format(sort, order) %}
+									<option value="{{ sorts.href }}" selected="selected">{{ sorts.text }}</option>
+								{% else %}
+									<option value="{{ sorts.href }}">{{ sorts.text }}</option>
+								{% endif %}
+							{% endfor %}
+						</select>
+						<select id="input-limit" class="sorts-block__select sorts-block__limit form-control" onchange="location = this.value;">
+							{% for limits in limits %}
+								{% if limits.value == limit %}
+									<option value="{{ limits.href }}" selected="selected">{{ limits.text }}</option>
+								{% else %}
+									<option value="{{ limits.href }}">{{ limits.text }}</option>
+								{% endif %}
+							{% endfor %}
+						</select>
+					</div>
+				</div>
+				<hr />
+				<div class="news-list">
+					{% if column_left and column_right %}
+						{% set class = 'col-sm-12 col-md-12 col-lg-6 col-xxl-6-1' %}
+					{% elseif column_left or column_right %}
+						{% set class = 'col-sm-6 col-md-4 col-lg-4 col-xxl-6-1' %}
+					{% else %}
+						{% set class = 'col-sm-6 col-md-3 col-lg-3 col-xxl-4' %}
+					{% endif %}
+
+					{% set view_type = 'list' %}
+
+					{% for news in news_data %}
+						{% if view_type == 'list' %}
+							<div class="news-list__item uni-item row row-flex">
+								<div class="news-list__image col-xs-12 col-sm-4 col-md-3 col-lg-3 col-xxl-5">
+									<a class="uni-href" data-href="{{ news.href }}">
+										<img src="{{ news.image }}" alt="{{ news.name }}" class="img-responsive" />
+									</a>
+								</div>
+								<div class="col-sm-8 col-md-9 col-lg-9 col-xxl-15">
+									<div class="news-list__description">
+										<h4 class="uni-href" data-href="{{ news.href }}" style="cursor:pointer">{{ news.name }}</h4>
+										{{ news.description }}
+									</div>
+									<div class="news-list__posted">
+										<i class="news-list__icon fa fa-calendar"></i>{{ news.posted }}
+										<i class="news-list__icon fa fa-eye"></i>{{ news.viewed }}
+										<a class="news-list__more" href="{{ news.href }}" title="{{ news.name }}">{{ text_more }} &rarr;</a>
+									</div>
+								</div>
+							</div>
+						{% else %}
+							<div class="news-module__layout {{ class }}">
+								<div class="news-module__item uni-item">
+									{% if news.image %}
+										<div class="news-module__image">
+											<img src="{{ news.image }}" loading="lazy" alt="{{ news.name }}" title="{{ news.name }}" data-href="{{ news.href }}" class="uni-href img-responsive" width="{{ img_width }}" height="{{ img_height }}" />
+										</div>
+									{% endif %}
+									<div class="news-module__description">
+										<div class="news-module__category-date-viewed">
+											<a class="news-module__category uni-href" data-href="{{ news.category_href }}">{{ news.category_name }}</a>
+											<span class="news-module__date"><i class="fa fa-calendar"></i>{{ news.posted }}</span>
+											<span class="news-module__viewed"><i class="fa fa-eye"></i>{{ news.viewed }}</span>
+										</div>
+										<a class="news-module__name" href="{{ news.href }}" title="{{ news.name }}">{{ news.name }}</a>
+										<div class="news-module__text">
+											{{ news.description }}
+											<a title="{{ text_more }}" data-toggle="tooltip" data-href="{{ news.href }}" class="news-module__more uni-href">&rarr;</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						{% endif %}
+					{% endfor %}
+				</div>
+				{{ pagination }}
+			    <div class="pagination-text">{{ results }}</div>
+
+				{% if view_type == 'grid' %}
+					<script>
+						uniAutoHeight('.news-module__name');
+						uniAutoHeight('.news-module__text');
+					</script>
+				{% endif %}
+
+			{% endif %}
+			{% if not categories and not news_data %}
+				<div class="div-text-empty">{{ text_error }}</div>
+			{% endif %}
+			{{content_bottom}}
+		</div>
+		{{column_right}}
+	</div>
+</div>
+<script type="application/ld+json">
+	{
+		"@context": "http://schema.org",
+		"@type": "BreadcrumbList",
+		"itemListElement": [
+		{% for i, breadcrumb in breadcrumbs %}
+			{
+			"@type": "ListItem",
+			"position": {{i+1}},
+			"name": "{{ i == 0 ? shop_name : breadcrumb.text|replace({'"':'', '&quot;':''}) }}",
+			"item": "{{breadcrumb.href}}"
+			{{i + 1 < breadcrumbs|length ? '},' : '}' }}
+		{% endfor %}
+		]
+	}
+</script>
+{{footer}}

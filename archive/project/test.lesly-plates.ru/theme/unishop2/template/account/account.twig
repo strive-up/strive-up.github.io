@@ -1,0 +1,97 @@
+{{ header }}
+<div class="container">
+	<ul class="breadcrumb">
+		{% for key, breadcrumb in breadcrumbs %}
+			{% if key+1 < breadcrumbs|length %}
+				<li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+			{% else %}
+				<li>{{ breadcrumb.text }}</li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+	{% if success %}
+		<div class="alert alert-success"><i class="fa fa-check-circle"></i> {{ success }}</div>
+	{% endif %}
+	<div class="row">
+		{{ column_left }}
+		{% if column_left and column_right %}
+			{% set class = 'col-sm-4 col-md-6 col-lg-6 col-xxl-12' %}
+		{% elseif column_left or column_right %}
+			{% set class = 'col-sm-8 col-md-9 col-lg-9 col-xxl-16' %}
+		{% else %}
+			{% set class = 'col-sm-12' %}
+		{% endif %}
+		<div id="content" class="{{ class }} account-index">
+			{{ content_top }}
+			<div class="heading-h1"><h1>{{ text_my_account }}</h1></div>
+			<div class="row row-flex">
+				<div class="col-xs-6 col-sm-3 col-md-2">
+					<a href="{{ edit }}" class="account-index__item uni-item"><i class="account-index__icon fa fa-edit"></i>{{ text_edit }}</a>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-2">
+					<a href="{{ password }}" class="account-index__item uni-item"><i class="account-index__icon fa fa-ellipsis-h"></i>{{ text_password }}</a>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-2">
+					<a href="{{ address }}" class="account-index__item uni-item"><i class="account-index__icon fa fa-address-book"></i>{{ text_address }}</a>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-2">
+					<a href="{{ wishlist }}" class="account-index__item uni-item"><i class="account-index__icon fa fa-heart"></i>{{text_wishlist}}</a>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-2">
+					<a href="{{ order }}" class="account-index__item uni-item"><i class="account-index__icon fa fa-history"></i>{{ text_order }}</a>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-2">
+					<a href="{{ download }}" class="account-index__item uni-item"><i class="account-index__icon fa fa-download"></i>{{ text_download }}</a>
+				</div>
+				{% if reward %}
+					<div class="col-xs-6 col-sm-3 col-md-2">
+						<a href="{{ reward }}" class="account-index__item uni-item"><i class="account-index__icon fa fa-gift"></i>{{ text_reward }}</a>
+					</div>
+				{% endif %}
+				<div class="col-xs-6 col-sm-3 col-md-2">
+					<a href="{{return}}" class="account-index__item uni-item"><i class="account-index__icon fa fa-reply" aria-hidden="true"></i>{{ text_return }}</a>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-2">
+					<a href="{{ transaction }}" class="account-index__item uni-item"><i class="account-index__icon fa fa-exchange-alt"></i>{{ text_transaction }}</a>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-2">
+					<a href="{{ recurring }}" class="account-index__item uni-item"><i class="account-index__icon fa fa-user"></i>{{ text_recurring }}</a>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-2">
+					<a href="{{ newsletter }}" class="account-index__item uni-item"><i class="account-index__icon fa fa-newspaper"></i>{{ text_newsletter }}</a>
+				</div>
+			</div>
+{#			<div class="row row-flex">#}
+{#				<div class="heading col-xs-12"><span>{{ text_my_affiliate }}</span></div>#}
+{#				<div class="col-xs-6 col-sm-3 col-md-2">#}
+{#					<a href="{{ affiliate }}" class="account-index__item uni-item"><i class="account-index__icon fa fa-users"></i>{{ tracking is empty ? text_affiliate_add : text_affiliate_edit }}</a>#}
+{#				</div>#}
+{#				{% if tracking %}#}
+{#					<div class="col-xs-6 col-sm-3 col-md-2">#}
+{#						<a href="{{ tracking }}" class="account-index__item uni-item"><i class="account-index__icon fa fa-edit"></i>{{ text_tracking }}</a>#}
+{#					</div>#}
+{#				{% endif %}#}
+{#			</div>#}
+			{% if credit_cards %}
+				<div class="row">
+					<div class="heading col-xs-12"><span>{{text_credit_card}}</span></div>
+					<div class="col-xs-12">
+						<ul class="list-unstyled">
+							{% for credit_card in credit_cards %}
+								<li><a href="{{ credit_card.href }}">{{ credit_card.name }}</a></li>
+							{% endfor %}
+						</ul>
+					</div>
+				</div>
+			{% endif %}
+			{{ content_bottom }}
+		</div>
+		{{ column_right }}
+	</div>
+</div>
+<script>
+	if (typeof(uniDelPageCache) === 'function') {
+		uniDelPageCache();
+	}
+</script>
+{{ footer }}

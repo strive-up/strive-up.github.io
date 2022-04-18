@@ -1,0 +1,41 @@
+12:22:47	480	// Self version
+12:22:47	532	// Web server
+12:22:47	552	// CGI or not
+12:22:47	558	// PHP version
+12:22:47	563	// Safe mode
+12:22:47	569	// short_open_tag
+12:22:47	575	// Memory limit
+12:22:47	581	// Test memory limit
+12:22:47	586	// Mail()
+12:22:47	599	// socket
+12:22:47	605	// Session data
+12:22:47	612	// Session without UserAgent test: for upload applet
+12:22:47	646	// Update system
+12:22:47	683	// HTTP Auth
+12:22:47	737	// Accelerator
+12:22:47	773	// Free space
+12:22:47	778	// dirinfo
+12:22:47	782	// Folder create
+12:22:47	796	// dirinfo
+12:22:47	800	// Folder delete
+12:22:47	807	// File create
+12:22:47	822	// dirinfo
+12:22:47	826	// File delete
+12:22:47	832	// File exec
+12:22:47	876	// .htaccess
+12:22:47	913	// Filesystem benchmark
+12:22:48	953	// File uploads
+12:22:48	981	// Regex functions
+12:22:48	987	// Perl regex functions
+12:22:48	993	// Zlib
+12:22:48	999	// GD lib
+12:22:48	1005	// Free type
+12:22:48	1011	// Mcrypt
+12:22:48	1017	// Hash
+12:22:48	1023	// XML
+12:22:48	1029	// JSON
+12:22:48	1035	// SSL
+12:22:48	1049	// mbstring
+12:22:48	1080	// MySQL functions
+12:22:48	1087	// MySQL benchmarking
+12:22:48	1639	// Finish

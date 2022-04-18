@@ -1,0 +1,120 @@
+// main: ../style.less
+
+.section__title{
+    position: relative;
+    width: fit-content;
+    height: 60px;
+    p{
+        font-family: @bold;
+        font-size: 48px;
+        position: relative;
+        span{
+            text-transform: uppercase;
+        }
+    }
+
+    .keywords{
+        background-color: @orange;
+        width: 515px;
+        height: 34px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        left: -30px;
+        z-index: -1;
+        overflow-x: hidden;
+        user-select: none;
+
+        p{
+            &:first-child{
+                margin-left: 0;
+            }
+            margin-left: 20px;
+            font-size: 24px;
+            font-family: @bold;
+            text-transform: uppercase;
+            color: #FF9100;
+            text-shadow: 
+                -0   -1px 0   rgba( 214, 214, 214, 0.17 ),
+                0   -1px 0   rgba( 214, 214, 214, 0.17 ),
+                -0    1px 0   rgba( 214, 214, 214, 0.17 ),
+                0    1px 0   rgba( 214, 214, 214, 0.17 ),
+                -1px -0   0   rgba( 214, 214, 214, 0.17 ),
+                1px -0   0   rgba( 214, 214, 214, 0.17 ),
+                -1px  0   0   rgba( 214, 214, 214, 0.17 ),
+                1px  0   0   rgba( 214, 214, 214, 0.17 ),
+                -1px -1px 0   rgba( 214, 214, 214, 0.17 ),
+                1px -1px 0   rgba( 214, 214, 214, 0.17 ),
+                -1px  1px 0   rgba( 214, 214, 214, 0.17 ),
+                1px  1px 0   rgba( 214, 214, 214, 0.17 ),
+                -1px -1px 0   rgba( 214, 214, 214, 0.17 ),
+                1px -1px 0   rgba( 214, 214, 214, 0.17 ),
+                -1px  1px 0   rgba( 214, 214, 214, 0.17 ),
+                1px  1px 0   rgba( 214, 214, 214, 0.17 );
+        }
+    }
+
+    .keywords.keywords-rec{
+        bottom: 0;
+    }
+}
+
+.section__descripts{
+    font-size: 18px;
+    margin-top: 15px;
+    width: 475px;
+
+    &.bold{
+        font-family: @bold;
+        font-size: 36px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px){
+    .section__descripts{
+        width: 317px;
+        margin-top: 30px;
+
+        &.bold{
+            font-family: @bold;
+            font-size: 26px;
+            width: 100%;
+        }
+    }
+
+    .section__title{
+        .keywords{
+            background-color: @orange;
+            max-width: 615px;
+            min-width: 615px;
+            width: 100%;
+            bottom: 30%;
+
+            .words-big{
+                font-size: 38px;
+            }
+        }
+
+        p{
+            font-size: 38px;
+        }
+
+        .words-big{
+            font-size: 34px;
+        }
+
+        .keywords.words-bigx{
+            bottom: 10px;
+        }
+
+        .keywords.keywords-small{
+            bottom: -10px;
+        }
+        .keywords.keywords-rec{
+            bottom: 0px;
+        }
+    }
+}

@@ -1,0 +1,118 @@
+// main: ../style.less
+
+.contacts.section__padding{
+    padding-top: 5px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: center;
+
+    .contacts__container{
+
+        .contacts__body{
+            margin-top: 40px;
+            position: relative;
+
+            .contacts__info{
+                width: 577px;
+                min-height: 287px;
+                
+                background: rgba(255, 255, 255, 0.7);
+                box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.25);
+                padding-top: 45px;
+                padding-left: 35px;
+                padding-right: 35px;
+                padding-bottom: 35px;
+
+                .footer__social{
+                    margin-top: 30px;
+                }
+
+                p.contacts__info__title{
+                    font-size: 18px;
+                    font-family: @bold;
+                    color: @orange;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1197px){
+    .contacts{
+    
+        .contacts__container{
+    
+            .contacts__body{
+
+                .contacts__info{
+                    position: absolute;
+                    right: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1196px){
+    .contacts{
+    
+        .contacts__container{
+    
+            .contacts__body{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .contacts__info{
+                    width: 675px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 675px){
+    .contacts{
+    
+        .contacts__container{
+    
+            .contacts__body{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .contacts__info{
+                    width: 100%;
+                    box-shadow: none;
+                    position: relative;
+                    padding-left: 15px;
+                    &::after{
+                        content: '';
+                        position: absolute;
+                        bottom: 0;
+                        width: 700px;
+                        left: -20px;
+                        height: 24px;
+                        box-shadow: 0px 14px 7px -7px rgb(0 0 0 / 5%);
+                    }
+                }
+            }
+        }
+    }
+
+    .map#map{
+        width: 100%;
+        height: 360px;
+        background-color: #E8E4DE;
+    }
+}
+
+.map#map{
+    width: 675px;
+    height: 360px;
+    background-color: #E8E4DE;
+}

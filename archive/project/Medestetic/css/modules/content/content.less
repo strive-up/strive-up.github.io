@@ -1,0 +1,142 @@
+// main: ../../style.less
+
+.content{
+    padding: 45px 0;
+    background-color: #fff;
+
+    .content__container{
+        
+        .content__blog{
+            width: 60%;
+            margin-bottom: 40px;
+            display: flex;
+            flex-direction: column;
+
+            &:last-child{
+                margin-bottom: 0;
+            }
+
+            .content__text__flow-around{
+                .content__image{
+                    float: left;
+                    margin-top: 20px;
+                    padding-right: 20px;
+                    img{
+                        user-select: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.content__image__wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1897px){
+    .content{
+    
+        .content__container{
+            
+            .content__blog{
+                width: 80%;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px){
+    .content{
+
+    
+        .content__container{
+            
+            .content__blog{
+                width: 100%;
+    
+                .content__image{
+                    margin-top: 20px;
+                    display: flex;
+                    align-items: flex-start;
+                    flex-direction: column;
+    
+                    .content__text{
+                        padding-top: 20px;
+                        margin-left: 0;
+    
+                        .content__text{
+                            padding-top: 20px;
+                            margin-left: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 768px){
+    .content{
+
+    
+        .content__container{
+            
+            .content__blog{
+
+                .content__image{
+                    padding-bottom: 20px;
+                }
+
+                .content__header{
+                    color: @purple;
+                    font-size: 30px;
+                    font-family: @bold;
+                    line-height: 40px;
+                }
+
+                .content__text{
+                    font-size: 18px;
+                    font-family: @medium;
+                    line-height: 30px;
+                    color: @gray-second;
+                    padding-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 468px){
+    .content{
+
+    
+        .content__container{
+            
+            .content__blog{
+
+                .content__header{
+                    font-size: 25px;
+                    line-height: 30px;
+                }
+
+                .content__text{
+                    font-size: 16px;
+                    line-height: 25px;
+                }
+    
+                .content__image{
+                    img{
+                        width: 100%;
+                        height: 80%;
+                    }
+                }
+            }
+        }
+    }
+}

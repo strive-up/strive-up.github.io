@@ -1,4 +1,4 @@
-/*
+﻿/*
     ========================================
                 Базовые стили
     ========================================
@@ -27,7 +27,6 @@ summary, time, mark, audio, video{
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
     font: inherit;
     vertical-align: baseline;
     outline: none;
@@ -37,16 +36,6 @@ summary, time, mark, audio, video{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-}
-
-html{ 
-    height: 101%; 
-}
-
-body{ 
-    font-size: 62.5%; 
-    line-height: 1; 
-    font-family: Arial, Tahoma, Verdana, sans-serif;
 }
 
 article, aside, details, figcaption, 
@@ -87,10 +76,6 @@ img{
 
 a{ 
     text-decoration: none; 
-}
-
-a:hover{ 
-    text-decoration: underline; 
 }
 
 /*

@@ -1,0 +1,76 @@
+
+      <div class="buttons">
+		<div class="pull-right">
+			<input type="button" value="{{ button_confirm }}" id="button-confirm" class="btn btn-primary" data-loading-text="{{ text_loading }}" />
+		</div>
+	 </div>
+	 
+<form action="{{ action }}" method="POST" id="robokassa_form">
+{% for key,val in PARAMS %}
+<input type="hidden" name="{{ key }}" value="{{ val }}">
+{% endfor %}
+</form>
+
+{% if robokassa_is_new_window %} 
+<form action="{{ new_window_action }}" target=_blank method="GET" id="robokassa_form_new_window">
+<input type="hidden" name="route" value="extension/payment/robokassa/payment">
+<input type="hidden" name="code" id="new_window_code" value="">
+</form> 
+{% endif %}
+
+<script>
+$('#button-confirm').on('click', function() {
+	$.ajax({
+		url: 'index.php?route=extension/payment/robokassa/preorder&INDEX={{ INDEX }}',
+		dataType: 'json',
+		success: function(json) 
+		{
+			//alert(json.link);
+			//return;
+			
+			if( json.error )
+			{
+				alert( json.error );
+			}
+			else
+			{
+				json.link = json.link.replace("&amp;", "&");
+				
+				{% if robokassa_is_new_window %} 
+				if( json.code )
+				{
+					
+					$('#robokassa_form_new_window').attr('action', json.link);
+					$('#new_window_code').val(json.code);
+					$('#robokassa_form_new_window').submit();
+					
+					setInterval(function(){  
+						$.ajax({
+							url: 'index.php?route=extension/payment/robokassa/checkstatus&code='+json.code,
+							dataType: 'json',
+							success: function(json) 
+							{
+								if(json.success)
+								{
+									location = json.success_url;
+								}
+							}
+						});
+						
+					}, 3000);
+				}
+				else
+				{
+					location = json.link;
+				}
+				{% else %}
+				location = json.link;
+				{% endif %}
+			}
+		},
+		error: function(xhr, ajaxOptions, thrownError) {
+			alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+		}
+	});	
+});
+</script>

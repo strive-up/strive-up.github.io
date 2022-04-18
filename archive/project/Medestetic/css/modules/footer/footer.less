@@ -1,0 +1,97 @@
+// main: ../../style.less
+
+.footer{
+    width: 100%;
+    background-color: #333;
+    padding-top: 30px;
+    padding-bottom: 55px;
+
+    .footer__container{
+
+        .footer__contacts{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+
+            .footer__contacts__wrapper{
+                display: flex;
+
+                .btn{
+                    margin-right: 70px;
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                }
+
+                .contact__number__fut{
+                    font-size: 25px;
+                    font-family: @medium;
+                    color: #FFFFFF;
+                    margin-left: 70px;
+
+                    &:first-child{
+                        margin-left: 0;
+                    }
+                }
+
+                .contact__adress{
+                    display: flex;
+                    align-items: center;
+                    
+                    .adress__info{
+                        margin-left: 17px;
+                        color: #FFFFFF;
+                        font-size: 13px;
+                        font-family: @medium;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+
+        .footer__menu{
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+            user-select: none;
+            flex-wrap: wrap;
+
+            .menu__item{
+                color: #FFFFFF;
+                font-family: @bold;
+                font-size: 20px;
+
+                &:hover{
+                    color: @purple;
+                    transition: .3s ease;
+                }
+            }
+
+            .menu__item--active{
+                color: @purple;
+            }
+        }
+
+        .footer__copyright{
+            margin-top: 50px;
+
+            p{
+                color: @gray-lighter;
+                font-size: 15px;
+                font-family: @medium;
+                line-height: 25px;
+
+                a{
+                    color: @purple;
+                }
+
+                span{
+                    padding-left: 200px;
+                }
+            }
+        }
+    }
+}

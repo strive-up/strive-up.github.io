@@ -1,0 +1,27 @@
+@include font-face("Montserrat-Light", "Montserrat-Light", 300, normal);
+@include font-face("Montserrat-Regular", "Montserrat-Regular", 400, normal);
+@include font-face("Montserrat-Medium", "Montserrat-Medium", 500, normal);
+@include font-face("Montserrat-SemiBold", "Montserrat-SemiBold", 600, normal);
+
+@include font-face("DrukTextWide-Medium", "DrukTextWide-Medium", 400, normal);
+@include font-face("DrukTextWide-Bold", "DrukTextWide-Bold", 700, normal);
+
+@include font-face("RFDewiExtended-Light", "RFDewiExtended-Light", 300, normal);
+@include font-face("RFDewiExtended-Bold", "RFDewiExtended-Bold", 700, normal);
+@include font-face("RFDewiExtended-SemiBold", "RFDewiExtended-SemiBold", 600, normal);
+
+@include font-face("DrukCyr-Medium", "DrukCyr-Medium", 500, normal);
+
+$MS-Light: 'Montserrat-Light'; // Montserrat
+$MS-Regular: 'Montserrat-Regular'; // Montserrat
+$MS-Medium: 'Montserrat-Medium'; // Montserrat
+$MS-SemiBold: 'Montserrat-SemiBold'; // Montserrat
+
+$DTW-Medium: 'DrukTextWide-Medium'; // DrukTextWide
+$DTW-Bold: 'DrukTextWide-Bold'; // DrukTextWide
+
+$RFDE-Light: 'RFDewiExtended-Light'; // RF Dewi Extended
+$RFDE-Bold: 'RFDewiExtended-Bold'; // RF Dewi Extended
+$RFDE-SemiBold: 'RFDewiExtended-SemiBold'; // RF Dewi Extended
+
+$DC-Medium: 'DrukCyr-Medium'; // Druk Cyr

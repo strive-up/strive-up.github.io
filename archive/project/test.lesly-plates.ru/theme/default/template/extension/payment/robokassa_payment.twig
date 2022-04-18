@@ -1,0 +1,27 @@
+
+<form method="post" action="{{ action }}" id="wform" >
+			{% for key,val in PARAMS %}
+				{% if is_debug %}
+					{{ key }} <input type="text" name="{{ key }}" value="{{ val }}" /><br>
+				{% else %}
+					<input type="hidden" name="{{ key }}" value="{{ val }}" /><br>
+				{% endif %}
+			{% endfor %}
+			{% if is_debug %}
+<hr>
+Параметры для формирования чека (Receipt)<br>
+{{ Receipt_text }}
+
+			<hr>Чтобы автоматически работал переход в оплату, отключите "Режим отладки" 
+			в настройках модуля Робокасса 20 способов
+			{% endif %}	
+</form>
+
+{% if is_debug %}
+<input type="button" value="Перейти к оплате" 
+		onclick="document.getElementById('wform').submit();">
+{% else %}
+<script>
+document.getElementById('wform').submit();
+</script>
+{% endif %}	

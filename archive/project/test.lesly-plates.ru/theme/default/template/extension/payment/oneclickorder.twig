@@ -1,0 +1,112 @@
+<div class="col-sm-6 col-sm-offset-3" id="payment-request-button"></div>
+<div id="not-supported-error" style="display: none;">Unfortunately, this payment method is not supported by your device and/or browser...</div>
+
+<script type="text/javascript">
+    console.log('One Click Order ver.', '{{ payment_oneclickorder_version }}');
+    if (!window.Stripe) {
+        $.getScript("https://js.stripe.com/v3/");
+    }
+</script>
+
+
+<script type="text/javascript">
+    var stripe = null;
+
+    function finishPayment(clientSecret, successUrl, failureUrl) {
+        $.ajax({
+            url: 'index.php?route=extension/payment/oneclickorder/send',
+            type: 'post',
+            dataType: 'json',
+            complete: function() {
+            },
+            success: function(json) {
+                if (json['success']) {
+                    stripe.handleCardPayment(clientSecret).then(function(result) {
+                        if (result.error) {
+                            location = failureUrl;
+                        } else {
+                            location = successUrl;
+                        }
+                    });
+                }
+            },
+            error: function (xhr, ajaxOptions, thrownError) {
+                console.log('>>>> one click order error');
+                console.log(xhr.responseText);
+                console.log('<<<< one click order error');
+            }
+        });
+    }
+
+
+    function initButton() {
+        var elements = stripe.elements();
+        var paymentRequest = stripe.paymentRequest({
+            country: 'US',
+            requestPayerName: true,
+            requestPayerEmail: true,
+            // requestPayerPhone: true,
+            currency: '{{ payment_oneclickorder_currency }}'.toLowerCase(),
+            total: {
+                label: 'Total',
+                amount: parseInt('{{ payment_oneclickorder_amount }}'),
+            }
+        });
+        paymentRequest.canMakePayment().then(function (result) {
+            console.log('canMakePayment', result);
+            if (result) {
+                var prButton = elements.create('paymentRequestButton', {
+                    paymentRequest: paymentRequest,
+                });
+                prButton.mount('#payment-request-button');
+            } else {    // apple pay is not available
+                document.getElementById('payment-request-button').style.display = 'none';
+                document.getElementById('not-supported-error').style.display = 'block';
+            }
+        });
+
+        paymentRequest.on('paymentmethod', function (ev) {
+            $.ajax({
+                url: 'index.php?route=extension/payment/oneclickorder/intentCheckout',
+                type: 'post',
+                dataType: 'json',
+                data: {
+                    'amount': '{{ payment_oneclickorder_amount }}',
+                    'currency': '{{ payment_oneclickorder_currency }}',
+                    'product_id': '{{ product_id }}',
+                },
+                complete: function() {
+                },
+                success: function(json) {
+                    var clientSecret = json['intent']['client_secret'];
+                    stripe.confirmPaymentIntent(clientSecret, {
+                        payment_method: ev.paymentMethod.id,
+                    }).then(function (confirmResult) {
+                        console.log(confirmResult);
+                        if (confirmResult.error) {
+                            ev.complete('fail');
+                        } else {
+                            ev.complete('success');
+                            finishPayment(clientSecret, json['success_url'], json['failure_url']);
+                        }
+                    });
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    console.log(xhr.responseText);
+                    alert('Payment error 405');
+                }
+            });
+        });
+    }
+
+    function initStripe() {
+        if (window.Stripe) {
+            stripe = Stripe('{{ payment_oneclickorder_public_key }}');
+            initButton();
+        } else {
+            setTimeout(function() { initStripe() }, 50);
+        }
+    }
+
+    initStripe();
+</script>

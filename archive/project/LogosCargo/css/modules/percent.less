@@ -1,0 +1,67 @@
+// main: ../style.less
+
+.percent__container{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+
+    .percent{
+        width: 85%;
+        font-size: 64px;
+        font-family: @bold;
+        height: 76px;
+        color: white;
+        background-color: @orange;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 45px;
+    }
+
+    .percent__text{
+        margin-left: 20px;
+        font-size: 18px;
+        font-family: @bold;
+        width: 498px;
+    }
+}
+
+@media (max-width: 1244px){
+    .percent__container{
+
+        .percent__text{
+            width: 605px;
+        }
+    }
+}
+
+@media (max-width: 932px){
+    .percent__container{
+        flex-direction: column;
+        
+        .percent__text{
+            width: 400px;
+            order: 1;
+            margin-left: 0;
+            padding-bottom: 20px;
+        }
+
+        .percent{
+            order: 2;
+            width: 100%;
+            justify-content: center;
+            padding: 0;
+        }
+    }
+}
+
+@media (max-width: 432px){
+    .percent__container{
+        
+        .percent__text{
+            text-align: center;
+            width: 100%;
+        }
+    }
+}

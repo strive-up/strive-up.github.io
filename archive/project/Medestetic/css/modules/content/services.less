@@ -1,0 +1,94 @@
+// main: ../../style.less
+
+.content__blog{
+
+    .services__wrapper{
+        width: 1065px;
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        row-gap: 20px;
+
+        .services__item{
+            width: 329px;
+            height: 248px;
+            border-radius: 3px;
+            padding: 20px 23px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            background: url('../img/content/services-item-bg.png') no-repeat;
+            
+            .services__item__header{
+                font-size: 20px;
+                font-family: @semibold;
+                color: @gray;
+            }
+
+            .services__item__price{
+                font-size: 20px;
+                font-family: @extrabold;
+                color: @gray;
+            }
+        }
+    }
+}
+
+@media (max-width: 1280px){
+    .content__blog{
+
+        .services__wrapper{
+            width: 100%;
+            justify-content: flex-start;
+            row-gap: 20px;
+            column-gap: 20px;
+            .services__item{
+                width: 293px;
+                height: 221px;
+
+                .services__item__header{
+                    font-size: 18px;
+                }
+    
+                .services__item__price{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 666px){
+    .content__blog{
+
+        .services__wrapper{
+            justify-content: center;
+        }
+    }
+}
+
+/* @media (max-width: 768px){
+    .content__blog{
+    
+        .services__wrapper{
+            justify-content: center;
+    
+            .services__item{
+                width: 293px;
+                height: 221px;
+                align-items: center;
+                text-align: center;
+
+                .services__item__header{
+                    font-size: 18px;
+                }
+    
+                .services__item__price{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+} */

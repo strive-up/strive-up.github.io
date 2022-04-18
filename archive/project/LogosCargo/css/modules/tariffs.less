@@ -1,0 +1,160 @@
+// main: ../style.less
+
+.tariffs{
+    .tariffs__container{
+        margin: 0 auto;
+
+        .tariffs__item__wrapp{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            column-gap: 20px;
+            align-items: center;
+
+            .tariffs__item{
+                width: 278px;
+                height: 235px;
+                position: relative;
+                display: flex;
+                align-items: center;
+                margin-bottom: 187px;
+                
+                img{
+                    width: 278px;
+                    height: 235px;
+                }
+
+                .tariffs__item__info{
+                    width: 278px;
+                    height: 231px;
+                    background: rgba(255, 255, 255, 0.4);
+                    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.25);
+                    backdrop-filter: blur(27px);
+                    position: absolute;
+                    bottom: -167px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    padding-top: 20px;
+
+                    p.tariffs__name{
+                        font-size: 18px;
+                        font-family: @bold;
+                        text-transform: uppercase;
+                        color: @orange;
+                        padding-left: 15px;
+                    }
+
+                    .tariffs__price{
+                        width: 178px;
+                        height: 40px;
+                        background-color: black;
+                        color: white;
+                        font-size: 24px;
+                        font-family: @bold;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                    .tariffs__info{
+                        li{
+                            font-size: 14px;
+                            padding-left: 20px;
+                            position: relative;
+
+                            &::after{
+                                content: '';
+                                position: absolute;
+                                left: 10px;
+                                top: 50%;
+                                transform: translateY(-50%);
+                                width: 3px;
+                                height: 3px;
+                                background-color: black;
+                                border-radius: 50%;
+                            }
+
+                            span{
+                                font-family: @bold;
+                            }
+                        }
+                    }
+
+                    .btn.--payment{
+                        width: calc(100% - 4px);
+                        &::after{
+                            width: calc(100% + 4px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1196px){
+    .tariffs{
+
+        .tariffs__container{
+
+            .tariffs__item__wrapp{
+                display: grid;
+                grid-template-columns: 302px 302px;
+                justify-content: center;
+                column-gap: 200px;
+                row-gap: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 990px){
+    .tariffs{
+
+        .tariffs__container{
+
+            .tariffs__item__wrapp{
+                column-gap: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .tariffs{
+
+        .tariffs__container{
+
+            .tariffs__item__wrapp{
+                grid-template-columns: 150px 150px;
+                column-gap: 20px;
+                row-gap: 50px;
+
+                .tariffs__item{
+                    width: fit-content;
+                    width: 150px;
+                    height: 117px;
+                    position: relative;
+                    display: flex;
+                    justify-content: center;   
+                    margin-bottom: 280px;            
+                    img{
+                        width: 150px;
+                        height: 117px;
+                    }
+    
+                    .tariffs__item__info{
+                        width: 150px;
+                        height: 268px;
+                        bottom: -271px;
+                        .tariffs__price{
+                            width: 100%;
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+// main: ../style.less
+
+.pagination{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 30px;
+    user-select: none;
+
+    .pagination__container{
+        display: flex;
+
+        .pagination__links{
+            color: @purple;
+            font-size: 15px;
+            font-family: @medium;
+            padding-right: 13px;
+
+            &::after{
+                content: '/';
+                padding-left: 13px;
+            }
+
+            &:last-child{
+                color: @gray-light;
+            }
+
+            &:last-child::after{
+                content: '';
+            }
+        }
+    }
+}

@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="application/xhtml+xml">
+    <title>SPS-Expert</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="fonts/gilroy.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <header class="header_body">
+
+            <div class="container">
+    
+                <div class="header">
+    
+                    <a href="/" class="logo">
+                        <img src="libs/img/sps-logo.svg" alt="">
+                    </a>
+            
+                    <div class="burger_menu">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        
+                    </div>
+
+                    <nav class="nav">
+
+                        <ul>
+
+                            <li class="nav_list"><a class="">Услуги</a></li>
+                            <li class="nav_list"><a class="">Специалисты</a></li>
+                            <li class="nav_list"><a class="">Работы</a></li>
+                            <li class="nav_list"><a class="">Документы</a></li>
+                            <li class="nav_list"><a class="">Новости</a></li>
+                            <li class="nav_list"><a class="">Контакты</a></li>
+                            
+                        </ul>
+
+                        <button class="btn-close">Закрыть</button>
+                        
+                    </nav>
+    
+                </div>
+    
+            </div>
+    
+        </header>
+    
+        <div class="header_banner">
+
+            <div class="container">
+
+                <div class="header-banner_content">
+
+                    <p class="hc_title">Ставка на качество.</p>
+                    <p class="hc_text">Мы стремимся к высоким<br>стандартам в отрасли</p>
+                    <a href="#" class="hc_btn">Получить консультацию</a>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="specialty">
+
+            <div class="container">
+
+                <p class="block_header">Наша специализация</p>
+
+                <div class="specialty_list">
+
+                    <li>Негосударственной экспертизе проектной документации и результатов инженерных изысканий</li>
+                    <li>Комплексных услугах по сопровождению проектов объектов горнодобывающей промышленности и подземного строительства, выполнении проектных и изыскательских работ</li>
+                    <li>Научно-исследовательских работах и специализированных расчетах</li>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="advantages">
+
+            <div class="container">
+
+                <p class="block_header">Наши преимущества</p>
+
+                <div class="advantages_list">
+
+                    <div class="adv-list_item">
+
+                        <div class="item_circle">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53" height="49" viewBox="0 0 53 49">
+                                <image id="experts_icon" data-name="experts icon" width="53" height="49" xlink:href="data:img/png;base64,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"/>
+                            </svg>  
+
+                        </div>
+
+                        <div class="item_text">
+
+                            <p class="advantage_title">Укомплектованный штат экспертов<br>
+                                <span>доктора и кандидаты наук,<br> 
+                                инженеры и проектировщики</span></p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="adv-list_item">
+
+                        <div class="item_circle">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47" height="47" viewBox="0 0 47 47">
+                                <image id="recommendations_icon" data-name="recommendations icon" width="47" height="47" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAvCAYAAABzJ5OsAAAEr0lEQVRogc2ZW4iVVRTHfzNjWjlTYhdrCKsRGQOtqKzIIrrQHUpKMiWS0h4qaMp8iIKCCpqwXsKIkHqJpJulVoJGmJnQRUqyHgqKqCQvZeOYzqVxxRrX0dV2f7dzzpyvP3znW3vvtdde376svdY6iEgZT5eIbBWRR2oZu0l/SsBvQDswAIypdvjmMjQHdtp7ey1CylJ+VPCuCvVW/lpgWg6+I4N3GqaY3MNRx8O6SA7higze60VklYjMzOC7SET2m9Snw/aali1Amyt+CFwGrEvgfd+eNFwAfOrajxnJmddnmfwX7VXKaQvkrBCR5pGcecVtwH5gTgrPzcAZwM/AenvHoDa8CVgB3BTnGJlLaraITIvUnxXM6JCIPJMgY4qI3Jo2TqNv1xsljnXVyGu0nT/W0SuBX4y+FFhSVFijle909J3AVGDQyvcAE4oIa7TyVzlaD+Nu4HFXd3sRYY1U/lTgPKPXO//mdceT53Y+iFpM5eXAbCdjK7AY+CuB/w5HL3e09yoHieMoYBFwmrUODcuo0mqMSbAa3Sl9ehzfBFc/19U/lND3sdhg1W6bocj1vgfYkMD/grveXwa2ubbzHf1ZQv+NkRVdU2swMhloMXoH8EeEZy7wqiuPB3a58kfmB+nNfFzKtlMze7LRyvv9SF5I54jI0mCl5wc8Onm91ral6Bj19m1OMd/lBuDKoO1ZYGlQdzXQavTHhUerwwx3iMh9IvKBiAxEztUOEbk7oe+7xqM+++SiY+uyzQLuqtJs6h49O6Htc+Als+N7Iu0TgZ/srtGDtyZBhz5gE/Ac0BPOfD2xWUQeNe8xa+aeKjjuNhGZFM78oH2xmr+99k1HuDhzH/BPZEZa7Yr/HXje/O5vC6zadGAZcGIGX2UcTP5UP/O77cs2WwSjz0L3xfNcfeVpd1ZiVY1nJpQdPhNFZIPT52Cc4PdYP9Br9E5Xv93VV9BrthbyZQDSEMoOoe1vAjOsXs/KNwQHxNOtjm47TNyBuspSNkXa8+JM4IQMXjUKXa78XUzhRkPvg7cKjrnELNQwysqYKU6vos+PvlDmzC82+39SBp/6M/NtoruBVyq+UZnKK17MyacO38OmrwY0ayl52xSBj237KkSZMz/etkHW3h8HnGu05vO/qDSUqXyX7eUimONnvsxt855Zj97IMxDwasL1OuBtX1nmzKvXOSnhEjwaeAJYYGWNBVaHTP+HAxubeY1xn3Q802MdyzaVnRZ9hdB0yP2u7odY5zKVnxnkb5KgAcgbsTa/bfY5+tcCSvQXUvkQOnPwqB4XA3/HGkc5r7DD5Q2je8zB50vG2QHbm9EnRLelOSrugaZQZrmPWm5pk75ECTnCr1tyZMA0yF4tIg+KyAwRGVtDcNJvMl/Lk/r4BLgkZYZ6InXqX4x15eOBa+xR/Al8aUG1msSvEoLwEB1uJ2Q5bMMxbIsp3+Lq9TDda/SWID3XbFHNaCuvtWyWT9uF2GVBRPIWOCD3QkuqKhZaxiAZCUsyL2dEv9H10f+QFliW7Ouc/ZOwSURG58nbxD5MI/R3Uv6p0JXQRKsPz0JoHlP/rtEV0W2mDphf3RCqiMrVm/QBFyPHAfwL6Qfgt55/jkoAAAAASUVORK5CYII="/>
+                            </svg>
+                              
+                        </div>
+
+                        <div class="item_text">
+
+                            <p class="advantage_title">Рекомендации специалистов<br> 
+                                и экспертов </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="adv-list_item">
+
+                        <div class="item_circle">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61" height="60" viewBox="0 0 61 60">
+                                <image id="russia_icon" data-name="russia icon" width="61" height="60" xlink:href="data:img/png;base64,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"/>
+                            </svg>  
+
+                        </div>
+
+                        <div class="item_text">
+
+                            <p class="advantage_title">Работа со всеми регионами<br> 
+                                Российской Федерации</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="adv-list_item">
+
+                        <div class="item_circle">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+                                <image id="economy_icon" data-name="economy icon" width="50" height="50" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAE+0lEQVRogc2abYiVRRTHf929rdKWtLhgL2IaG2kvaK5iG20UxWZklmJRS9CXtMiXPkRREZsQ5AfrgwW9SmwgRUEUlpCyJRV+sNosqN1NMAt3dcFNc3Ur1lsnRs+V03if57nPvfPc9Q/Dztw5c879z5yZOXPuniUiZIgHgWXAXKAe+AnYBrwAjAY164hkUCaJyBcSjQERaQ1pN4sVqQP6gMvMZ2NAATjHk50O/BbCaC6EEg9PeyTWANOAqcBdwKDpeyeY1cBulRORw8ahFpWQaRKRQ0bmqhC2Q6/INcD5Wv8R+KSEzDCwybRvDWE4NJGLTP2XGLm9pj4lhOHQRHab+uwYuXmmvieI5QyO3r3G/58q0d8mIseNzNQQdrMg8oB3e7wlIteLyHwRWev1bTqT7xGHj4A7E2Tc/TEL+CuEwSzuEfS+eDmmv1tPuCAkHLKOtVqA24AFwATge+Bz4NMyx18NXAnM0IjBnXb9QM9pkhnskWqLm9zHROSHmFitV0SmZb3ZqykLRWR3DAGLjiw3uwvVm4BJKcb8AwwB9wGve33Olb7SKGEJ0Kqf/w5cCoyckgwwi+0isl5EdorIkIgUypxRiyNe+2cRudez02/6/b6qiKxM4QZpsEVE6jxbG834nlD3yE3Ai3p8+jik7vBHCn1na5jv4jT3erzD63d3Ta/X7j9Ni8cs6dX2aImZdW7QKSLzRKShihWeEvH5LmNrQ9R42/hShT+IEH7WI3BARJZnfIrdbey5vTc5SjavC9MBtGm9VGixClhr2h8D9//v1DiJycCcFG7lcMBzHYshU3dRyBvAK9p2brzLd61Bw3yVx3aOtxJdEbMyw3sdpkF7maviw7ndtUXXutl07i+haI/p744xuKBCEg5rElzsoYTxs/OadyriNW9pO/TicTgCLIpxkZ3Aw8CNLoZL4Vq/Am+W+HyxJip69KI8F5ivfU7/DcAF2t7g2O4wzFpiVmNFxhvblk5jtzlCxiUxRlTmaM7MeMHLMbWYvsO60WqFNmNnVoTNYV1Nh7qcnjTo22DYCNqLqauGJByOm3rcjV08dQs5cws3eEfnXFPfHvBLlgPrGQMx8qf2Yl6fpcv1nHaPno3An8B1ZkBfjYk8oaHOgD7GEuFirSbNQZ0XITyquaew2fMwcBM8Ezix2YfVjb6LUZ3mOK0lxtRW3o9+b9Hk2UQNS4oHQXOwRFo41GsI0+i2Qt5T260FXaXiyXX5GURkJXCFPica9bPeuEvpOXMpravhZRhXbo8IUdriBrUawVIx2HiUzR4B98vXUinjqbvPDFo2ziQu9EgsFpGJxf6kwTbqHBxnIp+Z7/Ke31+OgoNGwdvjRGKFtxqXVEKk3VPyTI1JLPHsP1lKrlxl6zxlnTUi8Yhnd1uUbBqlXUbh3zUgsdoj8W2JfFdFRFw5pkr31YCI3dxbNbkdKe/f7HGo1zwt5q/FdI2cG1IGmE7XehNRFGHfRo8nvEtSEZmQEDxu1t8zKkG7vsntBNgv3piks9JfrP712qurIFHEu167YOqJE55mRSzsyrh3/Uum7f6F48My9TRrsg8NUO8B3td2uklOsfncf/yM6uYbE5E+LSNmU35dwaZ+3judinrtTw1xCbwTJU023m3iYwkyFwP7U83kSQzo2CgsBLbGKUizfG4jvqrJiqNeOajJuUpIOCzV1I6v15UdwDexo4H/AB+nJjVlqBt+AAAAAElFTkSuQmCC"/>
+                            </svg>
+                              
+                        </div>
+
+                        <div class="item_text">
+
+                            <p class="advantage_title">Экономим до 30% бюджета проекта<br>
+                                <span>Подключаемся на любом этапе</span></p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="adv-list_item">
+
+                        <div class="item_circle">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53" height="53" viewBox="0 0 53 53">
+                                <image id="time_icon" data-name="time icon" width="53" height="53" xlink:href="data:img/png;base64,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"/>
+                            </svg>
+
+                        </div>
+
+                        <div class="item_text">
+
+                            <p class="advantage_title">Реальные сроки экспертизы<br>
+                                <span>15-30 рабочих дней</span></p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="adv-list_item">
+
+                        <div class="item_circle">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="48" viewBox="0 0 56 48">
+                                <image id="danger_icon" data-name="danger icon" width="56" height="48" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAwCAYAAABE1blzAAAEZUlEQVRogd2aW6hWRRTHf9/X8ZSdkwZqZBHY5UBS5iVF8EG74IMSBAWZ+JBWlNR56FAgWmYaSFYPWWmoqHSPIkWxC/WiT16I1MpQs8y8wfFk6elmpSuG5pNhOXt/s/eZOR79w4Zv1l5r7fWfWbP2zHy7IiJ0A8YA04HhQBXYDrwBfJr80YZg4qtNsjE39fNTj+BoYFMdnbuA1akCSE3we+Aap/01cAIY6cg6gT6pAqimcgzMUOR2ADcBo4D1jvwS4KVUQaQaQRP0cSW7Hthlfw8EDqn719kRj4pUI/iOaq9wyBkcBmbXsYmDBJVrrKqZnSLSO0P3kNK9J3Y8KQj+pIKekqM7Xun+KSLVnkxwlgp4a4DNOmXzSsyYYhaZfkCHkt1oq2ce+gNH1P3BwM4YQcUsMq+r9qIActhOeUrJ3o0WVaRUuF2l2V8i0lDQx37l496eNAcPRwhunKf6XtQTCD6pAtvSBV+64Cw92wSvkDPRkqE7W0R2ish3IrIgQ6dPAX/dQvAzFczCDL2JnsAfytCdofS2nS2Ct3nmTJaufj8aLMrR36t0p5aNsyuvifdU+/4c3Z89sqM5+pNVezHQUCC20yhLcC4wwGlvBD7I0T/hkf2bo282yWuddm9gWYk4SxG8HHhayXSPa/ztkflIu5imOmEqMKRosGUI6tR8GdhXx6YzUObCpPATSvZW4WgLTtoJavJ3iEglwO5WT5G5L/CZ+5TdwymLzArVfsD0UYDd7x5ZvRGsYZJqLwQuDrQtRHCBnX81bAbWBNr6CP4WaLtJFbALgVcDbYNT9EpPil1VIFUGeezHFLDv67G/OWaKvqnaLwD7g3vx/9HSVdM3qlk4BrSqe2EFJ6AX7lQ990uJFUWTtXNRZo25u2jBCXHaoZxOLBGY2fa0Oz5OFUzx2jVaxWL8NHclRZ+3RxE1bAA+LpBaNZwETql23komC5tValaApXkGeWcyVwM/KNmggJe6D1V7ENzk3OufsUath2a7COjl6JnT8i+yHpwFXVieLUkOO3rfOm3zH8WvJX2ZgtWmZO9namfk7t0q19tLzBdfqW+zV+68Cbx2qBgf9dn5UrRi06nZkd0BfFSyx1NhGLDV8W0W9JfZV8pp+FL0RUXu84jkbgBGRPK1DXjbaTd6lpJnpGiLZ8UwMEI6mes1x+cqEWmM4LPRHve7GJX3HtyilOdFIjfF03HzI/l+UPndk0VQF5aDkQIw13IPwfUR/X+jfD+uCV4gIseU0viIAegDKoNHIvof7PHf5BJcrG5+EvHhtavVnpaZU/BnEvhfqTisFvuauBbYo2pPvzqnXl2BWYH8k8CvWSW1q83wWPOamK8U5yQkRyJy2O3XdCV7zozgcfvRgMFXwNBEAXQXzBcc4+yz/qiqIf3xHCdnsNv53WBGcLv9fqWGJcCX9nel++MrjZP2n+FWu6oxOGAITvKcdZ4vmFlbbH9ovxk7n2A257e4u4l59nj80nOcpNkvmv3hYwD/AQR9km+ayDiSAAAAAElFTkSuQmCC"/>
+                            </svg>
+
+                        </div>
+
+                        <div class="item_text">
+
+                            <p class="advantage_title">Специализация на опасных<br> 
+                                производственных объектах</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="adv-list_item">
+
+                        <div class="item_circle">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59" height="59" viewBox="0 0 59 59">
+                                <image id="author_s_icon" data-name="author &apos;s icon" width="59" height="59" xlink:href="data:img/png;base64,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"/>
+                            </svg>
+
+                        </div>
+
+                        <div class="item_text">
+
+                            <p class="advantage_title">Специализация на опасных<br> 
+                                производственных объектах</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="slider_body">
+
+                
+                <div class="container">
+
+                    <p class="block_header">Наши преимущества</p>
+
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            
+                            <div class="slider__contents">
+                  
+                            <div class="slider_circle">
+                  
+                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53" height="49" viewBox="0 0 53 49">
+                                <image id="experts_icon" data-name="experts icon" width="53" height="49" xlink:href="data:img/png;base64,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"/>
+                              </svg>  
+                  
+                            </div>
+                  
+                            <p class="advantage_title">Укомплектованный штат экспертов<br>
+                              <span>доктора и кандидаты наук,<br> 
+                                инженеры и проектировщики</span></p>
+                  
+                          </div>
+                            
+                          </div>
+                          <div class="swiper-slide">
+                            
+                            <div class="slider__contents">
+                  
+                            <div class="slider_circle">
+                  
+                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47" height="47" viewBox="0 0 47 47">
+                                <image id="recommendations_icon" data-name="recommendations icon" width="47" height="47" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAvCAYAAABzJ5OsAAAEr0lEQVRogc2ZW4iVVRTHfzNjWjlTYhdrCKsRGQOtqKzIIrrQHUpKMiWS0h4qaMp8iIKCCpqwXsKIkHqJpJulVoJGmJnQRUqyHgqKqCQvZeOYzqVxxRrX0dV2f7dzzpyvP3znW3vvtdde376svdY6iEgZT5eIbBWRR2oZu0l/SsBvQDswAIypdvjmMjQHdtp7ey1CylJ+VPCuCvVW/lpgWg6+I4N3GqaY3MNRx8O6SA7higze60VklYjMzOC7SET2m9Snw/aali1Amyt+CFwGrEvgfd+eNFwAfOrajxnJmddnmfwX7VXKaQvkrBCR5pGcecVtwH5gTgrPzcAZwM/AenvHoDa8CVgB3BTnGJlLaraITIvUnxXM6JCIPJMgY4qI3Jo2TqNv1xsljnXVyGu0nT/W0SuBX4y+FFhSVFijle909J3AVGDQyvcAE4oIa7TyVzlaD+Nu4HFXd3sRYY1U/lTgPKPXO//mdceT53Y+iFpM5eXAbCdjK7AY+CuB/w5HL3e09yoHieMoYBFwmrUODcuo0mqMSbAa3Sl9ehzfBFc/19U/lND3sdhg1W6bocj1vgfYkMD/grveXwa2ubbzHf1ZQv+NkRVdU2swMhloMXoH8EeEZy7wqiuPB3a58kfmB+nNfFzKtlMze7LRyvv9SF5I54jI0mCl5wc8Onm91ral6Bj19m1OMd/lBuDKoO1ZYGlQdzXQavTHhUerwwx3iMh9IvKBiAxEztUOEbk7oe+7xqM+++SiY+uyzQLuqtJs6h49O6Htc+Als+N7Iu0TgZ/srtGDtyZBhz5gE/Ac0BPOfD2xWUQeNe8xa+aeKjjuNhGZFM78oH2xmr+99k1HuDhzH/BPZEZa7Yr/HXje/O5vC6zadGAZcGIGX2UcTP5UP/O77cs2WwSjz0L3xfNcfeVpd1ZiVY1nJpQdPhNFZIPT52Cc4PdYP9Br9E5Xv93VV9BrthbyZQDSEMoOoe1vAjOsXs/KNwQHxNOtjm47TNyBuspSNkXa8+JM4IQMXjUKXa78XUzhRkPvg7cKjrnELNQwysqYKU6vos+PvlDmzC82+39SBp/6M/NtoruBVyq+UZnKK17MyacO38OmrwY0ayl52xSBj237KkSZMz/etkHW3h8HnGu05vO/qDSUqXyX7eUimONnvsxt855Zj97IMxDwasL1OuBtX1nmzKvXOSnhEjwaeAJYYGWNBVaHTP+HAxubeY1xn3Q802MdyzaVnRZ9hdB0yP2u7odY5zKVnxnkb5KgAcgbsTa/bfY5+tcCSvQXUvkQOnPwqB4XA3/HGkc5r7DD5Q2je8zB50vG2QHbm9EnRLelOSrugaZQZrmPWm5pk75ECTnCr1tyZMA0yF4tIg+KyAwRGVtDcNJvMl/Lk/r4BLgkZYZ6InXqX4x15eOBa+xR/Al8aUG1msSvEoLwEB1uJ2Q5bMMxbIsp3+Lq9TDda/SWID3XbFHNaCuvtWyWT9uF2GVBRPIWOCD3QkuqKhZaxiAZCUsyL2dEv9H10f+QFliW7Ouc/ZOwSURG58nbxD5MI/R3Uv6p0JXQRKsPz0JoHlP/rtEV0W2mDphf3RCqiMrVm/QBFyPHAfwL6Qfgt55/jkoAAAAASUVORK5CYII="/>
+                              </svg>
+                  
+                            </div>
+                  
+                            <p class="advantage_title">Рекомендации специалистов<br> 
+                              и экспертов </p>
+                  
+                          </div>
+                            
+                          </div>
+                          <div class="swiper-slide">
+                            
+                            <div class="slider__contents">
+                            <div class="slider_circle">
+                  
+                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61" height="60" viewBox="0 0 61 60">
+                                <image id="russia_icon" data-name="russia icon" width="61" height="60" xlink:href="data:img/png;base64,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"/>
+                              </svg>  
+                  
+                            </div>
+                  
+                            <p class="advantage_title">Работа со всеми регионами<br> 
+                              Российской Федерации</p>
+                  
+                          </div>
+                            
+                          </div>
+                          <div class="swiper-slide">
+                            
+                            <div class="slider__contents">
+                  
+                            <div class="slider_circle">
+                  
+                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+                                <image id="economy_icon" data-name="economy icon" width="50" height="50" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAE+0lEQVRogc2abYiVRRTHf929rdKWtLhgL2IaG2kvaK5iG20UxWZklmJRS9CXtMiXPkRREZsQ5AfrgwW9SmwgRUEUlpCyJRV+sNosqN1NMAt3dcFNc3Ur1lsnRs+V03if57nPvfPc9Q/Dztw5c879z5yZOXPuniUiZIgHgWXAXKAe+AnYBrwAjAY164hkUCaJyBcSjQERaQ1pN4sVqQP6gMvMZ2NAATjHk50O/BbCaC6EEg9PeyTWANOAqcBdwKDpeyeY1cBulRORw8ahFpWQaRKRQ0bmqhC2Q6/INcD5Wv8R+KSEzDCwybRvDWE4NJGLTP2XGLm9pj4lhOHQRHab+uwYuXmmvieI5QyO3r3G/58q0d8mIseNzNQQdrMg8oB3e7wlIteLyHwRWev1bTqT7xGHj4A7E2Tc/TEL+CuEwSzuEfS+eDmmv1tPuCAkHLKOtVqA24AFwATge+Bz4NMyx18NXAnM0IjBnXb9QM9pkhnskWqLm9zHROSHmFitV0SmZb3ZqykLRWR3DAGLjiw3uwvVm4BJKcb8AwwB9wGve33Olb7SKGEJ0Kqf/w5cCoyckgwwi+0isl5EdorIkIgUypxRiyNe+2cRudez02/6/b6qiKxM4QZpsEVE6jxbG834nlD3yE3Ai3p8+jik7vBHCn1na5jv4jT3erzD63d3Ta/X7j9Ni8cs6dX2aImZdW7QKSLzRKShihWeEvH5LmNrQ9R42/hShT+IEH7WI3BARJZnfIrdbey5vTc5SjavC9MBtGm9VGixClhr2h8D9//v1DiJycCcFG7lcMBzHYshU3dRyBvAK9p2brzLd61Bw3yVx3aOtxJdEbMyw3sdpkF7maviw7ndtUXXutl07i+haI/p744xuKBCEg5rElzsoYTxs/OadyriNW9pO/TicTgCLIpxkZ3Aw8CNLoZL4Vq/Am+W+HyxJip69KI8F5ivfU7/DcAF2t7g2O4wzFpiVmNFxhvblk5jtzlCxiUxRlTmaM7MeMHLMbWYvsO60WqFNmNnVoTNYV1Nh7qcnjTo22DYCNqLqauGJByOm3rcjV08dQs5cws3eEfnXFPfHvBLlgPrGQMx8qf2Yl6fpcv1nHaPno3An8B1ZkBfjYk8oaHOgD7GEuFirSbNQZ0XITyquaew2fMwcBM8Ezix2YfVjb6LUZ3mOK0lxtRW3o9+b9Hk2UQNS4oHQXOwRFo41GsI0+i2Qt5T260FXaXiyXX5GURkJXCFPica9bPeuEvpOXMpravhZRhXbo8IUdriBrUawVIx2HiUzR4B98vXUinjqbvPDFo2ziQu9EgsFpGJxf6kwTbqHBxnIp+Z7/Ke31+OgoNGwdvjRGKFtxqXVEKk3VPyTI1JLPHsP1lKrlxl6zxlnTUi8Yhnd1uUbBqlXUbh3zUgsdoj8W2JfFdFRFw5pkr31YCI3dxbNbkdKe/f7HGo1zwt5q/FdI2cG1IGmE7XehNRFGHfRo8nvEtSEZmQEDxu1t8zKkG7vsntBNgv3piks9JfrP712qurIFHEu167YOqJE55mRSzsyrh3/Uum7f6F48My9TRrsg8NUO8B3td2uklOsfncf/yM6uYbE5E+LSNmU35dwaZ+3judinrtTw1xCbwTJU023m3iYwkyFwP7U83kSQzo2CgsBLbGKUizfG4jvqrJiqNeOajJuUpIOCzV1I6v15UdwDexo4H/AB+nJjVlqBt+AAAAAElFTkSuQmCC"/>
+                              </svg>
+                  
+                            </div>
+                  
+                            <p class="advantage_title">Экономим до 30% бюджета проекта<br>
+                              <span>Подключаемся на любом этапе</span></p>
+                  
+                          </div>
+                            
+                          </div>
+                          <div class="swiper-slide">
+                            
+                            <div class="slider__contents">
+                  
+                            <div class="slider_circle">
+                  
+                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47" height="47" viewBox="0 0 47 47">
+                                <image id="recommendations_icon" data-name="recommendations icon" width="47" height="47" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAvCAYAAABzJ5OsAAAEr0lEQVRogc2ZW4iVVRTHfzNjWjlTYhdrCKsRGQOtqKzIIrrQHUpKMiWS0h4qaMp8iIKCCpqwXsKIkHqJpJulVoJGmJnQRUqyHgqKqCQvZeOYzqVxxRrX0dV2f7dzzpyvP3znW3vvtdde376svdY6iEgZT5eIbBWRR2oZu0l/SsBvQDswAIypdvjmMjQHdtp7ey1CylJ+VPCuCvVW/lpgWg6+I4N3GqaY3MNRx8O6SA7higze60VklYjMzOC7SET2m9Snw/aali1Amyt+CFwGrEvgfd+eNFwAfOrajxnJmddnmfwX7VXKaQvkrBCR5pGcecVtwH5gTgrPzcAZwM/AenvHoDa8CVgB3BTnGJlLaraITIvUnxXM6JCIPJMgY4qI3Jo2TqNv1xsljnXVyGu0nT/W0SuBX4y+FFhSVFijle909J3AVGDQyvcAE4oIa7TyVzlaD+Nu4HFXd3sRYY1U/lTgPKPXO//mdceT53Y+iFpM5eXAbCdjK7AY+CuB/w5HL3e09yoHieMoYBFwmrUODcuo0mqMSbAa3Sl9ehzfBFc/19U/lND3sdhg1W6bocj1vgfYkMD/grveXwa2ubbzHf1ZQv+NkRVdU2swMhloMXoH8EeEZy7wqiuPB3a58kfmB+nNfFzKtlMze7LRyvv9SF5I54jI0mCl5wc8Onm91ral6Bj19m1OMd/lBuDKoO1ZYGlQdzXQavTHhUerwwx3iMh9IvKBiAxEztUOEbk7oe+7xqM+++SiY+uyzQLuqtJs6h49O6Htc+Als+N7Iu0TgZ/srtGDtyZBhz5gE/Ac0BPOfD2xWUQeNe8xa+aeKjjuNhGZFM78oH2xmr+99k1HuDhzH/BPZEZa7Yr/HXje/O5vC6zadGAZcGIGX2UcTP5UP/O77cs2WwSjz0L3xfNcfeVpd1ZiVY1nJpQdPhNFZIPT52Cc4PdYP9Br9E5Xv93VV9BrthbyZQDSEMoOoe1vAjOsXs/KNwQHxNOtjm47TNyBuspSNkXa8+JM4IQMXjUKXa78XUzhRkPvg7cKjrnELNQwysqYKU6vos+PvlDmzC82+39SBp/6M/NtoruBVyq+UZnKK17MyacO38OmrwY0ayl52xSBj237KkSZMz/etkHW3h8HnGu05vO/qDSUqXyX7eUimONnvsxt855Zj97IMxDwasL1OuBtX1nmzKvXOSnhEjwaeAJYYGWNBVaHTP+HAxubeY1xn3Q802MdyzaVnRZ9hdB0yP2u7odY5zKVnxnkb5KgAcgbsTa/bfY5+tcCSvQXUvkQOnPwqB4XA3/HGkc5r7DD5Q2je8zB50vG2QHbm9EnRLelOSrugaZQZrmPWm5pk75ECTnCr1tyZMA0yF4tIg+KyAwRGVtDcNJvMl/Lk/r4BLgkZYZ6InXqX4x15eOBa+xR/Al8aUG1msSvEoLwEB1uJ2Q5bMMxbIsp3+Lq9TDda/SWID3XbFHNaCuvtWyWT9uF2GVBRPIWOCD3QkuqKhZaxiAZCUsyL2dEv9H10f+QFliW7Ouc/ZOwSURG58nbxD5MI/R3Uv6p0JXQRKsPz0JoHlP/rtEV0W2mDphf3RCqiMrVm/QBFyPHAfwL6Qfgt55/jkoAAAAASUVORK5CYII="/>
+                              </svg>
+                  
+                            </div>
+                  
+                            <p class="advantage_title">Рекомендации специалистов<br> 
+                              и экспертов </p>
+                  
+                          </div>
+                            
+                          </div>
+                          <div class="swiper-slide">
+                            
+                            <div class="slider__contents">
+                            <div class="slider_circle">
+                  
+                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61" height="60" viewBox="0 0 61 60">
+                                <image id="russia_icon" data-name="russia icon" width="61" height="60" xlink:href="data:img/png;base64,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"/>
+                              </svg>  
+                  
+                            </div>
+                  
+                            <p class="advantage_title">Работа со всеми регионами<br> 
+                              Российской Федерации</p>
+                  
+                          </div>
+                            
+                          </div>
+                          <div class="swiper-slide">
+                            
+                            <div class="slider__contents">
+                  
+                            <div class="slider_circle">
+                  
+                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+                                <image id="economy_icon" data-name="economy icon" width="50" height="50" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAE+0lEQVRogc2abYiVRRTHf929rdKWtLhgL2IaG2kvaK5iG20UxWZklmJRS9CXtMiXPkRREZsQ5AfrgwW9SmwgRUEUlpCyJRV+sNosqN1NMAt3dcFNc3Ur1lsnRs+V03if57nPvfPc9Q/Dztw5c879z5yZOXPuniUiZIgHgWXAXKAe+AnYBrwAjAY164hkUCaJyBcSjQERaQ1pN4sVqQP6gMvMZ2NAATjHk50O/BbCaC6EEg9PeyTWANOAqcBdwKDpeyeY1cBulRORw8ahFpWQaRKRQ0bmqhC2Q6/INcD5Wv8R+KSEzDCwybRvDWE4NJGLTP2XGLm9pj4lhOHQRHab+uwYuXmmvieI5QyO3r3G/58q0d8mIseNzNQQdrMg8oB3e7wlIteLyHwRWev1bTqT7xGHj4A7E2Tc/TEL+CuEwSzuEfS+eDmmv1tPuCAkHLKOtVqA24AFwATge+Bz4NMyx18NXAnM0IjBnXb9QM9pkhnskWqLm9zHROSHmFitV0SmZb3ZqykLRWR3DAGLjiw3uwvVm4BJKcb8AwwB9wGve33Olb7SKGEJ0Kqf/w5cCoyckgwwi+0isl5EdorIkIgUypxRiyNe+2cRudez02/6/b6qiKxM4QZpsEVE6jxbG834nlD3yE3Ai3p8+jik7vBHCn1na5jv4jT3erzD63d3Ta/X7j9Ni8cs6dX2aImZdW7QKSLzRKShihWeEvH5LmNrQ9R42/hShT+IEH7WI3BARJZnfIrdbey5vTc5SjavC9MBtGm9VGixClhr2h8D9//v1DiJycCcFG7lcMBzHYshU3dRyBvAK9p2brzLd61Bw3yVx3aOtxJdEbMyw3sdpkF7maviw7ndtUXXutl07i+haI/p744xuKBCEg5rElzsoYTxs/OadyriNW9pO/TicTgCLIpxkZ3Aw8CNLoZL4Vq/Am+W+HyxJip69KI8F5ivfU7/DcAF2t7g2O4wzFpiVmNFxhvblk5jtzlCxiUxRlTmaM7MeMHLMbWYvsO60WqFNmNnVoTNYV1Nh7qcnjTo22DYCNqLqauGJByOm3rcjV08dQs5cws3eEfnXFPfHvBLlgPrGQMx8qf2Yl6fpcv1nHaPno3An8B1ZkBfjYk8oaHOgD7GEuFirSbNQZ0XITyquaew2fMwcBM8Ezix2YfVjb6LUZ3mOK0lxtRW3o9+b9Hk2UQNS4oHQXOwRFo41GsI0+i2Qt5T260FXaXiyXX5GURkJXCFPica9bPeuEvpOXMpravhZRhXbo8IUdriBrUawVIx2HiUzR4B98vXUinjqbvPDFo2ziQu9EgsFpGJxf6kwTbqHBxnIp+Z7/Ke31+OgoNGwdvjRGKFtxqXVEKk3VPyTI1JLPHsP1lKrlxl6zxlnTUi8Yhnd1uUbBqlXUbh3zUgsdoj8W2JfFdFRFw5pkr31YCI3dxbNbkdKe/f7HGo1zwt5q/FdI2cG1IGmE7XehNRFGHfRo8nvEtSEZmQEDxu1t8zKkG7vsntBNgv3piks9JfrP712qurIFHEu167YOqJE55mRSzsyrh3/Uum7f6F48My9TRrsg8NUO8B3td2uklOsfncf/yM6uYbE5E+LSNmU35dwaZ+3judinrtTw1xCbwTJU023m3iYwkyFwP7U83kSQzo2CgsBLbGKUizfG4jvqrJiqNeOajJuUpIOCzV1I6v15UdwDexo4H/AB+nJjVlqBt+AAAAAElFTkSuQmCC"/>
+                              </svg>
+                  
+                            </div>
+                  
+                            <p class="advantage_title">Экономим до 30% бюджета проекта<br>
+                              <span>Подключаемся на любом этапе</span></p>
+                  
+                          </div>
+                            
+                          </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+            
+                </div>    
+            
+            </div>
+
+        </div>
+
+        <footer class="footer_body">
+
+            <p>Общество с ограниченной ответственностью «СПС-Экспертиза»<span>© 2021</span></p>
+            <p>ООО «СПС-Экспертиза»<br>   
+                © 2021</p>
+            
+        </footer>
+
+    </div>
+
+    <div id="req_cons" class="modal">
+
+        <div class="modal_container" style="min-width: 500px;">
+
+            <div class="modal_close_button"><ion-icon name="close-outline"></ion-icon></div>
+            <div class="modal_content request__form">
+    
+                <p class="modal_title">Заявка на консультацию</p>
+    
+                <form class="request" id="request">
+                    
+                    <input required type="text" name="your_name" placeholder="Ваше имя">
+                    <input type="text" name="your_number" placeholder="Телефон">
+                    <input type="text" name="your_email" placeholder="e-mail">
+                    <textarea name="your_comment" rows="6" placeholder="Коментарий..."></textarea>
+    
+                </form>
+    
+                <div class="request__flex">
+    
+                    <p class="request__policy">Нажимая кнопку «Заказать», Вы соглашаетесь с <a href="#policy">условиями обработки и хранения персональных данных</a></p>
+                    <button class="request__send">Отправить</button>
+    
+                </div>
+    
+            </div>
+    
+        </div>
+
+    </div>
+    <!---------------   Скрипты --------------->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="libs/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="libs/scripts/main.js"></script>
+
+</body>
+</html>

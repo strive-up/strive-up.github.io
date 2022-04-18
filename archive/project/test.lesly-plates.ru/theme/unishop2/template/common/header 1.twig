@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html dir="{{ direction }}" lang="{{ lang }}">
+<head>
+<title>{{ title }}</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<base href="{{ base }}" />
+{% if robots %}
+<meta name="robots" content="{{ robots }}" />
+{% endif %}
+{% if description %}
+<meta name="description" content="{{ description }}" />
+{% endif %}
+{% if keywords %}
+<meta name="keywords" content="{{ keywords }}" />
+{% endif %}
+<meta property="og:title" content="{{ title }}" />
+<meta property="og:type" content="website" />
+{% if og_url%}
+<meta property="og:url" content="{{ og_url }}" />
+{% endif %}
+{% if og_image %}
+<meta property="og:image" content="{{ og_image }}" />
+{% else %}
+<meta property="og:image" content="{{ logo }}" />
+{% endif %}
+<meta property="og:site_name" content="{{ name }}" />
+<meta name="theme-color" content="#{{ theme_color }}" />
+{% for link in links %}
+<link href="{{ link.href }}" rel="{{ link.rel }}" />
+{% endfor %}
+{% for font in font_preload %}
+	<link href="{{ font }}" rel="preload" as="font" type="font/woff2" crossorigin />
+{% endfor %}
+<link href="catalog/view/theme/unishop2/fonts/fa-solid-900.woff2" rel="preload" as="font" type="font/woff2" crossorigin />
+<link href="catalog/view/theme/unishop2/fonts/fa-regular-400.woff2" rel="preload" as="font" type="font/woff2" crossorigin />
+<link href="catalog/view/theme/unishop2/fonts/fa-brands-400.woff2" rel="preload" as="font" type="font/woff2" crossorigin />
+{% if merged_style %}
+	<link href="{{ merged_style }}" rel="preload" as="style" />
+	<link href="{{ merged_style }}" rel="stylesheet" media="screen" />
+{% else %}
+    
+	
+	{% if font_style %}
+		<link href="{{ font_style }}" rel="stylesheet" media="screen" />
+	{% endif %}
+	<link href="catalog/view/theme/unishop2/stylesheet/stylesheet.css?v={{ version }}" rel="stylesheet" media="screen" />
+	<link href="catalog/view/theme/unishop2/stylesheet/font-awesome.min.css" rel="stylesheet" media="screen" />
+	<link href="{{ generated_style }}" rel="stylesheet" media="screen" />
+	<link href="catalog/view/theme/unishop2/stylesheet/animate.css" rel="stylesheet" media="screen" />
+{% endif %}
+{% for style in styles %}
+	<link href="{{ style.href }}" rel="{{ style.rel }}" media="{{ style.media }}" />
+{% endfor %}
+<script>var module_on_mobile = '{{ module_on_mobile }}', default_view = '{{ default_view }}', default_mobile_view = '{{ default_mobile_view }}';</script>
+{% if merged_script %}
+	<link href="{{ merged_script }}" rel="preload" as="script" />
+	<script src="{{ merged_script }}"></script>
+{% else %}
+    
+	
+	<script src="catalog/view/theme/unishop2/js/common.js"></script>
+	<script src="catalog/view/theme/unishop2/js/owl.carousel.min.js"></script>
+	<script src="catalog/view/theme/unishop2/js/menu-aim.min.js"></script>
+	<script src="catalog/view/theme/unishop2/js/jquery.highlight.min.js"></script>
+{% endif %}
+{% for script in scripts %}
+	<script src="{{ script }}"></script>
+{% endfor %}
+{% if user_js %}
+<script>{{ user_js }}</script>
+{% endif %}
+{% for analytic in analytics %}
+	{{ analytic }}
+{% endfor %}
+<noscript><style>.uni-module__wrapper{opacity:1}</style></noscript>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+<body {{ class ? 'class="'~class~'"' }}>
+	<header class="header">
+	    <div class="top-bar"></div>
+	    
+	    
+	    
+	    
+		<div id="top" class="top-menu edited">
+			<div class="container">
+				<div class="top-menu__account pull-right">
+					<div id="account" class="btn-group">
+						<button class="top-menu__btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i><span class="hidden-xs">{{ logged ? customer_name : text_account }}</span></button>
+						<ul class="dropdown-menu dropdown-menu-right">
+							{% if logged %}
+								<li><a href="{{ account }}">{{ text_account }}</a></li>
+								<li><a href="{{ order }}">{{ text_order }}</a></li>
+								<li><a href="{{ transaction }}">{{ text_transaction }}</a></li>
+								<li><a href="{{ download }}">{{ text_download }}</a></li>
+								<li><a href="{{ logout }}">{{ text_logout }}</a></li>
+							{% else %}
+								<li><a {% if popup_login %}onclick="uniLoginOpen();"{% else %} href="{{ login }}"{% endif %}>{{ text_login }}</a></li>
+								<li><a {% if popup_register %}onclick="uniRegisterOpen();"{% else %} href="{{ register }}" {% endif %}>{{ text_register }}</a></li>
+							{% endif %}
+						</ul>
+					</div>
+				</div>
+				{{ language }}
+				{{ currency }}
+				{% if compare %}
+					<div class="top-menu__compare pull-right" data-products="{{ compare.products }}">
+						<div class="btn-group">
+							<button class="top-menu__btn top-menu__compare-btn uni-href" data-href="{{ compare.href }}"><i class="top-menu__compare-icon fas fa-align-right"></i><span class="hidden-xs">{{ compare.text }}</span><span class="top-menu__compare-total">{{ compare.total }}</span></button>
+						</div>
+					</div>
+				{% endif %}
+				{% if wishlist %}
+					<div class="top-menu__wishlist pull-right" data-products="{{ wishlist.products }}">
+						<div class="btn-group">
+							<button class="top-menu__btn top-menu__wishlist-btn uni-href" data-href="{{ wishlist.href }}"><i class="fas fa-heart"></i><span class="hidden-xs">{{ wishlist.text }}</span><span class="top-menu__wishlist-total">{{ wishlist.total }}</span></button>
+						</div>
+					</div>
+				{% endif %}
+				{% if headerlinks %}
+					<div class="pull-left">
+						<div class="top-links btn-group">
+							<button class="top-menu__btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-info"></i></button>
+							<ul class="top-links__ul dropdown-menu dropdown-menu-left">
+								{% for headerlink in headerlinks %}
+									<li class="top-links__li"><a class="top-links__a" href="{{ headerlink.link }}" title="{{ headerlink.title }}">{{ headerlink.title }}</a></li>
+								{% endfor %}
+							</ul>
+						</div>
+					</div>
+				{% endif %}
+			</div>
+		</div>
+		<div class="container">
+			<div class="header-block row row-flex">
+				<div class="header-block__item col-xs-5 col-sm-6 col-md-3 col-xxl-4">
+					<div id="logo" class="header-logo">
+						{% if logo %}
+							{% if og_url is defined and home == og_url %}
+								<img src="{{ logo }}" title="{{ name }}" alt="{{ name }}" class="header-logo__img img-responsive" width="{{ logo_width }}" height="{{ logo_height }}" />
+							{% else %}
+								<a href="{{ home }}"><img src="{{ logo }}" title="{{ name }}" alt="{{ name }}" width="{{ logo_width }}" height="{{ logo_height }}" class="img-responsive" /></a>
+							{% endif %}
+						{% else %}
+							{% if og_url is defined and home == og_url %}
+								<span>{{ shop_name }}</span>
+							{% else %}
+								<a href="{{ home }}">{{ shop_name }}</a>
+							{% endif %}
+						{% endif %}
+					</div>
+				</div>
+				<div class="header-block__item col-xs-5 col-sm-4 col-md-3 col-xxl-4 {{ search_phone_change ? '' : 'col-md-push-5 col-xxl-push-10' }}">
+					<div class="header-phones">
+						<span class="header-phones__main uni-href" {{ main_phones.0.href ? 'data-href="'~main_phones[0].href~'"' }} data-target="_blank" >{{ main_phones.0.number }}</span>
+						{% if phones or text_in_add_contacts or callback %}
+							<i class="header-phones__show-phone dropdown-toggle fas fa-chevron-down {{ (phones_addit is not defined) and (callback is empty) ? 'visible-xs' }}" data-toggle="dropdown"></i>
+							<ul class="header-phones__ul dropdown-menu dropdown-menu-right">
+								{% if callback %}
+									<li class="header-phones__li">
+										<a onclick="uniRequestOpen(['mail', 'phone', 'comment']);" class="header-phones__callback"><span class="header-phones__span">{{ text_header_callback }}</span></a>
+									</li>
+								{% endif %}
+								{% if text_in_add_contacts_position and text_in_add_contacts %}
+									<li class="header-phones__text"><hr style="margin-top:0px;" />{{ text_in_add_contacts }}<hr style="margin-bottom:5px;" /></li>
+								{% endif %}
+								{% for phone in phones %}
+									<li class="header-phones__li {{ phone.main is defined ? 'visible-xs' }}">
+										<a class="header-phones__a uni-href" {{ phone.href ? 'data-href="'~phone.href~'"' }}>
+											{% if phone.icon and 'fa-' in phone.icon %}
+												<i class="{{ phone.icon }}"></i>
+											{% elseif phone.icon %}
+												<img src="image/{{ phone.icon }}" alt="" />
+											{% endif %}
+											{{ phone.number }}
+										</a>
+									</li>
+								{% endfor %}
+								{% if not text_in_add_contacts_position and text_in_add_contacts %}
+									<li class="header-phones__text"><hr style="margin-top:5px" />{{ text_in_add_contacts }}</li>
+								{% endif %}
+							</ul>
+						{% endif %}
+						{% if main_phones|length > 1 %}
+							<div class="header-phones__additionals">
+								{% for key, phone in main_phones %}
+									<span class="header-phones__additional {{ key == 0 ? 'selected' }}" data-href="{{ phone.href }}" data-phone="{{ phone.number }}">
+									{% if phone.icon and 'fa-' in phone.icon %}
+										<i class="{{ phone.icon }}" data-toggle="tooltip" data-placement="left" title="{{ phone.text }}"></i>
+									{% elseif phone.icon %}
+										<img src="image/{{ phone.icon }}" alt="" data-toggle="tooltip" data-placement="left" title="{{ phone.text }}" />
+									{% else %}
+										{{ phone.text }}
+									{% endif %}
+									</span>
+								{% endfor %}
+							</div>
+						{% endif %}
+					</div>
+				</div>
+				<div class="header-block__item col-xs-2 col-sm-2 col-md-1 col-xxl-2 col-md-push-5 col-xxl-push-10">{{ cart }}</div>
+				<div id="search" class="header-block__item col-xs-12 col-sm-6 col-md-5 col-lg-5 col-xxl-10 {{ search_phone_change ? 'col-md-pull-1 col-xxl-pull-2' : 'col-md-pull-4 col-xxl-pull-6' }} hidden-sm">
+					{{ search }}
+				</div>
+			</div>
+		</div>
+		<div id="main-menu" class="container edited">
+			<div class="row">
+				{{ menu }}
+				<div id="search2" class="visible-xs visible-sm"></div>
+				<script>$('#search .header-search').clone().appendTo('#search2');</script>
+			</div>
+		</div>
+	</header>
+	<main class="main">

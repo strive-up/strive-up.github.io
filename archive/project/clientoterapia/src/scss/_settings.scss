@@ -1,0 +1,143 @@
+// reset & initial settings
+
+*, 
+*::after, 
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,
+ol,
+li{
+    list-style: none;
+}
+
+img{
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body{
+    height: 100%;
+    line-height: 1;
+}
+
+img{
+    user-select: none;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+    background: linear-gradient(106.03deg, #132324 0%, #284143 64.31%, #132223 99.74%), #FFFFFF;
+}
+
+main.content{
+    flex: 1 1 auto;
+}
+
+@media (min-width: 990px){
+    [class*="__container"]{
+        width: 100%;
+        max-width: vw(1447);
+        padding: 0 vw(11);
+        margin: 0 auto;
+    }
+
+    .section__line{
+        height: vw(115);
+        width: vw(1.5);
+        background-color: rgba($color: #fff, $alpha: 0.14);
+        margin: 0 auto;
+        position: relative;
+        margin-top: vw(70);
+        margin-bottom: vw(70);
+        
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: vw(7);
+            height: vw(7);
+            border-radius: 50%;
+            background-color: #555555;
+        }
+    
+        &::after{
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: vw(7);
+            height: vw(7);
+            border-radius: 50%;
+            background-color: #00DBE0;
+            box-shadow: 0px 0px vw(2) rgba(175, 253, 255, 0.55);
+        }
+    }
+}
+
+@media (max-width: 990px){
+    [class*="__container"]{
+        width: 100%;
+        padding: 0 vmin(30);
+        margin: 0 auto;
+    }
+
+    .section__line{
+        height: vmin(39);
+        width: vmin(1.5);
+        background-color: rgba($color: #fff, $alpha: 0.14);
+        margin: 0 auto;
+        position: relative;
+        margin-top: vmin(30);
+        margin-bottom: vmin(30);
+        
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: vmin(7);
+            height: vmin(7);
+            border-radius: 50%;
+            background-color: #555555;
+        }
+    
+        &::after{
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: vmin(7);
+            height: vmin(7);
+            border-radius: 50%;
+            background-color: #00DBE0;
+            box-shadow: 0px 0px vmin(2) rgba(175, 253, 255, 0.55);
+        }
+    }
+}

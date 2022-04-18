@@ -1,0 +1,159 @@
+// main: ../style.less
+
+.services{
+    .services__container{
+        margin: 0 auto;
+
+        .services__item__wrapp{
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            row-gap: 50px;
+
+            .services__item{
+                position: relative;
+                width: 356px;
+                height: 201px;
+                display: flex;
+
+                .services__item__numbering{
+                    color: white;
+                    font-family: @bold;
+                    font-size: 72px;
+                    align-self: flex-end;
+                    padding-left: 18px;
+                    padding-bottom: 9px;
+                    user-select: none;
+                }
+
+                .services__item__info{
+                    width: 356px;
+                    height: 124px;
+                    position: absolute;
+                    background: rgba(255, 255, 255, 0.77);
+                    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.25);
+                    backdrop-filter: blur(27px);
+                    bottom: -15px;
+                    right: -220px;
+                    padding-top: 20px;
+                    padding-left: 30px;
+                    padding-right: 20px;
+                    padding-bottom: 15px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    p.item__info__title{
+                        width: 289px;
+                        font-size: 24px;
+                        font-family: @bold;
+                        color: @orange;
+                        text-transform: uppercase;
+                        line-height: 103%;
+                    }
+
+                    p.item__info__text{
+                        font-size: 14px;
+                        line-height: 103%;
+                        span{
+                            font-family: @bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1196px){
+    .services{
+
+        .services__container{
+    
+            .services__item__wrapp{
+                margin-top: 30px;
+                display: grid;
+                grid-template-columns: 356px 356px;
+                justify-content: center;
+                column-gap: 200px;
+                row-gap: 50px;
+    
+                .services__item{
+                    margin-bottom: 100px;
+    
+                    .services__item__info{
+                        width: 356px;
+                        height: 124px;
+                        position: absolute;
+                        background: rgba(255, 255, 255, 0.77);
+                        box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.25);
+                        backdrop-filter: blur(27px);
+                        bottom: -100px;
+                        right: 0;
+                        padding-top: 20px;
+                        padding-left: 30px;
+                        padding-right: 20px;
+                        padding-bottom: 15px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 990px){
+    .services{
+
+        .services__container{
+    
+            .services__item__wrapp{
+                margin-top: 30px;
+                display: grid;
+                grid-template-columns: 356px 356px;
+                justify-content: center;
+                column-gap: 50px;
+                row-gap: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .services{
+
+        .services__container{
+    
+            .services__item__wrapp{
+                margin-top: 30px;
+                display: flex;
+                flex-direction: column;
+                grid-template-columns: none;
+                align-items: center;
+                column-gap: 50px;
+                row-gap: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 475px){
+    .services{
+
+        .services__container{
+    
+            .services__item__wrapp{
+
+                .services__item{
+                    width: 320px;
+    
+                    .services__item__info{
+                        width: 320px;
+                    }
+                }
+            }
+        }
+    }
+}

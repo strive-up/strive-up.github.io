@@ -1,0 +1,117 @@
+<script type="text/javascript" src="https://payanyway.ru/info/w/ru/public/w/partnership/ap/js/ap-ajax.js"></script>
+<link type="text/css" rel="stylesheet" href="https://payanyway.ru/info/w/ru/public/w/partnership/ap/css/ap-main.css">
+
+<script type="text/javascript">
+    jQuery(function ($) {
+        $('#paw_all_payment_methods').on('click', function () {
+            $('#paw_wrapper_card').hide();
+            $('#paw_wrapper_iframe').show();
+        });
+        $('#paw_card_payment_methods').on('click', function () {
+            $('#paw_wrapper_iframe').hide();
+            $('#paw_wrapper_card').show();
+        });
+    });
+</script>
+
+{% if ap_use %}
+    <div class="content">
+        <div class="apple-button-wrapper">
+            <div id="applePay" class="apple-pay-button">
+                {{ ap_text_with }}
+                <div class="apple-pay-logo"></div>
+            </div>
+            <div class="paw-ap-divider">
+                <span class="paw-ap-divider-text">
+                    {{ ap_text }}
+                </span>
+            </div>
+        </div>
+    </div>
+    <input type="hidden" id="monetadomain" value="{{ ap_params['moneta_domain'] }}">
+    <input type="hidden" id="ordername" value="{{ ap_params['order_name'] }}">
+    <input type="hidden" id="orderamount" value="{{ ap_params['order_amount'] }}">
+    <input type="hidden" id="orderaccountid" value="{{ ap_params['order_account_id'] }}">
+    <input type="hidden" id="transactionid" value="{{ ap_params['transaction_id'] }}">
+    <input type="hidden" id="unitid" value="{{ ap_params['unit_id'] }}">
+    <input type="hidden" id="ordersalt" value="{{ ap_params['order_salt'] }}">
+    <input type="hidden" id="publicid" value="{{ ap_params['public_id'] }}">
+    <input type="hidden" id="ordersignature" value="{{ ap_params['order_signature'] }}">
+    <input type="hidden" id="secsignature" value="{{ ap_params['sec_signature'] }}">
+    <input type="hidden" id="asssignature" value="{{ ap_params['ass_signature'] }}">
+{% endif %}
+
+{% if bank_cards %}
+    <div id="paw_complex_wrapper" style="text-align: -webkit-center;">
+        <div id="paw_wrapper_card">
+            <!--или банковской картой-->
+            <div id="paw_card_form"></div>
+            <input type="button" class="btn btn-default btn-sm" id="paw_all_payment_methods"
+                   value="{{ btn_list_methods }}"
+                   style="margin-top: 65px;"/>
+        </div>
+        <div id="paw_wrapper_iframe" style="display: none;">
+            <!--или выберите способ оплаты-->
+            <iframe src="https://payanyway.ru/assistant.widget?
+MNT_ID={{ sid }}&
+MNT_TRANSACTION_ID={{ cart_order_id }}&
+MNT_AMOUNT={{ amount }}&
+MNT_CURRENCY_CODE={{ currency_code }}&
+MNT_TEST_MODE={{ payanyway_test }}&
+MNT_SIGNATURE={{ MNT_SIGNATURE }}&
+MNT_SUCCESS_URL={{ mnt_success_url }}&
+MNT_FAIL_URL={{ mnt_fail_url }}&
+MNT_RETURN_URL={{ mnt_return_url }}"
+                    id="payanyway_payment_form"
+                    name="paymentform"
+                    frameborder="0"
+                    style="margin-top: 15px; background-color: #f7f8f9; border-radius: 10px;
+                            width: -webkit-fill-available; height: -webkit-fill-available; min-height: 550px;"
+            >
+            </iframe>
+            <input type="button" class="btn btn-default btn-sm" id="paw_card_payment_methods"
+                   value="{{ btn_back_to_card }}" style="margin-top: 3%;"/>
+        </div>
+
+        <script>
+            let script = document.createElement('script');
+            script.src = "https://payanyway.ru/assistant-builder";
+            document.head.append(script);
+            script.onload = function () {
+                const options = {
+                    account: {{ sid }},
+                    amount: {{ amount }},
+                    transactionId: '{{ cart_order_id }}',
+                    signature: '{{ MNT_SIGNATURE }}',
+                    testMode: {{ payanyway_test }},
+                    theme: 'light'
+                };
+                let assistant = new Assistant.Builder();
+                assistant.setOnSuccessCallback(function (operationId, transactionId) {
+                    location.replace('{{ mnt_success_url }}&MNT_TRANSACTION_ID={{ cart_order_id }}');
+                });
+                assistant.setOnFailCallback(function (operationId, transactionId) {
+                    location.replace('{{ mnt_fail_url }}');
+                });
+                assistant.build(options, 'paw_card_form');
+            };
+        </script>
+    </div>
+{% else %}
+    <form action="{{ action }}" method="post">
+        <input type="hidden" name="MNT_ID" value="{{ sid }}"/>
+        <input type="hidden" name="MNT_TRANSACTION_ID" value="{{ cart_order_id }}"/>
+        <input type="hidden" name="MNT_AMOUNT" value="{{ amount }}"/>
+        <input type="hidden" name="MNT_CURRENCY_CODE" value="{{ currency_code }}"/>
+        <input type="hidden" name="MNT_TEST_MODE" value="{{ payanyway_test }}"/>
+        <input type="hidden" name="MNT_SIGNATURE" value="{{ MNT_SIGNATURE }}"/>
+        <input type="hidden" name="MNT_SUCCESS_URL" value="{{ mnt_success_url }}"/>
+        <input type="hidden" name="MNT_FAIL_URL" value="{{ mnt_fail_url }}"/>
+        <input type="hidden" name="MNT_RETURN_URL" value="{{ mnt_return_url }}"/>
+        <div class="buttons">
+            <div class="{% if ap_use %} text-center {% else %} pull-right {% endif %}">
+                <input type="submit" value="{{ btn_confirm }}" class="btn btn-primary"/>
+            </div>
+        </div>
+    </form>
+{% endif %}

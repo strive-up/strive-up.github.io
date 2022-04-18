@@ -1,0 +1,139 @@
+// main: ../style.less
+
+
+.banner{
+    padding: 35px 0;
+    background-color: @pink;
+
+    .banner__container{
+
+        .banner__content{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 80%;
+            align-items: center;
+
+            .banner__text{
+                font-family: @regular;
+                font-size: 25px;
+                color: #000;
+            }
+
+            .banner__contact{
+                font-family: @medium;
+                font-size: 25px;
+                color: #000;
+            }
+        }
+    }
+}
+
+@media (max-width: 1440px){
+    .banner{
+    
+        .banner__container{
+    
+            .banner__content{
+                width: 90%;
+            }
+        }
+    }
+}
+
+@media (max-width: 1360px){
+    .banner{
+    
+        .banner__container{
+    
+            .banner__content{
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 1280px){
+    .banner{
+    
+        .banner__container{
+    
+            .banner__content{
+                
+                .banner__text{
+                    font-family: @regular;
+                    font-size: 22px;
+                    color: #000;
+                }
+    
+                .banner__contact{
+                    font-family: @medium;
+                    font-size: 22px;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px){
+    .banner{
+    
+        .banner__container{
+    
+            .banner__content{
+                
+                .banner__text{
+                    font-family: @regular;
+                    font-size: 20px;
+                    color: #000;
+                }
+    
+                .banner__contact{
+                    font-family: @medium;
+                    font-size: 20px;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 888px){
+    .banner{
+    
+        .banner__container{
+    
+            .banner__content{
+                flex-direction: column;
+
+                .banner__text{
+                    padding-bottom: 20px;
+                }
+
+                .banner__contact{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px){
+    .banner{
+    
+        .banner__container{
+    
+            .banner__content{
+                text-align: center;
+                .banner__text{
+                    font-size: 18px;
+                }
+
+                .banner__contact{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+// main: ../../css/style.less
+
+.header__container{
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header_logo{
+        display: flex;
+        align-items: center;
+        user-select: none;
+
+        p{
+            font-size: 24px;
+            font-family: @bold;
+            color: #000;
+            margin-left: 10px;
+        }
+    }
+
+    .nav{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        user-select: none;
+
+        .nav__wrapper{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .nav_links{
+                font-size: 16px;
+                font-family: @medium;
+                color: #000;
+                position: relative;
+                transition: .3s color;
+
+                &:hover{
+                    color: @secondary;
+                    transition: .3s color;
+                }
+
+                &:hover:after{
+                    width: 100%;
+                }
+
+                &:after{
+                    content: '';
+                    position: absolute;
+                    width: 0;
+                    height: 2px;
+                    background-color: @secondary;
+                    bottom: -5px;
+                    left: 0;
+                    transition: .3s;
+                }
+            }
+        }
+    }
+}

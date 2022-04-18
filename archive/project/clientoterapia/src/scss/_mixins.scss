@@ -1,0 +1,10 @@
+@import "./mixins/font-face";
+
+// базовые функции
+@function vw($value, $base: 1920){
+    @return $value / $base * 100vw;
+}
+
+@function vmin($value, $base: 428){
+    @return $value / $base * 100vw;
+}
