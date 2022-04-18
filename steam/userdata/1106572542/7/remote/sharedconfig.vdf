@@ -1,0 +1,28 @@
+"UserRoamingConfigStore"
+{
+	"Software"
+	{
+		"Valve"
+		{
+			"Steam"
+			{
+				"SurveyDate"		"2021-12-11"
+				"SurveyDateVersion"		"7201416086439732664"
+				"SteamDefaultDialog"		"#app_store"
+				"ShowScreenshotManager"		"0"
+				"StartMenuShortcutCheck"		"1"
+				"DesktopShortcutCheck"		"1"
+				"apps"
+				{
+					"570"
+					{
+						"tags"
+						{
+							"0"		"favorite"
+						}
+					}
+				}
+			}
+		}
+	}
+}
