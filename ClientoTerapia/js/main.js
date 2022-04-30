@@ -41,48 +41,80 @@ menuBtn.addEventListener('click', function () {
   \***************************************/
 /***/ (() => {
 
-$(document).ready(function () {
-  if (window.innerWidth >= 991) {
-    //When page loads...
-    $(".tab_content, .tab_content_child").hide(); //Hide all content
+/* $(document).ready(function() {
 
-    $("ul.tabs li:first").addClass("active").show(); //Activate first tab
+     $(".tab_content, .tab_content_child").hide();
+     $("ul.tabs li:first").addClass("active").show();
+     $("ul.tabs_child li:first").addClass("active").show();
+     $(".tab_content:first").show();
+     $(".tab_content_child:first").show();
 
-    $("ul.tabs_child li:first").addClass("active").show(); //Activate first tab
 
-    $(".tab_content:first").show(); //Show first tab content
+     $("ul.tabs li").click(function() {
+         $("ul.tabs li").removeClass("active");
+         $(this).addClass("active");
+         $(".tab_content").hide();
+     
+         var activeTab = $(this).find("a").attr("href");
+         $(activeTab).fadeIn();
+         return false;
+     });    
 
-    $(".tab_content_child:first").show(); //Show first tab content
-    //On Click Event
+     $("ul.tabs_child li").click(function() { 
+        $("ul.tabs_child li").removeClass("active");
+        $(this).addClass("active"); 
+        $(".tab_content_child").hide();
+        var activeTab = $(this).find("a").attr("href");
+        $(activeTab).fadeIn();
+        return false;
+     });
+     
+}); */
 
-    $("ul.tabs li").click(function () {
-      $("ul.tabs li").removeClass("active"); //Remove any "active" class
+/* $('.services__content').each(function(){
 
-      $(this).addClass("active"); //Add "active" class to selected tab
+    $(".tab_content, .tab_content_child").hide();
+     $("ul.tabs li:first").addClass("active").show();
+     $("ul.tabs_child li:first").addClass("active").show();
+     $(".tab_content:first").show();
+     $(".tab_content_child:first").show();
 
-      $(".tab_content").hide(); //Hide all tab content
+     $("ul.tabs li").click(function() {
+         $("ul.tabs li").removeClass("active");
+         $(this).addClass("active");
+         $(".tab_content").hide();
+     
+         var activeTab = $(this).find("a").attr("href");
+         $(activeTab).fadeIn();
+         return false;
+     });    
 
-      var activeTab = $(this).find("a").attr("href"); //Find the href attribute value to identify the active tab + content
+     $("ul.tabs_child li").click(function() { 
+        $("ul.tabs_child li").removeClass("active");
+        $(this).addClass("active"); 
+        $(".tab_content_child").hide();
+        var activeTab = $(this).find("a").attr("href");
+        $(activeTab).fadeIn();
+        return false;
+     });
+    
+}); */
+$('.services__content').each(function () {
+  var tabTabs = $(this).find('ul.tabs li');
+  /* $("ul.tabs li:first").addClass("active").show(); */
 
-      $(activeTab).fadeIn(); //Fade in the active ID content
+  /* $(".tab_content:first").show(); */
 
-      return false;
-    }); //On Click child tabs Event
-
-    $("ul.tabs_child li").click(function () {
-      $("ul.tabs_child li").removeClass("active"); //Remove any "active" class
-
-      $(this).addClass("active"); //Add "active" class to selected tab
-
-      $(".tab_content_child").hide(); //Hide all tab content 
-
-      var activeTab = $(this).find("a").attr("href"); //Find the href attribute value to identify the active tab + content
-
-      $(activeTab).fadeIn(); //Fade in the active ID content 
-
-      return false;
+  var tabItems = $(this).find('.tab_content').hide();
+  $(".tab_container .tab_content.active").show();
+  tabTabs.each(function (i) {
+    $(this).click(function () {
+      $(this).addClass('active').show();
+      tabTabs.not(this).removeClass('active');
+      $(tabItems[i]).addClass('active').show();
+      tabItems.not(tabItems[i]).removeClass('active').hide();
     });
-  }
+  });
 });
 
 /***/ }),
