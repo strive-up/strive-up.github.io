@@ -3499,6 +3499,122 @@ ul.tabs li a {
   line-height: 120%;
 }
 
+#analytics3 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-bottom: 2.0833333333vw;
+}
+#analytics3 .analytics3__images {
+  position: absolute;
+  width: 54.5833333333vw;
+  height: 40.9895833333vw;
+  margin-top: 2.0833333333vw;
+  top: 50%;
+  left: 45%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#analytics3 .analytics3__images img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+#analytics3 .analytics3__info {
+  width: 23.3854166667vw;
+  height: 10.5208333333vw;
+  background-color: rgba(54, 76, 78, 0.9);
+  border-radius: 0.7291666667vw;
+  position: relative;
+  padding: 0 2.34375vw;
+  z-index: 15;
+  margin-right: 6.7708333333vw;
+  margin-top: 2.8645833333vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+#analytics3 .analytics3__info::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 0.7291666667vw;
+  padding: 0.0520833333vw;
+  background: -o-linear-gradient(270.78deg, rgba(175, 253, 255, 0) 0.7%, #AFFDFF 52.82%, rgba(175, 253, 255, 0) 100.77%), -o-linear-gradient(0.08deg, rgba(175, 253, 255, 0) -1.09%, #AFFDFF 51.52%, rgba(175, 253, 255, 0) 99.92%);
+  background: linear-gradient(179.22deg, rgba(175, 253, 255, 0) 0.7%, #AFFDFF 52.82%, rgba(175, 253, 255, 0) 100.77%), linear-gradient(89.92deg, rgba(175, 253, 255, 0) -1.09%, #AFFDFF 51.52%, rgba(175, 253, 255, 0) 99.92%);
+  -webkit-mask: -webkit-gradient(linear, left top, left bottom, color-stop(0, white)) content-box, -webkit-gradient(linear, left top, left bottom, color-stop(0, white));
+  -webkit-mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+#analytics3 .analytics3__info ul.problems__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  z-index: 20;
+  position: relative;
+}
+#analytics3 .analytics3__info ul.problems__list::before {
+  content: "";
+  position: absolute;
+  width: 0.0520833333vw;
+  height: 110%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.16);
+  border-radius: 50%;
+}
+#analytics3 .analytics3__info ul.problems__list li.problems__list__item {
+  position: relative;
+  font-family: "Montserrat-Regular";
+  font-size: 1.0416666667vw;
+  color: rgba(255, 255, 255, 0.68);
+  padding-top: 1.0416666667vw;
+  padding-left: 1.0416666667vw;
+}
+#analytics3 .analytics3__info ul.problems__list li.problems__list__item span {
+  color: white;
+}
+#analytics3 .analytics3__info ul.problems__list li.problems__list__item:first-child {
+  padding-top: 0;
+}
+#analytics3 .analytics3__info ul.problems__list li.problems__list__item::before {
+  content: "";
+  position: absolute;
+  left: -0.7291666667vw;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 0.46875vw;
+  width: 1.5625vw;
+  border-radius: 50%;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  background: -o-radial-gradient(50% 50%, 50% 50%, rgba(0, 255, 255, 0.94433) 3.12%, #00FFFF 6.77%, rgba(0, 255, 255, 0.814433) 15.62%, rgba(0, 255, 255, 0.34) 25%, rgba(0, 255, 255, 0.1) 50.52%, rgba(0, 255, 255, 0) 97.92%);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 255, 255, 0.94433) 3.12%, #00FFFF 6.77%, rgba(0, 255, 255, 0.814433) 15.62%, rgba(0, 255, 255, 0.34) 25%, rgba(0, 255, 255, 0.1) 50.52%, rgba(0, 255, 255, 0) 97.92%);
+}
+
 @media (max-width: 990px) {
   .dev1__list {
     display: -webkit-box;
