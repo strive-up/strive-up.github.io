@@ -4650,6 +4650,9 @@ ul.tabs li a {
     z-index: 15;
     position: relative;
   }
+  #advance3 .info__block p.title {
+    width: 79.4392523364vw;
+  }
   #advance3 .adv3__images {
     width: 124.2990654206vw;
     height: 70.0934579439vw;
