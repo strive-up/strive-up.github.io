@@ -3615,6 +3615,10 @@ ul.tabs li a {
   background: radial-gradient(50% 50% at 50% 50%, rgba(0, 255, 255, 0.94433) 3.12%, #00FFFF 6.77%, rgba(0, 255, 255, 0.814433) 15.62%, rgba(0, 255, 255, 0.34) 25%, rgba(0, 255, 255, 0.1) 50.52%, rgba(0, 255, 255, 0) 97.92%);
 }
 
+.title .arrow {
+  display: none;
+}
+
 @media (max-width: 990px) {
   .dev1__list {
     display: -webkit-box;
@@ -4116,6 +4120,177 @@ ul.tabs li a {
     transform: rotate(-90deg);
     background: -o-radial-gradient(50% 50%, 50% 50%, rgba(0, 255, 255, 0.94433) 3.12%, #00FFFF 6.77%, rgba(0, 255, 255, 0.814433) 15.62%, rgba(0, 255, 255, 0.34) 25%, rgba(0, 255, 255, 0.1) 50.52%, rgba(0, 255, 255, 0) 97.92%);
     background: radial-gradient(50% 50% at 50% 50%, rgba(0, 255, 255, 0.94433) 3.12%, #00FFFF 6.77%, rgba(0, 255, 255, 0.814433) 15.62%, rgba(0, 255, 255, 0.34) 25%, rgba(0, 255, 255, 0.1) 50.52%, rgba(0, 255, 255, 0) 97.92%);
+  }
+
+  .dev2__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 82.9439252336vw;
+    height: 79.2056074766vw;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    row-gap: 0;
+    -webkit-column-gap: 0;
+    -moz-column-gap: 0;
+    column-gap: 0;
+    background-color: #374E50;
+    border-radius: 3.2710280374vw;
+    margin-top: 8.1775700935vw;
+    padding: 11.6822429907vw 0;
+  }
+  .dev2__list::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 3.2710280374vw;
+    padding: 0.2336448598vw;
+    background: -o-linear-gradient(270.78deg, rgba(175, 253, 255, 0) 0.7%, #AFFDFF 52.82%, rgba(175, 253, 255, 0) 100.77%), -o-linear-gradient(0.08deg, rgba(175, 253, 255, 0) -1.09%, #AFFDFF 51.52%, rgba(175, 253, 255, 0) 99.92%);
+    background: linear-gradient(179.22deg, rgba(175, 253, 255, 0) 0.7%, #AFFDFF 52.82%, rgba(175, 253, 255, 0) 100.77%), linear-gradient(89.92deg, rgba(175, 253, 255, 0) -1.09%, #AFFDFF 51.52%, rgba(175, 253, 255, 0) 99.92%);
+    -webkit-mask: -webkit-gradient(linear, left top, left bottom, color-stop(0, white)) content-box, -webkit-gradient(linear, left top, left bottom, color-stop(0, white));
+    -webkit-mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+  .dev2__list::after {
+    position: absolute;
+    content: "";
+    width: 2.5700934579vw;
+    height: calc(100% - 0.7009345794vw);
+    left: 0.2336448598vw;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-radius: 3.2710280374vw 0 0 3.2710280374vw;
+    z-index: 0;
+    background-color: rgba(0, 255, 255, 0.08);
+  }
+  .dev2__list .dev2__list__item {
+    width: 100%;
+    min-height: 2.3364485981vw;
+    background-color: transparent;
+    border-radius: 0.7291666667vw;
+    position: relative;
+    padding: 0 8.4112149533vw;
+    z-index: 5;
+  }
+  .dev2__list .dev2__list__item::before {
+    display: none;
+  }
+  .dev2__list .dev2__list__item::after {
+    display: none;
+  }
+  .dev2__list .dev2__list__item p.title {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    font-size: 3.0373831776vw;
+    color: #00DBE0;
+    font-family: "DrukTextWide-Bold";
+    cursor: pointer;
+  }
+  .dev2__list .dev2__list__item p.title br {
+    display: none;
+  }
+  .dev2__list .dev2__list__item .title {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .dev2__list .dev2__list__item .title .arrow.active::after {
+    content: "";
+    position: absolute;
+    width: 0.5841121495vw;
+    height: 2.1028037383vw;
+    top: 0;
+    left: 0.3504672897vw;
+    background-color: rgba(73, 204, 207, 0.47);
+    -webkit-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+  .dev2__list .dev2__list__item .title .arrow.active::before {
+    content: "";
+    position: absolute;
+    width: 0.5841121495vw;
+    height: 2.1028037383vw;
+    top: 0;
+    right: 0.3504672897vw;
+    background-color: rgba(73, 204, 207, 0.47);
+    -webkit-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+  }
+  .dev2__list .dev2__list__item .title .arrow {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    margin-left: 3.5046728972vw;
+  }
+  .dev2__list .dev2__list__item .title .arrow::after {
+    content: "";
+    position: absolute;
+    width: 0.5841121495vw;
+    height: 2.1028037383vw;
+    top: 0;
+    left: 0.3504672897vw;
+    background-color: #49CCCF;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .dev2__list .dev2__list__item .title .arrow::before {
+    content: "";
+    position: absolute;
+    width: 0.5841121495vw;
+    height: 2.1028037383vw;
+    top: 0;
+    right: 0.3504672897vw;
+    background-color: #49CCCF;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  .dev2__list .dev2__list__item p.text {
+    display: none;
+    position: relative;
+    z-index: 10;
+    font-size: 3.0373831776vw;
+    line-height: 120%;
+    font-family: "Montserrat-Regular";
+    color: rgba(255, 255, 255, 0.68);
+    margin-top: 0.78125vw;
+    padding-bottom: 2.3364485981vw;
   }
 }
 .footer {

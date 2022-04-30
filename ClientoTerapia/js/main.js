@@ -116,6 +116,20 @@ $('.services__content').each(function () {
     });
   });
 });
+$('.dev2__list__item .title').click(function (e) {
+  e.preventDefault();
+  var $this = $(this);
+
+  if ($this.next().hasClass('active')) {
+    $this.next().removeClass('active');
+    $this.next().slideUp(350);
+  } else {
+    $this.parent().parent().find('.dev2__list__item p.text').removeClass('active');
+    $this.parent().parent().find('.dev2__list__item p.text').slideUp(350);
+    $this.next().toggleClass('active');
+    $this.next().slideToggle(350);
+  }
+});
 
 /***/ }),
 
