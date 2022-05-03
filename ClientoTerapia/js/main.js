@@ -44,7 +44,26 @@ menuBtn.addEventListener('click', function () {
   \****************************************/
 /***/ (() => {
 
+/* var swiper = new Swiper(".slider__container", {
+    slidesPerView: 4,
+    loop: true,
+    spaceBetween: 0,
+    pagination: {
+      el: ".swiper-pagination",
+      type: "fraction",
+    },
+    navigation: {
+      nextEl: ".slider__arrow--next",
+      prevEl: ".slider__arrow--prev",
+    },
+  }); */
 
+/*   $('.slider__elements').owlCarousel({
+    loop:true,
+    items: 4,
+    margin: 40,
+    nav:false,
+}) */
 
 /***/ }),
 
