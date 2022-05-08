@@ -44,26 +44,23 @@ menuBtn.addEventListener('click', function () {
   \****************************************/
 /***/ (() => {
 
-/* var swiper = new Swiper(".slider__container", {
-    slidesPerView: 4,
-    loop: true,
-    spaceBetween: 0,
-    pagination: {
-      el: ".swiper-pagination",
-      type: "fraction",
-    },
-    navigation: {
-      nextEl: ".slider__arrow--next",
-      prevEl: ".slider__arrow--prev",
-    },
-  }); */
-
-/*   $('.slider__elements').owlCarousel({
-    loop:true,
-    items: 4,
-    margin: 40,
-    nav:false,
-}) */
+var $st = $('.pagination');
+var $slickEl = $('.center');
+$slickEl.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+  var i = (currentSlide ? currentSlide : 0) + 1;
+  $st.html(i + '<span><span class="slash">/</span>' + slick.slideCount + '</span>');
+});
+$('.slider').slick({
+  infinite: true,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  variableWidth: true,
+  arrows: true,
+  prevArrow: $('.slider__arrow--prev'),
+  nextArrow: $('.slider__arrow--next'),
+  dots: true,
+  speed: "1000ms"
+});
 
 /***/ }),
 
