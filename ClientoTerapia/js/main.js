@@ -62,6 +62,11 @@ $('.slider').slick({
   speed: "1000ms"
 });
 
+if (window.innerWidth < 990) {
+  $('ul.slick-dots').appendTo('.portfolio__slider');
+  $('.slider__item__info').appendTo('.portfolio__slider');
+}
+
 /***/ }),
 
 /***/ "./src/js/components/services.js":
