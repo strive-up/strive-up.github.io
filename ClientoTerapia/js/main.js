@@ -77,10 +77,6 @@ if (window.innerWidth < 990) {
 
 $('.services__content').each(function () {
   var tabTabs = $(this).find('ul.tabs li');
-  /* $("ul.tabs li:first").addClass("active").show(); */
-
-  /* $(".tab_content:first").show(); */
-
   var tabItems = $(this).find('.tab_content').hide();
   $(".tab_container .tab_content.active").show();
   tabTabs.each(function (i) {
