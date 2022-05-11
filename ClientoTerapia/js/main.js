@@ -88,6 +88,23 @@ $('.services__content').each(function () {
     });
   });
 });
+$('.tab_content .button .btn__arrow__stroke').click(function () {
+  var tabsContent = $(this).closest('.tab_content.active');
+  var tabsToggler = $(this).closest('.tab_container').prev().find('li.active');
+  var dir = $(this).text().trim() == 'Пред.' ? 'prev' : 'next';
+
+  if (dir == 'prev') {
+    if (tabsToggler.prev().length) {
+      tabsToggler.prev().addClass('active').siblings().removeClass('active');
+      tabsContent.prev().show().addClass('active').siblings().hide().removeClass('active');
+    }
+  } else {
+    if (tabsToggler.next().length) {
+      tabsToggler.next().addClass('active').siblings().removeClass('active');
+      tabsContent.next().show().addClass('active').siblings().hide().removeClass('active');
+    }
+  }
+});
 $('.dev2__list__item .title').click(function (e) {
   e.preventDefault();
   var $this = $(this);

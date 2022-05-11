@@ -2080,6 +2080,12 @@ ul.tabs li a {
   height: 3.8541666667vw;
   position: relative;
 }
+.services .info__block .button .btn__arrow__stroke p {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: none;
+}
 .services .info__block .button .btn__arrow__stroke:first-child img {
   -webkit-transform: rotate(-180deg);
   -ms-transform: rotate(-180deg);
