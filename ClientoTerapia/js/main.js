@@ -91,34 +91,50 @@ $('.services__content').each(function () {
 $('.tab_content .button .btn__arrow__stroke').click(function () {
   var tabsContent = $(this).closest('.tab_content.active');
   var tabsToggler = $(this).closest('.tab_container').prev().find('li.active');
-  var dir = $(this).text().trim() == 'Пред.' ? 'prev' : 'next';
+  var tabsCount = 4; //количество табов всего
 
-  if (dir == 'prev') {
+  var step = 1; //счётчик, который мы будем увеличивать при нажатии вправо, уменьшать - при нажатии влево
+
+  if ($(this).hasClass('btn--prev')) {
     if (tabsToggler.prev().length) {
       tabsToggler.prev().addClass('active').siblings().removeClass('active');
       tabsContent.prev().show().addClass('active').siblings().hide().removeClass('active');
     }
-  } else {
+
+    if (step > 1 && step <= tabsCount) {
+      $('.btn--prev').addClass('active');
+      step--;
+    } else {
+      $('.btn--prev').removeClass('active');
+    }
+  } else if ($(this).hasClass('btn--next')) {
     if (tabsToggler.next().length) {
       tabsToggler.next().addClass('active').siblings().removeClass('active');
       tabsContent.next().show().addClass('active').siblings().hide().removeClass('active');
     }
-  }
-});
-$('.dev2__list__item .title').click(function (e) {
-  e.preventDefault();
-  var $this = $(this);
 
-  if ($this.next().hasClass('active')) {
-    $this.next().removeClass('active');
-    $this.next().slideUp(350);
-  } else {
-    $this.parent().parent().find('.dev2__list__item p.text').removeClass('active');
-    $this.parent().parent().find('.dev2__list__item p.text').slideUp(350);
-    $this.next().toggleClass('active');
-    $this.next().slideToggle(350);
+    if (step < tabsCount) {
+      $('.btn--next').addClass('active');
+      step++;
+    } else {
+      $('.btn--next').removeClass('active');
+    }
   }
 });
+var acc = document.getElementsByClassName("offer__item"),
+    i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function () {
+    for (j = 0; j < acc.length; j++) {
+      if (acc[j] !== this) {
+        acc[j].classList.remove("active");
+      } else {
+        this.classList.toggle("active");
+      }
+    }
+  };
+}
 
 /***/ }),
 
