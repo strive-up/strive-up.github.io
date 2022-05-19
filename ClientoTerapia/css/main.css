@@ -2232,7 +2232,7 @@ ul.tabs li a {
   font-family: "RFDewiExtended-Light";
   text-align: center;
   position: relative;
-  z-index: 20;
+  z-index: 50;
 }
 .social p.or {
   color: rgba(255, 255, 255, 0.6);
@@ -6194,7 +6194,7 @@ ul.slick-dots li.slick-active {
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
-    opacity: 0.2;
+    opacity: 1;
   }
   .slider__buttons .btn__arrow__stroke .btn__arrow {
     position: absolute;
@@ -6239,9 +6239,9 @@ ul.slick-dots li.slick-active {
     -webkit-mask-composite: xor;
     mask-composite: exclude;
   }
-  .slider__buttons .slider__arrow--next.active .btn__arrow__stroke img,
-.slider__buttons .slider__arrow--prev.active .btn__arrow__stroke img {
-    opacity: 1;
+  .slider__buttons .slider__arrow--next.slick-disabled .btn__arrow__stroke img,
+.slider__buttons .slider__arrow--prev.slick-disabled .btn__arrow__stroke img {
+    opacity: 0.2;
   }
   .slider__buttons .btn__arrow {
     position: absolute;
