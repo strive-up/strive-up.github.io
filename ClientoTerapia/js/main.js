@@ -51,7 +51,7 @@ $slickEl.on('init reInit afterChange', function (event, slick, currentSlide, nex
   $st.html(i + '<span><span class="slash">/</span>' + slick.slideCount + '</span>');
 });
 $('.slider').slick({
-  infinite: true,
+  infinite: false,
   slidesToShow: 4,
   slidesToScroll: 1,
   variableWidth: true,
@@ -91,33 +91,16 @@ $('.services__content').each(function () {
 $('.tab_content .button .btn__arrow__stroke').click(function () {
   var tabsContent = $(this).closest('.tab_content.active');
   var tabsToggler = $(this).closest('.tab_container').prev().find('li.active');
-  var tabsCount = 4; //количество табов всего
-
-  var step = 1; //счётчик, который мы будем увеличивать при нажатии вправо, уменьшать - при нажатии влево
 
   if ($(this).hasClass('btn--prev')) {
     if (tabsToggler.prev().length) {
       tabsToggler.prev().addClass('active').siblings().removeClass('active');
       tabsContent.prev().show().addClass('active').siblings().hide().removeClass('active');
     }
-
-    if (step > 1 && step <= tabsCount) {
-      $('.btn--prev').addClass('active');
-      step--;
-    } else {
-      $('.btn--prev').removeClass('active');
-    }
   } else if ($(this).hasClass('btn--next')) {
     if (tabsToggler.next().length) {
       tabsToggler.next().addClass('active').siblings().removeClass('active');
       tabsContent.next().show().addClass('active').siblings().hide().removeClass('active');
-    }
-
-    if (step < tabsCount) {
-      $('.btn--next').addClass('active');
-      step++;
-    } else {
-      $('.btn--next').removeClass('active');
     }
   }
 });

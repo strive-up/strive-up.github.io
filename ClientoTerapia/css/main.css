@@ -2321,6 +2321,9 @@ ul.tabs li a {
   -o-object-fit: cover;
   object-fit: cover;
 }
+.social .social__btn .social__item svg path {
+  fill: linear-gradient(180deg, rgba(175, 253, 255, 0.38) 0%, rgba(175, 253, 255, 0.08) 100%);
+}
 
 #development2 {
   display: -webkit-box;
@@ -5463,11 +5466,11 @@ ul.tabs li a {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  opacity: 0.2;
-}
-.slider__buttons .slider__arrow--next.active .btn__arrow__stroke img,
-.slider__buttons .slider__arrow--prev.active .btn__arrow__stroke img {
   opacity: 1;
+}
+.slider__buttons .slider__arrow--next.slick-disabled .btn__arrow__stroke img,
+.slider__buttons .slider__arrow--prev.slick-disabled .btn__arrow__stroke img {
+  opacity: 0.2;
 }
 .slider__buttons .btn__arrow {
   position: absolute;
