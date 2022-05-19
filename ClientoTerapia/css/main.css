@@ -3831,15 +3831,15 @@ ul.tabs li a {
   }
 
   #development2 .offer {
-    width: 355px;
-    min-height: 293px;
+    width: 82.9439252336vw;
+    min-height: 68.4579439252vw;
     background: rgba(255, 255, 255, 0.08);
-    -webkit-box-shadow: 0px 9px 14px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 9px 14px rgba(0, 0, 0, 0.2);
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
-    border-radius: 14px;
-    padding: 20px 40px;
+    -webkit-box-shadow: 0px 2.1028037383vw 3.2710280374vw rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2.1028037383vw 3.2710280374vw rgba(0, 0, 0, 0.2);
+    -webkit-backdrop-filter: blur(4.6728971963vw);
+    backdrop-filter: blur(4.6728971963vw);
+    border-radius: 3.2710280374vw;
+    padding: 4.6728971963vw 9.3457943925vw;
     font-family: sans-serif;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3851,8 +3851,13 @@ ul.tabs li a {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    position: relative;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
     z-index: 10;
+    margin-top: 7.0093457944vw;
   }
   #development2 .offer::after {
     position: absolute;
@@ -3862,9 +3867,9 @@ ul.tabs li a {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    width: 11px;
-    height: calc(100% - 3px);
-    border-radius: 14px 0 0 14px;
+    width: 2.5700934579vw;
+    height: calc(100% - 0.7009345794vw);
+    border-radius: 3.2710280374vw 0 0 3.2710280374vw;
     background: rgba(0, 255, 255, 0.08);
   }
   #development2 .offer::before {
@@ -3872,8 +3877,8 @@ ul.tabs li a {
     content: "";
     position: absolute;
     inset: 0;
-    border-radius: 14px;
-    padding: 1px;
+    border-radius: 3.2710280374vw;
+    padding: 0.2336448598vw;
     background: -o-linear-gradient(270.78deg, rgba(175, 253, 255, 0) 0.7%, #AFFDFF 52.82%, rgba(175, 253, 255, 0) 100.77%), -o-linear-gradient(0.08deg, rgba(175, 253, 255, 0) -1.09%, #AFFDFF 51.52%, rgba(175, 253, 255, 0) 99.92%);
     background: linear-gradient(179.22deg, rgba(175, 253, 255, 0) 0.7%, #AFFDFF 52.82%, rgba(175, 253, 255, 0) 100.77%), linear-gradient(89.92deg, rgba(175, 253, 255, 0) -1.09%, #AFFDFF 51.52%, rgba(175, 253, 255, 0) 99.92%);
     -webkit-mask: -webkit-gradient(linear, left top, left bottom, color-stop(0, white)) content-box, -webkit-gradient(linear, left top, left bottom, color-stop(0, white));
@@ -3884,7 +3889,7 @@ ul.tabs li a {
   #development2 .offer__item {
     position: relative;
     z-index: 20;
-    padding-top: 15px;
+    padding-top: 3.5046728972vw;
   }
   #development2 .offer__item:first-child {
     padding-top: 0;
@@ -3893,8 +3898,8 @@ ul.tabs li a {
     display: none;
     position: absolute;
     content: "";
-    width: 320px;
-    height: 2px;
+    width: 74.7663551402vw;
+    height: 0.4672897196vw;
     bottom: 0;
     border-radius: 50%;
     left: 50%;
@@ -3918,16 +3923,16 @@ ul.tabs li a {
     cursor: pointer;
   }
   #development2 .offer__item p {
-    font-size: 13px;
+    font-size: 3.0373831776vw;
     color: #00DBE0;
-    font-weight: bold;
+    font-family: "DrukTextWide-Bold";
     margin: 0;
     padding: 0;
   }
   #development2 .offer__item .arrow {
     position: relative;
     cursor: pointer;
-    padding-left: 20px;
+    padding-left: 4.6728971963vw;
   }
   #development2 .offer__item .arrow.active::after {
     -webkit-transform: rotate(-135deg);
@@ -3944,19 +3949,19 @@ ul.tabs li a {
   #development2 .offer__item .arrow::after {
     position: absolute;
     content: "";
-    width: 2px;
-    height: 10px;
+    width: 0.4672897196vw;
+    height: 2.3364485981vw;
     background-color: #49CCCF;
     -webkit-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    left: 12px;
+    left: 2.8037383178vw;
   }
   #development2 .offer__item .arrow::before {
     position: absolute;
     content: "";
-    width: 2px;
-    height: 10px;
+    width: 0.4672897196vw;
+    height: 2.3364485981vw;
     background-color: #49CCCF;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -3965,10 +3970,11 @@ ul.tabs li a {
   }
   #development2 .offer__item .dropdown__text {
     display: none;
-    margin-top: 5px;
-    padding-bottom: 15px;
+    margin-top: 1.1682242991vw;
+    padding-bottom: 3.5046728972vw;
     line-height: 120%;
-    font-size: 13px;
+    font-size: 3.0373831776vw;
+    font-family: "Montserrat-Regular";
     color: rgba(255, 255, 255, 0.68);
   }
   #development2 .offer__item.active::after {
