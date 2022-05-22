@@ -2828,7 +2828,7 @@ ul.tabs li a {
   align-items: center;
   z-index: 10;
 }
-#advance3 .adv3__wrapp {
+#advance3 .adiv3__wrapp {
   margin-right: 7.2916666667vw;
   z-index: 15;
   position: relative;
@@ -2849,14 +2849,14 @@ ul.tabs li a {
   -o-object-fit: cover;
   object-fit: cover;
 }
-#advance3 .adv3__item--one, #advance3 .adv3__item--two, #advance3 .adv3__item--three {
+#advance3 .adiv3__item--one, #advance3 .adiv3__item--two, #advance3 .adiv3__item--three {
   background-color: rgba(54, 76, 78, 0.68);
   -webkit-box-shadow: 0 0.46875vw 0.7291666667vw rgba(0, 0, 0, 0.2);
   box-shadow: 0 0.46875vw 0.7291666667vw rgba(0, 0, 0, 0.2);
   -webkit-backdrop-filter: blur(1.0416666667vw);
   backdrop-filter: blur(1.0416666667vw);
 }
-#advance3 .adv3__item {
+#advance3 .adiv3__item {
   border-radius: 0.7291666667vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2873,23 +2873,23 @@ ul.tabs li a {
   margin-top: 1.5625vw;
   padding-left: 2.34375vw;
 }
-#advance3 .adv3__item p.text {
+#advance3 .adiv3__item p.text {
   color: rgba(255, 255, 255, 0.68);
   font-size: 1.0416666667vw;
   font-family: "Montserrat-Regular";
   line-height: 120%;
   padding-top: 1.3020833333vw;
 }
-#advance3 .adv3__item p.title {
+#advance3 .adiv3__item p.title {
   font-size: 1.25vw;
   color: white;
   font-family: "Montserrat-Medium";
   line-height: 120%;
 }
-#advance3 .adv3__item:first-child {
+#advance3 .adiv3__item:first-child {
   margin-top: 0;
 }
-#advance3 .adv3__item::before {
+#advance3 .adiv3__item::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -3015,7 +3015,7 @@ ul.tabs li a {
   -o-object-fit: cover;
   object-fit: cover;
 }
-#advance5 .adv5__wrapp {
+#advance5 .adiv5__wrapp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3024,14 +3024,14 @@ ul.tabs li a {
   -ms-flex-direction: column;
   flex-direction: column;
 }
-#advance5 .adv5__item--one, #advance5 .adv5__item--two, #advance5 .adv5__item--three {
+#advance5 .adiv5__item--one, #advance5 .adiv5__item--two, #advance5 .adiv5__item--three {
   background-color: rgba(54, 76, 78, 0.68);
   -webkit-box-shadow: 0 0.46875vw 0.7291666667vw rgba(0, 0, 0, 0.2);
   box-shadow: 0 0.46875vw 0.7291666667vw rgba(0, 0, 0, 0.2);
   -webkit-backdrop-filter: blur(1.0416666667vw);
   backdrop-filter: blur(1.0416666667vw);
 }
-#advance5 .adv5__item {
+#advance5 .adiv5__item {
   border-radius: 0.7291666667vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3048,14 +3048,14 @@ ul.tabs li a {
   margin-top: 1.5625vw;
   padding-left: 2.34375vw;
 }
-#advance5 .adv5__item p.text {
+#advance5 .adiv5__item p.text {
   color: rgba(255, 255, 255, 0.68);
   font-size: 1.0416666667vw;
   font-family: "Montserrat-Regular";
   line-height: 120%;
   padding-top: 1.3020833333vw;
 }
-#advance5 .adv5__item .title {
+#advance5 .adiv5__item .title {
   font-size: 1.25vw;
   color: white;
   font-family: "Montserrat-Medium";
@@ -3065,13 +3065,13 @@ ul.tabs li a {
   display: flex;
   margin-top: 0.9375vw;
 }
-#advance5 .adv5__item .title span {
+#advance5 .adiv5__item .title span {
   -ms-flex-item-align: end;
   align-self: flex-end;
   margin-left: 1.0416666667vw;
   margin-top: 0.78125vw;
 }
-#advance5 .adv5__item .procent {
+#advance5 .adiv5__item .procent {
   color: #49CCCF;
   font-family: "DrukTextWide-Bold";
   font-size: 3.3333333333vw;
@@ -3080,14 +3080,14 @@ ul.tabs li a {
       font-size: 24px;
   } */
 }
-#advance5 .adv5__item .procent span {
+#advance5 .adiv5__item .procent span {
   font-family: "RFDewiExtended-Bold";
   margin: 0;
 }
-#advance5 .adv5__item:first-child {
+#advance5 .adiv5__item:first-child {
   margin-top: 0;
 }
-#advance5 .adv5__item::before {
+#advance5 .adiv5__item::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -4757,7 +4757,7 @@ ul.tabs li a {
     align-items: center;
     z-index: 10;
   }
-  #advance3 .adv3__wrapp {
+  #advance3 .adiv3__wrapp {
     margin-right: 7.2916666667vw;
     z-index: 15;
     position: relative;
@@ -4774,7 +4774,7 @@ ul.tabs li a {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
-  #advance3 .adv3__item--two {
+  #advance3 .adiv3__item--two {
     top: 11.6822429907vw;
     right: 39.7196261682vw;
     width: 37.6168224299vw;
@@ -4785,7 +4785,7 @@ ul.tabs li a {
     -webkit-backdrop-filter: blur(4.6728971963vw);
     backdrop-filter: blur(4.6728971963vw);
   }
-  #advance3 .adv3__item--one {
+  #advance3 .adiv3__item--one {
     top: -11.6822429907vw;
     right: -7.0093457944vw;
     width: 42.0560747664vw;
@@ -4796,7 +4796,7 @@ ul.tabs li a {
     -webkit-backdrop-filter: blur(4.6728971963vw);
     backdrop-filter: blur(4.6728971963vw);
   }
-  #advance3 .adv3__item--three {
+  #advance3 .adiv3__item--three {
     top: 35.046728972vw;
     right: -7.0093457944vw;
     width: 43.9252336449vw;
@@ -4807,7 +4807,7 @@ ul.tabs li a {
     -webkit-backdrop-filter: blur(4.6728971963vw);
     backdrop-filter: blur(4.6728971963vw);
   }
-  #advance3 .adv3__item {
+  #advance3 .adiv3__item {
     border-radius: 3.2710280374vw;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4823,23 +4823,23 @@ ul.tabs li a {
     padding: 3.5046728972vw;
     position: absolute;
   }
-  #advance3 .adv3__item p.text {
+  #advance3 .adiv3__item p.text {
     color: rgba(255, 255, 255, 0.68);
     font-size: 3.0373831776vw;
     font-family: "Montserrat-Regular";
     line-height: 120%;
     padding-top: 1.3020833333vw;
   }
-  #advance3 .adv3__item p.title {
+  #advance3 .adiv3__item p.title {
     font-size: 3.0373831776vw;
     color: white;
     font-family: "Montserrat-Medium";
     line-height: 120%;
   }
-  #advance3 .adv3__item:first-child {
+  #advance3 .adiv3__item:first-child {
     margin-top: 0;
   }
-  #advance3 .adv3__item::before {
+  #advance3 .adiv3__item::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -4955,7 +4955,7 @@ ul.tabs li a {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
-  #advance5 .adv5__wrapp {
+  #advance5 .adiv5__wrapp {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4966,7 +4966,7 @@ ul.tabs li a {
     position: absolute;
     z-index: 15;
   }
-  #advance5 .adv5__item--one {
+  #advance5 .adiv5__item--one {
     width: 40.8878504673vw;
     height: 28.9719626168vw;
     top: 14.0186915888vw;
@@ -4977,7 +4977,7 @@ ul.tabs li a {
     -webkit-backdrop-filter: blur(4.6728971963vw);
     backdrop-filter: blur(4.6728971963vw);
   }
-  #advance5 .adv5__item--two {
+  #advance5 .adiv5__item--two {
     width: 35.9813084112vw;
     height: 31.0747663551vw;
     top: -31.0747663551vw;
@@ -4988,7 +4988,7 @@ ul.tabs li a {
     -webkit-backdrop-filter: blur(4.6728971963vw);
     backdrop-filter: blur(4.6728971963vw);
   }
-  #advance5 .adv5__item--three {
+  #advance5 .adiv5__item--three {
     width: 39.0186915888vw;
     height: 27.1028037383vw;
     left: 47.8971962617vw;
@@ -4998,7 +4998,7 @@ ul.tabs li a {
     -webkit-backdrop-filter: blur(4.6728971963vw);
     backdrop-filter: blur(4.6728971963vw);
   }
-  #advance5 .adv5__item {
+  #advance5 .adiv5__item {
     position: absolute;
     border-radius: 3.2710280374vw;
     display: -webkit-box;
@@ -5014,14 +5014,14 @@ ul.tabs li a {
     margin-top: 0;
     padding: 3.2710280374vw 2.8037383178vw;
   }
-  #advance5 .adv5__item p.text {
+  #advance5 .adiv5__item p.text {
     color: rgba(255, 255, 255, 0.68);
     font-size: 2.8037383178vw;
     font-family: "Montserrat-Regular";
     line-height: 120%;
     padding-top: 1.3020833333vw;
   }
-  #advance5 .adv5__item .title {
+  #advance5 .adiv5__item .title {
     font-size: 3.0373831776vw;
     color: white;
     font-family: "Montserrat-Medium";
@@ -5035,25 +5035,25 @@ ul.tabs li a {
     flex-direction: column;
     margin-top: 0.9375vw;
   }
-  #advance5 .adv5__item .title span {
+  #advance5 .adiv5__item .title span {
     -ms-flex-item-align: start;
     align-self: flex-start;
     margin-left: 0;
     margin-top: 1.1682242991vw;
   }
-  #advance5 .adv5__item .procent {
+  #advance5 .adiv5__item .procent {
     color: #49CCCF;
     font-family: "DrukTextWide-Bold";
     font-size: 5.6074766355vw;
   }
-  #advance5 .adv5__item .procent span {
+  #advance5 .adiv5__item .procent span {
     font-family: "RFDewiExtended-Bold";
     margin: 0;
   }
-  #advance5 .adv5__item:first-child {
+  #advance5 .adiv5__item:first-child {
     margin-top: 0;
   }
-  #advance5 .adv5__item::before {
+  #advance5 .adiv5__item::before {
     content: "";
     position: absolute;
     inset: 0;
