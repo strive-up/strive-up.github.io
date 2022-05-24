@@ -801,7 +801,8 @@ main.content {
   position: absolute;
   width: 15.3125vw;
   height: 17.9166666667vw;
-  background: rgba(54, 76, 78, 0.8);
+  /* background: rgba(54, 76, 78, 0.80); */
+  background: rgba(255, 255, 255, 0.08);
   -webkit-box-shadow: 0px 2.65625vw 3.8541666667vw rgba(0, 0, 0, 0.25);
   box-shadow: 0px 2.65625vw 3.8541666667vw rgba(0, 0, 0, 0.25);
   -webkit-backdrop-filter: blur(1.25vw);
@@ -815,6 +816,24 @@ main.content {
   justify-content: center;
   padding: 2.0833333333vw 0;
   z-index: 10;
+}
+.header__nav::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 15.2083333333vw;
+  height: 17.8125vw;
+  /* background: rgba(54, 76, 78, 0.80); */
+  background: rgba(54, 76, 78, 0.8);
+  -webkit-box-shadow: 0px 2.65625vw 3.8541666667vw rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2.65625vw 3.8541666667vw rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(1.25vw);
+  backdrop-filter: blur(1.25vw);
+  border-radius: 2.1354166667vw;
 }
 .header__nav::before {
   content: "";
@@ -935,7 +954,7 @@ main.content {
     box-shadow: 0px 11.9158878505vw 17.2897196262vw rgba(0, 0, 0, 0.25);
     -webkit-backdrop-filter: blur(12.1495327103vw);
     backdrop-filter: blur(12.1495327103vw);
-    background: rgba(54, 76, 78, 0.95);
+    background: rgba(255, 255, 255, 0.08);
     border-radius: 9.5794392523vw;
     right: 3.5046728972vw;
     top: 31.7757009346vw;
@@ -946,6 +965,22 @@ main.content {
     border-radius: 9.5794392523vw;
     padding: 0.2336448598vw;
     z-index: 50;
+  }
+  .header__nav::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 55.1401869159vw;
+    height: 64.4859813084vw;
+    /* background: rgba(54, 76, 78, 0.80); */
+    background: rgba(54, 76, 78, 0.8);
+    -webkit-box-shadow: 0px 11.9158878505vw 17.2897196262vw rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 11.9158878505vw 17.2897196262vw rgba(0, 0, 0, 0.25);
+    border-radius: 9.5794392523vw;
   }
   .header__nav ul.nav__list {
     position: relative;
