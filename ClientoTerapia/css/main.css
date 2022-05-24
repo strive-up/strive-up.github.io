@@ -2836,6 +2836,13 @@ ul.tabs li a {
   margin-right: 7.2916666667vw;
   z-index: 15;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 #promotion3 .prom3__images {
   position: absolute;
@@ -2876,6 +2883,7 @@ ul.tabs li a {
   height: 8.6979166667vw;
   margin-top: 1.5625vw;
   padding-left: 2.34375vw;
+  position: relative;
 }
 #promotion3 .prom3__item p.text {
   color: rgba(255, 255, 255, 0.68);
@@ -3051,6 +3059,7 @@ ul.tabs li a {
   height: 9.1145833333vw;
   margin-top: 1.5625vw;
   padding-left: 2.34375vw;
+  position: relative;
 }
 #promotion5 .prom5__item p.text {
   color: rgba(255, 255, 255, 0.68);
