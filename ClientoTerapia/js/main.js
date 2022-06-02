@@ -19,6 +19,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_portfolio_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_components_portfolio_js__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _components_modal_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/modal.js */ "./src/js/components/modal.js");
 /* harmony import */ var _components_modal_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_components_modal_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_quiz_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/quiz.js */ "./src/js/components/quiz.js");
+/* harmony import */ var _components_quiz_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_components_quiz_js__WEBPACK_IMPORTED_MODULE_5__);
+
 
 
 
@@ -262,6 +265,16 @@ if (window.innerWidth < 990) {
   $('ul.slick-dots').appendTo('.portfolio__slider');
   $('.slider__item__info').appendTo('.portfolio__slider');
 }
+
+/***/ }),
+
+/***/ "./src/js/components/quiz.js":
+/*!***********************************!*\
+  !*** ./src/js/components/quiz.js ***!
+  \***********************************/
+/***/ (() => {
+
+
 
 /***/ }),
 
