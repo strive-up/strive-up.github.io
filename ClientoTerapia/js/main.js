@@ -274,7 +274,35 @@ if (window.innerWidth < 990) {
   \***********************************/
 /***/ (() => {
 
+$('.quiz').each(function () {
+  var quiz = $(this).find('.quiz__pagination li');
+  var quizItem = $(this).find('.quiz__page__content').hide();
+  $(".guiz__page .quiz__page__content.active").show();
+  quiz.each(function (i) {
+    $(this).click(function () {
+      $(this).addClass('active').show();
+      quiz.not(this).removeClass('active');
+      $(quizItem[i]).addClass('active').show();
+      quizItem.not(quizItem[i]).removeClass('active').hide();
+    });
+  });
+});
+$('.btn__quiz').click(function () {
+  var quizContent = $(this).closest('.quiz__page__content.active');
+  var quizToggler = $(this).closest('.guiz__page').prev().find('li.active');
 
+  if ($(this).hasClass('btn__quiz--prev')) {
+    if (quizToggler.prev().length) {
+      quizToggler.prev().addClass('active').siblings().removeClass('active');
+      quizContent.prev().show().addClass('active').siblings().hide().removeClass('active');
+    }
+  } else if ($(this).hasClass('btn__quiz--next')) {
+    if (quizToggler.next().length) {
+      quizToggler.next().addClass('active').siblings().removeClass('active');
+      quizContent.next().show().addClass('active').siblings().hide().removeClass('active');
+    }
+  }
+});
 
 /***/ }),
 

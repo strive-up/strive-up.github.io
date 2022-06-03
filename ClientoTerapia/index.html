@@ -3516,9 +3516,11 @@
             <div class="quiz">
 
     <p class="quiz__title">
-        Ответьте на 6 вопросов и получите<br>
-        идивидуальное коммерческое предложение
+        <span class="desk">Ответьте на 6 вопросов и получите<br>
+            идивидуальное коммерческое предложение</span><span class="mob">Ответьте на 6 вопросов, чтобы получить персональное КП</span>
     </p>
+
+    <span class="mob__text">с перечнем рекомендаций по увеличению продаж в вашем бизнесе</span>
 
     <div class="quiz__pagination">
         <li class="quiz__pag__item active"></li>
@@ -3531,7 +3533,7 @@
 
     <div class="guiz__page">
 
-        <div class="quiz__page__content" id="quiz__page__one">
+        <div class="quiz__page__content active" id="quiz__page__one">
 
             <p class="quiz__answer__num">
                 вопрос <span class="num__start">1</span> из <span class="num__end">6</span>
@@ -3665,12 +3667,12 @@
 
                 <div class="quiz__checkbox__body">
                     <input type="checkbox" name="" id="designcb">
-                    <label for="designcb">Дизайн (фирменный стиль, дизайн банеров, коммеческих предложений и т. д.)</label>
+                    <label for="designcb">Дизайн <span>(фирменный стиль, дизайн банеров, коммеческих предложений и т. д.)</span></label>
                 </div>
 
                 <div class="quiz__checkbox__body">
                     <input type="checkbox" name="" id="analitica">
-                    <label for="analitica">Аналитика (Яндекс метрика, Гугл аналитика)</label>
+                    <label for="analitica">Аналитика <span>(Яндекс метрика, Гугл аналитика)</span></label>
                 </div>
 
                 <div class="quiz__checkbox__body">
@@ -3680,7 +3682,7 @@
 
                 <div class="quiz__checkbox__body">
                     <input type="checkbox" name="" id="reputation">
-                    <label for="reputation">Повышение репутации в сети</label>
+                    <label for="reputation">Повышение репутации <span>в сети</span></label>
                 </div>
 
                 <div class="quiz__checkbox__body">
@@ -3708,10 +3710,12 @@
             <div class="quiz__input__wrapper">
 
                 <div class="quiz__input__body">
+                    <p class="quiz__input__text mobtext">Ваше имя</p>
                     <input type="text" class="quiz__input" placeholder="Ваше имя">
                 </div>
 
                 <div class="quiz__input__body">
+                    <p class="quiz__input__text mobtext">Ваш телефон</p>
                     <input type="text" class="quiz__input" placeholder="Ваш телефон">
                 </div>
 
@@ -3777,7 +3781,7 @@
 
     <div class="quiz__btn__wrapper">
 
-        <div class="btn__arrow__stroke disable">
+        <div class="btn__arrow__stroke btn__quiz btn__quiz--prev disable">
 
             <img src="img/svg/services__arrow/stroke.svg" alt="">
 
@@ -3789,7 +3793,7 @@
 
         </div>
 
-        <div class="btn__arrow__stroke">
+        <div class="btn__arrow__stroke btn__quiz btn__quiz--next">
 
             <img src="img/svg/services__arrow/stroke.svg" alt="">
 
