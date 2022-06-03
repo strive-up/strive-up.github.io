@@ -1135,11 +1135,15 @@ main.content {
 .hero__benefits .hero__benefits__item:first-child {
   margin-left: 0;
 }
-.hero__benefits .hero__benefits__item .benefits__number img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
+.hero__benefits .hero__benefits__item .benefits__number {
+  font-family: "DrukTextWide-Medium";
+  font-size: 1.875vw;
+  background: -o-radial-gradient(50% 50%, 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0.19) 100%);
+  background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0.19) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 .hero__benefits .hero__benefits__item p.benefits__text {
   font-size: 0.8333333333vw;
@@ -1147,18 +1151,6 @@ main.content {
   color: #fff;
   line-height: 120%;
   text-align: center;
-}
-.hero__benefits .hero__benefits__item:nth-child(1) .benefits__number {
-  width: 3.8020833333vw;
-  height: 1.5104166667vw;
-}
-.hero__benefits .hero__benefits__item:nth-child(2) .benefits__number {
-  width: 5.6770833333vw;
-  height: 1.5104166667vw;
-}
-.hero__benefits .hero__benefits__item:nth-child(3) .benefits__number {
-  width: 6.40625vw;
-  height: 1.5104166667vw;
 }
 
 .hero__pagination {
@@ -1312,36 +1304,23 @@ main.content {
     align-items: center;
     margin-left: 0;
   }
-  .hero__benefits .hero__benefits__item:first-child {
-    margin-left: 0;
+  .hero__benefits .hero__benefits__item .benefits__number {
+    font-family: "DrukTextWide-Medium";
+    font-size: 5.6074766355vw;
+    background: -o-radial-gradient(50% 50%, 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0.19) 100%);
+    background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0.19) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
   }
-  .hero__benefits .hero__benefits__item:nth-child(1) p.benefits__number {
-    width: 3.8020833333vw;
-    height: 1.5104166667vw;
-  }
-  .hero__benefits .hero__benefits__item:nth-child(2) p.benefits__number {
-    width: 5.6770833333vw;
-    height: 1.5104166667vw;
-  }
-  .hero__benefits .hero__benefits__item:nth-child(3) p.benefits__number {
-    width: 6.40625vw;
-    height: 1.5104166667vw;
-  }
-  .hero__benefits p.benefits__number {
-    padding-bottom: 2.3364485981vw;
-  }
-  .hero__benefits p.benefits__number img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-  }
-  .hero__benefits p.benefits__text {
+  .hero__benefits .hero__benefits__item p.benefits__text {
     font-size: 3.2710280374vw;
     font-family: "Montserrat-Regular";
     color: #fff;
     line-height: 120%;
     text-align: center;
+    padding-top: 1.1682242991vw;
   }
 
   .hero__benefits__line {
