@@ -626,6 +626,11 @@ main.content {
   height: 3.3333333333vw;
 }
 
+.btn.--next {
+  width: 32.476635514vw;
+  height: 11.9158878505vw;
+}
+
 .btn.--hero {
   width: 17.6041666667vw;
   height: 5.7291666667vw;
@@ -8252,10 +8257,6 @@ p.quiz__answer__num {
   object-fit: cover;
 }
 
-.guiz__page {
-  height: 27.5520833333vw;
-}
-
 .quiz__page__content {
   position: relative;
   z-index: 9999;
@@ -8691,6 +8692,34 @@ p.quiz__answer__num {
   mask-composite: exclude;
 }
 
+#quiz__page__one .quiz__btn__wrapper {
+  margin-top: 3.6458333333vw;
+}
+
+#quiz__page__two .quiz__btn__wrapper {
+  margin-top: 1.5625vw;
+}
+
+#quiz__page__three .quiz__btn__wrapper {
+  margin-top: 1.0416666667vw;
+}
+
+#quiz__page__four .quiz__btn__wrapper {
+  margin-top: 3.125vw;
+}
+
+#quiz__page__five .quiz__btn__wrapper {
+  margin-top: 4.1666666667vw;
+}
+
+#quiz__page__six .quiz__btn__wrapper {
+  margin-top: 6.5104166667vw;
+}
+
+.btn__mob {
+  display: none;
+}
+
 span.mob__text {
   display: none;
 }
@@ -8833,6 +8862,9 @@ span.mob__text {
     -ms-flex-item-align: end;
     align-self: flex-end;
   }
+  .quiz__btn__wrapper .btn__quiz--next {
+    width: 32.476635514vw;
+  }
   .quiz__btn__wrapper .btn__arrow__stroke {
     position: relative;
     cursor: pointer;
@@ -8842,6 +8874,8 @@ span.mob__text {
     margin-right: 2.8037383178vw;
   }
   .quiz__btn__wrapper .btn__arrow__stroke:last-child {
+    width: 32.476635514vw;
+    height: 11.9158878505vw;
     margin-right: 0;
   }
   .quiz__btn__wrapper .btn__arrow__stroke:first-child img {
@@ -9309,6 +9343,38 @@ span.mob__text {
   #quiz__page__six .quiz__switch__wrapper .quiz__switch__item::before {
     border-radius: 3.738317757vw;
     padding: 0.2336448598vw;
+  }
+
+  #quiz__page__one .quiz__btn__wrapper {
+    margin-top: 25.7009345794vw;
+  }
+
+  #quiz__page__two .quiz__btn__wrapper {
+    margin-top: 3.5046728972vw;
+  }
+
+  #quiz__page__three .quiz__btn__wrapper {
+    margin-top: 4.6728971963vw;
+  }
+
+  #quiz__page__four .quiz__btn__wrapper {
+    margin-top: 18.691588785vw;
+  }
+
+  #quiz__page__five .quiz__btn__wrapper {
+    margin-top: 28.0373831776vw;
+  }
+
+  #quiz__page__six .quiz__btn__wrapper {
+    margin-top: 23.3644859813vw;
+  }
+
+  .btn__mob {
+    display: block;
+  }
+
+  .btn__desc {
+    display: none;
   }
 }
 .modal {
