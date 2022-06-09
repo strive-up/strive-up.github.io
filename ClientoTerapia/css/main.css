@@ -8347,11 +8347,11 @@ p.quiz__answer__num {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-top: 2.0833333333vw;
+  margin-top: 1.0416666667vw;
 }
 #quiz__page__one .quiz__input__body .quiz__input {
   width: 29.9479166667vw;
-  height: 4.0625vw;
+  height: 2.9166666667vw;
 }
 
 #quiz__page__two .quiz__input__body .quiz__input {
@@ -8964,7 +8964,7 @@ span.mob__text {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin-top: 9.3457943925vw;
+    margin-top: 4.6728971963vw;
   }
   #quiz__page__one .quiz__input__body .quiz__input {
     width: 100%;
@@ -9325,7 +9325,7 @@ span.mob__text {
   }
 
   #quiz__page__one .quiz__btn__wrapper {
-    margin-top: 25.7009345794vw;
+    margin-top: 15.1869158879vw;
   }
 
   #quiz__page__two .quiz__btn__wrapper {
@@ -9532,6 +9532,64 @@ p.form__text {
   transform: translate(-50%, -50%);
 }
 
+#problemsModal .modal__content {
+  bottom: auto;
+  top: 50%;
+  right: auto;
+  left: 40%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#problemsModal .modal__content .order__call {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+#problemsModal .modal__content .order__call .default {
+  margin-top: 1.0416666667vw;
+}
+#problemsModal .modal__content .order__call textarea {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.12);
+  position: relative;
+  z-index: 99999;
+  resize: none;
+  height: 9.84375vw;
+  outline: none;
+  border-radius: 1.0416666667vw;
+  border: 0.0520833333vw solid #BFE9EB;
+  font-size: 1.0416666667vw;
+  color: white;
+  font-family: "Montserrat-Regular";
+  padding: 1.5625vw 1.5625vw;
+}
+#problemsModal .modal__content .order__call textarea::-webkit-input-placeholder {
+  font-size: 1.0416666667vw;
+  color: white;
+  font-family: "Montserrat-Regular";
+}
+#problemsModal .modal__content .order__call textarea::-moz-placeholder {
+  font-size: 1.0416666667vw;
+  color: white;
+  font-family: "Montserrat-Regular";
+}
+#problemsModal .modal__content .order__call textarea:-ms-input-placeholder {
+  font-size: 1.0416666667vw;
+  color: white;
+  font-family: "Montserrat-Regular";
+}
+#problemsModal .modal__content .order__call textarea::-ms-input-placeholder {
+  font-size: 1.0416666667vw;
+  color: white;
+  font-family: "Montserrat-Regular";
+}
+#problemsModal .modal__content .order__call textarea::placeholder {
+  font-size: 1.0416666667vw;
+  color: white;
+  font-family: "Montserrat-Regular";
+}
+
 @media (min-width: 990px) {
   .modal__close {
     display: none;
@@ -9560,6 +9618,68 @@ p.form__text {
 
   .getpkbtn {
     display: none;
+  }
+
+  #problemsModal .modal__close {
+    right: 9.3457943925vw;
+    bottom: 129.6728971963vw;
+  }
+  #problemsModal .modal__content {
+    top: auto;
+    left: auto;
+    bottom: 7.0093457944vw;
+    right: 9.8130841121vw;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+  #problemsModal .modal__content .order__call {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  #problemsModal .modal__content .order__call .default {
+    margin-top: 4.6728971963vw;
+  }
+  #problemsModal .modal__content .order__call textarea {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.12);
+    position: relative;
+    z-index: 99999;
+    resize: none;
+    height: 28.0373831776vw;
+    outline: none;
+    border-radius: 4.6728971963vw;
+    border: 0.2336448598vw solid #BFE9EB;
+    font-size: 3.0373831776vw;
+    color: white;
+    font-family: "Montserrat-Regular";
+    padding: 4.6728971963vw 7.0093457944vw;
+  }
+  #problemsModal .modal__content .order__call textarea::-webkit-input-placeholder {
+    font-size: 3.0373831776vw;
+    color: white;
+    font-family: "Montserrat-Regular";
+  }
+  #problemsModal .modal__content .order__call textarea::-moz-placeholder {
+    font-size: 3.0373831776vw;
+    color: white;
+    font-family: "Montserrat-Regular";
+  }
+  #problemsModal .modal__content .order__call textarea:-ms-input-placeholder {
+    font-size: 3.0373831776vw;
+    color: white;
+    font-family: "Montserrat-Regular";
+  }
+  #problemsModal .modal__content .order__call textarea::-ms-input-placeholder {
+    font-size: 3.0373831776vw;
+    color: white;
+    font-family: "Montserrat-Regular";
+  }
+  #problemsModal .modal__content .order__call textarea::placeholder {
+    font-size: 3.0373831776vw;
+    color: white;
+    font-family: "Montserrat-Regular";
   }
 }
 /*# sourceMappingURL=main.css.map */
