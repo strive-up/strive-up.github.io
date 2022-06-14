@@ -3,177 +3,46 @@
 	"streaming_v2"
 	{
 		"EnableStreaming"		"1"
-		"DefaultAudioDevice"		"{0.0.0.00000000}.{6156ba7a-a5bb-483e-927c-09a135e659bc}"
-		"DefaultAudioDeviceName"		"Наушники (2- Устройство с поддержкой High Definition Audio)"
-		"DefaultMicrophone"		"{0.0.1.00000000}.{e4b2ecc9-e466-4951-b097-54687cbbef43}"
-		"DefaultMicrophoneName"		"Микрофон (2- Устройство с поддержкой High Definition Audio)"
+		"DefaultAudioDevice"		"{0.0.0.00000000}.{73d836d1-d19a-42d8-b473-6c2de4e17c66}"
+		"DefaultAudioDeviceName"		"Громкоговоритель и наушники (Realtek High Definition Audio)"
+		"DefaultMicrophone"		"{0.0.1.00000000}.{ece8012d-1470-4329-9ef0-e78fa70f036b}"
+		"DefaultMicrophoneName"		"Микрофон (Realtek High Definition Audio)"
 		"P2PScopeV2"		"0"
 	}
 	"Broadcast"
 	{
 		"Permissions"		"1"
-		"MaxKbps"		"2500"
-		"OutputWidth"		"1280"
-		"OutputHeight"		"720"
-		"EncoderSetting"		"0"
-		"IncludeDesktop"		"0"
-		"RecordSystemAudio"		"0"
-		"RecordMic"		"0"
-		"ShowDebugInfo"		"0"
-		"ShowReminder"		"1"
-		"ShowChat"		"1"
 	}
 	"friends"
 	{
-		"PersonaName"		"Kaido"
-		"communitypreferences"		"0801100118c1dfc4fc052000280330013800"
-		"304376650"
-		{
-			"name"		"GoGaQWE"
-			"NameHistory"
-			{
-				"0"		"GoGaQWE"
-			}
-			"avatar"		"f4932a9300ee32d23dd04e68c40b6f3d478e1d32"
-		}
-		"465649105"
-		{
-			"name"		"челикбобик"
-			"NameHistory"
-			{
-				"0"		"челикбобик"
-				"1"		"Dezgan"
-				"2"		"HaDoCk"
-			}
-			"avatar"		"e6822b9c2f359f744d5dc4177f7d05ed36ce91de"
-		}
-		"839739479"
-		{
-			"name"		"Я НЕ ШАРЮ КАК ИГРАТЬ"
-			"NameHistory"
-			{
-				"0"		"Я НЕ ШАРЮ КАК ИГРАТЬ"
-			}
-			"avatar"		"65ec204160161b770a8828d67c213f56d19a5612"
-		}
 		"1090220294"
 		{
-			"name"		"Kaido"
 			"NameHistory"
 			{
 				"0"		"Kaido"
-				"1"		"Kaido KNIFEX"
 			}
 			"avatar"		"b40a85a9f0253a7a9d67f99a6b3390661db759ae"
+			"name"		"Kaido"
 		}
-		"492800251"
+		"PersonaName"		"Kaido"
+		"communitypreferences"		"0801100118c1dfc4fc052000280330013800"
+		"406755267"
 		{
-			"name"		"Depthhunter"
+			"name"		"aiZzo"
 			"NameHistory"
 			{
-				"0"		"Depthhunter"
-				"1"		"ХУЛИGUN"
+				"0"		"aiZzo"
 			}
-			"avatar"		"4cd85ccee3ca7c8b406108ebc8c48931d35c2c13"
+			"avatar"		"e2ecc9cb68a131f0dad898f592d4f1b8e9be66e6"
 		}
-		"113616179"
+		"927460882"
 		{
-			"name"		"destroyer of art"
+			"name"		"Kirito"
 			"NameHistory"
 			{
-				"0"		"destroyer of art"
-				"1"		"ЕБАШУ РУСНЮ"
-				"2"		"deadinsede[pos4]"
+				"0"		"Kirito"
 			}
-			"avatar"		"59984cc9f7f04b352b8f696061871a66af75efc0"
-		}
-		"452557496"
-		{
-			"name"		"twitch.tv/inkaizer"
-			"NameHistory"
-			{
-				"0"		"twitch.tv/inkaizer"
-			}
-			"avatar"		"671eb3a549d7f67623f8b565efa1da7eff6e1a9d"
-		}
-		"157740486"
-		{
-			"name"		"weerrdy"
-			"NameHistory"
-			{
-				"0"		"weerrdy"
-			}
-			"avatar"		"b39542d50526c14824dbf35a857a764182553096"
-		}
-		"95739417"
-		{
-			"name"		"GulDan"
-			"NameHistory"
-			{
-				"0"		"GulDan"
-				"1"		"god of the black field"
-			}
-			"avatar"		"6641e75b8730bc462b567a35cb525ffc85931fcb"
-		}
-		"372811003"
-		{
-			"name"		"RAMZI"
-			"NameHistory"
-			{
-				"0"		"RAMZI"
-				"1"		"Я ГОВНО НА ПЛЯЖЕ"
-				"2"		"Я ГОВНО У ПЛЯЖА"
-				"3"		"Я В ГОВНО У ПЛЯЖА"
-				"4"		"Я У ПЛЯЖА"
-			}
-			"avatar"		"9de470fa7d0c66683510b15e1dfa98e3a5cda1f2"
-		}
-		"251032197"
-		{
-			"name"		"forend"
-			"NameHistory"
-			{
-				"0"		"forend"
-			}
-			"avatar"		"a5847faf37e261319bc79e14440ec39c0846a090"
-		}
-		"103582791461732230"
-		{
-			"name"		"dfr3m }{4ck"
-			"tag"		"h4ck.cc"
-			"avatar"		"00c2fb9b4672eb59325aa24fff1a96b6744f8288"
-		}
-		"103582791432902485"
-		{
-			"name"		"Counter-Strike: Global Offensive"
-			"avatar"		"69f7ebe2735c366c65c0b33dae00e12dc40edbe4"
-		}
-		"91714501"
-		{
-			"name"		"ForceUnleashed22"
-			"NameHistory"
-			{
-				"0"		"ForceUnleashed22"
-			}
-			"avatar"		"21ea13873ba2c6361fb57f4793cf3cafcd6f1850"
-		}
-		"971157407"
-		{
-			"name"		"Алексей Рисовый"
-			"NameHistory"
-			{
-				"0"		"Алексей Рисовый"
-				"1"		"рисовый азиат"
-				"2"		"Сила Риса"
-				"3"		"я не могу жить."
-				"4"		"Сила Пельменей"
-				"5"		"Даруй РадIсть"
-				"6"		"жирный гараж"
-				"7"		"ushel v tilt"
-				"8"		"toto-"
-				"9"		"ludwig-"
-			}
-			"avatar"		"c064d61d4ea15c3c60c3400038e50de5c435a406"
+			"avatar"		"cde594355a07500fafee901dce340a5a18c3654b"
 		}
 		"874219419"
 		{
@@ -184,173 +53,14 @@
 			}
 			"avatar"		"8679e128af50764e7ef6ca8927299fe98cc7533c"
 		}
-		"902022847"
+		"925879696"
 		{
-			"name"		"Pymba"
+			"name"		"aWp"
 			"NameHistory"
 			{
-				"0"		"Pymba"
+				"0"		"aWp"
 			}
-			"avatar"		"e642f7726c388b408c0249cf64e9cd3baae5240d"
-		}
-		"353460593"
-		{
-			"name"		"RiVAL Edits"
-			"NameHistory"
-			{
-				"0"		"RiVAL Edits"
-			}
-			"avatar"		"6eb2dd29809d0181893d359eaa65e38338be36b5"
-		}
-		"323366778"
-		{
-			"name"		"Lein"
-			"NameHistory"
-			{
-				"0"		"Lein"
-				"1"		"Ленин"
-				"2"		"Куда мы лезем? Боже.."
-				"3"		"Oh, fuck love and feelings..."
-				"4"		"Oh, fuck love and feelings"
-				"5"		"Oh, fuck love..."
-				"6"		"Fell in love, oh fuck, why?"
-				"7"		"Heartbreak"
-				"8"		"думала, что влюбиться"
-				"9"		"Lein Fallen"
-			}
-			"avatar"		"da69be2bf838499e208244d2fe87b86f7adc263f"
-		}
-		"382043572"
-		{
-			"name"		"xyrib csgetto.games CSGORUN.GG"
-			"NameHistory"
-			{
-				"0"		"xyrib csgetto.games CSGORUN.GG"
-				"1"		"xyrib CSGORUN.GG csgetto.games"
-				"2"		"xyrib CSGORUN.GG"
-				"3"		"xyrib"
-				"4"		"xyrib CSRIP GoDota2.com"
-				"5"		"xyrib csgetto.games"
-				"6"		"xyrib__ csgetto.games"
-				"7"		"херцо"
-				"8"		"xyrib__"
-				"9"		"xyrib__  GoDota2.com gamehag.com"
-			}
-			"avatar"		"3d79b89a8eea8ac4cc8aa3783e27d11ba42dd2e2"
-		}
-		"103582791468614260"
-		{
-			"name"		"Insilio Jr."
-			"tag"		"Insilio Jr."
-			"avatar"		"d7f7fc78d45907c38c768563639501ea48d1624b"
-		}
-		"917641276"
-		{
-			"name"		"Limastik"
-			"NameHistory"
-			{
-				"0"		"Limastik"
-				"1"		"TheFoxAvei"
-				"2"		"♥Lima♥"
-				"3"		"Lima♥"
-				"4"		"Lima"
-				"5"		"Пушистый"
-				"6"		"Донецкий Шокал"
-				"7"		"Назарус Лимулиус"
-				"8"		"Тейлз"
-				"9"		"Даун"
-			}
-			"avatar"		"7bba942207fe31063f1a4ba5005f85a9c2b8a7b2"
-		}
-		"1013392065"
-		{
-			"name"		"maximus8200"
-			"NameHistory"
-			{
-				"0"		"maximus8200"
-			}
-			"avatar"		"d298960f5dc3fd109ed69304bf5cb0e06a5e6423"
-		}
-		"880002405"
-		{
-			"name"		"UltraIUL"
-			"NameHistory"
-			{
-				"0"		"UltraIUL"
-			}
-			"avatar"		"74b2db6099cbea4deef224d8ca4fbe074200ffd0"
-		}
-		"312014915"
-		{
-			"name"		"zxcursed"
-			"NameHistory"
-			{
-				"0"		"zxcursed"
-			}
-			"avatar"		"f3e0d5d25b4c029c81d1fde86df439cb1ae611a2"
-		}
-		"1116178799"
-		{
-			"name"		"FlickOfDaWrist"
-			"NameHistory"
-			{
-				"0"		"FlickOfDaWrist"
-			}
-			"avatar"		"8cfbeec43ac60a4d5e6140bce892e22cf083a0b3"
-		}
-		"893200680"
-		{
-			"name"		"Рембо"
-			"NameHistory"
-			{
-				"0"		"Рембо"
-			}
-			"avatar"		"b16ce6814354c4e748cd27b81a9e8d4db9a0394a"
-		}
-		"920141964"
-		{
-			"name"		"Твоя тати пишет м"
-			"NameHistory"
-			{
-				"0"		"Твоя тати пишет м"
-				"1"		"..."
-				"2"		"Доедаю за курседом"
-				"3"		"15 y.o"
-				"4"		"124"
-				"5"		"даша два баша"
-				"6"		"3 pos"
-				"7"		"панос123"
-				"8"		"throw down your tears hate"
-				"9"		"Hopeless"
-			}
-			"avatar"		"0681f5962f302663f87b9bfad9ce324dc7f75e8a"
-		}
-		"1045486240"
-		{
-			"name"		"Nubasik2552"
-			"NameHistory"
-			{
-				"0"		"Nubasik2552"
-			}
-			"avatar"		"03a2c261dce2cca478472c1ad2efeaaa904ced4b"
-		}
-		"1095530267"
-		{
-			"name"		"ПЛАХОТНЮК"
-			"NameHistory"
-			{
-				"0"		"ПЛАХОТНЮК"
-			}
-			"avatar"		"fae54f7eb361585795564a507e9d5cdf454efcfc"
-		}
-		"1006597109"
-		{
-			"name"		"sqUnT"
-			"NameHistory"
-			{
-				"0"		"sqUnT"
-			}
-			"avatar"		"67bb1d67bd556b44c2ddc7c58eaef185159c14f4"
+			"avatar"		"f6ff01c2bb79dcc7c52624134d3e467e8022d146"
 		}
 		"1038549896"
 		{
@@ -361,57 +71,6 @@
 			}
 			"avatar"		"25a403cde86e1f0f60e80c1cdb584a6120be6fdc"
 		}
-		"1104597778"
-		{
-			"name"		"z x c раскладка"
-			"NameHistory"
-			{
-				"0"		"z x c раскладка"
-				"1"		"биполярОЧКА"
-				"2"		"ayanokoji kiyotaka"
-				"3"		"私はグールです"
-				"4"		"ihatethislifebutihatyoumore"
-				"5"		"ᴇᴛᴇʀɴᴀʟ sᴀᴅɴᴇs"
-				"6"		"くそー私はクソだ"
-				"7"		"アロハダンス"
-				"8"		"放棄された標本 CSGORUN.GG"
-				"9"		"放棄された標本"
-			}
-			"avatar"		"935419a733d8f568cceb586b9549a854453e7deb"
-		}
-		"1050285613"
-		{
-			"name"		"xstramec"
-			"NameHistory"
-			{
-				"0"		"xstramec"
-			}
-			"avatar"		"e5f935caf1186b858d33553511941e0e29863bd8"
-		}
-		"103582791470273339"
-		{
-			"name"		"Сorporation of Evil"
-			"tag"		"_CoE_"
-			"avatar"		"0000000000000000000000000000000000000000"
-		}
-		"63917692"
-		{
-			"name"		"VR9"
-			"NameHistory"
-			{
-				"0"		"VR9"
-				"1"		"VR"
-				"2"		"V_R_M"
-				"3"		"\"V_R_M\""
-				"4"		"VRM"
-				"5"		"VRM_Life_Explorer"
-				"6"		"VRN"
-				"7"		"BARON"
-				"8"		"Mashinist"
-				"9"		"Lāčplēsis"
-			}
-			"avatar"		"e152dce3355c1bb1b22aa5168e7026af66e55724"
-		}
 		"483725525"
 		{
 			"name"		"^^MoScAzz^^"
@@ -420,104 +79,6 @@
 				"0"		"^^MoScAzz^^"
 			}
 			"avatar"		"362987522a19feab75a25293fa86906bed51c789"
-		}
-		"381468412"
-		{
-			"name"		"мегаящик с гавном"
-			"NameHistory"
-			{
-				"0"		"мегаящик с гавном"
-				"1"		"САПЛЯ ЗЕЛЕНАЯ"
-			}
-			"avatar"		"cd943157180fe92247e16da4380e47b7bd26a33a"
-		}
-		"917599511"
-		{
-			"name"		"Alvin"
-			"NameHistory"
-			{
-				"0"		"Alvin"
-			}
-			"avatar"		"635b9dd22b09c0cd0347147e69d2717be40e5cf7"
-		}
-		"927460882"
-		{
-			"name"		"Kirito"
-			"NameHistory"
-			{
-				"0"		"Kirito"
-				"1"		"Kazuto"
-			}
-			"avatar"		"cde594355a07500fafee901dce340a5a18c3654b"
-		}
-		"933785208"
-		{
-			"name"		"ГЛЭК"
-			"NameHistory"
-			{
-				"0"		"ГЛЭК"
-				"1"		"ЧУВЫРЛА"
-				"2"		"Noob 9lvl faceit"
-			}
-			"avatar"		"1e4941de2013373c48dea11d75d737d958e258a6"
-		}
-		"925879696"
-		{
-			"name"		"aWp"
-			"NameHistory"
-			{
-				"0"		"aWp"
-				"1"		"Marlboro"
-				"2"		"Malboro"
-				"3"		"Malboro\\"
-				"4"		"Лежать!"
-				"5"		"PaY PaY AwP PrO"
-				"6"		"Davlatovvv"
-			}
-			"avatar"		"f6ff01c2bb79dcc7c52624134d3e467e8022d146"
-		}
-		"996178988"
-		{
-			"name"		"crezgep"
-			"NameHistory"
-			{
-				"0"		"crezgep"
-			}
-			"avatar"		"95d8f1c00bbdc43e289e494f3dad027a6f930ac4"
-		}
-		"1019528351"
-		{
-			"name"		"solyana"
-			"NameHistory"
-			{
-				"0"		"solyana"
-				"1"		"V!one"
-				"2"		"Gerych"
-				"3"		"Герыч"
-				"4"		"Василий Григорье"
-				"5"		"onsomshit"
-			}
-			"avatar"		"414c71afc8c864df1327ffa3da7f5ce72bf6af38"
-		}
-		"1022430228"
-		{
-			"name"		"caprice"
-			"NameHistory"
-			{
-				"0"		"caprice"
-				"1"		"vinrar"
-				"2"		"hanterssq"
-			}
-			"avatar"		"994e79515d658dcbda4a8effb655c315e1eecf96"
-		}
-		"1110612524"
-		{
-			"name"		"Arturchik***"
-			"NameHistory"
-			{
-				"0"		"Arturchik***"
-			}
-			"avatar"		"8d0194901bb5909486733e9601157ca0800ec5e7"
 		}
 		"877320048"
 		{
@@ -528,24 +89,29 @@
 			}
 			"avatar"		"b0e7c0450484a611aa7529f428ff3e2e1bf560cf"
 		}
-		"931587881"
+		"336684698"
 		{
-			"name"		"Caps1k"
+			"name"		"SANS"
 			"NameHistory"
 			{
-				"0"		"Caps1k"
+				"0"		"SANS"
 			}
-			"avatar"		"1c3e29a990f06cd3cdcdfd616ea416b827f6b53b"
+			"avatar"		"8d5aecf456aa5cefd6afd58d42985e64363ca954"
 		}
-		"1032162607"
+		"63917692"
 		{
-			"name"		"-_-Dertseg-_-"
+			"name"		"Romeo"
 			"NameHistory"
 			{
-				"0"		"-_-Dertseg-_-"
-				"1"		"ненавижу GGWP"
+				"0"		"Romeo"
+				"1"		"VR"
+				"2"		"Shaman"
+				"3"		"KETAMIN"
+				"4"		"M E T I S"
+				"5"		"VR9 Metis"
+				"6"		"VR9"
 			}
-			"avatar"		"7711774ffc5e01e8ab62d8587dbb20d79aa0556a"
+			"avatar"		"8c2e117c85ba2eddf7658f765909794b066dfce0"
 		}
 		"1104773203"
 		{
@@ -556,151 +122,143 @@
 			}
 			"avatar"		"81ae0a447cfd3b57599957d8ade5a32726c0a618"
 		}
-		"1123487115"
+		"465649105"
 		{
-			"name"		"I love hot dads"
+			"name"		"челикбобик"
 			"NameHistory"
 			{
-				"0"		"I love hot dads"
-				"1"		"Brzozowicz1337"
-				"2"		"Brzozowicz"
+				"0"		"челикбобик"
 			}
-			"avatar"		"e4265c25c827be3d4a4c18281756831ad20444c2"
+			"avatar"		"e6822b9c2f359f744d5dc4177f7d05ed36ce91de"
 		}
-		"1126245016"
+		"971157407"
 		{
-			"name"		"FANDER csgotune.com"
+			"name"		"Материя Рассола"
 			"NameHistory"
 			{
-				"0"		"FANDER csgotune.com"
+				"0"		"Материя Рассола"
+				"1"		"evyyni-"
+				"2"		"Хусэйн Тагирович"
+				"3"		"Эдик Троллейбус"
+				"4"		"Эрудированный Шт"
+				"5"		"kwazarxuli"
+				"6"		"Алексей Рисовый"
 			}
-			"avatar"		"c27fd1e50fd6dfae7ad4316c315aea109a11a7bc"
+			"avatar"		"4be080ec056c77cb4069aa2aa39934c0c5b66226"
 		}
-		"1037180595"
+		"875507330"
 		{
-			"name"		"KaT"
+			"name"		"GhostKilla"
 			"NameHistory"
 			{
-				"0"		"KaT"
-				"1"		"KhS"
-				"2"		"Kat? ❤"
-				"3"		"Kat? 🤍"
-				"4"		"Kat? ★"
+				"0"		"GhostKilla"
 			}
+			"avatar"		"9c433e21d6b0826a2bfe42f2c1a1f42d0a835a7a"
+		}
+		"157740486"
+		{
+			"name"		"weerrdy"
+			"NameHistory"
+			{
+				"0"		"weerrdy"
+			}
+			"avatar"		"37a4f9e357b19ed7d31a4534d8c775c89531bdc0"
+		}
+		"1022627454"
+		{
+			"name"		"Boombl4"
+			"NameHistory"
+			{
+				"0"		"Boombl4"
+			}
+			"avatar"		"7b016f8a3758bcaf2731638b4b1bdf537eee5f1a"
 		}
 		"1106572542"
 		{
-			"name"		"Kaido"
+			"name"		"myname"
 			"NameHistory"
 			{
-				"0"		"Kaido"
+				"0"		"myname"
 			}
 			"avatar"		"937be83e5818d54f76c32beb7262e5465f46d244"
 		}
-		"988276975"
+		"103582791470273339"
 		{
-			"name"		"𝓐𝓵𝓮𝔁 Starling"
-			"NameHistory"
-			{
-				"0"		"𝓐𝓵𝓮𝔁 Starling"
-			}
-			"avatar"		"9f91063e042afeaf6a8b9c9f01a9aa0646346677"
+			"name"		"Сorporation of Evil"
+			"tag"		"_CoE_"
+			"avatar"		"0000000000000000000000000000000000000000"
 		}
-		"1010161198"
+		"996178988"
 		{
-			"name"		"КАБАН"
+			"name"		"crezgep"
 			"NameHistory"
 			{
-				"0"		"КАБАН"
+				"0"		"crezgep"
 			}
-			"avatar"		"372262c26c0473811be5d9c8fae16300e2394181"
+			"avatar"		"95d8f1c00bbdc43e289e494f3dad027a6f930ac4"
 		}
-		"406755267"
+		"1011662938"
 		{
-			"name"		"aiZzo"
+			"name"		"Нажрался гвоздей"
 			"NameHistory"
 			{
-				"0"		"aiZzo"
+				"0"		"Нажрался гвоздей"
+				"1"		"Все,я пописял"
+				"2"		"Я пока пойду пописяю"
+				"3"		"Поцелуйте мне письку"
+				"4"		"GBLFHFC"
+				"5"		"Я лизал очко собаки"
+				"6"		"Майонез на яйцах"
+				"7"		"S  osiska2 13"
+				"8"		"Я ебанутый бегите"
+				"9"		"У меня в подвале 4 ребенка"
 			}
-			"avatar"		"e2ecc9cb68a131f0dad898f592d4f1b8e9be66e6"
+			"avatar"		"5e3f9e0fb4af677cd377b71ed0693ea5438ca675"
 		}
-		"1111740551"
+		"1164738663"
 		{
-			"name"		"Шлюшка"
+			"name"		"WeZer"
 			"NameHistory"
 			{
-				"0"		"Шлюшка"
-				"1"		"Люблю маленьких"
-				"2"		"ок"
-				"3"		"Хуета Хуетовская"
-				"4"		"intel PENTIUM"
-				"5"		"сосузалайки"
-				"6"		"G щит"
-				"7"		"НАЕБАТОР 3000"
+				"0"		"WeZer"
 			}
-			"avatar"		"cb1a333fc7771547fcbb6090bcee07dc7c8f7ce0"
+			"avatar"		"f706f83febac7f977fa1bf84487ae936fc0ff5ef"
 		}
-		"930642068"
+		"1006597109"
 		{
-			"name"		"On1y^up(UA)VIPON  GGDROP.GG"
+			"name"		"sqUnT"
 			"NameHistory"
 			{
-				"0"		"On1y^up(UA)VIPON  GGDROP.GG"
-				"1"		"On1y^up(UA)VIPONGGDROP.GG"
-				"2"		"On1y^up(UA)VIPON GGDROP.GG"
-				"3"		"On1y^up(UA)VIPON"
-				"4"		"On1y^up(UA)VIPON GRIB-FREE.XYZ"
+				"0"		"sqUnT"
 			}
-			"avatar"		"5b8c77aeed6c521508014d3277a3a12d8a68538c"
+			"avatar"		"67bb1d67bd556b44c2ddc7c58eaef185159c14f4"
 		}
-		"1143608053"
+		"880002405"
 		{
-			"name"		"ILOVEU"
+			"name"		"UltraIUL"
 			"NameHistory"
 			{
-				"0"		"ILOVEU"
+				"0"		"UltraIUL"
 			}
-			"avatar"		"74b07c6997273ec72fe8d64f7506889ee9116818"
+			"avatar"		"74b2db6099cbea4deef224d8ca4fbe074200ffd0"
 		}
-		"1056797712"
+		"91714501"
 		{
-			"name"		"avan9ard"
+			"name"		"ForceUnleashed22"
 			"NameHistory"
 			{
-				"0"		"avan9ard"
-				"1"		"_3ternity"
+				"0"		"ForceUnleashed22"
 			}
-			"avatar"		"9bbd8fd1b12cff163a894aee1aa29e01c55c584a"
+			"avatar"		"21ea13873ba2c6361fb57f4793cf3cafcd6f1850"
 		}
-		"1043782245"
+		"1144248933"
 		{
-			"name"		"Паук-Коммунист"
+			"name"		"h3.one"
 			"NameHistory"
 			{
-				"0"		"Паук-Коммунист"
+				"0"		"h3.one"
 			}
-			"avatar"		"8aa7f297888ffb1f151ce934d083301f37de72f9"
-		}
-		"1078209466"
-		{
-			"name"		"."
-			"NameHistory"
-			{
-				"0"		"."
-				"1"		"4279 3806 9163 9001 кинь д"
-				"2"		"$w1nPi4"
-				"3"		"SIIIIUUUUUUUUUUUUUUU"
-			}
-			"avatar"		"886af67b7bcb2a613b7a4ea422f4d7ab8cb14383"
-		}
-		"1185433500"
-		{
-			"name"		"ёбырь твоей мамки"
-			"NameHistory"
-			{
-				"0"		"ёбырь твоей мамки"
-			}
-			"avatar"		"9dab8056e33915b42b6beadff8b7c6b4c817b034"
+			"avatar"		"3d8edd547ea46289ceffee2662818afa9f314f81"
 		}
 		"1096256710"
 		{
@@ -719,68 +277,14 @@
 			}
 			"avatar"		"788bca116f7bf69db038d73d62faa947d1d44ed1"
 		}
-		"1165628523"
+		"996826577"
 		{
-			"name"		"カイドウ"
+			"name"		"ミナカヌ"
 			"NameHistory"
 			{
-				"0"		"カイドウ"
+				"0"		"ミナカヌ"
 			}
-			"avatar"		"920c942a79ecf0bf11d1d2880bba234c882e5ff9"
-		}
-		"1052253372"
-		{
-			"name"		"❤️Den Kritik❤"
-			"NameHistory"
-			{
-				"0"		"❤️Den Kritik❤"
-			}
-			"avatar"		"77b3921868b8260b9ef36c5d788034ae79243ee9"
-		}
-		"1096984355"
-		{
-			"name"		"n i k a i d o"
-			"NameHistory"
-			{
-				"0"		"n i k a i d o"
-				"1"		"вбивця маньяк"
-				"2"		"V - значит в лп"
-				"3"		"AntonPavlovich1984"
-				"4"		"artem (can't talk)"
-				"5"		"денчик крут 2004"
-				"6"		"виски с колой"
-				"7"		"дiма комаров"
-				"8"		"tempest double mode"
-				"9"		"в дотку кайфую"
-			}
-			"avatar"		"011f09dfe379d1c7d92002dec080be3f7af62a41"
-		}
-		"1071219431"
-		{
-			"name"		"Sergio Minetti"
-			"NameHistory"
-			{
-				"0"		"Sergio Minetti"
-			}
-			"avatar"		"bf09cef7db5ecce24d76903af8f407e56f9bb973"
-		}
-		"1109568636"
-		{
-			"name"		"LLka"
-			"NameHistory"
-			{
-				"0"		"LLka"
-				"1"		"Tom"
-				"2"		"||        ||"
-				"3"		"||||||||||kAlaSh||||||||||"
-				"4"		"AzkaBan"
-				"5"		"Qa"
-				"6"		"yasha lava"
-				"7"		"|_|_|Lю)(а"
-				"8"		"I Love ANimE"
-				"9"		"Alt+F4=100$"
-			}
-			"avatar"		"47f4c0e1db3953ffa1326cbe0c3ff3558471f765"
+			"avatar"		"c6eb93fb1f0898896390bff24720e810f74a0e8f"
 		}
 		"1076995255"
 		{
@@ -788,145 +292,23 @@
 			"NameHistory"
 			{
 				"0"		"Z"
-				"1"		"Nelson Belluchi"
-				"2"		"A D A"
-				"3"		"САВВА ГЕЙ"
-				"4"		"Тоби Магуайр"
-				"5"		"A.D.A"
-				"6"		"Guzalll"
 			}
-			"avatar"		"40e23d6e1f930aa8d978118d05e849837c4d1965"
+			"avatar"		"2d2d3a62eaed916402bec5eda5218c814dd216bc"
 		}
-		"1125515861"
+		"103582791461732230"
 		{
-			"name"		"ℂ𝕒𝕡𝕚"
+			"name"		"dfr3m }{4ck"
+			"tag"		"h4ck.cc"
+			"avatar"		"00c2fb9b4672eb59325aa24fff1a96b6744f8288"
+		}
+		"251032197"
+		{
+			"name"		"forend"
 			"NameHistory"
 			{
-				"0"		"ℂ𝕒𝕡𝕚"
-				"1"		"ℂ𝔸ℙ𝕀"
-				"2"		"CAPI*"
-				"3"		"FLAVIO"
-				"4"		"Capi hellcase.org"
-				"5"		"LDL Capi  Allkeyshop"
-				"6"		"LDL Capi"
-				"7"		"LDL Capi' Tain v.2"
-				"8"		"UK Capi' Tain"
+				"0"		"forend"
 			}
-			"avatar"		"4948f4f51ebdcfe5c086dc1ae2d4124701bf1901"
-		}
-		"390611784"
-		{
-			"name"		"Shoker"
-			"NameHistory"
-			{
-				"0"		"Shoker"
-			}
-			"avatar"		"e94e8041a71e2f697575fe3cc3e1fb5434d1ce9d"
-		}
-		"1144248933"
-		{
-			"name"		"h3.one"
-			"NameHistory"
-			{
-				"0"		"h3.one"
-			}
-			"avatar"		"3d8edd547ea46289ceffee2662818afa9f314f81"
-		}
-		"1066366067"
-		{
-			"name"		"FRAGEMGG"
-			"NameHistory"
-			{
-				"0"		"FRAGEMGG"
-			}
-			"avatar"		"bf26cc1f0e9f833427da10a957f5e8ef65039551"
-		}
-		"845228609"
-		{
-			"name"		"❟❛❟bl1tz❟❛❟"
-			"NameHistory"
-			{
-				"0"		"❟❛❟bl1tz❟❛❟"
-				"1"		"bl1tz"
-			}
-			"avatar"		"9b47ebd1322054f2a01c1a714b243685e6f79308"
-		}
-		"909826235"
-		{
-			"name"		"szaława"
-			"NameHistory"
-			{
-				"0"		"szaława"
-			}
-			"avatar"		"8d979f1c5648c2f3b7372a080968555cd57f6f04"
-		}
-		"1085643507"
-		{
-			"name"		"gla1b3"
-			"NameHistory"
-			{
-				"0"		"gla1b3"
-			}
-			"avatar"		"5fd6caf3309571836682e78fce4287c68c380634"
-		}
-		"1052967617"
-		{
-			"name"		"Pharaon"
-			"NameHistory"
-			{
-				"0"		"Pharaon"
-			}
-			"avatar"		"f3253d5b119a60406e1be580e1d3e21f041c6eae"
-		}
-		"840300835"
-		{
-			"name"		"文Mr_Temaヅ"
-			"NameHistory"
-			{
-				"0"		"文Mr_Temaヅ"
-			}
-			"avatar"		"4e45e535bb4be42a462fdf7a59662ef4fc869a5f"
-		}
-		"1031235637"
-		{
-			"name"		"˙·٠●•Filmora•●٠·˙"
-			"NameHistory"
-			{
-				"0"		"˙·٠●•Filmora•●٠·˙"
-				"1"		"ASURAPEEK"
-				"2"		"Daffy"
-				"3"		"XANTARASPEEK"
-				"4"		"slowly_death"
-				"5"		"XANTARESPEEK"
-				"6"		"slowly_death ASTROLITE.NET"
-				"7"		"ВОЕНКОМ"
-				"8"		"Nik"
-				"9"		"Месть"
-			}
-			"avatar"		"a1717f6a1e0c740faf881cf6ec5f4ffc54397825"
-		}
-		"875507330"
-		{
-			"name"		"GhostKilla"
-			"NameHistory"
-			{
-				"0"		"GhostKilla"
-			}
-			"avatar"		"9c433e21d6b0826a2bfe42f2c1a1f42d0a835a7a"
-		}
-		"1026615616"
-		{
-			"name"		"Frame"
-			"NameHistory"
-			{
-				"0"		"Frame"
-				"1"		"(FanaTik) Frаme"
-				"2"		"(FanaTic) Frаme"
-				"3"		"(FnaTic) Frаme"
-				"4"		"Frаme"
-				"5"		"DEQIK"
-			}
-			"avatar"		"2b9a9a481e14b9234bf0e03e48417c752aad3f18"
+			"avatar"		"a5847faf37e261319bc79e14440ec39c0846a090"
 		}
 		"893872895"
 		{
@@ -937,6 +319,374 @@
 			}
 			"avatar"		"8383746c79665ce1539021dad2a064af6217e188"
 		}
+		"1043782245"
+		{
+			"name"		"Паук-Коммунист"
+			"NameHistory"
+			{
+				"0"		"Паук-Коммунист"
+			}
+			"avatar"		"8aa7f297888ffb1f151ce934d083301f37de72f9"
+		}
+		"1045486240"
+		{
+			"name"		"Nubasik2552"
+			"NameHistory"
+			{
+				"0"		"Nubasik2552"
+			}
+			"avatar"		"03a2c261dce2cca478472c1ad2efeaaa904ced4b"
+		}
+		"492800251"
+		{
+			"name"		"Depthhunter"
+			"NameHistory"
+			{
+				"0"		"Depthhunter"
+			}
+			"avatar"		"4cd85ccee3ca7c8b406108ebc8c48931d35c2c13"
+		}
+		"1066366067"
+		{
+			"name"		"FRAGEMGG"
+			"NameHistory"
+			{
+				"0"		"FRAGEMGG"
+			}
+			"avatar"		"bf26cc1f0e9f833427da10a957f5e8ef65039551"
+		}
+		"1085643507"
+		{
+			"name"		"gla1b3"
+			"NameHistory"
+			{
+				"0"		"gla1b3"
+			}
+			"avatar"		"5fd6caf3309571836682e78fce4287c68c380634"
+		}
+		"1104597778"
+		{
+			"name"		"happinessdoesnotexist.xd"
+			"NameHistory"
+			{
+				"0"		"happinessdoesnotexist.xd"
+				"1"		"smoking moron"
+				"2"		"zxcEblan"
+				"3"		"мое тп отменено,игра проебана"
+				"4"		"lovenolongerexist"
+				"5"		"asdsashadsha"
+				"6"		"ХУЙ В НОС КАКОЙ ПРОГНОЗ"
+				"7"		"asd"
+				"8"		"z x c u r s e d"
+				"9"		"ya ebu?"
+			}
+			"avatar"		"f10889813ed4ac8e49062c6acde39156ee3a7d31"
+		}
+		"1111740551"
+		{
+			"name"		"Шлюшка"
+			"NameHistory"
+			{
+				"0"		"Шлюшка"
+			}
+			"avatar"		"cb1a333fc7771547fcbb6090bcee07dc7c8f7ce0"
+		}
+		"1037180595"
+		{
+			"name"		"KaT"
+			"NameHistory"
+			{
+				"0"		"KaT"
+			}
+		}
+		"920141964"
+		{
+			"name"		"."
+			"NameHistory"
+			{
+				"0"		"."
+				"1"		"1-3 pos or feed"
+				"2"		"I mean, I can't do anything"
+				"3"		"i'm sad n'low yuh"
+				"4"		"I`m sad n`low yuh"
+				"5"		"Твоя тати пишет м"
+			}
+			"avatar"		"e881dcd553e9f310e7b1791df88263d27100d05f"
+		}
+		"931587881"
+		{
+			"name"		"Caps1k"
+			"NameHistory"
+			{
+				"0"		"Caps1k"
+			}
+			"avatar"		"1c3e29a990f06cd3cdcdfd616ea416b827f6b53b"
+		}
+		"1032162607"
+		{
+			"name"		"-_-Dertseg-_-"
+			"NameHistory"
+			{
+				"0"		"-_-Dertseg-_-"
+			}
+			"avatar"		"7711774ffc5e01e8ab62d8587dbb20d79aa0556a"
+		}
+		"1125515861"
+		{
+			"name"		"ℂ𝕒𝕡𝕚"
+			"NameHistory"
+			{
+				"0"		"ℂ𝕒𝕡𝕚"
+			}
+			"avatar"		"7afdc93f5a568204b05bec7008a6ba318fa79928"
+		}
+		"353460593"
+		{
+			"name"		"RiVAL Edits"
+			"NameHistory"
+			{
+				"0"		"RiVAL Edits"
+			}
+			"avatar"		"6eb2dd29809d0181893d359eaa65e38338be36b5"
+		}
+		"452557496"
+		{
+			"name"		"InkaiZer"
+			"NameHistory"
+			{
+				"0"		"InkaiZer"
+				"1"		"twitch.tv/inkaizer"
+			}
+			"avatar"		"b2bf039cc06a209e92b527b752001a7e9dee41bd"
+		}
+		"103582791432902485"
+		{
+			"name"		"Counter-Strike: Global Offensive"
+			"avatar"		"69f7ebe2735c366c65c0b33dae00e12dc40edbe4"
+		}
+		"1013392065"
+		{
+			"name"		"maximus8200"
+			"NameHistory"
+			{
+				"0"		"maximus8200"
+			}
+			"avatar"		"d298960f5dc3fd109ed69304bf5cb0e06a5e6423"
+		}
+		"1123487115"
+		{
+			"name"		"Najemnik z Bydgoszczy"
+			"NameHistory"
+			{
+				"0"		"Najemnik z Bydgoszczy"
+				"1"		"Najemnik z Bydgoszczy 1"
+				"2"		"I love hot dads"
+			}
+			"avatar"		"e4265c25c827be3d4a4c18281756831ad20444c2"
+		}
+		"1030885853"
+		{
+			"name"		"D3M44I"
+			"NameHistory"
+			{
+				"0"		"D3M44I"
+				"1"		"\\)"
+				"2"		"”oh my” -San"
+			}
+			"avatar"		"3c07c743139be65b1309f00d1d9412e0b2cbea39"
+		}
+		"1185433500"
+		{
+			"name"		"ёбырь твоей мамки"
+			"NameHistory"
+			{
+				"0"		"ёбырь твоей мамки"
+			}
+			"avatar"		"9dab8056e33915b42b6beadff8b7c6b4c817b034"
+		}
+		"1052253372"
+		{
+			"name"		"❤️Den Kritik❤"
+			"NameHistory"
+			{
+				"0"		"❤️Den Kritik❤"
+			}
+			"avatar"		"77b3921868b8260b9ef36c5d788034ae79243ee9"
+		}
+		"95739417"
+		{
+			"name"		"GulDan"
+			"NameHistory"
+			{
+				"0"		"GulDan"
+			}
+			"avatar"		"6641e75b8730bc462b567a35cb525ffc85931fcb"
+		}
+		"113616179"
+		{
+			"name"		"destroyer of art"
+			"NameHistory"
+			{
+				"0"		"destroyer of art"
+			}
+			"avatar"		"59984cc9f7f04b352b8f696061871a66af75efc0"
+		}
+		"390611784"
+		{
+			"name"		"Shoker"
+			"NameHistory"
+			{
+				"0"		"Shoker"
+			}
+			"avatar"		"e94e8041a71e2f697575fe3cc3e1fb5434d1ce9d"
+		}
+		"1050285613"
+		{
+			"name"		"xstramec"
+			"NameHistory"
+			{
+				"0"		"xstramec"
+			}
+			"avatar"		"e5f935caf1186b858d33553511941e0e29863bd8"
+		}
+		"103582791468614260"
+		{
+			"name"		"Insilio Jr."
+			"tag"		"Insilio Jr."
+			"avatar"		"d7f7fc78d45907c38c768563639501ea48d1624b"
+		}
+		"902022847"
+		{
+			"name"		"Pymba"
+			"NameHistory"
+			{
+				"0"		"Pymba"
+			}
+			"avatar"		"e642f7726c388b408c0249cf64e9cd3baae5240d"
+		}
+		"893200680"
+		{
+			"name"		"Рембо"
+			"NameHistory"
+			{
+				"0"		"Рембо"
+			}
+			"avatar"		"b16ce6814354c4e748cd27b81a9e8d4db9a0394a"
+		}
+		"1071219431"
+		{
+			"name"		"Sergio Minetti"
+			"NameHistory"
+			{
+				"0"		"Sergio Minetti"
+			}
+			"avatar"		"bf09cef7db5ecce24d76903af8f407e56f9bb973"
+		}
+		"845228609"
+		{
+			"name"		"❟❛❟bl1tz❟❛❟"
+			"NameHistory"
+			{
+				"0"		"❟❛❟bl1tz❟❛❟"
+			}
+			"avatar"		"9b47ebd1322054f2a01c1a714b243685e6f79308"
+		}
+		"1052967617"
+		{
+			"name"		"Pharaon"
+			"NameHistory"
+			{
+				"0"		"Pharaon"
+			}
+			"avatar"		"f3253d5b119a60406e1be580e1d3e21f041c6eae"
+		}
+		"372811003"
+		{
+			"name"		"RAMZI"
+			"NameHistory"
+			{
+				"0"		"RAMZI"
+			}
+			"avatar"		"9de470fa7d0c66683510b15e1dfa98e3a5cda1f2"
+		}
+		"1056797712"
+		{
+			"name"		"avan9ard"
+			"NameHistory"
+			{
+				"0"		"avan9ard"
+			}
+			"avatar"		"ec40e9ee62ce5109c4ad10bbdf7503bbe687bac9"
+		}
+		"312014915"
+		{
+			"name"		"zxcursed"
+			"NameHistory"
+			{
+				"0"		"zxcursed"
+			}
+			"avatar"		"f3e0d5d25b4c029c81d1fde86df439cb1ae611a2"
+		}
+		"1019528351"
+		{
+			"name"		"уебан"
+			"NameHistory"
+			{
+				"0"		"уебан"
+				"1"		"usebaby"
+				"2"		"b1t"
+				"3"		"solyana"
+			}
+			"avatar"		"414c71afc8c864df1327ffa3da7f5ce72bf6af38"
+		}
+		"1022430228"
+		{
+			"name"		"caprice!"
+			"NameHistory"
+			{
+				"0"		"caprice!"
+				"1"		"caprice"
+			}
+			"avatar"		"28773fec0c843f05781106cb8a44f95d93dd2bb3"
+		}
+		"304376650"
+		{
+			"name"		"GoGaQWE"
+			"NameHistory"
+			{
+				"0"		"GoGaQWE"
+			}
+			"avatar"		"f4932a9300ee32d23dd04e68c40b6f3d478e1d32"
+		}
+		"1110612524"
+		{
+			"name"		"Arturchik***"
+			"NameHistory"
+			{
+				"0"		"Arturchik***"
+			}
+			"avatar"		"8d0194901bb5909486733e9601157ca0800ec5e7"
+		}
+		"1026615616"
+		{
+			"name"		"Dzokerper"
+			"NameHistory"
+			{
+				"0"		"Dzokerper"
+				"1"		"frаmе"
+				"2"		"Frame"
+			}
+			"avatar"		"2b9a9a481e14b9234bf0e03e48417c752aad3f18"
+		}
+		"840300835"
+		{
+			"name"		"文Mr_Temaヅ"
+			"NameHistory"
+			{
+				"0"		"文Mr_Temaヅ"
+			}
+			"avatar"		"4e45e535bb4be42a462fdf7a59662ef4fc869a5f"
+		}
 		"1115852055"
 		{
 			"name"		"Pelle Peloton"
@@ -946,32 +696,92 @@
 			}
 			"avatar"		"b62f0a28d01ec740299c20b02c688b2273512446"
 		}
-		"923114838"
+		"930642068"
 		{
-			"name"		"dragonyat✈"
+			"name"		"On1y^up(UA)VIPON"
 			"NameHistory"
 			{
-				"0"		"dragonyat✈"
+				"0"		"On1y^up(UA)VIPON"
+				"1"		"On1y^up(UA)VIPON magicdrop.ru"
+				"2"		"On1y^up(UA)VIPON GGDROP.GG"
+				"3"		"On1y^up(UA)VIPON  GGDROP.GG"
 			}
-			"avatar"		"8f527fdbdb9e9151935b9faa981c7dc3e3e542b6"
+			"avatar"		"5b8c77aeed6c521508014d3277a3a12d8a68538c"
 		}
-		"1011662938"
+		"381468412"
 		{
-			"name"		"У меня в подвале 4 ребенка"
+			"name"		"БУТЫЛЕК"
 			"NameHistory"
 			{
-				"0"		"У меня в подвале 4 ребенка"
-				"1"		"Егор Маузер"
-				"2"		"сосу за 5 руб"
-				"3"		"размуть меня"
-				"4"		"dodkd"
-				"5"		"закибербулили тебя,да?"
-				"6"		"залупка"
-				"7"		"стоит когда играю в доту"
-				"8"		"АХАХАХАХА"
-				"9"		"Я свинья,дай похвалу"
+				"0"		"БУТЫЛЕК"
+				"1"		"мегаящик с гавном"
 			}
-			"avatar"		"b424f2ad354cb740aee04c7b79657809a3d55b52"
+			"avatar"		"cd943157180fe92247e16da4380e47b7bd26a33a"
+		}
+		"1126245016"
+		{
+			"name"		"FANDER csgotune.com"
+			"NameHistory"
+			{
+				"0"		"FANDER csgotune.com"
+			}
+			"avatar"		"c27fd1e50fd6dfae7ad4316c315aea109a11a7bc"
+		}
+		"988276975"
+		{
+			"name"		"𝓐𝓵𝓮𝔁 Starling"
+			"NameHistory"
+			{
+				"0"		"𝓐𝓵𝓮𝔁 Starling"
+			}
+			"avatar"		"9f91063e042afeaf6a8b9c9f01a9aa0646346677"
+		}
+		"1165628523"
+		{
+			"name"		"カイドウ"
+			"NameHistory"
+			{
+				"0"		"カイドウ"
+			}
+			"avatar"		"920c942a79ecf0bf11d1d2880bba234c882e5ff9"
+		}
+		"323366778"
+		{
+			"name"		"ШТЕФАН ЧЕЛ МАРЕ"
+			"NameHistory"
+			{
+				"0"		"ШТЕФАН ЧЕЛ МАРЕ"
+				"1"		"倒れた"
+				"2"		"Caído"
+				"3"		"егорик сатаник"
+				"4"		"егор сатаник"
+				"5"		"егор саша кая"
+				"6"		"егор даедалус"
+				"7"		"булат бкб"
+				"8"		"булат тараска"
+				"9"		"Lein"
+			}
+			"avatar"		"2911585343c5639265dbd815e5f9e6830a621ea2"
+		}
+		"1095530267"
+		{
+			"name"		"ПЛАХОТНЮК"
+			"NameHistory"
+			{
+				"0"		"ПЛАХОТНЮК"
+			}
+			"avatar"		"fae54f7eb361585795564a507e9d5cdf454efcfc"
+		}
+		"1135304567"
+		{
+			"name"		"ДеД"
+			"NameHistory"
+			{
+				"0"		"ДеД"
+				"1"		"ДеД CSGORUN.RUN"
+				"2"		"дедушка"
+			}
+			"avatar"		"07935eb58c5b48279c863aa7f909bfbf4990ad00"
 		}
 		"1004055214"
 		{
@@ -982,65 +792,51 @@
 			}
 			"avatar"		"7ccb5d8ec17bde523d4d9bbc851a6087226dacfe"
 		}
-		"1135304567"
+		"1143608053"
 		{
-			"name"		"дедушка"
+			"name"		"ILOVEU"
 			"NameHistory"
 			{
-				"0"		"дедушка"
-				"1"		"Дебил со стажем"
-				"2"		"RUSTRUN.RUN"
-				"3"		"debil so stazhem"
-				"4"		"Дебил со стажем CSG"
+				"0"		"ILOVEU"
 			}
-			"avatar"		"07935eb58c5b48279c863aa7f909bfbf4990ad00"
+			"avatar"		"74b07c6997273ec72fe8d64f7506889ee9116818"
 		}
-		"1022627454"
+		"839739479"
 		{
-			"name"		"Boombl4"
+			"name"		"Я НЕ ШАРЮ КАК ИГРАТЬ"
 			"NameHistory"
 			{
-				"0"		"Boombl4"
+				"0"		"Я НЕ ШАРЮ КАК ИГРАТЬ"
 			}
-			"avatar"		"7b016f8a3758bcaf2731638b4b1bdf537eee5f1a"
+			"avatar"		"65ec204160161b770a8828d67c213f56d19a5612"
 		}
-		"1164738663"
+		"933785208"
 		{
-			"name"		"WeZer"
+			"name"		"ГЛЭК"
 			"NameHistory"
 			{
-				"0"		"WeZer"
-				"1"		"WeZer[BIG PENIS]<3"
+				"0"		"ГЛЭК"
 			}
-			"avatar"		"f706f83febac7f977fa1bf84487ae936fc0ff5ef"
+			"avatar"		"1e4941de2013373c48dea11d75d737d958e258a6"
 		}
-		"996826577"
+		"382043572"
 		{
-			"name"		"ミナカヌ"
+			"name"		"xyrib csgetto.games GoDota2.com"
 			"NameHistory"
 			{
-				"0"		"ミナカヌ"
-				"1"		"Шаболда Даша"
+				"0"		"xyrib csgetto.games GoDota2.com"
+				"1"		"xyrib csgetto.games CSGORUN.GG"
 			}
-			"avatar"		"c6eb93fb1f0898896390bff24720e810f74a0e8f"
+			"avatar"		"3d79b89a8eea8ac4cc8aa3783e27d11ba42dd2e2"
 		}
-		"1030885853"
+		"923114838"
 		{
-			"name"		"”oh my” -San"
+			"name"		"dragonyat✈"
 			"NameHistory"
 			{
-				"0"		"”oh my” -San"
-				"1"		"ÇřĘıżĕŗ^"
-				"2"		")))nothing^"
-				"3"		"дуэли на скины"
-				"4"		"rb.community Gajda *"
-				"5"		"rb.community zhostkiy"
-				"6"		"-1337 zhostiks"
-				"7"		"Обмениваю скины н"
-				"8"		"."
-				"9"		"D3M44i"
+				"0"		"dragonyat✈"
 			}
-			"avatar"		"c8983c2d30c1d4292f59f1db676256d5701ef33c"
+			"avatar"		"8f527fdbdb9e9151935b9faa981c7dc3e3e542b6"
 		}
 		"1069612777"
 		{
@@ -1048,60 +844,90 @@
 			"NameHistory"
 			{
 				"0"		"Halo_MoTo"
-				"1"		"Тако для ДРОБОВИК"
 			}
 			"avatar"		"9704ef6a18b9002a435cf7f26cf8134ebc223ad1"
 		}
-		"336684698"
+		"917599511"
 		{
-			"name"		"SANS"
+			"name"		"Alvin"
 			"NameHistory"
 			{
-				"0"		"SANS"
-				"1"		"highteck"
-				"2"		"POWERWESSSSS//"
-				"3"		"{ 一匹狼 }"
+				"0"		"Alvin"
 			}
-			"avatar"		"8d5aecf456aa5cefd6afd58d42985e64363ca954"
+			"avatar"		"635b9dd22b09c0cd0347147e69d2717be40e5cf7"
 		}
-		"1150616787"
+		"1010161198"
 		{
-			"name"		"someN"
+			"name"		"КАБАН"
 			"NameHistory"
 			{
-				"0"		"someN"
+				"0"		"КАБАН"
 			}
-			"avatar"		"cb58f4545c8ed193023397ec2a3a07a5279c8116"
+			"avatar"		"372262c26c0473811be5d9c8fae16300e2394181"
 		}
-	}
-	"apptickets"
-	{
-		"7"		"32000000040000000671fb4001001001070000000d87725c0364a8c00000000090225d6210d2786201000000000000000000c1a869d5f7e50bfb991eaa1cbffe901c6f73013362e43bb39135a27e7100b3e490bc27e2dffdcab9c884680432b519ec5cd178a5cd6552665e6d990b69c113698ba87c8c94accf9811010dfdfe4a3edac84e9048705bc90c78b5effb6dcd9e78bd2a327f41fe2fd9124778e818794a54b1fd8512988e9319344bf632a51f69c0"
-		"730"		"38000000040000000671fb4001001001da0200000d87725c0364a8c000000000f932556279e2706201001aa104000100b48809000000000059ada6a1ad85396c524d32cb2475cf2a84fdecb550e9c5da3a6c225aca2c106f95ad5419ef970dda8d3f303e19c6f2d7620f623dd091106a5b799a6de08d3ef4eb62f75c28669458049e63a68687526689ec4761c5a2b84fd20fd5661ed4d024f2dfcd2ca3ff872c2b61e873eadfb9b967e2e8c69ba3df587bfe14c38489a4e3"
-		"228980"		"32000000040000000671fb4001001001747e03000d87725c0364a8c000000000f932556279e270620100000000000000000054615e46250505d41e906e5fbc44591771cc5df84852c101e5137f0efd3b9869cfd2f3c718231a8240c84d0304798607b7a03543c8145975e1d777cc08d6dba840b43ce1597ae36b1ca4dd556f5cec7b2e2774940a50800eed1c02a859b41176867acb9fe4d4e2293b55893dc36db57a8ca8f52462b834d69d020bafa58e598e"
-		"570"		"50000000040000000671fb40010010013a0200000d87725c0364a8c000000000f932556279e2706201000000000005003f0200000000a2c70400000034b2050000007a2006000000a4450700000000008faece0c2be3acaf92f41baf36a9525766d65bf5a62430bdd2491729621a83f64d1602c0988a086c16a1d3c5f704e183ab59852164a97dea131e1dad60e8826e31bf280551f9795d0510719d6f884d8c92b797453ed8373d2d3339ad36353df473ea551376e39054561b060a8a45de4075ff2cb43b4af8191e97676e5446e350"
-		"313250"		"32000000040000000671fb4001001001a2c704000d87725c0364a8c000000000f932556279e27062010000000000000000009424fed9f98767ef3079642f94d3b33f2609e8684733b2f001492cd8cd7fd35c35a588c33f3f535989d4a1bdc1d9344d81fb7130549135e273e54430209a0ac9f2381db22cf1507c94af578f7e67849fdac515deb7b93a702367f4a14abf0feaf1cce8a454d7962f480b3b7389a8abe2eba439233277497d0b514b669a4f0df0"
-		"373300"		"32000000040000000671fb400100100134b205000d87725c0364a8c000000000f932556279e2706201000000000000000000934e700ba50235ae69477a30771aa03d553772cec0b5999b237b5f7d7c2a45f2e6c217c0c69044f2ef3bee9dc4298aa890137983b943a2c0c2fdd15e831f97e2b845898f8c19eb6f0643294b3a47ab19b26813367a84f9c5d73147d3f9d4290a96fa11d2a564948937c283c06021d87540338f36046df9f843f0f090228622fb"
-		"401530"		"32000000040000000671fb40010010017a2006000d87725c0364a8c000000000f932556279e270620100000000000000000047d886a2ce3f8627b2eebc1b22ad9e7a323fb40cfe91c0e01f6f6fa3cb8faa3950f81b4c4a981f88a8ff66451a93970c3948933ab3c727d2d8bda33a1905126e81bce579575a00d1b5a2587f03a55259de14cbd27259eb165bafdff62e55b370d090401b2ea85f6919038b362aa0074ab30e07cb5de91d668b4d89c038b98743"
-		"476580"		"32000000040000000671fb4001001001a44507000d87725c0364a8c000000000f932556279e270620100000000000000000039c8769863f9dc60604fc87f161d9d1f0c31fc45c4af8571ed6e75392a139cd0b49bbe0344b8e906519a313a25ba93383cb325f45d9bd8de3fd7beb0f0fb6f0fd34518cefb13129e4a5cac5bcfd82f56dbdffa2f516e9d17f5e2a4c279ee344478856640b485c5dbbed5c0cfc86309608f4f678c72fa70a22faff7f88a5e5a2d"
-		"240"		"32000000040000000671fb4001001001f00000000d87725c0364a8c000000000f832556278e270620100250000000000000088e2aa77332d47de265586ba7cfc2316522ebc91d9f5427ddffb779a185383e7642fce160d4d8ca68c66120d220bb8a661edbef0fe306389b857e5364870cb9c2cecfbb575d61579fb3484a96c5a3d31e5ede9726561e8ad6d8d9671271bbf71684a92f4f39545672d2996920a0d3e5093045aaf5fb46deabb4d751e56358efa"
+		"909826235"
+		{
+			"name"		"szaława"
+			"NameHistory"
+			{
+				"0"		"szaława"
+			}
+			"avatar"		"8d979f1c5648c2f3b7372a080968555cd57f6f04"
+		}
+		"1031235637"
+		{
+			"name"		"⌁Zⱥkⱥt⌁"
+			"NameHistory"
+			{
+				"0"		"⌁Zⱥkⱥt⌁"
+				"1"		"˙·٠●Взрыв_вишни"
+				"2"		"˙·٠●•Взрыв_вишн"
+				"3"		"˙·٠●•Filmora•●٠·˙"
+			}
+			"avatar"		"a1717f6a1e0c740faf881cf6ec5f4ffc54397825"
+		}
+		"1078209466"
+		{
+			"name"		"."
+			"NameHistory"
+			{
+				"0"		"."
+			}
+			"avatar"		"886af67b7bcb2a613b7a4ea422f4d7ab8cb14383"
+		}
+		"1008257633"
+		{
+			"name"		"Я араб"
+			"NameHistory"
+			{
+				"0"		"Я араб"
+			}
+			"avatar"		"c5552ddc14f7343ea3a3b857cc60772a63b9064d"
+		}
 	}
 	"Offline"
 	{
-		"Ticket"		"0886e2ed87041544c14e62"
-		"Signature"		"90b75b0e207ffd0775ce51e103b6e6e3c09109b3afe7d3bf5e2736cdde665fe4165bd32efad9a4f2f8a8e7607cb57936dad0e4b37ab5ca0000e7fdedd0e4a3774f011a268c69a10835afb9ce127ad65fb873c5d7d13fe3b2896aa0ec3e8513b89ee2f983ec721787e7b75d1867a4a5b1aa42747cd66240dac9e9716a04cfa0f044d2f65bff84ef4203e6d2713e39e71083fa93f6d6aa1e559973ad285feb734981dfb1cff6c9209531a3d7c0b8bccc499b334ab28f28f084b1b8aca6c0988217e0c7eae1761418deba51e4f34d8c8a993d4ce6ccf06ead732a718fb85b0a913ccd7934a03b23cdd80bd29107f18e96c5574c05fab65b7d4ba748d50fa00cba01"
+		"Ticket"		"0886e2ed8704157a526062"
+		"Signature"		"0f29c83e9269c23c1bf94e969bf4a3117810b705d0505b9fd30dccfd615fdb5d1ae38c0c2069e185da5c953b9ec2e9d916f4bf65f6551980d804be30abce7befca3d10f75fcbc5cb4d77f77feb9801661e441c17b187e7831346a896d3018938f4dbaebb819d20d990609b1da344256932436327d126ef73d0f361c013315cbd7e0f95d15e43f75e96718ccdde8dbc41bfd28778812ec36551d67bd19fc1af8e6114fd29c5e65e56e179b2421e5b301321a004875d1a83afc317ff73293baf8a3d75cd2d6e95cba3366962b6ab48d63eb4085b9f47a7e72740e4d0bd3c20cafde612a2ac8a48de5a6101311f41c632c1e4aa417f8ff592115989d1c1851bd0db"
 	}
 	"ParentalSettings"
 	{
 		"settings"		"090671fb40000000004800"
 		"Signature"		"6c390730c484fc4806873a81d3f8793c2a250e4e706268870dbdf70844fd5c66257e5819575f66a055c0ac448d5ffe1602da5434fc2ac1411d36327e0f6d1723ce19cea8ecfa27f8f874d9d7d4fa486d677fed775d3af5a93156f92a4b40518ff19c1315242fce857235ae4fe745c19ac3438bd02eee23316945d9608f01a7aed293101f7b5c3d0bdea0ce8af5a61d73f00e53be09c1f3eea4a319ddc415dd61857653f85a40e16ffb6d28c6181a10b6e3e0268a198d54f6b63ebefd0a9183ede568565f3ad3f364d355e9b353dd4331d9cfb38c51422db71423850e637b911dbf1fbd167baeeb55015420d9f8d42f91396a832895395e7725967110ea609fcc"
 	}
+	"apptickets"
+	{
+		"7"		"32000000040000000671fb4001001001070000000d87725c0364a8c000000000e23ba86262ebc36201000000000000000000d6007740a0e1344934115d82a94444563d01c877a3580c8829877be6a077f45a6dc5c6cd8882b3539b9acf2a4b89180e997e80059822861f981c715a6cf4828a9f6b83a66abcd97643e2a0e4ef017fdebc098cc517be60ea424be62611c59231a89ad03b0620a4ac19a04eb5db631a1be183ccbe8c62406ff426c139f2908a4f"
+		"730"		"38000000040000000671fb4001001001da0200000d87725c0364a8c000000000e33ba86263ebc36201001aa104000100b48809000000000039fcd146babdce3aff533dc0bdb6fbbeb80765ccd350e17bc1256826c2717a21db2731526e00050ef6e7be5eb09da8b700699ee336b11256aa15b4bfbf40182dd15ef0310f7c3125deffd256c2c6d67f5ba55d8562a1b4cde801c8f3dedb57436fbf1d82986af82c753a4f5c77d58cbb989d1077b3f132eb6407d28959613b51"
+		"228980"		"32000000040000000671fb4001001001747e03000d87725c0364a8c000000000e33ba86263ebc362010000000000000000004fc335deb535d8218d86ae55b5936d915da260dd2cf30d17dc43f36cede4418e973b383209e2aa4c2d28e205a9041181ed6255c139814ce6c3ac826b40c73fbb21ce45727aa7192c86ce22e3bddf41ccbf1a217008d477a3e720af7e8c6416898af24fd2671e472f066baba5fc58fd1f6856119a66814507b074e5ae86e4353f"
+		"570"		"50000000040000000671fb40010010013a0200000d87725c0364a8c0000000003f9d8b62bf4ca76201000000000005003f0200000000a2c70400000034b2050000007a2006000000a4450700000000001076f20c731c384471f8f79c7ae666f8d68b6e8c8b5b961f6bb112bae661528bd4394e864b0b8923ece74c24476306d8779d72f176a85e205e3c954cdc4bd0f193b4426409e99a76c4929db615a02410956a02e2daa45c5503dd1afd60b4772097f37015effde55ca6f9c26f7faaa8b5aff6ca09f6af1d8c8aa1839d0de68a5c"
+	}
 	"SharedAuth"
 	{
 		"id"		"273441703"
 		"AuthData"		"30344e5c097fc4eb1dc6536f6efe14136db9b6d2e32c02552550230267c6936a"
 	}
-	"AppInfoChangeNumber"		"14546139"
+	"AppInfoChangeNumber"		"15120263"
 	"Software"
 	{
 		"Valve"
@@ -1122,40 +948,27 @@
 						"LastPlayed"		"1632408546"
 						"Playtime"		"86"
 					}
+					"240"
+					{
+						"LastPlayed"		"1642181896"
+						"Playtime"		"9"
+					}
 					"570"
 					{
 						"LastPlayed"		"1646651428"
 						"Playtime"		"85"
-						"cloud"
-						{
-							"last_sync_state"		"synchronized"
-						}
-						"LaunchOptions"		"-console -novideo -high"
-						"autocloud"
-						{
-							"lastlaunch"		"1646648715"
-							"lastexit"		"1646651544"
-						}
-						"BadgeData"		"02000000080a"
-						"DisableUpdatesUntil"		"0"
-						"Playtime2wks"		"45"
 					}
 					"730"
 					{
-						"LastPlayed"		"1650282982"
-						"Playtime2wks"		"2003"
-						"Playtime"		"133240"
+						"LastPlayed"		"1655197943"
+						"Playtime2wks"		"2104"
+						"Playtime"		"141375"
 						"cloud"
 						{
 							"last_sync_state"		"synchronized"
 						}
-						"LaunchOptions"		"-novid -high -console -nojoy -freq 60 -threads 4 -limitvsconst -forcenovsync -no_compressed_verts +mat_queue_mode 2 +r_dynamic 0"
-						"autocloud"
-						{
-							"lastlaunch"		"1650280909"
-							"lastexit"		"1650282980"
-						}
-						"BadgeData"		"0a000000080a1206080410011800"
+						"LaunchOptions"		"-novid -high -console -nojoy -freq 60 -threads 4 -limitvsconst -forcenovsync -no_compressed_verts +mat_queue_mode 2 +r_dynamic 0 -exec my__config.cfg +fps_max_menu 0 +fps_max 61 "
+						"BadgeData"		"0a000000080b1206080410011800"
 						"DisableUpdatesUntil"		"0"
 					}
 					"225840"
@@ -1172,7 +985,6 @@
 					{
 						"cloud"
 						{
-							"last_sync_state"		"synchronized"
 							"quota_bytes"		"20000000000"
 							"quota_files"		"50000"
 							"used_bytes"		"407863"
@@ -1186,446 +998,176 @@
 							"last_sync_state"		"synchronized"
 						}
 					}
-					"240"
-					{
-						"LastPlayed"		"1642181896"
-						"cloud"
-						{
-							"last_sync_state"		"synchronized"
-						}
-						"autocloud"
-						{
-							"lastlaunch"		"1642181320"
-							"lastexit"		"1642181896"
-						}
-						"BadgeData"		"02000000080a"
-						"Playtime2wks"		"9"
-						"Playtime"		"9"
-					}
 				}
-				"LastPlayedTimesSyncTime"		"1650208840"
-				"PlayerLevel"		"10"
+				"LastPlayedTimesSyncTime"		"1655147544"
+				"PlayerLevel"		"11"
 			}
 		}
 	}
 	"WebStorage"
 	{
+		"CachedStorePreferences"		"{\"eReviewScorePreference\":0,\"content_descriptor_preferences\":{\"content_descriptors_to_exclude\":[{\"content_descriptorid\":3,\"timestamp_added\":0},{\"content_descriptorid\":4,\"timestamp_added\":0}]},\"provide_deck_feedback\":0}"
+		"CachedCommunityPreferences"		"{\"bBlurAdultContentViolence\":true,\"bBlurAdultContentSex\":true,\"bParenthesizeNicknames\":false}"
 		"SteamVoiceSettings_1090220294"		"{\"inputGain\":1,\"outputGain\":1,\"noiseGateLevel\":2,\"noiseCancellation\":true,\"echoCancellation\":true,\"autoGainControl\":true,\"selectedMic\":\"default\",\"selectedOutput\":\"default\",\"pttSoundsEnabled\":true,\"hasResetOpenMicHotKey\":true}"
 		"UIStoreLocalState"		"{\"nVersion\":1,\"eGameListView\":1,\"bGroupedByCollection\":true,\"bSortedByRecent\":false,\"mapCollapsedState\":[[\"hidden\",true]],\"currentSelection\":{\"strCollectionId\":\"favorite\",\"nAppId\":730},\"bGroupBySharedLibraries\":false,\"collectionFilter\":{\"nFormatVersion\":2,\"strSearchText\":\"\",\"filterGroups\":[{\"rgOptions\":[1,2],\"bAcceptUnion\":true},{\"rgOptions\":[],\"bAcceptUnion\":false},{\"rgOptions\":[],\"bAcceptUnion\":false},{\"rgOptions\":[],\"bAcceptUnion\":false},{\"rgOptions\":[],\"bAcceptUnion\":false},{\"rgOptions\":[],\"bAcceptUnion\":false}]}}"
 		"CTextFilterStore_TextFilterPreferences"		"{\"eTextFilterSetting\":3,\"bIgnoreFriends\":true}"
 		"CTextFilterStore_TextFilterWords"		"{\"text_filter_custom_banned_words\":[],\"text_filter_custom_clean_words\":[]}"
-		"CachedStorePreferences"		"{\"eReviewScorePreference\":0,\"content_descriptor_preferences\":{\"content_descriptors_to_exclude\":[{\"content_descriptorid\":3,\"timestamp_added\":0},{\"content_descriptorid\":4,\"timestamp_added\":0}]}}"
-		"CachedCommunityPreferences"		"{\"bBlurAdultContentViolence\":true,\"bBlurAdultContentSex\":true,\"bParenthesizeNicknames\":false}"
+		"wishlistonsalestore_storage"		"{\"version\":1,\"data\":{\"rgAppIDs\":[],\"bExhausted\":true,\"nSkipped\":0},\"lastFetchTimeMS\":1655125185121}"
+		"trendingstore_storage"		"{\"version\":2,\"data\":[{\"appid\":570,\"rgAccountIDs\":[1135304567,113616179,372811003,382043572,923114838,1011662938,971157407,874219419],\"totalFriends\":12},{\"appid\":4000,\"rgAccountIDs\":[893872895,1011662938],\"totalFriends\":2},{\"appid\":730,\"rgAccountIDs\":[1022430228,372811003,917599511,930642068,63917692,1019528351,1135304567,839739479],\"totalFriends\":36},{\"appid\":289070,\"rgAccountIDs\":[996178988],\"totalFriends\":1},{\"appid\":1510460,\"rgAccountIDs\":[880002405],\"totalFriends\":1},{\"appid\":1506830,\"rgAccountIDs\":[845228609,971157407],\"totalFriends\":2},{\"appid\":1172470,\"rgAccountIDs\":[893872895,1050285613,1011662938],\"totalFriends\":3},{\"appid\":10,\"rgAccountIDs\":[893872895],\"totalFriends\":1},{\"appid\":236390,\"rgAccountIDs\":[1010161198,845228609],\"totalFriends\":2},{\"appid\":381210,\"rgAccountIDs\":[382043572,1011662938,1031235637],\"totalFriends\":3},{\"appid\":271590,\"rgAccountIDs\":[927460882,63917692,893872895,880002405],\"totalFriends\":4},{\"appid\":359550,\"rgAccountIDs\":[1069612777,1135304567,95739417],\"totalFriends\":3},{\"appid\":1349040,\"rgAccountIDs\":[1050285613],\"totalFriends\":1},{\"appid\":548430,\"rgAccountIDs\":[971157407],\"totalFriends\":1},{\"appid\":602960,\"rgAccountIDs\":[1022430228],\"totalFriends\":1},{\"appid\":1012880,\"rgAccountIDs\":[874219419],\"totalFriends\":1},{\"appid\":438100,\"rgAccountIDs\":[1010161198],\"totalFriends\":1},{\"appid\":1120480,\"rgAccountIDs\":[917599511],\"totalFriends\":1},{\"appid\":41070,\"rgAccountIDs\":[893872895,880002405],\"totalFriends\":2},{\"appid\":105600,\"rgAccountIDs\":[971157407,893872895,1031235637],\"totalFriends\":3},{\"appid\":252490,\"rgAccountIDs\":[893872895,1135304567],\"totalFriends\":2},{\"appid\":322170,\"rgAccountIDs\":[971157407],\"totalFriends\":1},{\"appid\":204340,\"rgAccountIDs\":[880002405],\"totalFriends\":1},{\"appid\":761890,\"rgAccountIDs\":[971157407,336684698],\"totalFriends\":2},{\"appid\":252950,\"rgAccountIDs\":[845228609],\"totalFriends\":1},{\"appid\":625340,\"rgAccountIDs\":[1022430228],\"totalFriends\":1},{\"appid\":292030,\"rgAccountIDs\":[372811003],\"totalFriends\":1},{\"appid\":945360,\"rgAccountIDs\":[971157407,874219419],\"totalFriends\":2},{\"appid\":242550,\"rgAccountIDs\":[336684698],\"totalFriends\":1},{\"appid\":239030,\"rgAccountIDs\":[874219419],\"totalFriends\":1},{\"appid\":257420,\"rgAccountIDs\":[880002405],\"totalFriends\":1},{\"appid\":751780,\"rgAccountIDs\":[336684698],\"totalFriends\":1},{\"appid\":219740,\"rgAccountIDs\":[336684698],\"totalFriends\":1},{\"appid\":645630,\"rgAccountIDs\":[880002405],\"totalFriends\":1},{\"appid\":240,\"rgAccountIDs\":[336684698],\"totalFriends\":1},{\"appid\":1222680,\"rgAccountIDs\":[880002405],\"totalFriends\":1},{\"appid\":617670,\"rgAccountIDs\":[874219419],\"totalFriends\":1},{\"appid\":549100,\"rgAccountIDs\":[336684698],\"totalFriends\":1},{\"appid\":1611740,\"rgAccountIDs\":[1022430228],\"totalFriends\":1},{\"appid\":607260,\"rgAccountIDs\":[323366778],\"totalFriends\":1},{\"appid\":562010,\"rgAccountIDs\":[917599511],\"totalFriends\":1},{\"appid\":203770,\"rgAccountIDs\":[996178988],\"totalFriends\":1},{\"appid\":201810,\"rgAccountIDs\":[157740486],\"totalFriends\":1},{\"appid\":1281930,\"rgAccountIDs\":[893872895],\"totalFriends\":1},{\"appid\":1118200,\"rgAccountIDs\":[971157407],\"totalFriends\":1},{\"appid\":353090,\"rgAccountIDs\":[880002405],\"totalFriends\":1},{\"appid\":629520,\"rgAccountIDs\":[1050285613],\"totalFriends\":1},{\"appid\":466240,\"rgAccountIDs\":[971157407],\"totalFriends\":1},{\"appid\":1097150,\"rgAccountIDs\":[893872895,1050285613],\"totalFriends\":2},{\"appid\":1905180,\"rgAccountIDs\":[923114838,1008257633],\"totalFriends\":2}],\"lastFetchTimeMS\":1655125187546}"
+		"playnextstore_storage"		"{\"nVersion\":3,\"cachedPlayNext\":{\"last_update_time\":1655054533,\"appids\":[]},\"rgIgnoredApps\":[]}"
 		"CTextFilterStore_strBannedPattern"		"\"\""
 		"CTextFilterStore_strCleanPattern"		"\"^(\\\\b(kompetenzteam|派送员|pinegrove|n\\\\.e\\\\.ig\\\\.e\\\\.|fukushima|snigger|nie gee|fuchian|cock\\\\.li|fuxius|fucuro|niego|niebo|neige|neggy|nebby|fuxis|cwfag|pubg|niby|nebo|fuku|fuki|fakt|g24|\\\\w*fvchvo\\\\w*fak(ed|ers?|ing)|kompetenzteam|派送员|pinegrove|n\\\\.e\\\\.ig\\\\.e\\\\.|fukushima|snigger|nie gee|fuchsia|fuchian|cock\\\\.li|fuxius|fucuro|niego|niebo|neige|neggy|nebby|fuxis|cwfag|pubg|niby|nebo|fuku|fuki|fakt|g24|\\\\w*fvchvo\\\\w*)\\\\b)$\""
-		"playnextstore_storage"		"{\"nVersion\":3,\"cachedPlayNext\":{\"last_update_time\":1650270897,\"appids\":[]},\"rgIgnoredApps\":[]}"
 		"ChatStorePopupState_1090220294"		"{\"window_restore_details\":\"1&x=270&y=187&w=740&h=650\",\"bFriendsListVisible\":false,\"always_restore\":false,\"bFriendsListCollapsed\":false}"
 		"FriendStoreLocalPrefs_1090220294"		"{\"ePersonaState\":1,\"strNonFriendsAllowedToMsg\":\"\"}"
-		"GameInvites_1090220294"		"{\"dismisstimes\":{\"1090220294\":1649416814}}"
-		"FriendGroupCollapse_1090220294"		"{\"groups\":{\"offline\":false,\"outgoing\":true}}"
-		"user-collections"		"{}"
-		"UIDisplayPrefs_1090220294"		"{\"nChatRoomListHeightPx\":224,\"bChatRoomListCollapsed\":false,\"bDontShowVoiceAlert\":false,\"nFriendsListSingleWindowWidthPx\":300,\"bFavoritesHintDismissed\":false,\"bRemotePlayLinkHintDismissed\":false,\"nChangeLogDismissed\":0,\"rtLastAckedNewEmoticons\":1593944244}"
-		"wishlistonsalestore_storage"		"{\"version\":1,\"data\":{\"rgAppIDs\":[],\"bExhausted\":true,\"nSkipped\":0},\"lastFetchTimeMS\":1650270895875}"
-		"trendingstore_storage"		"{\"version\":2,\"data\":[{\"appid\":570,\"rgAccountIDs\":[893872895,1104597778,372811003,323366778,1135304567,874219419,923114838,113616179],\"totalFriends\":16},{\"appid\":813780,\"rgAccountIDs\":[1013392065],\"totalFriends\":1},{\"appid\":346110,\"rgAccountIDs\":[996178988,874219419],\"totalFriends\":2},{\"appid\":322170,\"rgAccountIDs\":[971157407],\"totalFriends\":1},{\"appid\":105600,\"rgAccountIDs\":[923114838,1164738663,336684698],\"totalFriends\":3},{\"appid\":629520,\"rgAccountIDs\":[1050285613,1123487115],\"totalFriends\":2},{\"appid\":588430,\"rgAccountIDs\":[1125515861],\"totalFriends\":1},{\"appid\":1281930,\"rgAccountIDs\":[923114838,1164738663],\"totalFriends\":2},{\"appid\":304930,\"rgAccountIDs\":[1125515861],\"totalFriends\":1},{\"appid\":360940,\"rgAccountIDs\":[1022430228],\"totalFriends\":1},{\"appid\":860510,\"rgAccountIDs\":[157740486],\"totalFriends\":1},{\"appid\":438040,\"rgAccountIDs\":[1125515861],\"totalFriends\":1},{\"appid\":1118200,\"rgAccountIDs\":[971157407],\"totalFriends\":1},{\"appid\":480,\"rgAccountIDs\":[1123487115],\"totalFriends\":1},{\"appid\":813820,\"rgAccountIDs\":[1022430228],\"totalFriends\":1},{\"appid\":4000,\"rgAccountIDs\":[1011662938],\"totalFriends\":1},{\"appid\":933110,\"rgAccountIDs\":[1013392065],\"totalFriends\":1},{\"appid\":444200,\"rgAccountIDs\":[1104597778],\"totalFriends\":1},{\"appid\":1172470,\"rgAccountIDs\":[1010161198],\"totalFriends\":1},{\"appid\":641320,\"rgAccountIDs\":[157740486],\"totalFriends\":1},{\"appid\":739630,\"rgAccountIDs\":[1031235637],\"totalFriends\":1},{\"appid\":242550,\"rgAccountIDs\":[336684698],\"totalFriends\":1},{\"appid\":240,\"rgAccountIDs\":[1022430228,336684698],\"totalFriends\":2},{\"appid\":240320,\"rgAccountIDs\":[1031235637],\"totalFriends\":1},{\"appid\":285900,\"rgAccountIDs\":[971157407],\"totalFriends\":1},{\"appid\":1677740,\"rgAccountIDs\":[1125515861],\"totalFriends\":1},{\"appid\":1281200,\"rgAccountIDs\":[1125515861],\"totalFriends\":1},{\"appid\":218620,\"rgAccountIDs\":[1125515861],\"totalFriends\":1},{\"appid\":1913780,\"rgAccountIDs\":[874219419],\"totalFriends\":1},{\"appid\":10,\"rgAccountIDs\":[1022430228,930642068],\"totalFriends\":2},{\"appid\":43110,\"rgAccountIDs\":[323366778],\"totalFriends\":1},{\"appid\":206420,\"rgAccountIDs\":[930642068],\"totalFriends\":1},{\"appid\":550,\"rgAccountIDs\":[1022430228],\"totalFriends\":1},{\"appid\":603850,\"rgAccountIDs\":[996178988],\"totalFriends\":1},{\"appid\":380600,\"rgAccountIDs\":[845228609],\"totalFriends\":1},{\"appid\":466240,\"rgAccountIDs\":[1125515861],\"totalFriends\":1},{\"appid\":444090,\"rgAccountIDs\":[923114838],\"totalFriends\":1},{\"appid\":368230,\"rgAccountIDs\":[1022430228],\"totalFriends\":1},{\"appid\":1583570,\"rgAccountIDs\":[930642068],\"totalFriends\":1},{\"appid\":440,\"rgAccountIDs\":[336684698,1011662938],\"totalFriends\":2},{\"appid\":1238860,\"rgAccountIDs\":[336684698],\"totalFriends\":1},{\"appid\":578080,\"rgAccountIDs\":[452557496,1010161198,492800251,1022430228,927460882],\"totalFriends\":5},{\"appid\":311690,\"rgAccountIDs\":[336684698],\"totalFriends\":1},{\"appid\":307780,\"rgAccountIDs\":[930642068],\"totalFriends\":1},{\"appid\":1431610,\"rgAccountIDs\":[930642068],\"totalFriends\":1},{\"appid\":15210,\"rgAccountIDs\":[1013392065],\"totalFriends\":1},{\"appid\":221100,\"rgAccountIDs\":[1022430228],\"totalFriends\":1},{\"appid\":788260,\"rgAccountIDs\":[930642068],\"totalFriends\":1},{\"appid\":431960,\"rgAccountIDs\":[1125515861,1050285613,874219419,1104597778,1076995255,1010161198],\"totalFriends\":6},{\"appid\":322330,\"rgAccountIDs\":[874219419,336684698,1011662938],\"totalFriends\":3}],\"lastFetchTimeMS\":1650270895915}"
+		"GameInvites_1090220294"		"{\"dismisstimes\":{\"880002405\":1654867720}}"
+		"keyboard_haptic_preset"		"2"
+		"keyboard_haptic_custom"		"{\"eHapticType\":2,\"unIntensity\":4,\"ndBGain\":1}"
+		"keyboard_trackpad_typing_scale"		"1"
+		"keyboard_trackpding_typing_trigger_as_click"		"true"
+		"keyboard_layout"		"{\"currentLayout\":0,\"selectedLayouts\":[18]}"
 	}
 	"system"
 	{
 		"PushToTalkKey"		"0"
-		"EnableGameOverlay"		"0"
-		"EnableSCTenFootOverlayCheckNew"		"0"
-		"DisableLaunchInVR"		"1"
-		"InGameOverlayShortcutKey"		"Shift	KEY_TAB"
-		"InGameOverlayScreenshotNotification"		"1"
-		"InGameOverlayScreenshotPlaySound"		"1"
-		"InGameOverlayScreenshotSaveUncompressed"		"0"
-		"InGameOverlayShowFPSContrast"		"0"
-		"InGameOverlayShowFPSCorner"		"0"
-		"InGameOverlayScreenshotHotKey"		"KEY_F12"
-		"NetworkingAllowShareIP"		"0"
-		"NavUrlBar"		"0"
-		"displayratesasbits"		"0"
-		"GameOverlayHomePage"		"http://www.google.com"
 	}
-	"HideSharingNotifications"		"0"
-	"News"
-	{
-		"NotifyAvailableGames"		"1"
-		"Messages"
-		{
-			"3101662848682628818"		"1"
-			"5956398228077629324"		"1"
-			"9064427973044009070"		"1"
-			"7213910891810145440"		"1"
-			"8656348022121484424"		"1"
-			"9069259744454184070"		"1"
-			"8333878353601022495"		"1"
-			"2717493262689872348"		"1"
-			"7604327112875053206"		"1"
-			"8925665293206671615"		"1"
-			"4292075840934468931"		"1"
-			"3406113457501794585"		"1"
-			"7737500832338528153"		"1"
-			"6377494494524727573"		"1"
-			"6881363080880293828"		"1"
-			"1613733832134323056"		"1"
-			"5877603195011415361"		"1"
-			"8852654754806779467"		"1"
-			"3318539057961174904"		"1"
-			"8622445047673382625"		"1"
-			"2132774665841057170"		"1"
-			"5717568036896432147"		"1"
-			"6957257711062929506"		"1"
-			"7520659445965886129"		"1"
-			"7029406574139981719"		"1"
-			"2291133199615748258"		"1"
-			"4708611910040301040"		"1"
-			"3581773393235858069"		"1"
-			"4631336760815331389"		"1"
-			"4546952560422084408"		"1"
-			"7854573326462313254"		"1"
-			"6450605894002597483"		"1"
-			"8743100056993330048"		"1"
-			"4159422972932211928"		"1"
-			"6372775684155793353"		"1"
-			"3613282058916670028"		"1"
-			"3885176145060876439"		"1"
-			"9192611209059406409"		"1"
-			"6024684782911707012"		"1"
-			"7547271693612795462"		"1"
-			"5220599433863842418"		"1"
-			"5369030151914063800"		"1"
-			"7941122229516854382"		"1"
-			"905934036472130117"		"1"
-			"1933889082582946286"		"1"
-			"6629826681210648558"		"1"
-			"8084094749555876839"		"1"
-			"3914296698007556396"		"1"
-			"8228231826108562785"		"1"
-			"8558473509177126807"		"1"
-			"2297916978666425581"		"1"
-			"4586543764248297829"		"1"
-			"4770602511920311798"		"1"
-			"5493423470277492639"		"1"
-			"5733361427958977443"		"1"
-			"6900264923723814838"		"1"
-			"4155385934222241795"		"1"
-			"4783684203058693347"		"1"
-			"1533542840433845773"		"1"
-			"5990391857195014978"		"1"
-			"8550023923178884815"		"1"
-			"5126461099052835254"		"1"
-			"323228925829525448"		"1"
-			"2167894884629108567"		"1"
-			"124490940573106636"		"1"
-			"3679677842785903194"		"1"
-			"8198211119995977331"		"1"
-			"8209402704174629227"		"1"
-			"1147419901495102375"		"1"
-			"4159765531868800797"		"1"
-			"2768746722162055939"		"1"
-			"5738809197361949039"		"1"
-			"63028009074209840"		"1"
-			"192490644756625658"		"1"
-			"1365427993950603474"		"1"
-			"4634370587985506408"		"1"
-			"4692471680100908385"		"1"
-			"7124566270953517536"		"1"
-			"4158030706567541772"		"1"
-			"406575316157233573"		"1"
-			"2789885839592883352"		"1"
-			"4423835099461170828"		"1"
-			"5226748771737732497"		"1"
-			"8461186495758140464"		"1"
-			"7558624730199751867"		"1"
-			"860848230377538390"		"1"
-			"8293701662587953179"		"1"
-			"7769722212671961329"		"1"
-			"5109920511993266071"		"1"
-			"5092693563317453500"		"1"
-			"872063744492434242"		"1"
-			"2839461725050113976"		"1"
-			"5060414903943352045"		"1"
-			"6158636375312596459"		"1"
-			"6349214150385698229"		"1"
-			"706121925163959165"		"1"
-			"4128291984129523020"		"1"
-			"7712213113579630629"		"1"
-			"2884009882641356682"		"1"
-			"2413834319255277121"		"1"
-			"2558837636065517480"		"1"
-			"6510405210302348715"		"1"
-			"7439001418339306724"		"1"
-			"4020531527017613911"		"1"
-			"337401126732537288"		"1"
-			"4135443330559330293"		"1"
-			"5903073280219536127"		"1"
-			"9056734154395637563"		"1"
-			"2097996113347448713"		"1"
-			"4347346273333135689"		"1"
-			"2390568449458317675"		"1"
-			"1587504438799917853"		"1"
-			"1951612000454237331"		"1"
-			"4343275874631714536"		"1"
-			"401118760028080465"		"1"
-			"4033351113952231403"		"1"
-			"7009431976323698175"		"1"
-			"3028491136801932213"		"1"
-			"2076899514258331112"		"1"
-			"2366227842053779836"		"1"
-			"6746530379920145812"		"1"
-			"1077334991485926030"		"1"
-			"1376070620725103120"		"1"
-			"1785506986842133965"		"1"
-			"4219406021798163445"		"1"
-			"6983378675668278099"		"1"
-			"2295311975869864630"		"1"
-			"275510764481842075"		"1"
-			"1097626387878723804"		"1"
-			"4113306668188085005"		"1"
-			"6254545660768023145"		"1"
-			"7382176343244770414"		"1"
-			"1675895897099617860"		"1"
-			"2689724734064634005"		"1"
-			"8327271789013922042"		"1"
-			"7764492944221412915"		"1"
-			"138756944033388056"		"1"
-			"1313443815590737248"		"1"
-			"1391199346392255327"		"1"
-			"6349013993576526322"		"1"
-			"131024285288159623"		"1"
-			"1226345301697313689"		"1"
-			"1639659517967072619"		"1"
-			"4904308973350731948"		"1"
-			"7470813726563563157"		"1"
-			"1888820396844177293"		"1"
-			"656641843425212699"		"1"
-			"1505928867001014764"		"1"
-			"5389386929642091144"		"1"
-			"2191305523309495424"		"1"
-			"4795581293185698081"		"1"
-			"1449403466029217808"		"1"
-			"1108907057674520127"		"1"
-			"317922921487297046"		"1"
-			"1276686563732737784"		"1"
-			"5022546226576997924"		"1"
-			"6606207088397284115"		"1"
-			"82966266669589678"		"1"
-			"1565173523946217977"		"1"
-			"4174496788177817981"		"1"
-			"2073179468727593868"		"1"
-			"510006977895197564"		"1"
-			"1087137851064251098"		"1"
-			"4296376305666449284"		"1"
-			"4421405601989901726"		"1"
-			"4596531935802641013"		"1"
-			"5355831709796564699"		"1"
-		}
-	}
-	"LibraryDisplaySize"		"0"
-	"LibraryLowBandwidthMode"		"0"
-	"LibraryLowPerfMode"		"0"
-	"LibraryDisableCommunityContent"		"0"
-	"LibraryDisplayIconInGameList"		"1"
-	"SteamController_DisableTwoFootNotifications"		"0"
-	"CloudManager"
-	{
-		"HintAppsToPreload"		"730"
-	}
-	"StartupState.Friends"		"0"
 	"LastInstallFolderIndex"		"0"
 	"UserAppConfig"
 	{
 		"730"		"00696e7465726e616c00016c616e6775616765007275737369616e000808"
 		"228980"		"0055736572436f6e6669670001626574616b6579007075626c6963000808"
-		"570"		"00696e7465726e616c00016c616e6775616765007275737369616e000808"
-		"240"		"00696e7465726e616c00016c616e6775616765007275737369616e000808"
+	}
+	"CloudManager"
+	{
 	}
 	"CloudKey"		"010000006e12c45072db25ea86196ecdab769094d0707987e21505885afdfc489c88e46ff8083af8"
 	"CloudKeyCRC"		"-586535256"
-	"depots"
+	"SkipLastInstallPage"		"1"
+	"StartupState.Friends"		"0"
+	"News"
 	{
-		"732"
+		"Messages"
 		{
-			"CDN"
-			{
-				"level3.cdn.steampipe.steamcontent.com"
-				{
-					"token"		""
-					"Expires"		"1649161629"
-				}
-				"steampipe.akamaized.net"
-				{
-					"token"		""
-					"Expires"		"1645807231"
-				}
-				"google.cdn.steampipe.steamcontent.com"
-				{
-					"token"		""
-					"Expires"		"1649161616"
-				}
-			}
-		}
-		"731"
-		{
-			"CDN"
-			{
-				"level3.cdn.steampipe.steamcontent.com"
-				{
-					"token"		""
-					"Expires"		"1649161671"
-				}
-				"steampipe.akamaized.net"
-				{
-					"token"		""
-					"Expires"		"1648031282"
-				}
-				"google.cdn.steampipe.steamcontent.com"
-				{
-					"token"		""
-					"Expires"		"1649161617"
-				}
-			}
-		}
-		"228988"
-		{
-			"CDN"
-			{
-				"level3.cdn.steampipe.steamcontent.com"
-				{
-					"token"		""
-					"Expires"		"1639833503"
-				}
-			}
-		}
-		"228990"
-		{
-			"CDN"
-			{
-				"level3.cdn.steampipe.steamcontent.com"
-				{
-					"token"		""
-					"Expires"		"1639833513"
-				}
-			}
-		}
-		"232331"
-		{
-			"CDN"
-			{
-				"steampipe.akamaized.net"
-				{
-					"token"		""
-					"Expires"		"1642785549"
-				}
-			}
-		}
-		"241"
-		{
-			"CDN"
-			{
-				"steampipe.akamaized.net"
-				{
-					"token"		""
-					"Expires"		"1642785551"
-				}
-			}
-		}
-		"240"
-		{
-			"CDN"
-			{
-				"steampipe.akamaized.net"
-				{
-					"token"		""
-					"Expires"		"1642785730"
-				}
-			}
-		}
-		"373301"
-		{
-			"CDN"
-			{
-				"google.cdn.steampipe.steamcontent.com"
-				{
-					"token"		""
-					"Expires"		"1645807523"
-				}
-				"steampipe.akamaized.net"
-				{
-					"token"		""
-					"Expires"		"1645183439"
-				}
-				"level3.cdn.steampipe.steamcontent.com"
-				{
-					"token"		""
-					"Expires"		"1645807535"
-				}
-			}
-		}
-		"381455"
-		{
-			"CDN"
-			{
-				"steampipe.akamaized.net"
-				{
-					"token"		""
-					"Expires"		"1645811432"
-				}
-				"google.cdn.steampipe.steamcontent.com"
-				{
-					"token"		""
-					"Expires"		"1645807515"
-				}
-			}
-		}
-		"373303"
-		{
-			"CDN"
-			{
-				"steampipe.akamaized.net"
-				{
-					"token"		""
-					"Expires"		"1648031282"
-				}
-				"google.cdn.steampipe.steamcontent.com"
-				{
-					"token"		""
-					"Expires"		"1645183839"
-				}
-			}
-		}
-		"381451"
-		{
-			"CDN"
-			{
-				"level3.cdn.steampipe.steamcontent.com"
-				{
-					"token"		""
-					"Expires"		"1645807563"
-				}
-			}
+			"6838753803651381458"		"1"
+			"8516737829460409651"		"1"
+			"9101548950168311495"		"1"
+			"2073179468727593868"		"1"
+			"635127205069984491"		"1"
+			"2433759688001256407"		"1"
+			"7239891981194179223"		"1"
+			"718283112414022990"		"1"
+			"8239740225017421712"		"1"
+			"9211200329802162363"		"1"
+			"1108556692929573772"		"1"
+			"2808477304210289677"		"1"
+			"7920810462129877370"		"1"
+			"8772637366149739325"		"1"
+			"4300311073581984710"		"1"
+			"213957595419470425"		"1"
+			"385532402719568111"		"1"
+			"515892550129892928"		"1"
+			"1184049177476741406"		"1"
+			"5728107638764150858"		"1"
+			"3939976166569382289"		"1"
+			"7633975452912556478"		"1"
+			"1348311716187486197"		"1"
+			"3702411904396550276"		"1"
+			"4122875038000941424"		"1"
+			"439213465125570579"		"1"
+			"1528335830387406351"		"1"
+			"2888177399847008644"		"1"
+			"2137279453283198313"		"1"
+			"2416640372476511645"		"1"
+			"3714678486332967504"		"1"
+			"5190494493751286066"		"1"
+			"8621609592691122707"		"1"
+			"3043171129958068256"		"1"
+			"193243187184562111"		"1"
+			"701937361983362141"		"1"
+			"1797259507507790945"		"1"
+			"9095810338261624599"		"1"
+			"3139015365587268857"		"1"
+			"4988699582446725617"		"1"
+			"4577956533687936637"		"1"
+			"7307171684650749270"		"1"
+			"3858168434846607572"		"1"
+			"4169585661534339472"		"1"
+			"7988453443053547836"		"1"
+			"7800023317278437747"		"1"
+			"6635146009181823292"		"1"
+			"2747023416519421476"		"1"
+			"8681892311663843934"		"1"
+			"8741645320210394935"		"1"
+			"322846673217167180"		"1"
+			"596700249830680410"		"1"
+			"3814929640345811748"		"1"
+			"4630670404367282811"		"1"
+			"7548584546014214844"		"1"
+			"791194957768779529"		"1"
+			"8142478620187578828"		"1"
+			"4804281353881133973"		"1"
+			"3818296879032333253"		"1"
+			"6009356258343123391"		"1"
+			"8464521354831213938"		"1"
+			"6383543553626837631"		"1"
+			"8602641352903952449"		"1"
+			"7756509054088000281"		"1"
+			"8695717164965790877"		"1"
+			"4694910287565803946"		"1"
+			"3539010780065057376"		"1"
+			"4153012808726789758"		"1"
+			"6281929710982775261"		"1"
+			"6341451933560172105"		"1"
+			"7770412620691463748"		"1"
+			"5249831228984179751"		"1"
+			"6020904934429510127"		"1"
+			"1864931203161853931"		"1"
+			"3387688466513724212"		"1"
+			"7139469252206678511"		"1"
+			"6918064786545439596"		"1"
+			"1254389037135140237"		"1"
+			"5975974010487891204"		"1"
+			"5563428680819585494"		"1"
+			"8942924748652359096"		"1"
+			"7417634410561589234"		"1"
+			"2882772910963731438"		"1"
+			"2508274010543253786"		"1"
+			"5174351078217187127"		"1"
+			"710666587675028034"		"1"
+			"1795954733774277191"		"1"
+			"6623895082461641362"		"1"
+			"5779301640591476379"		"1"
+			"7995112452825631525"		"1"
+			"5249372110798981472"		"1"
+			"3621196387224879791"		"1"
+			"1834089409437875917"		"1"
+			"5435182762710472979"		"1"
+			"2863825056569804961"		"1"
+			"3616076181550603401"		"1"
+			"2082255642108265988"		"1"
+			"895850717613185103"		"1"
+			"2514152249061945054"		"1"
+			"3160348560181413869"		"1"
+			"5806174670474103635"		"1"
+			"1465359972889079111"		"1"
 		}
 	}
 	"apps"
 	{
 		"730"
 		{
-			"DisableLaunchInVR"		"1"
-		}
-		"570"
-		{
+			"OverlayAppEnable"		"0"
 			"DisableLaunchInVR"		"1"
 		}
 	}
+	"RecentLocalPlayed"		"da02000051407d62"
 	"nettickets"
 	{
-		"730"		"010000007f0067f5be001e9dce8ca73166ff8805754fca059031d0a09be3eed955e6d6b1e415bb7f34c8c33d9245d155dd527b9b4db334f6a3b60e2ca41eaff15b1f7f6332dc642ac741128312e799ff5649fe6a72a1f34a10112ad1a3718ee3d24454a8a287f6e193ed387f05588ca24aa3ab156a45ec681005dd16aab37d66331c6c17a330b92091ef2af11704580185b2870343922c3779386816d0ed678a1d9780f7bc99d3556c66b71e831c86a58938a3d921827b613299cd3bb5901afd501b2891a01701dd50ef1472df142b63447face8166bdb6335c7af189cf466718458f6ae5807b3219a7c0e2b9f40f9c5a65d8a2c2e8904ef1ffdf2"
-		"570"		"010000007f00d5ee3cc830ea13c8d4bde30d5f48009615b3738b79d0e3b4ccb28702a96ecab03c1c9bee6f3253a2cbb778cd20eff8f8f6603a63bd2d477e4d77dca65c1aa53a642ac741128312e7994d4dcb3644057cb7399c94d806ee04573c64a7ee01d2ffa1c3f83fdc00da7629a24aa3ab156a45ec6810f1246eaab38921441c6c77a230b92091ef2af11704580185b2870343922c3779386816d0ed678a1d9780f7bc99d3556c66b71e831c86a58938a3d921827b8e6af7214d7c71a9e98d2f6f0845abc494c3ea1b38039b3c94ef55bfb5d55382070855322ca9027cea0ee81f25934edddb68a19f8f07b3ccb7b01dd291350b0175171f88"
+		"730"		"010000007f0039fd3ba7dd84bee56ebb791043f26468df742c5b5345f6deed0ac1f31c84fe4e7a34432f05826b149037b8f939008b1c7df8b2cfaf0c637f582644153176be82642ac741128312e799a15ecc59a96bd19a839a0ec51a5460a9f6a3f83e2b47eacbe240792db53042d7a24aa3ab156a45ec6810f127eeaab38920c41c6c17a330b92091ef2af11704580185b2870343922c3779386816d0ed678a1d9780f7bc99d3556c66b71e831c86a58938a3d921827be8d0e8ff0949041b6fb11fe1dfa3b65c453258b531b7e3524b8432edb4bc31fa8197d402135be1343cd8f6472c4ffd83af86ce6586e67c77088bde296695840364eee1eb"
 	}
-	"RecentLocalPlayed"		"3a02000098e82562da020000e4515d62"
+	"RecentLocalPlayedGameIDs"		"da02000000000000f650a8620882800c"
 	"Licenses"
 	{
-		"0"		"01000000750d0b7691f6c3095e52183391ed6817b4020ba42382eaa2c3f4ad71b898c86ce1b004ae0fbf018d9e896d2a0ff6a0e1b223afb077b84f5fb3ee7728523ced1b038e7684c42e1ae56681dcbacf7800a4837e4f9f77870158ddb5d6246bc3f392adbbe1a23b004433ed4d29e622a61d301f2d930d5568fd4bc8ff40d41e1d54acd50ff0cee5872f782e463775e1d09e72719b2c3d635c5223e6d853ef49dccbaefdc695141939e149aa222bd91b15456cbed555ac9d17e287a18f9cc147186f68aa3524459c4dc82950307c92e9b655e35c5f9faa21ba494bc53139ab19fa3474f3e4a8349b20ae8a8615cdb83431305faa710e8dfcf070243ee1da2d2edfd928b245469d4e3564eb215988c2d74a557f5c9f5473cf69c844d5ad07a97f747f48fb6e4fc8650e9ed3dfbe045c942d4dc3ce2a74a64dc961415e1969aaa1dbe4bfbac0573d00080845b1e4cd"
+		"0"		"01000000750d0b7691f6c3095e52183391ed6817b4020ba42382eaa2c3f4ad71b898c86ce1b004ae0fbf018d9e896ddbdc899fe1b223afb077b84f5fb3ee7728523ced1b038e7684c42e1ae56681dcbacf7800a4837e4f9f77870158ddb5d6246bc3f392adbbe1a23b004433ed4d29e622a61d301f2d930d5568fd4bc8ff40d41e1d54acd50ff0cee5872f782e463775e1d09e72719b2c3d635c5223e6d853ef49dccbaefdc695141939e149aa222bd91b15456cbed555ac9d17e287a18f9cc147186f68aa3524459c4dc82950307c92e9b655e35c5f9faa21ba494bc53139ab19fa3474f3e4a8349b20ae8a8615cdb83431305faa710e8dfcf070243ee1da2d2edfd928b245469d4e3564eb215988c2d74a557f5c9f5473cf69c844d5ad07a97f747f48fb6e4fc8650e9ed3dfbe045c942d4dc3ce2a74a64dc961415e1969aaa1dbe4bfbac0573d000808b4fee7fe"
 		"7"		"01000000750d0b7691f6c3095e52183391ed6817b4020ba42382eaa2c3f4aa71b898c86ce1b004ae0fbf018d9e896d6261fda1e1b223afb077b84f5fb3ee7728523ced1b038e7684c42e1ae56681dcbacf7800a4837e4f9f77870158ddb5d6246bc3f392adbbe1a23b004433ed4d29e622a61d301f2d930d55e8f94bc8ff40d41e1d54acd50ff0cee5872f782e463775e1d0d33437f50b36713b2121e6da51bb2efadcb5fbc09302282fc643ce472bd91b172907b1d958ba9610fe83bdfff8c146186d27df143659b07b816b21cd4d6be0da75f95c4a9a9b28984556c85e5dab19fa363d9fc4b2348e259b8fbf19f5b3082b592baa710e8fae974c2427e5c11c27fdd535bf2a229d4e3566b9466588dbd351607a65936c78f373a130d5ad07ae3e105d4eeb7868d45a049bb6056ee0a4422bf816c0b1179858df67744d2a63a8addfca9ef384573d6567a31b086741a8a2"
 		"37"		"01000000750d0b7691f6c3095e52183391ed6817b4020ba42382eaa2c3f48871b898c86ce1b004ae0fbf018d9e896d6261fda1e1b223afb077b84f5fb3ee7728523ced1b038e7684c42e1ae56681dcbacf7800a4837e4f9f77870158ddb5d6246bc3f392adbbe1a23b004433ed4d29e622a61d301f2d930d55e8f94bc8ff40d41e1d54acd50ff0cee5872f782e463775e1d0d33437f50b36713b2121e6da51bb2efadcb5fbc09302282fc643ce472bd91b172907b1d958ba9610fe83bdfff8c146186d27df143659b07b816b21cd4d6be0da75f95c4a9a9b28984556c85e5dab19fa363d9fc4b2348e259b8fbf19f5b3082b592baa710e8fae974c2427e5c11c27fdd535bf2a229d4e3566b9466588dbd351607a65936c78f373a130d5ad07ae3e105d4eeb7868d45a049bb6056e32e7ed46085960e2179858df67744d2a63a8addfca9ef384573d6567a31b087432e825"
 		"37543"		"01000000750d0b7691f6c3095e52183391ed6817b4020ba42382eaa2c3f40ae3b898c86ce1b004ae0fbf018d9e896df7cead9ee1b223afb077b84f5fb3ee7728523ced1b038e7684c42e1ae56681dcbacf7800a4837e4f9f77870158ddb5d6246bc3f392adbbe1a23b004433ed4d29e622a61d301f2d930d5568fd4bc8ff40d41e1d54acd50ff0cee5872f782e463775e1d0d33437f50b36713b2121e6da51bb2efadcb5fbc09302282fc643ce472bd91b172907b1d958ba9610fe83bdfff8c146186d27df143659b07b816b21cd4d6be0da75f95c4a9a9b28984556c85e5dab19fa363d9fc4b2348e259b8fbf19f5b3082b592baa710e8fae974c2427e5c11c27fdd535bf2a229d4e3566b9466588dbd351607a65936c78f373a130d5ad07ae3e105d4eeb7868d45a049bb6056e676dfd168229835f179858df67744d2a63a8addfca9ef384573d6567a31b0808a1b4d2"

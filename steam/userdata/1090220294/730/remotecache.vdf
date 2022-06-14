@@ -1,13 +1,13 @@
 "730"
 {
-	"ChangeNumber"		"-5044361656500177875"
+	"ChangeNumber"		"0"
 	"ostype"		"16"
 	"cfg/csgo_saved_item_shuffles.txt"
 	{
 		"root"		"0"
 		"size"		"24"
-		"localtime"		"1587661056"
-		"time"		"1587661055"
+		"localtime"		"1650531008"
+		"time"		"1650531010"
 		"remotetime"		"1587661055"
 		"sha"		"c7bdc563982fc4ddddb9e6f8853b298967d858f9"
 		"syncstate"		"1"

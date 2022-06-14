@@ -142,11 +142,23 @@
 		"time"		"0"
 		"remotetime"		"0"
 		"sha"		"0000000000000000000000000000000000000000"
-		"syncstate"		"2"
-		"persiststate"		"0"
+		"syncstate"		"1"
+		"persiststate"		"1"
 		"platformstosync2"		"0"
 	}
 	"10229498.644999985_image.png"
+	{
+		"root"		"0"
+		"size"		"0"
+		"localtime"		"0"
+		"time"		"0"
+		"remotetime"		"0"
+		"sha"		"0000000000000000000000000000000000000000"
+		"syncstate"		"1"
+		"persiststate"		"1"
+		"platformstosync2"		"0"
+	}
+	"1756929.140000022_image.png"
 	{
 		"root"		"0"
 		"size"		"0"
