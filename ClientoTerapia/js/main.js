@@ -38,9 +38,20 @@ __webpack_require__.r(__webpack_exports__);
 
 var menuBtn = document.querySelector('.header__burger');
 var menu = document.querySelector('.header__nav');
-menuBtn.addEventListener('click', function () {
+
+var hideMenu = function hideMenu(event) {
+  menu.classList.remove('menu__active');
+};
+
+var close = function close(event) {
+  return !menu.contains(event.target) && hideMenu(event);
+};
+
+menuBtn.addEventListener('click', function (event) {
+  event.stopPropagation();
   menu.classList.toggle('menu__active');
 });
+window.addEventListener('click', close);
 
 /***/ }),
 
