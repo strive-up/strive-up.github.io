@@ -1,0 +1,1053 @@
+"UserLocalConfigStore"
+{
+	"streaming_v2"
+	{
+		"EnableStreaming"		"1"
+		"DefaultAudioDevice"		"{0.0.0.00000000}.{cf1b8ff9-9a8f-49a2-969b-49851acc2849}"
+		"DefaultAudioDeviceName"		"Наушники (2- Устройство с поддержкой High Definition Audio)"
+		"DefaultMicrophone"		"{0.0.1.00000000}.{16817973-8a70-4848-a994-1e2a07f9f98f}"
+		"DefaultMicrophoneName"		"Микрофон (2- Устройство с поддержкой High Definition Audio)"
+		"P2PScopeV2"
+		{
+		}
+	}
+	"Broadcast"
+	{
+		"Permissions"		"1"
+	}
+	"friends"
+	{
+		"1090220294"
+		{
+			"NameHistory"
+			{
+				"0"		"Kaido"
+			}
+			"avatar"		"b40a85a9f0253a7a9d67f99a6b3390661db759ae"
+			"name"		"Kaido"
+		}
+		"PersonaName"		"Kaido"
+		"communitypreferences"		"0801100118c1dfc4fc052000280330013800"
+		"1026615616"
+		{
+			"name"		"Dzokerper"
+			"NameHistory"
+			{
+				"0"		"Dzokerper"
+			}
+			"avatar"		"2b9a9a481e14b9234bf0e03e48417c752aad3f18"
+		}
+		"988276975"
+		{
+			"name"		"𝓐𝓵𝓮𝔁 Starling"
+			"NameHistory"
+			{
+				"0"		"𝓐𝓵𝓮𝔁 Starling"
+			}
+			"avatar"		"9f91063e042afeaf6a8b9c9f01a9aa0646346677"
+		}
+		"1123487115"
+		{
+			"name"		"Najemnik z Bydgoszczy"
+			"NameHistory"
+			{
+				"0"		"Najemnik z Bydgoszczy"
+			}
+			"avatar"		"e4265c25c827be3d4a4c18281756831ad20444c2"
+		}
+		"1056797712"
+		{
+			"name"		"avan9ard"
+			"NameHistory"
+			{
+				"0"		"avan9ard"
+			}
+			"avatar"		"ec40e9ee62ce5109c4ad10bbdf7503bbe687bac9"
+		}
+		"258678411"
+		{
+			"name"		"Pozitivcik"
+			"NameHistory"
+			{
+				"0"		"Pozitivcik"
+			}
+			"avatar"		"788bca116f7bf69db038d73d62faa947d1d44ed1"
+		}
+		"1019528351"
+		{
+			"name"		"уебан"
+			"NameHistory"
+			{
+				"0"		"уебан"
+			}
+			"avatar"		"414c71afc8c864df1327ffa3da7f5ce72bf6af38"
+		}
+		"1126245016"
+		{
+			"name"		"FANDER csgotune.com"
+			"NameHistory"
+			{
+				"0"		"FANDER csgotune.com"
+			}
+			"avatar"		"c27fd1e50fd6dfae7ad4316c315aea109a11a7bc"
+		}
+		"63917692"
+		{
+			"name"		". . . . . . . . ."
+			"NameHistory"
+			{
+				"0"		". . . . . . . . ."
+				"1"		"M A N"
+				"2"		"Scar"
+				"3"		"Romeo"
+			}
+			"avatar"		"8c2e117c85ba2eddf7658f765909794b066dfce0"
+		}
+		"845228609"
+		{
+			"name"		"❟❛❟bl1tz❟❛❟"
+			"NameHistory"
+			{
+				"0"		"❟❛❟bl1tz❟❛❟"
+			}
+			"avatar"		"9b47ebd1322054f2a01c1a714b243685e6f79308"
+		}
+		"1050285613"
+		{
+			"name"		"xstramec"
+			"NameHistory"
+			{
+				"0"		"xstramec"
+			}
+			"avatar"		"e5f935caf1186b858d33553511941e0e29863bd8"
+		}
+		"372811003"
+		{
+			"name"		"RAMZI"
+			"NameHistory"
+			{
+				"0"		"RAMZI"
+			}
+			"avatar"		"9de470fa7d0c66683510b15e1dfa98e3a5cda1f2"
+		}
+		"930642068"
+		{
+			"name"		"On1y^up(UA)VIPONcsgetto.games"
+			"NameHistory"
+			{
+				"0"		"On1y^up(UA)VIPONcsgetto.games"
+				"1"		"On1y^up(UA)VIPON csgetto.games"
+				"2"		"On1y^up(UA)VIPON"
+			}
+			"avatar"		"5b8c77aeed6c521508014d3277a3a12d8a68538c"
+		}
+		"251032197"
+		{
+			"name"		"forend"
+			"NameHistory"
+			{
+				"0"		"forend"
+			}
+			"avatar"		"a5847faf37e261319bc79e14440ec39c0846a090"
+		}
+		"874219419"
+		{
+			"name"		"✎Stan1slaw"
+			"NameHistory"
+			{
+				"0"		"✎Stan1slaw"
+			}
+			"avatar"		"8679e128af50764e7ef6ca8927299fe98cc7533c"
+		}
+		"382043572"
+		{
+			"name"		"xyrib csgetto.games GoDota2.com"
+			"NameHistory"
+			{
+				"0"		"xyrib csgetto.games GoDota2.com"
+			}
+			"avatar"		"3d79b89a8eea8ac4cc8aa3783e27d11ba42dd2e2"
+		}
+		"1037180595"
+		{
+			"name"		"KaT"
+			"NameHistory"
+			{
+				"0"		"KaT"
+			}
+		}
+		"909826235"
+		{
+			"name"		"szaława"
+			"NameHistory"
+			{
+				"0"		"szaława"
+			}
+			"avatar"		"8d979f1c5648c2f3b7372a080968555cd57f6f04"
+		}
+		"304376650"
+		{
+			"name"		"GoGaQWE"
+			"NameHistory"
+			{
+				"0"		"GoGaQWE"
+			}
+			"avatar"		"f4932a9300ee32d23dd04e68c40b6f3d478e1d32"
+		}
+		"390611784"
+		{
+			"name"		"Shoker"
+			"NameHistory"
+			{
+				"0"		"Shoker"
+			}
+			"avatar"		"e94e8041a71e2f697575fe3cc3e1fb5434d1ce9d"
+		}
+		"1110612524"
+		{
+			"name"		"Arturchik***"
+			"NameHistory"
+			{
+				"0"		"Arturchik***"
+			}
+			"avatar"		"8d0194901bb5909486733e9601157ca0800ec5e7"
+		}
+		"1011662938"
+		{
+			"name"		"Член Говно Залупа"
+			"NameHistory"
+			{
+				"0"		"Член Говно Залупа"
+				"1"		"Готов сосать"
+			}
+			"avatar"		"5e3f9e0fb4af677cd377b71ed0693ea5438ca675"
+		}
+		"452557496"
+		{
+			"name"		"InkaiZer"
+			"NameHistory"
+			{
+				"0"		"InkaiZer"
+			}
+			"avatar"		"b2bf039cc06a209e92b527b752001a7e9dee41bd"
+		}
+		"1043782245"
+		{
+			"name"		"Паук-Коммунист"
+			"NameHistory"
+			{
+				"0"		"Паук-Коммунист"
+			}
+			"avatar"		"8aa7f297888ffb1f151ce934d083301f37de72f9"
+		}
+		"1066366067"
+		{
+			"name"		"FRAGEMGG"
+			"NameHistory"
+			{
+				"0"		"FRAGEMGG"
+			}
+			"avatar"		"bf26cc1f0e9f833427da10a957f5e8ef65039551"
+		}
+		"492800251"
+		{
+			"name"		"Depthhunter"
+			"NameHistory"
+			{
+				"0"		"Depthhunter"
+			}
+			"avatar"		"4cd85ccee3ca7c8b406108ebc8c48931d35c2c13"
+		}
+		"1071219431"
+		{
+			"name"		"Sergio Minetti"
+			"NameHistory"
+			{
+				"0"		"Sergio Minetti"
+			}
+			"avatar"		"bf09cef7db5ecce24d76903af8f407e56f9bb973"
+		}
+		"893200680"
+		{
+			"name"		"Рембо"
+			"NameHistory"
+			{
+				"0"		"Рембо"
+			}
+			"avatar"		"b16ce6814354c4e748cd27b81a9e8d4db9a0394a"
+		}
+		"323366778"
+		{
+			"name"		"ШТЕФАН ЧЕЛ МАРЕ"
+			"NameHistory"
+			{
+				"0"		"ШТЕФАН ЧЕЛ МАРЕ"
+			}
+			"avatar"		"2911585343c5639265dbd815e5f9e6830a621ea2"
+		}
+		"1185433500"
+		{
+			"name"		"ёбырь твоей мамки"
+			"NameHistory"
+			{
+				"0"		"ёбырь твоей мамки"
+			}
+			"avatar"		"9dab8056e33915b42b6beadff8b7c6b4c817b034"
+		}
+		"1022430228"
+		{
+			"name"		"caprice!"
+			"NameHistory"
+			{
+				"0"		"caprice!"
+			}
+			"avatar"		"28773fec0c843f05781106cb8a44f95d93dd2bb3"
+		}
+		"971157407"
+		{
+			"name"		"wush-"
+			"NameHistory"
+			{
+				"0"		"wush-"
+				"1"		"weber-"
+				"2"		"Материя Рассола"
+			}
+			"avatar"		"32734537c018157da59ee6b846a7fedcad1f15fc"
+		}
+		"902022847"
+		{
+			"name"		"Pymba"
+			"NameHistory"
+			{
+				"0"		"Pymba"
+			}
+			"avatar"		"e642f7726c388b408c0249cf64e9cd3baae5240d"
+		}
+		"1111740551"
+		{
+			"name"		"Шлюшка"
+			"NameHistory"
+			{
+				"0"		"Шлюшка"
+			}
+			"avatar"		"cb1a333fc7771547fcbb6090bcee07dc7c8f7ce0"
+		}
+		"917599511"
+		{
+			"name"		"Alvin"
+			"NameHistory"
+			{
+				"0"		"Alvin"
+			}
+			"avatar"		"635b9dd22b09c0cd0347147e69d2717be40e5cf7"
+		}
+		"113616179"
+		{
+			"name"		"destroyer of art"
+			"NameHistory"
+			{
+				"0"		"destroyer of art"
+			}
+			"avatar"		"59984cc9f7f04b352b8f696061871a66af75efc0"
+		}
+		"1069612777"
+		{
+			"name"		"Halo_MoTo"
+			"NameHistory"
+			{
+				"0"		"Halo_MoTo"
+			}
+			"avatar"		"9704ef6a18b9002a435cf7f26cf8134ebc223ad1"
+		}
+		"103582791461732230"
+		{
+			"name"		"dfr3m }{4ck"
+			"tag"		"h4ck.cc"
+			"avatar"		"00c2fb9b4672eb59325aa24fff1a96b6744f8288"
+		}
+		"840300835"
+		{
+			"name"		"文Mr_Temaヅ"
+			"NameHistory"
+			{
+				"0"		"文Mr_Temaヅ"
+			}
+			"avatar"		"4e45e535bb4be42a462fdf7a59662ef4fc869a5f"
+		}
+		"1135304567"
+		{
+			"name"		"ДеД"
+			"NameHistory"
+			{
+				"0"		"ДеД"
+			}
+			"avatar"		"07935eb58c5b48279c863aa7f909bfbf4990ad00"
+		}
+		"1104773203"
+		{
+			"name"		"danger_denisskaaa"
+			"NameHistory"
+			{
+				"0"		"danger_denisskaaa"
+			}
+			"avatar"		"81ae0a447cfd3b57599957d8ade5a32726c0a618"
+		}
+		"875507330"
+		{
+			"name"		"GhostKilla"
+			"NameHistory"
+			{
+				"0"		"GhostKilla"
+			}
+			"avatar"		"9c433e21d6b0826a2bfe42f2c1a1f42d0a835a7a"
+		}
+		"920141964"
+		{
+			"name"		"."
+			"NameHistory"
+			{
+				"0"		"."
+			}
+			"avatar"		"e881dcd553e9f310e7b1791df88263d27100d05f"
+		}
+		"1022627454"
+		{
+			"name"		"Boombl4"
+			"NameHistory"
+			{
+				"0"		"Boombl4"
+			}
+			"avatar"		"7b016f8a3758bcaf2731638b4b1bdf537eee5f1a"
+		}
+		"996826577"
+		{
+			"name"		"ミナカヌ"
+			"NameHistory"
+			{
+				"0"		"ミナカヌ"
+			}
+			"avatar"		"c6eb93fb1f0898896390bff24720e810f74a0e8f"
+		}
+		"1104597778"
+		{
+			"name"		"I hold your weakness like a mous"
+			"NameHistory"
+			{
+				"0"		"I hold your weakness like a mous"
+				"1"		"happinessdoesnotexist.xd"
+			}
+			"avatar"		"f10889813ed4ac8e49062c6acde39156ee3a7d31"
+		}
+		"91714501"
+		{
+			"name"		"ForceUnleashed22"
+			"NameHistory"
+			{
+				"0"		"ForceUnleashed22"
+			}
+			"avatar"		"21ea13873ba2c6361fb57f4793cf3cafcd6f1850"
+		}
+		"1165628523"
+		{
+			"name"		"カイドウ"
+			"NameHistory"
+			{
+				"0"		"カイドウ"
+			}
+			"avatar"		"920c942a79ecf0bf11d1d2880bba234c882e5ff9"
+		}
+		"1010161198"
+		{
+			"name"		"КАБАН"
+			"NameHistory"
+			{
+				"0"		"КАБАН"
+			}
+			"avatar"		"372262c26c0473811be5d9c8fae16300e2394181"
+		}
+		"157740486"
+		{
+			"name"		"weerrdy"
+			"NameHistory"
+			{
+				"0"		"weerrdy"
+			}
+			"avatar"		"37a4f9e357b19ed7d31a4534d8c775c89531bdc0"
+		}
+		"839739479"
+		{
+			"name"		"Я НЕ ШАРЮ КАК ИГРАТЬ"
+			"NameHistory"
+			{
+				"0"		"Я НЕ ШАРЮ КАК ИГРАТЬ"
+			}
+			"avatar"		"65ec204160161b770a8828d67c213f56d19a5612"
+		}
+		"1013392065"
+		{
+			"name"		"maximus8200"
+			"NameHistory"
+			{
+				"0"		"maximus8200"
+			}
+			"avatar"		"d298960f5dc3fd109ed69304bf5cb0e06a5e6423"
+		}
+		"1143608053"
+		{
+			"name"		"ILOVEU"
+			"NameHistory"
+			{
+				"0"		"ILOVEU"
+			}
+			"avatar"		"74b07c6997273ec72fe8d64f7506889ee9116818"
+		}
+		"1078209466"
+		{
+			"name"		"."
+			"NameHistory"
+			{
+				"0"		"."
+			}
+			"avatar"		"886af67b7bcb2a613b7a4ea422f4d7ab8cb14383"
+		}
+		"1076995255"
+		{
+			"name"		"Z"
+			"NameHistory"
+			{
+				"0"		"Z"
+			}
+			"avatar"		"2d2d3a62eaed916402bec5eda5218c814dd216bc"
+		}
+		"1032162607"
+		{
+			"name"		"-_-Dertseg-_-"
+			"NameHistory"
+			{
+				"0"		"-_-Dertseg-_-"
+			}
+			"avatar"		"7711774ffc5e01e8ab62d8587dbb20d79aa0556a"
+		}
+		"483725525"
+		{
+			"name"		"^^MoScAzz^^"
+			"NameHistory"
+			{
+				"0"		"^^MoScAzz^^"
+			}
+			"avatar"		"362987522a19feab75a25293fa86906bed51c789"
+		}
+		"933785208"
+		{
+			"name"		"ГЛЭК"
+			"NameHistory"
+			{
+				"0"		"ГЛЭК"
+			}
+			"avatar"		"1e4941de2013373c48dea11d75d737d958e258a6"
+		}
+		"925879696"
+		{
+			"name"		"aWp"
+			"NameHistory"
+			{
+				"0"		"aWp"
+			}
+			"avatar"		"f6ff01c2bb79dcc7c52624134d3e467e8022d146"
+		}
+		"465649105"
+		{
+			"name"		"челикбобик"
+			"NameHistory"
+			{
+				"0"		"челикбобик"
+			}
+			"avatar"		"e6822b9c2f359f744d5dc4177f7d05ed36ce91de"
+		}
+		"877320048"
+		{
+			"name"		"Okita"
+			"NameHistory"
+			{
+				"0"		"Okita"
+			}
+			"avatar"		"b0e7c0450484a611aa7529f428ff3e2e1bf560cf"
+		}
+		"931587881"
+		{
+			"name"		"Caps1k"
+			"NameHistory"
+			{
+				"0"		"Caps1k"
+			}
+			"avatar"		"1c3e29a990f06cd3cdcdfd616ea416b827f6b53b"
+		}
+		"1164738663"
+		{
+			"name"		"WeZer"
+			"NameHistory"
+			{
+				"0"		"WeZer"
+			}
+			"avatar"		"f706f83febac7f977fa1bf84487ae936fc0ff5ef"
+		}
+		"336684698"
+		{
+			"name"		"SANS"
+			"NameHistory"
+			{
+				"0"		"SANS"
+			}
+			"avatar"		"8d5aecf456aa5cefd6afd58d42985e64363ca954"
+		}
+		"1006597109"
+		{
+			"name"		"sqUnT"
+			"NameHistory"
+			{
+				"0"		"sqUnT"
+			}
+			"avatar"		"67bb1d67bd556b44c2ddc7c58eaef185159c14f4"
+		}
+		"1115852055"
+		{
+			"name"		"Pelle Peloton"
+			"NameHistory"
+			{
+				"0"		"Pelle Peloton"
+			}
+			"avatar"		"b62f0a28d01ec740299c20b02c688b2273512446"
+		}
+		"880002405"
+		{
+			"name"		"UltraIUL"
+			"NameHistory"
+			{
+				"0"		"UltraIUL"
+			}
+			"avatar"		"74b2db6099cbea4deef224d8ca4fbe074200ffd0"
+		}
+		"1085643507"
+		{
+			"name"		"gla1b3"
+			"NameHistory"
+			{
+				"0"		"gla1b3"
+			}
+			"avatar"		"5fd6caf3309571836682e78fce4287c68c380634"
+		}
+		"1045486240"
+		{
+			"name"		"Nubasik2552"
+			"NameHistory"
+			{
+				"0"		"Nubasik2552"
+			}
+			"avatar"		"03a2c261dce2cca478472c1ad2efeaaa904ced4b"
+		}
+		"1106572542"
+		{
+			"name"		"myname"
+			"NameHistory"
+			{
+				"0"		"myname"
+			}
+			"avatar"		"937be83e5818d54f76c32beb7262e5465f46d244"
+		}
+		"893872895"
+		{
+			"name"		"водитель по губам"
+			"NameHistory"
+			{
+				"0"		"водитель по губам"
+			}
+			"avatar"		"8383746c79665ce1539021dad2a064af6217e188"
+		}
+		"103582791432902485"
+		{
+			"name"		"Counter-Strike: Global Offensive"
+			"avatar"		"69f7ebe2735c366c65c0b33dae00e12dc40edbe4"
+		}
+		"103582791468614260"
+		{
+			"name"		"Insilio Jr."
+			"tag"		"Insilio Jr."
+			"avatar"		"d7f7fc78d45907c38c768563639501ea48d1624b"
+		}
+		"381468412"
+		{
+			"name"		"БУТЫЛЕК"
+			"NameHistory"
+			{
+				"0"		"БУТЫЛЕК"
+			}
+			"avatar"		"cd943157180fe92247e16da4380e47b7bd26a33a"
+		}
+		"1095530267"
+		{
+			"name"		"ПЛАХОТНЮК"
+			"NameHistory"
+			{
+				"0"		"ПЛАХОТНЮК"
+			}
+			"avatar"		"fae54f7eb361585795564a507e9d5cdf454efcfc"
+		}
+		"1038549896"
+		{
+			"name"		"123"
+			"NameHistory"
+			{
+				"0"		"123"
+			}
+			"avatar"		"25a403cde86e1f0f60e80c1cdb584a6120be6fdc"
+		}
+		"1052967617"
+		{
+			"name"		"Pharaon"
+			"NameHistory"
+			{
+				"0"		"Pharaon"
+			}
+			"avatar"		"f3253d5b119a60406e1be580e1d3e21f041c6eae"
+		}
+		"103582791470273339"
+		{
+			"name"		"Сorporation of Evil"
+			"tag"		"_CoE_"
+			"avatar"		"0000000000000000000000000000000000000000"
+		}
+		"1144248933"
+		{
+			"name"		"h3.one"
+			"NameHistory"
+			{
+				"0"		"h3.one"
+			}
+			"avatar"		"3d8edd547ea46289ceffee2662818afa9f314f81"
+		}
+		"95739417"
+		{
+			"name"		"GulDan"
+			"NameHistory"
+			{
+				"0"		"GulDan"
+			}
+			"avatar"		"6641e75b8730bc462b567a35cb525ffc85931fcb"
+		}
+		"1031235637"
+		{
+			"name"		"⌁Zⱥkⱥt⌁"
+			"NameHistory"
+			{
+				"0"		"⌁Zⱥkⱥt⌁"
+			}
+			"avatar"		"a1717f6a1e0c740faf881cf6ec5f4ffc54397825"
+		}
+		"1008257633"
+		{
+			"name"		"Я араб"
+			"NameHistory"
+			{
+				"0"		"Я араб"
+			}
+			"avatar"		"c5552ddc14f7343ea3a3b857cc60772a63b9064d"
+		}
+		"353460593"
+		{
+			"name"		"RiVAL Edits"
+			"NameHistory"
+			{
+				"0"		"RiVAL Edits"
+			}
+			"avatar"		"6eb2dd29809d0181893d359eaa65e38338be36b5"
+		}
+		"1030885853"
+		{
+			"name"		"D3M44I"
+			"NameHistory"
+			{
+				"0"		"D3M44I"
+			}
+			"avatar"		"3c07c743139be65b1309f00d1d9412e0b2cbea39"
+		}
+		"923114838"
+		{
+			"name"		"dragonyat✈"
+			"NameHistory"
+			{
+				"0"		"dragonyat✈"
+			}
+			"avatar"		"8f527fdbdb9e9151935b9faa981c7dc3e3e542b6"
+		}
+		"406755267"
+		{
+			"name"		"aiZzo"
+			"NameHistory"
+			{
+				"0"		"aiZzo"
+			}
+			"avatar"		"e2ecc9cb68a131f0dad898f592d4f1b8e9be66e6"
+		}
+		"1096256710"
+		{
+			"name"		"HeaDshot98k"
+			"NameHistory"
+			{
+				"0"		"HeaDshot98k"
+			}
+		}
+		"996178988"
+		{
+			"name"		"crezgep"
+			"NameHistory"
+			{
+				"0"		"crezgep"
+			}
+			"avatar"		"95d8f1c00bbdc43e289e494f3dad027a6f930ac4"
+		}
+		"1052253372"
+		{
+			"name"		"❤️Den Kritik❤"
+			"NameHistory"
+			{
+				"0"		"❤️Den Kritik❤"
+			}
+			"avatar"		"77b3921868b8260b9ef36c5d788034ae79243ee9"
+		}
+		"1004055214"
+		{
+			"name"		"Dexter"
+			"NameHistory"
+			{
+				"0"		"Dexter"
+			}
+			"avatar"		"7ccb5d8ec17bde523d4d9bbc851a6087226dacfe"
+		}
+		"312014915"
+		{
+			"name"		"zxcursed"
+			"NameHistory"
+			{
+				"0"		"zxcursed"
+			}
+			"avatar"		"0de63fed14ddd70d8d572d50ea25db2a74943fe3"
+		}
+		"927460882"
+		{
+			"name"		"Kirito"
+			"NameHistory"
+			{
+				"0"		"Kirito"
+			}
+			"avatar"		"28c97cb59dcffa405169c0cbff9d1e3cc58261fd"
+		}
+		"313466745"
+		{
+			"name"		"Shela"
+			"NameHistory"
+			{
+				"0"		"Shela"
+			}
+			"avatar"		"716d4e934cb0cbed5c85ad72c74d038bc111af53"
+		}
+	}
+	"Offline"
+	{
+		"Ticket"		"0886e2ed870415e58ea862"
+		"Signature"		"8b59b2a17a5142bf9c2bf4372329acda61a9ec971e40e790b3f1823b39311d20e99d7f6407854c48cdcef7adabe6c4fc30cc4e5ef7c2384baabff47aa1dc49d5d9f6bf09ac02bd082a5154e16ddaa8efe5e991cfed0217d46c8f74ade1fe6937d534e657dca91d87c60394516e07f6bc0096ec2719f36eb3bba6b8f51b05b6674a8e6d741ffa1ac174d2e82b5df87a96d78e6f2ab062904f30b74930268cd791a98e94596230894b13bf74c396d6d7753c39367da8d20580a72209481380944b99660e72590aa150967f089c293ec24d6fb130a87ed53e4dd8b7eb94f3c0eb871f9ee1489882a082fbc157c004e35f179f762ef7da49ad894626144e33a1e82c"
+	}
+	"apptickets"
+	{
+		"7"		"32000000040000000671fb4001001001070000000d87725c0364a8c000000000b721b46237d1cf620100000000000000000035a61d85e44f485c078b600786539bc1078be68d8be6c98dcc42070439a169d92ba7649bef748e8f33888ab70df8309cf5f9da086dcc06142495ed6834518727ff7a56bd2ee761f09966929ec83e73f54f83f2371817e979252d21f3684ac88b17d5f7aa6fcfe9a06877ab17f9b4ba622875543602b8e8707d4a41304f0432a3"
+		"730"		"38000000040000000671fb4001001001da0200000d87725c0364a8c0000000005c8fa862dc3ec46201001aa104000100b48809000000000061a3e15667504c945361381c535cb64325b5ccc38bb705d833c9d96440e4f1a42c6ade0e532e193ea0bbc815c0fe0f25eb902e81faa8c033696600d974c5b6e87da737cfec75a0e659eb14309766b5cb139011f1d716bf39c278a114e51bf4d8f5c4a93ff22e5a95247defc506a98f7371a347343065eda0ac518e6280087f74"
+		"228980"		"32000000040000000671fb4001001001747e03000d87725c0364a8c000000000d59aa862554ac462010000000000000000000de2259a5cab9b4f6fc361ae85ee31f95f38f25266cd909116644325c5ea2017d2ec34966ddf0d15cf1f52ddaa95a10843dbbe5ece54858a09110463f15ed56049c81d2b1ada712145a49466ff2c311039d9ec20a904adea062ffa377c74701ca520a82d4ee969d32eade52a4924bdfbec24546c1c3cc26df15ace75840e616f"
+	}
+	"ParentalSettings"
+	{
+		"settings"		"090671fb40000000004800"
+		"Signature"		"6c390730c484fc4806873a81d3f8793c2a250e4e706268870dbdf70844fd5c66257e5819575f66a055c0ac448d5ffe1602da5434fc2ac1411d36327e0f6d1723ce19cea8ecfa27f8f874d9d7d4fa486d677fed775d3af5a93156f92a4b40518ff19c1315242fce857235ae4fe745c19ac3438bd02eee23316945d9608f01a7aed293101f7b5c3d0bdea0ce8af5a61d73f00e53be09c1f3eea4a319ddc415dd61857653f85a40e16ffb6d28c6181a10b6e3e0268a198d54f6b63ebefd0a9183ede568565f3ad3f364d355e9b353dd4331d9cfb38c51422db71423850e637b911dbf1fbd167baeeb55015420d9f8d42f91396a832895395e7725967110ea609fcc"
+	}
+	"SharedAuth"
+	{
+		"id"		"273441703"
+		"AuthData"		"30344e5c097fc4eb1dc6536f6efe14136db9b6d2e32c02552550230267c6936a"
+	}
+	"AppInfoChangeNumber"		"15213306"
+	"Software"
+	{
+		"Valve"
+		{
+			"Steam"
+			{
+				"apps"
+				{
+					"7"
+					{
+						"cloud"
+						{
+							"last_sync_state"		"synchronized"
+						}
+					}
+					"10"
+					{
+						"LastPlayed"		"1632408546"
+						"Playtime"		"86"
+					}
+					"240"
+					{
+						"LastPlayed"		"1642181896"
+						"Playtime"		"9"
+					}
+					"570"
+					{
+						"LastPlayed"		"1646651428"
+						"Playtime"		"85"
+					}
+					"730"
+					{
+						"LastPlayed"		"1655985510"
+						"Playtime2wks"		"3894"
+						"Playtime"		"144378"
+						"cloud"
+						{
+							"last_sync_state"		"synchronized"
+						}
+						"LaunchOptions"		"-nojoy -nohltv -novid -high -console -nojoy -freq 60 -threads 4 -limitvsconst -forcenovsync -no_compressed_verts +mat_queue_mode 2 +r_dynamic 0 +fps_max 61 +fps_max_menu 0 -exec my__config.cfg"
+						"BadgeData"		"0a000000080b1206080410011800"
+						"DisableUpdatesUntil"		"0"
+					}
+					"225840"
+					{
+						"LastPlayed"		"1602866865"
+						"Playtime"		"22"
+					}
+					"282660"
+					{
+						"LastPlayed"		"1612708742"
+						"Playtime"		"858"
+					}
+					"760"
+					{
+						"cloud"
+						{
+							"quota_bytes"		"20000000000"
+							"quota_files"		"50000"
+							"used_bytes"		"407863"
+							"used_files"		"2"
+						}
+					}
+				}
+				"LastPlayedTimesSyncTime"		"1655926985"
+				"PlayerLevel"		"11"
+			}
+		}
+	}
+	"WebStorage"
+	{
+		"SteamVoiceSettings_1090220294"		"{\"inputGain\":1,\"outputGain\":1,\"noiseGateLevel\":2,\"noiseCancellation\":true,\"echoCancellation\":true,\"autoGainControl\":true,\"selectedMic\":\"default\",\"selectedOutput\":\"default\",\"pttSoundsEnabled\":true,\"hasResetOpenMicHotKey\":true}"
+		"CTextFilterStore_TextFilterPreferences"		"{\"eTextFilterSetting\":3,\"bIgnoreFriends\":true}"
+		"CTextFilterStore_TextFilterWords"		"{\"text_filter_custom_banned_words\":[],\"text_filter_custom_clean_words\":[]}"
+		"CTextFilterStore_strBannedPattern"		"\"\""
+		"CTextFilterStore_strCleanPattern"		"\"^(\\\\b(kompetenzteam|派送员|pinegrove|n\\\\.e\\\\.ig\\\\.e\\\\.|fukushima|snigger|nie gee|fuchian|cock\\\\.li|fuxius|fucuro|niego|niebo|neige|neggy|nebby|fuxis|cwfag|pubg|niby|nebo|fuku|fuki|fakt|g24|\\\\w*fvchvo\\\\w*fak(ed|ers?|ing)|kompetenzteam|派送员|pinegrove|n\\\\.e\\\\.ig\\\\.e\\\\.|fukushima|snigger|nie gee|fuchsia|fuchian|cock\\\\.li|fuxius|fucuro|niego|niebo|neige|neggy|nebby|fuxis|cwfag|pubg|niby|nebo|fuku|fuki|fakt|g24|\\\\w*fvchvo\\\\w*)\\\\b)$\""
+		"CachedStorePreferences"		"{\"eReviewScorePreference\":0,\"content_descriptor_preferences\":{\"content_descriptors_to_exclude\":[{\"content_descriptorid\":3,\"timestamp_added\":0},{\"content_descriptorid\":4,\"timestamp_added\":0}]},\"provide_deck_feedback\":0}"
+		"CachedCommunityPreferences"		"{\"bBlurAdultContentViolence\":true,\"bBlurAdultContentSex\":true,\"bParenthesizeNicknames\":false}"
+		"UIStoreLocalState"		"{\"nVersion\":1,\"eGameListView\":1,\"bGroupedByCollection\":true,\"bSortedByRecent\":false,\"mapCollapsedState\":[[\"hidden\",true]],\"currentSelection\":{\"strCollectionId\":\"favorite\",\"nAppId\":730},\"bGroupBySharedLibraries\":false,\"collectionFilter\":{\"nFormatVersion\":2,\"strSearchText\":\"\",\"filterGroups\":[{\"rgOptions\":[1,2],\"bAcceptUnion\":true},{\"rgOptions\":[],\"bAcceptUnion\":false},{\"rgOptions\":[],\"bAcceptUnion\":false},{\"rgOptions\":[],\"bAcceptUnion\":false},{\"rgOptions\":[],\"bAcceptUnion\":false},{\"rgOptions\":[],\"bAcceptUnion\":false}]}}"
+		"keyboard_haptic_preset"		"2"
+		"keyboard_haptic_custom"		"{\"eHapticType\":2,\"unIntensity\":4,\"ndBGain\":1}"
+		"keyboard_trackpad_typing_scale"		"1"
+		"keyboard_trackpding_typing_trigger_as_click"		"true"
+		"keyboard_layout"		"{\"currentLayout\":0,\"selectedLayouts\":[18]}"
+		"wishlistonsalestore_storage"		"{\"version\":1,\"data\":{\"rgAppIDs\":[],\"bExhausted\":true,\"nSkipped\":0},\"lastFetchTimeMS\":1655905022111}"
+		"playnextstore_storage"		"{\"nVersion\":3,\"cachedPlayNext\":{\"last_update_time\":1655824335,\"appids\":[]},\"rgIgnoredApps\":[]}"
+		"trendingstore_storage"		"{\"version\":2,\"data\":[{\"appid\":346110,\"rgAccountIDs\":[996178988,1050285613,874219419,313466745],\"totalFriends\":4},{\"appid\":570,\"rgAccountIDs\":[113616179,1135304567,1011662938,1104597778,874219419,923114838,91714501,893872895],\"totalFriends\":14},{\"appid\":578080,\"rgAccountIDs\":[1004055214,996178988,381468412,1011662938],\"totalFriends\":4},{\"appid\":271590,\"rgAccountIDs\":[893872895,927460882,930642068,313466745,880002405],\"totalFriends\":5},{\"appid\":1172620,\"rgAccountIDs\":[893872895],\"totalFriends\":1},{\"appid\":730,\"rgAccountIDs\":[1022430228,930642068,63917692,313466745,323366778,1078209466,1135304567,312014915],\"totalFriends\":34},{\"appid\":440,\"rgAccountIDs\":[336684698,1011662938],\"totalFriends\":2},{\"appid\":365670,\"rgAccountIDs\":[1069612777],\"totalFriends\":1},{\"appid\":704020,\"rgAccountIDs\":[930642068],\"totalFriends\":1},{\"appid\":1149620,\"rgAccountIDs\":[927460882],\"totalFriends\":1},{\"appid\":480,\"rgAccountIDs\":[877320048,1013392065,996178988],\"totalFriends\":3},{\"appid\":602960,\"rgAccountIDs\":[1022430228],\"totalFriends\":1},{\"appid\":394360,\"rgAccountIDs\":[893872895],\"totalFriends\":1},{\"appid\":872200,\"rgAccountIDs\":[930642068],\"totalFriends\":1},{\"appid\":444200,\"rgAccountIDs\":[1031235637],\"totalFriends\":1},{\"appid\":884660,\"rgAccountIDs\":[1022430228],\"totalFriends\":1},{\"appid\":676760,\"rgAccountIDs\":[930642068],\"totalFriends\":1},{\"appid\":760160,\"rgAccountIDs\":[1026615616,1011662938],\"totalFriends\":2},{\"appid\":920490,\"rgAccountIDs\":[1032162607],\"totalFriends\":1},{\"appid\":203140,\"rgAccountIDs\":[63917692],\"totalFriends\":1},{\"appid\":526870,\"rgAccountIDs\":[313466745],\"totalFriends\":1},{\"appid\":221100,\"rgAccountIDs\":[1022430228],\"totalFriends\":1},{\"appid\":1768550,\"rgAccountIDs\":[930642068],\"totalFriends\":1},{\"appid\":218230,\"rgAccountIDs\":[382043572],\"totalFriends\":1},{\"appid\":460920,\"rgAccountIDs\":[1095530267],\"totalFriends\":1},{\"appid\":788260,\"rgAccountIDs\":[930642068],\"totalFriends\":1},{\"appid\":240,\"rgAccountIDs\":[336684698],\"totalFriends\":1},{\"appid\":465200,\"rgAccountIDs\":[880002405],\"totalFriends\":1},{\"appid\":1407200,\"rgAccountIDs\":[971157407],\"totalFriends\":1},{\"appid\":230410,\"rgAccountIDs\":[930642068],\"totalFriends\":1},{\"appid\":868270,\"rgAccountIDs\":[1022430228],\"totalFriends\":1},{\"appid\":413150,\"rgAccountIDs\":[313466745],\"totalFriends\":1},{\"appid\":43110,\"rgAccountIDs\":[927460882],\"totalFriends\":1},{\"appid\":444090,\"rgAccountIDs\":[336684698],\"totalFriends\":1},{\"appid\":6220,\"rgAccountIDs\":[336684698],\"totalFriends\":1},{\"appid\":385800,\"rgAccountIDs\":[313466745],\"totalFriends\":1},{\"appid\":646910,\"rgAccountIDs\":[880002405],\"totalFriends\":1},{\"appid\":870820,\"rgAccountIDs\":[1050285613],\"totalFriends\":1},{\"appid\":298110,\"rgAccountIDs\":[313466745],\"totalFriends\":1},{\"appid\":464920,\"rgAccountIDs\":[313466745],\"totalFriends\":1},{\"appid\":1097150,\"rgAccountIDs\":[1050285613],\"totalFriends\":1},{\"appid\":203770,\"rgAccountIDs\":[996178988],\"totalFriends\":1},{\"appid\":549100,\"rgAccountIDs\":[336684698],\"totalFriends\":1},{\"appid\":1546790,\"rgAccountIDs\":[336684698],\"totalFriends\":1},{\"appid\":1528080,\"rgAccountIDs\":[927460882],\"totalFriends\":1},{\"appid\":353090,\"rgAccountIDs\":[880002405],\"totalFriends\":1},{\"appid\":617670,\"rgAccountIDs\":[874219419],\"totalFriends\":1},{\"appid\":1222680,\"rgAccountIDs\":[880002405],\"totalFriends\":1},{\"appid\":219740,\"rgAccountIDs\":[336684698],\"totalFriends\":1},{\"appid\":645630,\"rgAccountIDs\":[880002405],\"totalFriends\":1}],\"lastFetchTimeMS\":1655905029688}"
+		"ChatStorePopupState_1090220294"		"{\"window_restore_details\":\"1&x=270&y=187&w=740&h=650&min=1\",\"bFriendsListVisible\":false,\"always_restore\":false,\"bFriendsListCollapsed\":false}"
+		"FriendStoreLocalPrefs_1090220294"		"{\"ePersonaState\":1,\"strNonFriendsAllowedToMsg\":\"\"}"
+	}
+	"system"
+	{
+		"PushToTalkKey"
+		{
+		}
+	}
+	"CloudKey"		"010000006e12c45072db25ea86196ecdab769094d0707987e21505885afdfc489c88e46ff8083af8"
+	"CloudKeyCRC"		"-586535256"
+	"LastInstallFolderIndex"
+	{
+	}
+	"UserAppConfig"
+	{
+		"730"		"00696e7465726e616c00016c616e6775616765007275737369616e000808"
+		"228980"		"0055736572436f6e6669670001626574616b6579007075626c6963000808"
+	}
+	"CloudManager"
+	{
+		"HintAppsToPreload"		""
+	}
+	"RecentLocalPlayedGameIDs"		"da020000000000006455b46200000000"
+	"SkipLastInstallPage"		"1"
+	"apps"
+	{
+		"730"
+		{
+			"OverlayAppEnable"
+			{
+			}
+			"DisableLaunchInVR"		"1"
+		}
+	}
+	"StartupState.Friends"
+	{
+	}
+	"News"
+	{
+		"Messages"
+		{
+			"2514152249061945054"		"1"
+			"895850717613185103"		"1"
+			"1465359972889079111"		"1"
+			"3248441047464226174"		"1"
+			"5256757916352463116"		"1"
+			"8360332997006445274"		"1"
+			"5249372110798981472"		"1"
+			"2082255642108265988"		"1"
+			"8939213415280255641"		"1"
+			"6269419947772580320"		"1"
+			"4309866545672983402"		"1"
+			"2377447673922542259"		"1"
+			"4298480446651219531"		"1"
+			"5807378042885811335"		"1"
+			"8687023736872847296"		"1"
+			"6060560357936417042"		"1"
+			"7894226194341423149"		"1"
+			"6281840930544642801"		"1"
+			"690011589295590515"		"1"
+			"6780883003277372133"		"1"
+			"6207264003394789649"		"1"
+			"311759522737558189"		"1"
+			"4008136258199244316"		"1"
+			"4761282015355023751"		"1"
+			"160757130087909857"		"1"
+			"2163320050133747177"		"1"
+			"1517583298485162741"		"1"
+			"8632832036106866336"		"1"
+			"939205881422625666"		"1"
+			"5312581651741943469"		"1"
+		}
+	}
+	"nettickets"
+	{
+		"730"		"010000007f00317c57e30ee656975b6667e8b237315e7a1e9426985500ee7e1e9eec446379d826e53fcdf96b0e808fa5cab6b3c8c0b19b33d24e4a37224c89409328f403b7e3642ac741128312e799a9dfa01d7a0939e8b647103deb91359f53c94043e0571cfb71542632edd7c541a24aa3ab156a45ec6810be3ef9aab3c6cbd91c6c17a330b92091ef2af11704580185b2870343922c3779386816d0ed678a1d9780f7bc99d3556c66b71e831c86a58938a3d921827b01b387ea152a51cb7bba5794aa8cc23fe35735251285b024c71f4b370024604cfde6941002ab4422b0b776edb8c1ab22d6986585f8825f780627052901226103c7068f97"
+	}
+	"Licenses"
+	{
+		"0"		"01000000750d0b7691f6c3095e52183391ed6817b4020ba42382eaa2c3f4ad71b898c86ce1b004ae0fbf018d9e896ddbdc899fe1b223afb077b84f5fb3ee7728523ced1b038e7684c42e1ae56681dcbacf7800a4837e4f9f77870158ddb5d6246bc3f392adbbe1a23b004433ed4d29e622a61d301f2d930d5568fd4bc8ff40d41e1d54acd50ff0cee5872f782e463775e1d09e72719b2c3d635c5223e6d853ef49dccbaefdc695141939e149aa222bd91b15456cbed555ac9d17e287a18f9cc147186f68aa3524459c4dc82950307c92e9b655e35c5f9faa21ba494bc53139ab19fa3474f3e4a8349b20ae8a8615cdb83431305faa710e8dfcf070243ee1da2d2edfd928b245469d4e3564eb215988c2d74a557f5c9f5473cf69c844d5ad07a97f747f48fb6e4fc8650e9ed3dfbe045c942d4dc3ce2a74a64dc961415e1969aaa1dbe4bfbac0573d000808b4fee7fe"
+		"7"		"01000000750d0b7691f6c3095e52183391ed6817b4020ba42382eaa2c3f4aa71b898c86ce1b004ae0fbf018d9e896d6261fda1e1b223afb077b84f5fb3ee7728523ced1b038e7684c42e1ae56681dcbacf7800a4837e4f9f77870158ddb5d6246bc3f392adbbe1a23b004433ed4d29e622a61d301f2d930d55e8f94bc8ff40d41e1d54acd50ff0cee5872f782e463775e1d0d33437f50b36713b2121e6da51bb2efadcb5fbc09302282fc643ce472bd91b172907b1d958ba9610fe83bdfff8c146186d27df143659b07b816b21cd4d6be0da75f95c4a9a9b28984556c85e5dab19fa363d9fc4b2348e259b8fbf19f5b3082b592baa710e8fae974c2427e5c11c27fdd535bf2a229d4e3566b9466588dbd351607a65936c78f373a130d5ad07ae3e105d4eeb7868d45a049bb6056ee0a4422bf816c0b1179858df67744d2a63a8addfca9ef384573d6567a31b086741a8a2"
+		"37"		"01000000750d0b7691f6c3095e52183391ed6817b4020ba42382eaa2c3f48871b898c86ce1b004ae0fbf018d9e896d6261fda1e1b223afb077b84f5fb3ee7728523ced1b038e7684c42e1ae56681dcbacf7800a4837e4f9f77870158ddb5d6246bc3f392adbbe1a23b004433ed4d29e622a61d301f2d930d55e8f94bc8ff40d41e1d54acd50ff0cee5872f782e463775e1d0d33437f50b36713b2121e6da51bb2efadcb5fbc09302282fc643ce472bd91b172907b1d958ba9610fe83bdfff8c146186d27df143659b07b816b21cd4d6be0da75f95c4a9a9b28984556c85e5dab19fa363d9fc4b2348e259b8fbf19f5b3082b592baa710e8fae974c2427e5c11c27fdd535bf2a229d4e3566b9466588dbd351607a65936c78f373a130d5ad07ae3e105d4eeb7868d45a049bb6056e32e7ed46085960e2179858df67744d2a63a8addfca9ef384573d6567a31b087432e825"
+		"37543"		"01000000750d0b7691f6c3095e52183391ed6817b4020ba42382eaa2c3f40ae3b898c86ce1b004ae0fbf018d9e896df7cead9ee1b223afb077b84f5fb3ee7728523ced1b038e7684c42e1ae56681dcbacf7800a4837e4f9f77870158ddb5d6246bc3f392adbbe1a23b004433ed4d29e622a61d301f2d930d5568fd4bc8ff40d41e1d54acd50ff0cee5872f782e463775e1d0d33437f50b36713b2121e6da51bb2efadcb5fbc09302282fc643ce472bd91b172907b1d958ba9610fe83bdfff8c146186d27df143659b07b816b21cd4d6be0da75f95c4a9a9b28984556c85e5dab19fa363d9fc4b2348e259b8fbf19f5b3082b592baa710e8fae974c2427e5c11c27fdd535bf2a229d4e3566b9466588dbd351607a65936c78f373a130d5ad07ae3e105d4eeb7868d45a049bb6056e676dfd168229835f179858df67744d2a63a8addfca9ef384573d6567a31b0808a1b4d2"
+		"38913"		"01000000750d0b7691f6c3095e52183391ed6817b4020ba42382eaa2c3f4ace9b898c86ce1b004ae0fbf018d9e896df012049ee1b223afb077b84f5fb3ee7728523ced1b038e7684c42e1ae56681dcbacf7800a4837e4f9f77870158ddb5d6246bc3f392adbbe1a23b004433ed4d29e622a61d301f2d930d5568fd4bc8ff40d41e1d54acd50ff0cee5872f782e463775e1d0d33437f50b36713b2121e6da51bb2efadcb5fbc09302282fc643ce472bd91b172907b1d958ba9610fe83bdfff8c146186d27df143659b07b816b21cd4d6be0da75f95c4a9a9b28984556c85e5dab19fa363d9fc4b2348e259b8fbf19f5b3082b592baa710e8fae974c2427e5c11c27fdd535bf2a229d4e3566b9466588dbd351607a65936c78f373a130d5ad07ae3e105d4eeb7868d45a049bb6056e323aa6ff660e9165179858df67744d2a63a8addfca9ef384573d6567a31b08ed18e829"
+		"187860"		"01000000750d0b7691f6c3095e52183391ed6817b4020ba42382eaa2c3f479acba98c86ce1b004ae0fbf018d9e896da90a969ee1b223afb077b84f5fb3ee7728523ced1b038e7684c42e1ae56681dcbacf7800a4837e4f9f77870158ddb5d6246bc3f392adbbe1a23b004433ed4d29e622a61d301f2d930d5569f94bc8ff40d41e1d54acd50ff0cee5872f782e463775e1d0d33437f50b36713b2121e6da51bb2efadcb5fbc09302282fc643ce472ba01a172907b1d958ba9610fe83bdfff8c146186d27df143659b07b816b21cd4d6be0da75f95c4a9a9b28984556c85e5dab19fa363d9fc4b2348e259b8fbf19f5b3082b592baa710e8fae974c2427e5c11c27fdd535bf2a229d4e3566b9466588dbd351607a65936c78f373a130d5ad07ae3e105d4eeb7868d45a049bb6056ed1597c13bf50cc67179858df67744d2a63a8addfca9ef384573d6567a31b0899a4fe7e"
+		"303386"		"01000000750d0b7691f6c3095e52183391ed6817b4020ba42382eaa2c3f4b7d0bc98c86ce1b004ae0fbf018d9e896de1dd899fe1b223afb077b84f5fb3ee7728523ced1b038e7684c42e1ae56681dcbacf7800a4837e4f9f77870158ddb5d6246bc3f392adbbe1a23b004433ed4d29e622a61d301f2d930d5568fd4bc8ff40d41e1d54acd50ff0cee5872f782e463775e1d0d33437f50b36713b2121e6da51bb2efadcb5fbc09302282fc643ce472bd91b172907b1d958ba9610fe83bdfff8c146186d27df143659b07b816b21cd4d6be0da75f95c4a9a9b28984556c85e5dab19fa363d9fc4b2348e259b8fbf19f5b3082b592baa710e8fae974c2427e5c11c27fdd535bf2a229d4e3566b9466588dbd351607a65936c78f373a130d5ad07ae3e105d4eeb7868d45a049bb6056e7808597c55647908179858df67744d2a63a8addfca9ef384573d6567a31b080762d9c5"
+		"432145"		"01000000750d0b7691f6c3095e52183391ed6817b4020ba42382eaa2c3f4bce9be98c86ce1b004ae0fbf018d9e896d4a0a969ee1b223afb077b84f5fb3ee7728523ced1b038e7684c42e1ae56681dcbacf7800a4837e4f9f77870158ddb5d6246bc3f392adbbe1a23b004433ed4d29e622a61d301f2d930d5569f94bc8ff40d41e1d54acd50ff0cee5872f782e463775e1d0d33437f50b36713b2121e6da51bb2efadcb5fbc09302282fc643ce472b7419172907b1d958ba9610fe83bdfff8c146186d27df143659b07b816b21cd4d6be0da75f95c4a9a9b28984556c85e5dab19fa363d9fc4b2348e259b8fbf19f5b3082b592baa710e8fae974c2427e5c11c27fdd535bf2a229d4e3566b9466588dbd351607a65936c78f373a130d5ad07ae3e105d4eeb7868d45a049bb6056ec958057d061e9053179858df67744d2a63a8addfca9ef384573d6567a31b08bf430f99"
+		"589001"		"01000000750d0b7691f6c3095e52183391ed6817b4020ba42382eaa2c3f4648db098c86ce1b004ae0fbf018d9e896d8f3c90a1e1b223afb077b84f5fb3ee7728523ced1b038e7684c42e1ae56681dcbacf7800a4837e4f9f77870158ddb5d6246bc3f392adbbe1a23b004433ed4d29e622a61d301f2d930d5568fd4bc8ff40d41e1d54acd50ff0cee5872f782e463775e1d09e72719b2c3d635c5223e6d853ef49dccbaefdc695141939e149aa222bd91b15456cbed555ac9d17e287a18f9cc147186f68aa3524459c4dc82950307c92e9b655e35c5f9faa21ba494bc53139ab19fa3474f3e4a8349b20ae8a8615cdb83431305faa710e8dfcf070243ee1da2d2edfd928b245469d4e3564eb215988c2d74a557f5c9f5473cf69c844d5ad07a97f747f48fb6e4fc8650e9ed3dbeeb199dac5cc20ce2a74a64dc961415e1969aaa1dbe4bfbac0573d0008089690b8c6"
+	}
+}

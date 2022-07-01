@@ -1,0 +1,1641 @@
+"UserLocalConfigStore"
+{
+	"streaming_v2"
+	{
+		"EnableStreaming"		"1"
+		"DefaultAudioDevice"		"{0.0.0.00000000}.{6156ba7a-a5bb-483e-927c-09a135e659bc}"
+		"DefaultAudioDeviceName"		"Наушники (2- Устройство с поддержкой High Definition Audio)"
+		"DefaultMicrophone"		"{0.0.1.00000000}.{e4b2ecc9-e466-4951-b097-54687cbbef43}"
+		"DefaultMicrophoneName"		"Микрофон (2- Устройство с поддержкой High Definition Audio)"
+		"P2PScopeV2"		"0"
+	}
+	"Broadcast"
+	{
+		"Permissions"		"1"
+		"MaxKbps"		"2500"
+		"OutputWidth"		"1280"
+		"OutputHeight"		"720"
+		"EncoderSetting"		"0"
+		"IncludeDesktop"		"0"
+		"RecordSystemAudio"		"0"
+		"RecordMic"		"0"
+		"ShowDebugInfo"		"0"
+		"ShowReminder"		"1"
+		"ShowChat"		"1"
+	}
+	"friends"
+	{
+		"PersonaName"		"Kaido"
+		"communitypreferences"		"0801100118002000280130013800"
+		"304376650"
+		{
+			"name"		"GoGaQWE"
+			"NameHistory"
+			{
+				"0"		"GoGaQWE"
+			}
+			"avatar"		"f4932a9300ee32d23dd04e68c40b6f3d478e1d32"
+		}
+		"465649105"
+		{
+			"name"		"челикбобик"
+			"NameHistory"
+			{
+				"0"		"челикбобик"
+				"1"		"Dezgan"
+				"2"		"HaDoCk"
+			}
+			"avatar"		"e6822b9c2f359f744d5dc4177f7d05ed36ce91de"
+		}
+		"839739479"
+		{
+			"name"		"Я НЕ ШАРЮ КАК ИГРАТЬ"
+			"NameHistory"
+			{
+				"0"		"Я НЕ ШАРЮ КАК ИГРАТЬ"
+			}
+			"avatar"		"65ec204160161b770a8828d67c213f56d19a5612"
+		}
+		"1090220294"
+		{
+			"name"		"Kaido"
+			"NameHistory"
+			{
+				"0"		"Kaido"
+				"1"		"Kaido KNIFEX"
+			}
+			"avatar"		"b40a85a9f0253a7a9d67f99a6b3390661db759ae"
+		}
+		"492800251"
+		{
+			"name"		"Depthhunter"
+			"NameHistory"
+			{
+				"0"		"Depthhunter"
+				"1"		"ХУЛИGUN"
+			}
+			"avatar"		"4cd85ccee3ca7c8b406108ebc8c48931d35c2c13"
+		}
+		"113616179"
+		{
+			"name"		"destroyer of art"
+			"NameHistory"
+			{
+				"0"		"destroyer of art"
+				"1"		"ЕБАШУ РУСНЮ"
+				"2"		"deadinsede[pos4]"
+			}
+			"avatar"		"59984cc9f7f04b352b8f696061871a66af75efc0"
+		}
+		"452557496"
+		{
+			"name"		"twitch.tv/inkaizer"
+			"NameHistory"
+			{
+				"0"		"twitch.tv/inkaizer"
+			}
+			"avatar"		"aced3aa44d4d4948703eb378f36dbcb59dddece6"
+		}
+		"157740486"
+		{
+			"name"		"weerrdy"
+			"NameHistory"
+			{
+				"0"		"weerrdy"
+			}
+			"avatar"		"b39542d50526c14824dbf35a857a764182553096"
+		}
+		"95739417"
+		{
+			"name"		"GulDan"
+			"NameHistory"
+			{
+				"0"		"GulDan"
+				"1"		"god of the black field"
+			}
+			"avatar"		"6641e75b8730bc462b567a35cb525ffc85931fcb"
+		}
+		"372811003"
+		{
+			"name"		"RAMZI"
+			"NameHistory"
+			{
+				"0"		"RAMZI"
+				"1"		"Я ГОВНО НА ПЛЯЖЕ"
+				"2"		"Я ГОВНО У ПЛЯЖА"
+				"3"		"Я В ГОВНО У ПЛЯЖА"
+				"4"		"Я У ПЛЯЖА"
+			}
+			"avatar"		"9de470fa7d0c66683510b15e1dfa98e3a5cda1f2"
+		}
+		"251032197"
+		{
+			"name"		"forend"
+			"NameHistory"
+			{
+				"0"		"forend"
+			}
+			"avatar"		"a5847faf37e261319bc79e14440ec39c0846a090"
+		}
+		"103582791461732230"
+		{
+			"name"		"dfr3m }{4ck"
+			"tag"		"h4ck.cc"
+			"avatar"		"00c2fb9b4672eb59325aa24fff1a96b6744f8288"
+		}
+		"103582791432902485"
+		{
+			"name"		"Counter-Strike: Global Offensive"
+			"avatar"		"69f7ebe2735c366c65c0b33dae00e12dc40edbe4"
+		}
+		"91714501"
+		{
+			"name"		"ForceUnleashed22"
+			"NameHistory"
+			{
+				"0"		"ForceUnleashed22"
+			}
+			"avatar"		"21ea13873ba2c6361fb57f4793cf3cafcd6f1850"
+		}
+		"971157407"
+		{
+			"name"		"рисовый азиат"
+			"NameHistory"
+			{
+				"0"		"рисовый азиат"
+				"1"		"Сила Риса"
+				"2"		"я не могу жить."
+				"3"		"Сила Пельменей"
+				"4"		"Даруй РадIсть"
+				"5"		"жирный гараж"
+				"6"		"ushel v tilt"
+				"7"		"toto-"
+				"8"		"ludwig-"
+				"9"		"kiitaec xyev"
+			}
+			"avatar"		"470784f993e364a8b932f817022167657f7e9625"
+		}
+		"874219419"
+		{
+			"name"		"✎Stan1slaw"
+			"NameHistory"
+			{
+				"0"		"✎Stan1slaw"
+			}
+			"avatar"		"8679e128af50764e7ef6ca8927299fe98cc7533c"
+		}
+		"902022847"
+		{
+			"name"		"Pymba"
+			"NameHistory"
+			{
+				"0"		"Pymba"
+			}
+			"avatar"		"e642f7726c388b408c0249cf64e9cd3baae5240d"
+		}
+		"353460593"
+		{
+			"name"		"RiVAL Edits"
+			"NameHistory"
+			{
+				"0"		"RiVAL Edits"
+			}
+			"avatar"		"6eb2dd29809d0181893d359eaa65e38338be36b5"
+		}
+		"323366778"
+		{
+			"name"		"Lein"
+			"NameHistory"
+			{
+				"0"		"Lein"
+				"1"		"Fell in love, oh fuck, why?"
+				"2"		"Heartbreak"
+				"3"		"думала, что влюбиться"
+				"4"		"Lein Fallen"
+				"5"		"Lein (Egorka)"
+				"6"		"ПОНЯТНО"
+				"7"		"Lein P7AY3R5 C7UB"
+				"8"		"чел в лоутабе"
+			}
+			"avatar"		"f54a3d2adc138c109723e9c08181109e13d9ba34"
+		}
+		"382043572"
+		{
+			"name"		"xyrib csgetto.games CSGORUN.GG"
+			"NameHistory"
+			{
+				"0"		"xyrib csgetto.games CSGORUN.GG"
+				"1"		"xyrib CSGORUN.GG csgetto.games"
+				"2"		"xyrib CSGORUN.GG"
+				"3"		"xyrib"
+				"4"		"xyrib CSRIP GoDota2.com"
+				"5"		"xyrib csgetto.games"
+				"6"		"xyrib__ csgetto.games"
+				"7"		"херцо"
+				"8"		"xyrib__"
+				"9"		"xyrib__  GoDota2.com gamehag.com"
+			}
+			"avatar"		"3d79b89a8eea8ac4cc8aa3783e27d11ba42dd2e2"
+		}
+		"103582791468614260"
+		{
+			"name"		"Insilio Jr."
+			"tag"		"Insilio Jr."
+			"avatar"		"d7f7fc78d45907c38c768563639501ea48d1624b"
+		}
+		"917641276"
+		{
+			"name"		"Limastik"
+			"NameHistory"
+			{
+				"0"		"Limastik"
+				"1"		"TheFoxAvei"
+				"2"		"♥Lima♥"
+				"3"		"Lima♥"
+				"4"		"Lima"
+				"5"		"Пушистый"
+				"6"		"Донецкий Шокал"
+				"7"		"Назарус Лимулиус"
+				"8"		"Тейлз"
+				"9"		"Даун"
+			}
+			"avatar"		"7bba942207fe31063f1a4ba5005f85a9c2b8a7b2"
+		}
+		"1013392065"
+		{
+			"name"		"maximus8200"
+			"NameHistory"
+			{
+				"0"		"maximus8200"
+			}
+			"avatar"		"d298960f5dc3fd109ed69304bf5cb0e06a5e6423"
+		}
+		"880002405"
+		{
+			"name"		"UltraIUL"
+			"NameHistory"
+			{
+				"0"		"UltraIUL"
+			}
+			"avatar"		"74b2db6099cbea4deef224d8ca4fbe074200ffd0"
+		}
+		"312014915"
+		{
+			"name"		"zxcursed"
+			"NameHistory"
+			{
+				"0"		"zxcursed"
+			}
+			"avatar"		"f3e0d5d25b4c029c81d1fde86df439cb1ae611a2"
+		}
+		"1116178799"
+		{
+			"name"		"FlickOfDaWrist"
+			"NameHistory"
+			{
+				"0"		"FlickOfDaWrist"
+			}
+			"avatar"		"8cfbeec43ac60a4d5e6140bce892e22cf083a0b3"
+		}
+		"893200680"
+		{
+			"name"		"Рембо"
+			"NameHistory"
+			{
+				"0"		"Рембо"
+			}
+			"avatar"		"b16ce6814354c4e748cd27b81a9e8d4db9a0394a"
+		}
+		"920141964"
+		{
+			"name"		"Доедаю за курседом"
+			"NameHistory"
+			{
+				"0"		"Доедаю за курседом"
+				"1"		"15 y.o"
+				"2"		"124"
+				"3"		"даша два баша"
+				"4"		"3 pos"
+				"5"		"панос123"
+				"6"		"throw down your tears hate"
+				"7"		"Hopeless"
+			}
+			"avatar"		"f17bcc97b10101799a53c28ade417e84dee43cbf"
+		}
+		"1045486240"
+		{
+			"name"		"Nubasik2552"
+			"NameHistory"
+			{
+				"0"		"Nubasik2552"
+			}
+			"avatar"		"03a2c261dce2cca478472c1ad2efeaaa904ced4b"
+		}
+		"1095530267"
+		{
+			"name"		"ПЛАХОТНЮК"
+			"NameHistory"
+			{
+				"0"		"ПЛАХОТНЮК"
+			}
+			"avatar"		"fae54f7eb361585795564a507e9d5cdf454efcfc"
+		}
+		"1006597109"
+		{
+			"name"		"sqUnT"
+			"NameHistory"
+			{
+				"0"		"sqUnT"
+			}
+			"avatar"		"67bb1d67bd556b44c2ddc7c58eaef185159c14f4"
+		}
+		"1038549896"
+		{
+			"name"		"123"
+			"NameHistory"
+			{
+				"0"		"123"
+			}
+			"avatar"		"25a403cde86e1f0f60e80c1cdb584a6120be6fdc"
+		}
+		"1104597778"
+		{
+			"name"		"ayanokoji kiyotaka"
+			"NameHistory"
+			{
+				"0"		"ayanokoji kiyotaka"
+				"1"		"биполярОЧКА"
+				"2"		"私はグールです"
+				"3"		"ihatethislifebutihatyoumore"
+				"4"		"ᴇᴛᴇʀɴᴀʟ sᴀᴅɴᴇs"
+				"5"		"くそー私はクソだ"
+				"6"		"アロハダンス"
+				"7"		"放棄された標本 CSGORUN.GG"
+				"8"		"放棄された標本"
+				"9"		"AlohaDance?"
+			}
+			"avatar"		"c9835321d824cda4b8941f83a6123be7c1651bfd"
+		}
+		"1050285613"
+		{
+			"name"		"xstramec"
+			"NameHistory"
+			{
+				"0"		"xstramec"
+			}
+			"avatar"		"e5f935caf1186b858d33553511941e0e29863bd8"
+		}
+		"103582791470273339"
+		{
+			"name"		"Сorporation of Evil"
+			"tag"		"_CoE_"
+			"avatar"		"0000000000000000000000000000000000000000"
+		}
+		"63917692"
+		{
+			"name"		"VR9"
+			"NameHistory"
+			{
+				"0"		"VR9"
+				"1"		"VR"
+				"2"		"V_R_M"
+				"3"		"\"V_R_M\""
+				"4"		"VRM"
+				"5"		"VRM_Life_Explorer"
+				"6"		"VRN"
+				"7"		"BARON"
+				"8"		"Mashinist"
+				"9"		"Lāčplēsis"
+			}
+			"avatar"		"e152dce3355c1bb1b22aa5168e7026af66e55724"
+		}
+		"483725525"
+		{
+			"name"		"^^MoScAzz^^"
+			"NameHistory"
+			{
+				"0"		"^^MoScAzz^^"
+			}
+			"avatar"		"362987522a19feab75a25293fa86906bed51c789"
+		}
+		"381468412"
+		{
+			"name"		"мегаящик с гавном"
+			"NameHistory"
+			{
+				"0"		"мегаящик с гавном"
+				"1"		"САПЛЯ ЗЕЛЕНАЯ"
+			}
+			"avatar"		"cd943157180fe92247e16da4380e47b7bd26a33a"
+		}
+		"917599511"
+		{
+			"name"		"Alvin"
+			"NameHistory"
+			{
+				"0"		"Alvin"
+			}
+			"avatar"		"635b9dd22b09c0cd0347147e69d2717be40e5cf7"
+		}
+		"927460882"
+		{
+			"name"		"Kirito"
+			"NameHistory"
+			{
+				"0"		"Kirito"
+				"1"		"Kazuto"
+			}
+			"avatar"		"cde594355a07500fafee901dce340a5a18c3654b"
+		}
+		"933785208"
+		{
+			"name"		"ГЛЭК"
+			"NameHistory"
+			{
+				"0"		"ГЛЭК"
+				"1"		"ЧУВЫРЛА"
+				"2"		"Noob 9lvl faceit"
+			}
+			"avatar"		"1e4941de2013373c48dea11d75d737d958e258a6"
+		}
+		"925879696"
+		{
+			"name"		"aWp"
+			"NameHistory"
+			{
+				"0"		"aWp"
+				"1"		"Marlboro"
+				"2"		"Malboro"
+				"3"		"Malboro\\"
+				"4"		"Лежать!"
+				"5"		"PaY PaY AwP PrO"
+				"6"		"Davlatovvv"
+			}
+			"avatar"		"f6ff01c2bb79dcc7c52624134d3e467e8022d146"
+		}
+		"996178988"
+		{
+			"name"		"crezgep"
+			"NameHistory"
+			{
+				"0"		"crezgep"
+			}
+			"avatar"		"95d8f1c00bbdc43e289e494f3dad027a6f930ac4"
+		}
+		"1019528351"
+		{
+			"name"		"solyana"
+			"NameHistory"
+			{
+				"0"		"solyana"
+				"1"		"V!one"
+				"2"		"Gerych"
+				"3"		"Герыч"
+				"4"		"Василий Григорье"
+				"5"		"onsomshit"
+			}
+			"avatar"		"414c71afc8c864df1327ffa3da7f5ce72bf6af38"
+		}
+		"1022430228"
+		{
+			"name"		"caprice"
+			"NameHistory"
+			{
+				"0"		"caprice"
+				"1"		"vinrar"
+				"2"		"hanterssq"
+			}
+			"avatar"		"994e79515d658dcbda4a8effb655c315e1eecf96"
+		}
+		"1110612524"
+		{
+			"name"		"Arturchik***"
+			"NameHistory"
+			{
+				"0"		"Arturchik***"
+			}
+			"avatar"		"8d0194901bb5909486733e9601157ca0800ec5e7"
+		}
+		"877320048"
+		{
+			"name"		"Okita"
+			"NameHistory"
+			{
+				"0"		"Okita"
+			}
+			"avatar"		"b0e7c0450484a611aa7529f428ff3e2e1bf560cf"
+		}
+		"931587881"
+		{
+			"name"		"Caps1k"
+			"NameHistory"
+			{
+				"0"		"Caps1k"
+			}
+			"avatar"		"1c3e29a990f06cd3cdcdfd616ea416b827f6b53b"
+		}
+		"1032162607"
+		{
+			"name"		"-_-Dertseg-_-"
+			"NameHistory"
+			{
+				"0"		"-_-Dertseg-_-"
+				"1"		"ненавижу GGWP"
+			}
+			"avatar"		"7711774ffc5e01e8ab62d8587dbb20d79aa0556a"
+		}
+		"1104773203"
+		{
+			"name"		"danger_denisskaaa"
+			"NameHistory"
+			{
+				"0"		"danger_denisskaaa"
+			}
+			"avatar"		"81ae0a447cfd3b57599957d8ade5a32726c0a618"
+		}
+		"1123487115"
+		{
+			"name"		"Brzozowicz1337"
+			"NameHistory"
+			{
+				"0"		"Brzozowicz1337"
+				"1"		"Brzozowicz"
+			}
+			"avatar"		"e4265c25c827be3d4a4c18281756831ad20444c2"
+		}
+		"1126245016"
+		{
+			"name"		"FANDER csgotune.com"
+			"NameHistory"
+			{
+				"0"		"FANDER csgotune.com"
+			}
+			"avatar"		"c27fd1e50fd6dfae7ad4316c315aea109a11a7bc"
+		}
+		"1037180595"
+		{
+			"name"		"KhS"
+			"NameHistory"
+			{
+				"0"		"KhS"
+				"1"		"Kat? ❤"
+				"2"		"Kat? 🤍"
+				"3"		"Kat? ★"
+			}
+		}
+		"1106572542"
+		{
+			"name"		"Kaido"
+			"NameHistory"
+			{
+				"0"		"Kaido"
+			}
+			"avatar"		"937be83e5818d54f76c32beb7262e5465f46d244"
+		}
+		"988276975"
+		{
+			"name"		"𝓐𝓵𝓮𝔁 Starling"
+			"NameHistory"
+			{
+				"0"		"𝓐𝓵𝓮𝔁 Starling"
+			}
+			"avatar"		"9f91063e042afeaf6a8b9c9f01a9aa0646346677"
+		}
+		"1010161198"
+		{
+			"name"		"КАБАН"
+			"NameHistory"
+			{
+				"0"		"КАБАН"
+			}
+			"avatar"		"372262c26c0473811be5d9c8fae16300e2394181"
+		}
+		"406755267"
+		{
+			"name"		"aiZzo"
+			"NameHistory"
+			{
+				"0"		"aiZzo"
+			}
+			"avatar"		"e2ecc9cb68a131f0dad898f592d4f1b8e9be66e6"
+		}
+		"1111740551"
+		{
+			"name"		"Шлюшка"
+			"NameHistory"
+			{
+				"0"		"Шлюшка"
+				"1"		"Люблю маленьких"
+				"2"		"ок"
+				"3"		"Хуета Хуетовская"
+				"4"		"intel PENTIUM"
+				"5"		"сосузалайки"
+				"6"		"G щит"
+				"7"		"НАЕБАТОР 3000"
+			}
+			"avatar"		"cb1a333fc7771547fcbb6090bcee07dc7c8f7ce0"
+		}
+		"930642068"
+		{
+			"name"		"On1y^up(UA)VIPON  GGDROP.GG"
+			"NameHistory"
+			{
+				"0"		"On1y^up(UA)VIPON  GGDROP.GG"
+				"1"		"On1y^up(UA)VIPONGGDROP.GG"
+				"2"		"On1y^up(UA)VIPON GGDROP.GG"
+				"3"		"On1y^up(UA)VIPON"
+				"4"		"On1y^up(UA)VIPON GRIB-FREE.XYZ"
+			}
+			"avatar"		"5b8c77aeed6c521508014d3277a3a12d8a68538c"
+		}
+		"1143608053"
+		{
+			"name"		"ILOVEU"
+			"NameHistory"
+			{
+				"0"		"ILOVEU"
+			}
+			"avatar"		"74b07c6997273ec72fe8d64f7506889ee9116818"
+		}
+		"1056797712"
+		{
+			"name"		"avan9ard"
+			"NameHistory"
+			{
+				"0"		"avan9ard"
+				"1"		"_3ternity"
+			}
+			"avatar"		"9bbd8fd1b12cff163a894aee1aa29e01c55c584a"
+		}
+		"1043782245"
+		{
+			"name"		"Паук-Коммунист"
+			"NameHistory"
+			{
+				"0"		"Паук-Коммунист"
+			}
+			"avatar"		"8aa7f297888ffb1f151ce934d083301f37de72f9"
+		}
+		"1078209466"
+		{
+			"name"		"."
+			"NameHistory"
+			{
+				"0"		"."
+				"1"		"4279 3806 9163 9001 кинь д"
+				"2"		"$w1nPi4"
+				"3"		"SIIIIUUUUUUUUUUUUUUU"
+			}
+			"avatar"		"886af67b7bcb2a613b7a4ea422f4d7ab8cb14383"
+		}
+		"1185433500"
+		{
+			"name"		"ёбырь твоей мамки"
+			"NameHistory"
+			{
+				"0"		"ёбырь твоей мамки"
+			}
+			"avatar"		"9dab8056e33915b42b6beadff8b7c6b4c817b034"
+		}
+		"1096256710"
+		{
+			"name"		"HeaDshot98k"
+			"NameHistory"
+			{
+				"0"		"HeaDshot98k"
+			}
+		}
+		"258678411"
+		{
+			"name"		"Pozitivcik"
+			"NameHistory"
+			{
+				"0"		"Pozitivcik"
+			}
+			"avatar"		"788bca116f7bf69db038d73d62faa947d1d44ed1"
+		}
+		"1165628523"
+		{
+			"name"		"カイドウ"
+			"NameHistory"
+			{
+				"0"		"カイドウ"
+			}
+			"avatar"		"920c942a79ecf0bf11d1d2880bba234c882e5ff9"
+		}
+		"1052253372"
+		{
+			"name"		"❤️Den Kritik❤"
+			"NameHistory"
+			{
+				"0"		"❤️Den Kritik❤"
+			}
+			"avatar"		"77b3921868b8260b9ef36c5d788034ae79243ee9"
+		}
+		"1096984355"
+		{
+			"name"		"n i k a i d o"
+			"NameHistory"
+			{
+				"0"		"n i k a i d o"
+				"1"		"вбивця маньяк"
+				"2"		"V - значит в лп"
+				"3"		"AntonPavlovich1984"
+				"4"		"artem (can't talk)"
+				"5"		"денчик крут 2004"
+				"6"		"виски с колой"
+				"7"		"дiма комаров"
+				"8"		"tempest double mode"
+				"9"		"в дотку кайфую"
+			}
+			"avatar"		"011f09dfe379d1c7d92002dec080be3f7af62a41"
+		}
+		"1071219431"
+		{
+			"name"		"Sergio Minetti"
+			"NameHistory"
+			{
+				"0"		"Sergio Minetti"
+			}
+			"avatar"		"bf09cef7db5ecce24d76903af8f407e56f9bb973"
+		}
+		"1109568636"
+		{
+			"name"		"LLka"
+			"NameHistory"
+			{
+				"0"		"LLka"
+				"1"		"Tom"
+				"2"		"||        ||"
+				"3"		"||||||||||kAlaSh||||||||||"
+				"4"		"AzkaBan"
+				"5"		"Qa"
+				"6"		"yasha lava"
+				"7"		"|_|_|Lю)(а"
+				"8"		"I Love ANimE"
+				"9"		"Alt+F4=100$"
+			}
+			"avatar"		"47f4c0e1db3953ffa1326cbe0c3ff3558471f765"
+		}
+		"1076995255"
+		{
+			"name"		"Z"
+			"NameHistory"
+			{
+				"0"		"Z"
+				"1"		"Nelson Belluchi"
+				"2"		"A D A"
+				"3"		"САВВА ГЕЙ"
+				"4"		"Тоби Магуайр"
+				"5"		"A.D.A"
+				"6"		"Guzalll"
+			}
+			"avatar"		"40e23d6e1f930aa8d978118d05e849837c4d1965"
+		}
+		"1125515861"
+		{
+			"name"		"ℂ𝔸ℙ𝕀"
+			"NameHistory"
+			{
+				"0"		"ℂ𝔸ℙ𝕀"
+				"1"		"CAPI*"
+				"2"		"FLAVIO"
+				"3"		"Capi hellcase.org"
+				"4"		"LDL Capi  Allkeyshop"
+				"5"		"LDL Capi"
+				"6"		"LDL Capi' Tain v.2"
+				"7"		"UK Capi' Tain"
+			}
+			"avatar"		"e1ca4065239552e288b9adc7f4b134abc657f4af"
+		}
+		"390611784"
+		{
+			"name"		"Shoker"
+			"NameHistory"
+			{
+				"0"		"Shoker"
+			}
+			"avatar"		"e94e8041a71e2f697575fe3cc3e1fb5434d1ce9d"
+		}
+		"1144248933"
+		{
+			"name"		"h3.one"
+			"NameHistory"
+			{
+				"0"		"h3.one"
+			}
+			"avatar"		"3d8edd547ea46289ceffee2662818afa9f314f81"
+		}
+		"1066366067"
+		{
+			"name"		"FRAGEMGG"
+			"NameHistory"
+			{
+				"0"		"FRAGEMGG"
+			}
+			"avatar"		"bf26cc1f0e9f833427da10a957f5e8ef65039551"
+		}
+		"845228609"
+		{
+			"name"		"❟❛❟bl1tz❟❛❟"
+			"NameHistory"
+			{
+				"0"		"❟❛❟bl1tz❟❛❟"
+				"1"		"bl1tz"
+			}
+			"avatar"		"ee4b2ff71116082003a681cafedaf69f6c21d037"
+		}
+		"909826235"
+		{
+			"name"		"szaława"
+			"NameHistory"
+			{
+				"0"		"szaława"
+			}
+			"avatar"		"8d979f1c5648c2f3b7372a080968555cd57f6f04"
+		}
+		"1085643507"
+		{
+			"name"		"gla1b3"
+			"NameHistory"
+			{
+				"0"		"gla1b3"
+			}
+			"avatar"		"5fd6caf3309571836682e78fce4287c68c380634"
+		}
+		"1052967617"
+		{
+			"name"		"Pharaon"
+			"NameHistory"
+			{
+				"0"		"Pharaon"
+			}
+			"avatar"		"f3253d5b119a60406e1be580e1d3e21f041c6eae"
+		}
+		"840300835"
+		{
+			"name"		"文Mr_Temaヅ"
+			"NameHistory"
+			{
+				"0"		"文Mr_Temaヅ"
+			}
+			"avatar"		"4e45e535bb4be42a462fdf7a59662ef4fc869a5f"
+		}
+		"1031235637"
+		{
+			"name"		"˙·٠●•Filmora•●٠·˙"
+			"NameHistory"
+			{
+				"0"		"˙·٠●•Filmora•●٠·˙"
+				"1"		"ASURAPEEK"
+				"2"		"Daffy"
+				"3"		"XANTARASPEEK"
+				"4"		"slowly_death"
+				"5"		"XANTARESPEEK"
+				"6"		"slowly_death ASTROLITE.NET"
+				"7"		"ВОЕНКОМ"
+				"8"		"Nik"
+				"9"		"Месть"
+			}
+			"avatar"		"40761ea91a42c2d3f8bc30e50bc7e301b1bb3f30"
+		}
+		"875507330"
+		{
+			"name"		"GhostKilla"
+			"NameHistory"
+			{
+				"0"		"GhostKilla"
+			}
+			"avatar"		"9c433e21d6b0826a2bfe42f2c1a1f42d0a835a7a"
+		}
+		"1026615616"
+		{
+			"name"		"Frame"
+			"NameHistory"
+			{
+				"0"		"Frame"
+				"1"		"(FanaTik) Frаme"
+				"2"		"(FanaTic) Frаme"
+				"3"		"(FnaTic) Frаme"
+				"4"		"Frаme"
+				"5"		"DEQIK"
+			}
+			"avatar"		"2b9a9a481e14b9234bf0e03e48417c752aad3f18"
+		}
+		"893872895"
+		{
+			"name"		"водитель по губам"
+			"NameHistory"
+			{
+				"0"		"водитель по губам"
+			}
+			"avatar"		"8383746c79665ce1539021dad2a064af6217e188"
+		}
+		"1115852055"
+		{
+			"name"		"Pelle Peloton"
+			"NameHistory"
+			{
+				"0"		"Pelle Peloton"
+			}
+			"avatar"		"b62f0a28d01ec740299c20b02c688b2273512446"
+		}
+		"923114838"
+		{
+			"name"		"dragonyat✈"
+			"NameHistory"
+			{
+				"0"		"dragonyat✈"
+			}
+			"avatar"		"8f527fdbdb9e9151935b9faa981c7dc3e3e542b6"
+		}
+		"1011662938"
+		{
+			"name"		"У меня в подвале 4 ребенка"
+			"NameHistory"
+			{
+				"0"		"У меня в подвале 4 ребенка"
+				"1"		"Егор Маузер"
+				"2"		"сосу за 5 руб"
+				"3"		"размуть меня"
+				"4"		"dodkd"
+				"5"		"закибербулили тебя,да?"
+				"6"		"залупка"
+				"7"		"стоит когда играю в доту"
+				"8"		"АХАХАХАХА"
+				"9"		"Я свинья,дай похвалу"
+			}
+			"avatar"		"b424f2ad354cb740aee04c7b79657809a3d55b52"
+		}
+		"1004055214"
+		{
+			"name"		"Dexter"
+			"NameHistory"
+			{
+				"0"		"Dexter"
+			}
+			"avatar"		"7ccb5d8ec17bde523d4d9bbc851a6087226dacfe"
+		}
+		"1135304567"
+		{
+			"name"		"дедушка"
+			"NameHistory"
+			{
+				"0"		"дедушка"
+				"1"		"Дебил со стажем"
+				"2"		"RUSTRUN.RUN"
+				"3"		"debil so stazhem"
+				"4"		"Дебил со стажем CSG"
+			}
+			"avatar"		"07935eb58c5b48279c863aa7f909bfbf4990ad00"
+		}
+		"1022627454"
+		{
+			"name"		"Boombl4"
+			"NameHistory"
+			{
+				"0"		"Boombl4"
+			}
+			"avatar"		"7b016f8a3758bcaf2731638b4b1bdf537eee5f1a"
+		}
+		"1164738663"
+		{
+			"name"		"WeZer"
+			"NameHistory"
+			{
+				"0"		"WeZer"
+				"1"		"WeZer[BIG PENIS]<3"
+			}
+			"avatar"		"f706f83febac7f977fa1bf84487ae936fc0ff5ef"
+		}
+		"996826577"
+		{
+			"name"		"ミナカヌ"
+			"NameHistory"
+			{
+				"0"		"ミナカヌ"
+				"1"		"Шаболда Даша"
+			}
+			"avatar"		"c6eb93fb1f0898896390bff24720e810f74a0e8f"
+		}
+		"1030885853"
+		{
+			"name"		"ÇřĘıżĕŗ^"
+			"NameHistory"
+			{
+				"0"		"ÇřĘıżĕŗ^"
+				"1"		")))nothing^"
+				"2"		"дуэли на скины"
+				"3"		"rb.community Gajda *"
+				"4"		"rb.community zhostkiy"
+				"5"		"-1337 zhostiks"
+				"6"		"Обмениваю скины н"
+				"7"		"."
+				"8"		"D3M44i"
+				"9"		"MOZILLA"
+			}
+			"avatar"		"e861d0241ea8397e6fd0342af15929aa7cd7c5fb"
+		}
+		"1069612777"
+		{
+			"name"		"Halo_MoTo"
+			"NameHistory"
+			{
+				"0"		"Halo_MoTo"
+				"1"		"Тако для ДРОБОВИК"
+			}
+			"avatar"		"9704ef6a18b9002a435cf7f26cf8134ebc223ad1"
+		}
+		"336684698"
+		{
+			"name"		"SANS"
+			"NameHistory"
+			{
+				"0"		"SANS"
+				"1"		"highteck"
+				"2"		"POWERWESSSSS//"
+				"3"		"{ 一匹狼 }"
+			}
+			"avatar"		"8d5aecf456aa5cefd6afd58d42985e64363ca954"
+		}
+		"1150616787"
+		{
+			"name"		"someN"
+			"NameHistory"
+			{
+				"0"		"someN"
+			}
+			"avatar"		"cb58f4545c8ed193023397ec2a3a07a5279c8116"
+		}
+		"1182649417"
+		{
+			"name"		"Дмитрий"
+			"NameHistory"
+			{
+				"0"		"Дмитрий"
+			}
+			"avatar"		"c945c1a2aa4692ec1c484cea7905ddf76282d631"
+		}
+		"914680215"
+		{
+			"name"		"sosi_pesos)"
+			"NameHistory"
+			{
+				"0"		"sosi_pesos)"
+			}
+			"avatar"		"fd16358fc415269fee9bb487a619a48ec4306549"
+		}
+		"1097518333"
+		{
+			"name"		"Твое Солнышко:3"
+			"NameHistory"
+			{
+				"0"		"Твое Солнышко:3"
+			}
+		}
+		"103582791471406405"
+		{
+			"name"		"<60fps-14AVG"
+			"tag"		"<60fps-14AVG"
+			"avatar"		"0000000000000000000000000000000000000000"
+		}
+	}
+	"apptickets"
+	{
+		"7"		"3200000004000000fef4f44101001001070000000d87725c0364a8c000000000dcc04e625c706a62010000000000000000006c763658ab358e72f5896b8908d1df7617f41a219725602967cc3c83a93f253505e982c2e07ba903cd0df91f5f62e533378e2c1177dffb149005457109599ca3121b71ca66a0f317b5654ac49a72245624012b45859be6a56f3b8afa11fa544e5f63df926c3f71e8af987f1b2ab8fe3ef7bc00eb05af14915532d57fd0d5145e"
+		"730"		"3200000004000000fef4f44101001001da0200000d87725c0364a8c000000000269b4e62a64a6a6201001aa104000000000018ef13923c05544779222d6f671519b78a72fabb5632d5249dadc40bb013223ebbdeee8ec7caaed18e293a1d76f4486c7531ad733aee3fe6c9230dde0409f6b0890f00beb617dd30bfc39f9c60174d3c4ecce8475a76779b78046969e612b6fb96a0f86ca221e3f1290ca3f3dc3edae1a8164d4ad6e401a3f478a02d359d5549"
+		"228980"		"3200000004000000fef4f44101001001747e03000d87725c0364a8c000000000269b4e62a64a6a620100000000000000000058d48dc55f7863026f0d12580bb0fe58dcd1dd1c1108ca08dd53ecdc7804f169de166d60d5a55ecdbec587272582cf3674b9209682a18e68e027fa71a30583aac0a417c58adbdd60e7d4f309ab07864306c9fb8e10e3441dc84d9016257a4d981aad50b033b48eb974e45d25d41f777d8f30e4a1c6e9582481c1674ac46594fd"
+		"570"		"5000000004000000fef4f441010010013a0200000d87725c0364a8c000000000269b4e62a64a6a6201000000000005003f0200000000a2c70400000034b2050000007a2006000000a445070000000000c416b6d0e34470accb5836b0825db87b8dee76d756f97bc341824d271047dcd21ba42a0897d1ae9155df490f9a8114e67d8978613652b8575d5b891d4d188e1bca44f629f1bba0c5ab75fac516f3aa6c829e9a5ea5d959c2777b210966ef8e146c86e650ff25494474a93233d96437f91fae4500e458027a4ca962e74a68f278"
+		"313250"		"3200000004000000fef4f44101001001a2c704000d87725c0364a8c000000000269b4e62a64a6a6201000000000000000000dbdf5d2b52ff2d08bcd4bce202a5cd55a72cd4597295d85e387dd97d9a8d0c71b4353a2a380fae319d516cc49a7f679ac0c842ae3cb351c33c1d9bfa2616baa1dfb9850a349b4537c83ba4a115a281d040b8c072584ee1c5fdd50791d27affd4294cdf0e102e2b5e4f54602c444dfe233acea7599d84dc469394a3c9235e9752"
+		"373300"		"3200000004000000fef4f4410100100134b205000d87725c0364a8c000000000269b4e62a64a6a6201000000000000000000858ec59dd9604e573b542f606279c03101125aab8e6391cb00a7b4b0e829adadffbe5901d939d0b4f3d3fc5ab244a9758889fd6de05ab3ec209be0786ec1fab53e04fbb8ffc4b36b25aaf6897cb0fc3335caf9087d77ffdef35d582e7b4f3640c78fdc2f43dcbd22c089806078ad11209ac89ba1651a77a68bcb77c1e56e43bf"
+		"401530"		"3200000004000000fef4f441010010017a2006000d87725c0364a8c000000000269b4e62a64a6a620100000000000000000060ac331f58206f77c335d153fc9bde9cff45ace225ce969837808546cace42388dfce7ebd9799178588af6452526669b7ce2a4a738707376d6ef5a3b9400b4cbf5d9cd2ffc7013b4ed5ffa3f40b8684259f83949aabf5f252b706cccbacbc9a684dfa95f923d1a3dda29fccda28cc51876cea9750951a6be36a2d0c96d0d3ada"
+		"476580"		"3200000004000000fef4f44101001001a44507000d87725c0364a8c000000000269b4e62a64a6a620100000000000000000085bd3afd4ebe1abad0ebae2edf16f7161bad5b29b0ae2ea0473fdd7f9b931ccf630ff3237445a324e448074550b56c22e7335df86a95087a650242a545f867f8cafce2661d1cc8c911bc300777d78cad743157b17770cd081345105dd3b9de1e759b623d6a2551d92fad4fcbd1c1ead09424aa2c6d09000d0216adc34aa1e3e4"
+		"240"		"32000000040000000671fb4001001001f00000000d87725c0364a8c00000000053ec4662d39b626201002500000000000000484f2c7c7c58541be3b0bb830e57bcb49f33bfc5f7b2bcc37832a51b041a1534b7754a81388f3ba6a7671b305a15daa54b0e6cc08f6a6fa18c6fa8976d155d6a9ca885a41cd8f86ba665ca8320042230adfc397627786cfc842cb79150069be506c8b035b78d5a3a092908cf7118fd74b5e8a5b9e3b33289d7a35ccc57c473d7"
+	}
+	"Offline"
+	{
+		"Ticket"		"08fee9d38f0415259b4e62"
+		"Signature"		"753db636cfa4193e54a7629a61874dc1c259db7798ee46faa71000cc96ada6f134e59cdb6c3239426705c0ddbfbedea5ad2d0027fc859772c19ada2bc30e91199e57b7ad2098bec77e472ab3e661748c5b24fbcdbd28fbb868a9c39114bdc167f375730a75a2b9787e25ce8f311878ae29dcaecfa6fa9402e8af3a678236055b6d0990a0675794a05d256afb7e099c6912fb4df854359f55611fbd8b73f0a37b42fb136e6af2716e0ad7313acd6ffbebdebbf7f72e37b999f88d6791d7d88329b31fe11823908ac1ef902eb7a5326c357172feee669cf67bb9ab28ab54fca04215ea97bd2741ae0aa567d953f6e06e4403465f9c5b047ea110c9c560302edc00"
+	}
+	"ParentalSettings"
+	{
+		"settings"		"09fef4f441000000004800"
+		"Signature"		"b94e015becf6f2d1b6b9db5fc217ef4caa2fab76a64c9c8b131057929c4b0a8e3d6d97e0044f90138a36ceb3ddfe1cf39438a4c26db8695e6e7461239a6f3f174ba38e18eb6fd06bbe28a688aef1af6460b2255b8b40ed46f2e63616e350564898533376351f162b627183a8fb53d0e4b861a4ced9abebd013d2251153bebd6f7fc4dc7a3f7bb015e8181f6bc44ef95a4350b352091e8ab2f3bb77c239401c07f75796199a081ab28376b2261e20858e227451364768b84b5d5bf68c2d01a56a3f4c87e226ed0d686d1a70f7e6ad07dec67d0c49bc1ff3a1653e6bc30aa3d047fc00a8d21834ae7ca1f181eb208fcda1f32ff2c890c6c8eaa6a21263b01bb016"
+	}
+	"SharedAuth"
+	{
+		"id"		"334205064"
+		"AuthData"		"1394ae02ab53857903b2177e08e77692df19cab996371cab14c4139d137a5ac9"
+	}
+	"AppInfoChangeNumber"		"14449609"
+	"Software"
+	{
+		"Valve"
+		{
+			"Steam"
+			{
+				"apps"
+				{
+					"7"
+					{
+						"cloud"
+						{
+							"last_sync_state"		"synchronized"
+						}
+					}
+					"10"
+					{
+						"LastPlayed"		"1632408546"
+						"Playtime"		"86"
+					}
+					"570"
+					{
+						"LastPlayed"		"1646651428"
+						"Playtime"		"85"
+						"cloud"
+						{
+							"last_sync_state"		"synchronized"
+						}
+						"LaunchOptions"		"-console -novideo -high"
+						"autocloud"
+						{
+							"lastlaunch"		"1646648715"
+							"lastexit"		"1646651544"
+						}
+						"BadgeData"		"02000000080a"
+						"DisableUpdatesUntil"		"0"
+						"Playtime2wks"		"45"
+					}
+					"730"
+					{
+						"LastPlayed"		"1649326570"
+						"Playtime2wks"		"97"
+						"Playtime"		"5338"
+						"cloud"
+						{
+							"last_sync_state"		"synchronized"
+						}
+						"LaunchOptions"		"-novid -high -console -nojoy -freq 60 -threads 4 -limitvsconst -forcenovsync -no_compressed_verts +mat_queue_mode 2 +r_dynamic 0"
+						"autocloud"
+						{
+							"lastlaunch"		"1649320716"
+							"lastexit"		"1649326568"
+						}
+						"BadgeData"		"020000000800"
+						"DisableUpdatesUntil"		"0"
+					}
+					"225840"
+					{
+						"LastPlayed"		"1602866865"
+						"Playtime"		"22"
+					}
+					"282660"
+					{
+						"LastPlayed"		"1612708742"
+						"Playtime"		"858"
+					}
+					"760"
+					{
+						"cloud"
+						{
+							"last_sync_state"		"synchronized"
+							"quota_bytes"		"20000000000"
+							"quota_files"		"50000"
+							"used_bytes"		"0"
+							"used_files"		"0"
+						}
+					}
+					"744350"
+					{
+						"cloud"
+						{
+							"last_sync_state"		"synchronized"
+						}
+					}
+					"240"
+					{
+						"LastPlayed"		"1642181896"
+						"cloud"
+						{
+							"last_sync_state"		"synchronized"
+						}
+						"autocloud"
+						{
+							"lastlaunch"		"1642181320"
+							"lastexit"		"1642181896"
+						}
+						"BadgeData"		"02000000080a"
+						"Playtime2wks"		"9"
+						"Playtime"		"9"
+					}
+				}
+				"LastPlayedTimesSyncTime"		"1649326570"
+				"PlayerLevel"		"0"
+			}
+		}
+	}
+	"WebStorage"
+	{
+		"SteamVoiceSettings_1090220294"		"{\"inputGain\":1,\"outputGain\":1,\"noiseGateLevel\":2,\"noiseCancellation\":true,\"echoCancellation\":true,\"autoGainControl\":true,\"selectedMic\":\"default\",\"selectedOutput\":\"default\",\"pttSoundsEnabled\":true,\"hasResetOpenMicHotKey\":true}"
+		"UIStoreLocalState"		"{\"nVersion\":1,\"eGameListView\":1,\"bGroupedByCollection\":true,\"bSortedByRecent\":false,\"mapCollapsedState\":[[\"hidden\",true]],\"currentSelection\":{\"strCollectionId\":\"uncategorized\",\"nAppId\":570},\"bGroupBySharedLibraries\":false,\"collectionFilter\":{\"nFormatVersion\":2,\"strSearchText\":\"\",\"filterGroups\":[{\"rgOptions\":[1],\"bAcceptUnion\":true},{\"rgOptions\":[],\"bAcceptUnion\":false},{\"rgOptions\":[],\"bAcceptUnion\":false},{\"rgOptions\":[],\"bAcceptUnion\":false},{\"rgOptions\":[],\"bAcceptUnion\":false},{\"rgOptions\":[],\"bAcceptUnion\":false}]}}"
+		"CTextFilterStore_TextFilterPreferences"		"{\"eTextFilterSetting\":1,\"bIgnoreFriends\":true}"
+		"CTextFilterStore_TextFilterWords"		"{\"text_filter_custom_banned_words\":[],\"text_filter_custom_clean_words\":[]}"
+		"CachedStorePreferences"		"{\"eReviewScorePreference\":0,\"content_descriptor_preferences\":{\"content_descriptors_to_exclude\":[{\"content_descriptorid\":3,\"timestamp_added\":0},{\"content_descriptorid\":4,\"timestamp_added\":0}]}}"
+		"CachedCommunityPreferences"		"{\"bBlurAdultContentViolence\":true,\"bBlurAdultContentSex\":true,\"bParenthesizeNicknames\":false}"
+		"CTextFilterStore_strBannedPattern"		"\"\""
+		"CTextFilterStore_strCleanPattern"		"\"^(\\\\b(kompetenzteam|派送员|pinegrove|n\\\\.e\\\\.ig\\\\.e\\\\.|fukushima|nie gee|fuchian|cock\\\\.li|fuxius|fucuro|niego|niebo|neige|neggy|nebby|fuxis|cwfag|pubg|niby|nebo|fuku|fuki|fakt|g24|\\\\w*fvchvo\\\\w*fak(ed|ers?|ing)|kompetenzteam|派送员|pinegrove|n\\\\.e\\\\.ig\\\\.e\\\\.|fukushima|nie gee|fuchsia|fuchian|cock\\\\.li|fuxius|fucuro|niego|niebo|neige|neggy|nebby|fuxis|cwfag|pubg|niby|nebo|fuku|fuki|fakt|g24|\\\\w*fvchvo\\\\w*)\\\\b)$\""
+		"playnextstore_storage"		"{\"nVersion\":3,\"cachedPlayNext\":{\"last_update_time\":1649318702,\"appids\":[]},\"rgIgnoredApps\":[]}"
+		"ChatStorePopupState_1090220294"		"{\"window_restore_details\":\"1&x=590&y=215&w=740&h=650&min=1\",\"bFriendsListVisible\":false,\"always_restore\":false,\"bFriendsListCollapsed\":false}"
+		"FriendStoreLocalPrefs_1090220294"		"{\"ePersonaState\":1,\"strNonFriendsAllowedToMsg\":\"\"}"
+		"GameInvites_1090220294"		"{\"dismisstimes\":{\"1090220294\":1648393154}}"
+		"FriendGroupCollapse_1090220294"		"{\"groups\":{\"offline\":false,\"outgoing\":true}}"
+		"user-collections"		"{}"
+		"UIDisplayPrefs_1090220294"		"{\"nChatRoomListHeightPx\":224,\"bChatRoomListCollapsed\":false,\"bDontShowVoiceAlert\":false,\"nFriendsListSingleWindowWidthPx\":300,\"bFavoritesHintDismissed\":false,\"bRemotePlayLinkHintDismissed\":false,\"nChangeLogDismissed\":0,\"rtLastAckedNewEmoticons\":1593944244}"
+		"wishlistonsalestore_storage"		"{\"version\":1,\"data\":{\"rgAppIDs\":[],\"bExhausted\":true,\"nSkipped\":0},\"lastFetchTimeMS\":1649255688803}"
+		"trendingstore_storage"		"{\"version\":2,\"data\":[{\"appid\":271590,\"rgAccountIDs\":[927460882,930642068,1037180595],\"totalFriends\":3},{\"appid\":570,\"rgAccountIDs\":[893872895,923114838,323366778,874219419,91714501,372811003,971157407,893200680],\"totalFriends\":19},{\"appid\":361420,\"rgAccountIDs\":[996178988],\"totalFriends\":1},{\"appid\":15210,\"rgAccountIDs\":[1013392065],\"totalFriends\":1},{\"appid\":359550,\"rgAccountIDs\":[1125515861,1069612777,1050285613],\"totalFriends\":3},{\"appid\":236390,\"rgAccountIDs\":[1013392065,1043782245],\"totalFriends\":2},{\"appid\":252490,\"rgAccountIDs\":[996178988,1135304567],\"totalFriends\":2},{\"appid\":381210,\"rgAccountIDs\":[1031235637],\"totalFriends\":1},{\"appid\":548430,\"rgAccountIDs\":[971157407],\"totalFriends\":1},{\"appid\":282660,\"rgAccountIDs\":[452557496],\"totalFriends\":1},{\"appid\":346110,\"rgAccountIDs\":[996178988,1031235637],\"totalFriends\":2},{\"appid\":440,\"rgAccountIDs\":[336684698,1011662938],\"totalFriends\":2},{\"appid\":648800,\"rgAccountIDs\":[996178988],\"totalFriends\":1},{\"appid\":206420,\"rgAccountIDs\":[930642068],\"totalFriends\":1},{\"appid\":285900,\"rgAccountIDs\":[971157407],\"totalFriends\":1},{\"appid\":788260,\"rgAccountIDs\":[930642068],\"totalFriends\":1},{\"appid\":55230,\"rgAccountIDs\":[930642068],\"totalFriends\":1},{\"appid\":431960,\"rgAccountIDs\":[1125515861,874219419,1076995255,971157407,1010161198],\"totalFriends\":5},{\"appid\":892970,\"rgAccountIDs\":[996178988],\"totalFriends\":1},{\"appid\":603850,\"rgAccountIDs\":[996178988],\"totalFriends\":1},{\"appid\":227300,\"rgAccountIDs\":[1010161198],\"totalFriends\":1},{\"appid\":1238860,\"rgAccountIDs\":[336684698],\"totalFriends\":1},{\"appid\":365670,\"rgAccountIDs\":[1069612777],\"totalFriends\":1},{\"appid\":1293830,\"rgAccountIDs\":[1010161198],\"totalFriends\":1},{\"appid\":438040,\"rgAccountIDs\":[1125515861],\"totalFriends\":1},{\"appid\":552990,\"rgAccountIDs\":[1013392065],\"totalFriends\":1},{\"appid\":311690,\"rgAccountIDs\":[336684698],\"totalFriends\":1},{\"appid\":1121710,\"rgAccountIDs\":[1135304567],\"totalFriends\":1},{\"appid\":578080,\"rgAccountIDs\":[996178988,1010161198,1050285613,1013392065,452557496,492800251,902022847],\"totalFriends\":7},{\"appid\":322170,\"rgAccountIDs\":[971157407],\"totalFriends\":1},{\"appid\":1026460,\"rgAccountIDs\":[874219419],\"totalFriends\":1},{\"appid\":933110,\"rgAccountIDs\":[1013392065],\"totalFriends\":1},{\"appid\":1111210,\"rgAccountIDs\":[971157407],\"totalFriends\":1},{\"appid\":700330,\"rgAccountIDs\":[1125515861],\"totalFriends\":1},{\"appid\":43110,\"rgAccountIDs\":[336684698],\"totalFriends\":1},{\"appid\":444200,\"rgAccountIDs\":[336684698],\"totalFriends\":1},{\"appid\":22490,\"rgAccountIDs\":[336684698],\"totalFriends\":1},{\"appid\":240,\"rgAccountIDs\":[336684698],\"totalFriends\":1},{\"appid\":304930,\"rgAccountIDs\":[312014915],\"totalFriends\":1},{\"appid\":105600,\"rgAccountIDs\":[1031235637],\"totalFriends\":1},{\"appid\":433850,\"rgAccountIDs\":[1125515861],\"totalFriends\":1},{\"appid\":578310,\"rgAccountIDs\":[877320048],\"totalFriends\":1},{\"appid\":620,\"rgAccountIDs\":[1043782245],\"totalFriends\":1},{\"appid\":632360,\"rgAccountIDs\":[1043782245],\"totalFriends\":1},{\"appid\":1118200,\"rgAccountIDs\":[971157407],\"totalFriends\":1},{\"appid\":629520,\"rgAccountIDs\":[971157407,1050285613],\"totalFriends\":2},{\"appid\":860510,\"rgAccountIDs\":[157740486],\"totalFriends\":1},{\"appid\":945360,\"rgAccountIDs\":[95739417],\"totalFriends\":1},{\"appid\":739630,\"rgAccountIDs\":[996178988,1125515861,1031235637],\"totalFriends\":3},{\"appid\":201810,\"rgAccountIDs\":[157740486],\"totalFriends\":1}],\"lastFetchTimeMS\":1649255689202}"
+		"SteamVoiceSettings_1106572542"		"{\"inputGain\":1,\"outputGain\":1,\"noiseGateLevel\":2,\"noiseCancellation\":true,\"echoCancellation\":true,\"autoGainControl\":true,\"selectedMic\":\"default\",\"selectedOutput\":\"default\",\"pttSoundsEnabled\":true,\"hasResetOpenMicHotKey\":true}"
+		"ChatStorePopupState_1106572542"		"{\"bFriendsListVisible\":false,\"always_restore\":false,\"bFriendsListCollapsed\":false}"
+	}
+	"system"
+	{
+		"PushToTalkKey"		"0"
+		"EnableGameOverlay"		"0"
+		"EnableSCTenFootOverlayCheckNew"		"0"
+		"DisableLaunchInVR"		"1"
+		"InGameOverlayShortcutKey"		"Shift	KEY_TAB"
+		"InGameOverlayScreenshotNotification"		"1"
+		"InGameOverlayScreenshotPlaySound"		"1"
+		"InGameOverlayScreenshotSaveUncompressed"		"0"
+		"InGameOverlayShowFPSContrast"		"0"
+		"InGameOverlayShowFPSCorner"		"0"
+		"InGameOverlayScreenshotHotKey"		"KEY_F12"
+		"NetworkingAllowShareIP"		"0"
+		"NavUrlBar"		"0"
+		"displayratesasbits"		"0"
+		"GameOverlayHomePage"		"http://www.google.com"
+	}
+	"HideSharingNotifications"		"0"
+	"News"
+	{
+		"NotifyAvailableGames"		"1"
+		"Messages"
+		{
+			"3101662848682628818"		"1"
+			"5956398228077629324"		"1"
+			"9064427973044009070"		"1"
+			"7213910891810145440"		"1"
+			"8656348022121484424"		"1"
+			"9069259744454184070"		"1"
+			"8333878353601022495"		"1"
+			"2717493262689872348"		"1"
+			"7604327112875053206"		"1"
+			"8925665293206671615"		"1"
+			"4292075840934468931"		"1"
+			"3406113457501794585"		"1"
+			"7737500832338528153"		"1"
+			"6377494494524727573"		"1"
+			"6881363080880293828"		"1"
+			"1613733832134323056"		"1"
+			"5877603195011415361"		"1"
+			"8852654754806779467"		"1"
+			"3318539057961174904"		"1"
+			"8622445047673382625"		"1"
+			"2132774665841057170"		"1"
+			"5717568036896432147"		"1"
+			"6957257711062929506"		"1"
+			"7520659445965886129"		"1"
+			"7029406574139981719"		"1"
+			"2291133199615748258"		"1"
+			"4708611910040301040"		"1"
+			"3581773393235858069"		"1"
+			"4631336760815331389"		"1"
+			"4546952560422084408"		"1"
+			"7854573326462313254"		"1"
+			"6450605894002597483"		"1"
+			"8743100056993330048"		"1"
+			"4159422972932211928"		"1"
+			"6372775684155793353"		"1"
+			"3613282058916670028"		"1"
+			"3885176145060876439"		"1"
+			"9192611209059406409"		"1"
+			"6024684782911707012"		"1"
+			"7547271693612795462"		"1"
+			"5220599433863842418"		"1"
+			"5369030151914063800"		"1"
+			"7941122229516854382"		"1"
+			"905934036472130117"		"1"
+			"1933889082582946286"		"1"
+			"6629826681210648558"		"1"
+			"8084094749555876839"		"1"
+			"3914296698007556396"		"1"
+			"8228231826108562785"		"1"
+			"8558473509177126807"		"1"
+			"2297916978666425581"		"1"
+			"4586543764248297829"		"1"
+			"4770602511920311798"		"1"
+			"5493423470277492639"		"1"
+			"5733361427958977443"		"1"
+			"6900264923723814838"		"1"
+			"4155385934222241795"		"1"
+			"4783684203058693347"		"1"
+			"1533542840433845773"		"1"
+			"5990391857195014978"		"1"
+			"8550023923178884815"		"1"
+			"5126461099052835254"		"1"
+			"323228925829525448"		"1"
+			"2167894884629108567"		"1"
+			"124490940573106636"		"1"
+			"3679677842785903194"		"1"
+			"8198211119995977331"		"1"
+			"8209402704174629227"		"1"
+			"1147419901495102375"		"1"
+			"4159765531868800797"		"1"
+			"2768746722162055939"		"1"
+			"5738809197361949039"		"1"
+			"63028009074209840"		"1"
+			"192490644756625658"		"1"
+			"1365427993950603474"		"1"
+			"4634370587985506408"		"1"
+			"4692471680100908385"		"1"
+			"7124566270953517536"		"1"
+			"4158030706567541772"		"1"
+			"406575316157233573"		"1"
+			"2789885839592883352"		"1"
+			"4423835099461170828"		"1"
+			"5226748771737732497"		"1"
+			"8461186495758140464"		"1"
+			"7558624730199751867"		"1"
+			"860848230377538390"		"1"
+			"8293701662587953179"		"1"
+			"7769722212671961329"		"1"
+			"5109920511993266071"		"1"
+			"5092693563317453500"		"1"
+			"872063744492434242"		"1"
+			"2839461725050113976"		"1"
+			"5060414903943352045"		"1"
+			"6158636375312596459"		"1"
+			"6349214150385698229"		"1"
+			"706121925163959165"		"1"
+			"4128291984129523020"		"1"
+			"7712213113579630629"		"1"
+			"2884009882641356682"		"1"
+			"2413834319255277121"		"1"
+			"2558837636065517480"		"1"
+			"6510405210302348715"		"1"
+			"7439001418339306724"		"1"
+			"4020531527017613911"		"1"
+			"337401126732537288"		"1"
+			"4135443330559330293"		"1"
+			"5903073280219536127"		"1"
+			"9056734154395637563"		"1"
+			"2097996113347448713"		"1"
+			"4347346273333135689"		"1"
+			"2390568449458317675"		"1"
+			"1587504438799917853"		"1"
+			"1951612000454237331"		"1"
+			"4343275874631714536"		"1"
+			"401118760028080465"		"1"
+			"4033351113952231403"		"1"
+			"7009431976323698175"		"1"
+			"3028491136801932213"		"1"
+			"2076899514258331112"		"1"
+			"2366227842053779836"		"1"
+			"6746530379920145812"		"1"
+			"1077334991485926030"		"1"
+			"1376070620725103120"		"1"
+			"1785506986842133965"		"1"
+			"4219406021798163445"		"1"
+			"6983378675668278099"		"1"
+			"2295311975869864630"		"1"
+			"275510764481842075"		"1"
+			"1097626387878723804"		"1"
+			"4113306668188085005"		"1"
+			"6254545660768023145"		"1"
+			"7382176343244770414"		"1"
+			"1675895897099617860"		"1"
+			"2689724734064634005"		"1"
+			"8327271789013922042"		"1"
+			"7764492944221412915"		"1"
+			"138756944033388056"		"1"
+			"1313443815590737248"		"1"
+			"1391199346392255327"		"1"
+			"6349013993576526322"		"1"
+			"131024285288159623"		"1"
+			"1226345301697313689"		"1"
+			"1639659517967072619"		"1"
+			"4904308973350731948"		"1"
+			"7470813726563563157"		"1"
+			"1888820396844177293"		"1"
+			"656641843425212699"		"1"
+			"1505928867001014764"		"1"
+		}
+	}
+	"LibraryDisplaySize"		"0"
+	"LibraryLowBandwidthMode"		"0"
+	"LibraryLowPerfMode"		"0"
+	"LibraryDisableCommunityContent"		"0"
+	"LibraryDisplayIconInGameList"		"1"
+	"SteamController_DisableTwoFootNotifications"		"0"
+	"CloudManager"
+	{
+		"HintAppsToPreload"		""
+	}
+	"StartupState.Friends"		"0"
+	"LastInstallFolderIndex"		"0"
+	"UserAppConfig"
+	{
+		"730"		"00696e7465726e616c00016c616e6775616765007275737369616e000808"
+		"228980"		"0055736572436f6e6669670001626574616b6579007075626c6963000808"
+		"570"		"00696e7465726e616c00016c616e6775616765007275737369616e000808"
+		"240"		"00696e7465726e616c00016c616e6775616765007275737369616e000808"
+	}
+	"CloudKey"		"0100000016936ced7201e62e1485efdd271c43ec08741bae782f22262fadb10a4cf8d1790274b3da"
+	"CloudKeyCRC"		"-1565964381"
+	"depots"
+	{
+		"732"
+		{
+			"CDN"
+			{
+				"level3.cdn.steampipe.steamcontent.com"
+				{
+					"token"		""
+					"Expires"		"1649161629"
+				}
+				"steampipe.akamaized.net"
+				{
+					"token"		""
+					"Expires"		"1645807231"
+				}
+				"google.cdn.steampipe.steamcontent.com"
+				{
+					"token"		""
+					"Expires"		"1649161616"
+				}
+			}
+		}
+		"731"
+		{
+			"CDN"
+			{
+				"level3.cdn.steampipe.steamcontent.com"
+				{
+					"token"		""
+					"Expires"		"1649161671"
+				}
+				"steampipe.akamaized.net"
+				{
+					"token"		""
+					"Expires"		"1648031282"
+				}
+				"google.cdn.steampipe.steamcontent.com"
+				{
+					"token"		""
+					"Expires"		"1649161617"
+				}
+			}
+		}
+		"228988"
+		{
+			"CDN"
+			{
+				"level3.cdn.steampipe.steamcontent.com"
+				{
+					"token"		""
+					"Expires"		"1639833503"
+				}
+			}
+		}
+		"228990"
+		{
+			"CDN"
+			{
+				"level3.cdn.steampipe.steamcontent.com"
+				{
+					"token"		""
+					"Expires"		"1639833513"
+				}
+			}
+		}
+		"232331"
+		{
+			"CDN"
+			{
+				"steampipe.akamaized.net"
+				{
+					"token"		""
+					"Expires"		"1642785549"
+				}
+			}
+		}
+		"241"
+		{
+			"CDN"
+			{
+				"steampipe.akamaized.net"
+				{
+					"token"		""
+					"Expires"		"1642785551"
+				}
+			}
+		}
+		"240"
+		{
+			"CDN"
+			{
+				"steampipe.akamaized.net"
+				{
+					"token"		""
+					"Expires"		"1642785730"
+				}
+			}
+		}
+		"373301"
+		{
+			"CDN"
+			{
+				"google.cdn.steampipe.steamcontent.com"
+				{
+					"token"		""
+					"Expires"		"1645807523"
+				}
+				"steampipe.akamaized.net"
+				{
+					"token"		""
+					"Expires"		"1645183439"
+				}
+				"level3.cdn.steampipe.steamcontent.com"
+				{
+					"token"		""
+					"Expires"		"1645807535"
+				}
+			}
+		}
+		"381455"
+		{
+			"CDN"
+			{
+				"steampipe.akamaized.net"
+				{
+					"token"		""
+					"Expires"		"1645811432"
+				}
+				"google.cdn.steampipe.steamcontent.com"
+				{
+					"token"		""
+					"Expires"		"1645807515"
+				}
+			}
+		}
+		"373303"
+		{
+			"CDN"
+			{
+				"steampipe.akamaized.net"
+				{
+					"token"		""
+					"Expires"		"1648031282"
+				}
+				"google.cdn.steampipe.steamcontent.com"
+				{
+					"token"		""
+					"Expires"		"1645183839"
+				}
+			}
+		}
+		"381451"
+		{
+			"CDN"
+			{
+				"level3.cdn.steampipe.steamcontent.com"
+				{
+					"token"		""
+					"Expires"		"1645807563"
+				}
+			}
+		}
+	}
+	"apps"
+	{
+		"730"
+		{
+			"DisableLaunchInVR"		"1"
+		}
+		"570"
+		{
+			"DisableLaunchInVR"		"1"
+		}
+	}
+	"nettickets"
+	{
+		"730"		"010000001974bc19c7da85533061d178d2427082588c8548151172cb78ec4ca4d5c446dd59008c8131e21d54b32544e8653a7dc7d1d36555fb72e8c04c0ead31a20a9ed23b648e6fa13510a226995121895b8b39ff4f59480e8294c1a4e5c7f76b4abab323e4370cef01372050184598d569b7e42c29423e8dcd5e19d6bcc7e706f4425dc89b3116c47d45bb70705a20b1cc4f0451cdfd373d3a70b3878e667a387969adbb31ff0ed2e0d273d2c02f0adf94a3e346cd68fe7774291afa8bb8da4de62e9bc2b064a14d082691d4d0e840aa8c4fb8f9fd7997796238b4d9e8737eadbc60667cd19fa4930afc75d1de0fadf2fa9611f4de018f2b894c"
+		"570"		"010000007f00d5ee3cc830ea13c8d4bde30d5f48009615b3738b79d0e3b4ccb28702a96ecab03c1c9bee6f3253a2cbb778cd20eff8f8f6603a63bd2d477e4d77dca65c1aa53a642ac741128312e7994d4dcb3644057cb7399c94d806ee04573c64a7ee01d2ffa1c3f83fdc00da7629a24aa3ab156a45ec6810f1246eaab38921441c6c77a230b92091ef2af11704580185b2870343922c3779386816d0ed678a1d9780f7bc99d3556c66b71e831c86a58938a3d921827b8e6af7214d7c71a9e98d2f6f0845abc494c3ea1b38039b3c94ef55bfb5d55382070855322ca9027cea0ee81f25934edddb68a19f8f07b3ccb7b01dd291350b0175171f88"
+	}
+	"RecentLocalPlayed"		"3a02000098e82562da020000e8b94e62"
+	"Licenses"
+	{
+		"0"		"0100000013790957a5880b0e4c0dc933d5ef70b2e3610a54066c03f8c75a8d21081ca803b06cad01591301b7f9c67e3a479a0eb72fa6abac0bb7b85f880659623997652d56e49cc1a25a18c452ff14bddd27d1a4c77c573a20e400a8f85b3f7e6f6dd3c21d3f81cd6adced9cbbe129dc45e90ec059413d5bc8edf957b4f0b7d425f57ae6bea478f8b0edc53d48323554d5ae567563c4fd3d275e4a84b1bb521f6c3222f4f968b544a9bd8126fbfe82764db94556d99a465cdb7b4cd13c0a98dd3b17986891dd0a0ff7e640e7805597d78fc257c2682157ad33e5984b8133210e4e993584d60a416e9f8e8eda3691add765ed99f0fcdd0eb79bbf63d4788d747bb35add34ce4ab19d75dd4aa14af200f48220bf3a3aeb5652fb170043c7f2d6a93b7667edac0d4e3840e07789db10240c24a92dac9ff6dd091b65617b39567a5ae7b74ae927455321000808b0a71ce7"
+		"82994"		"0100000013790957a5880b0e4c0dc933d5ef70b2e3610a54066c03f8c75abf65091ca803b06cad01591301b7f9c67e9531030fb72fa6abac0bb7b85f880659623997652d56e49cc1a25a18c452ff14bddd27d1a4c77c573a20e400a8f85b3f7e6f6dd3c21d3f81cd6adced9cbbe129dc45e90ec059413d5bc8edf957b4f0b7d425f57ae6bea478f8b0edc53d48323554d5ae1b3325aada3635393984b1b9504b0b1435efff6eb35298aba62c9f9b82764dbb293dd6964b4ad07c50d5207afcdd3a179a27e4fc1813dbd0095d745f222187ae77d86834529c3ac794568c5c450e4e9937cdba2a5b6e8a8bbbdf0f9d95dc59f7f084fcdd0eb5c9d85fd461896f4aba78d129c325d59d75dd48f32dce00ed863b8a3f03e76e59c70d6937c7f2d6ae7a1245ebbc1b69247fea72ec01c0bd9c61c9086adcc5be370e73674e2a657058ebb364c86e0153211968541b08f4f12502"
+		"303386"		"0100000013790957a5880b0e4c0dc933d5ef70b2e3610a54066c03f8c75a97800c1ca803b06cad01591301b7f9c67eb5f3a331b72fa6abac0bb7b85f880659623997652d56e49cc1a25a18c452ff14bddd27d1a4c77c573a20e400a8f85b3f7e6f6dd3c21d3f81cd6adced9cbbe129dc45e90ec059413d5bc8edf957b4f0b7d425f57ae6bea478f8b0edc53d48323554d5ae1b3325aada3635393984b1b9504b0b1435efff6eb35298aba62c9f9b82764dbb293dd6964b4ad07c50d5207afcdd3a179a27e4fc1813dbd0095d745f222187ae77d86834529c3ac794568c5c450e4e9937cdba2a5b6e8a8bbbdf0f9d95dc59f7f084fcdd0eb5c9d85fd461896f4aba78d129c325d59d75dd48f32dce00ed863b8a3f03e76e59c70d6937c7f2d6ae7a1245ebbc1b69247fea72ec01c05858e9f8350b28d4be370e73674e2a657058ebb364c86e0153211968541b08254c732a"
+	}
+}

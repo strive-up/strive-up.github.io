@@ -1,34 +1,56 @@
+ 
+$('.services__content').each(function(){
 
-$(document).ready(function() {
-    if(window.innerWidth >= 991){
-        //When page loads...
-        $(".tab_content, .tab_content_child").hide(); //Hide all content
-        $("ul.tabs li:first").addClass("active").show(); //Activate first tab
-        $("ul.tabs_child li:first").addClass("active").show(); //Activate first tab
-        $(".tab_content:first").show(); //Show first tab content
-        $(".tab_content_child:first").show(); //Show first tab content
+    let tabTabs = $(this).find('ul.tabs li');
+    let tabItems = $(this).find('.tab_content').hide();
+    $(".tab_container .tab_content.active").show();
 
-        
+    tabTabs.each(function(i){
+      $(this).click(function(){
+        $(this).addClass('active').show();
+        tabTabs.not(this).removeClass('active');
+        $(tabItems[i]).addClass('active').show();
+        tabItems.not(tabItems[i]).removeClass('active').hide();
+      });
+    });
     
-        //On Click Event
-        $("ul.tabs li").click(function() {
-        
-            $("ul.tabs li").removeClass("active"); //Remove any "active" class
-            $(this).addClass("active"); //Add "active" class to selected tab
-            $(".tab_content").hide(); //Hide all tab content
-        
-            var activeTab = $(this).find("a").attr("href"); //Find the href attribute value to identify the active tab + content
-            $(activeTab).fadeIn(); //Fade in the active ID content
-            return false;
-        });    
-        //On Click child tabs Event
-        $("ul.tabs_child li").click(function() { 
-        $("ul.tabs_child li").removeClass("active"); //Remove any "active" class
-        $(this).addClass("active"); //Add "active" class to selected tab
-        $(".tab_content_child").hide(); //Hide all tab content 
-        var activeTab = $(this).find("a").attr("href"); //Find the href attribute value to identify the active tab + content
-        $(activeTab).fadeIn(); //Fade in the active ID content 
-        return false;
-        });
+});
+
+
+$('.tab_content .button .btn__arrow__stroke').click(function() {
+    
+    let tabsContent = $(this).closest('.tab_content.active');
+    let tabsToggler = $(this).closest('.tab_container').prev().find('li.active');
+
+    if ($(this).hasClass('btn--prev')) {
+        if (tabsToggler.prev().length) {
+            tabsToggler.prev().addClass('active').siblings().removeClass('active');
+            tabsContent.prev().show().addClass('active').siblings().hide().removeClass('active');
+        }
+    } else if ($(this).hasClass('btn--next')) {
+        if (tabsToggler.next().length) {
+            tabsToggler.next().addClass('active').siblings().removeClass('active');
+            tabsContent.next().show().addClass('active').siblings().hide().removeClass('active');
+        }
     }
 });
+
+var acc = document.getElementsByClassName("offer__item"), i;
+
+for (i = 0; i < acc.length; i++) {
+
+  acc[i].onclick = function() {
+
+    for (j = 0; j < acc.length; j++) {
+
+      if (acc[j] !== this) {
+        acc[j].classList.remove("active");
+
+      } else {
+        this.classList.toggle("active");
+      }
+
+    }
+  }
+
+}

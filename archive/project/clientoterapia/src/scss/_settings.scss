@@ -37,6 +37,12 @@ html,
 body{
     height: 100%;
     line-height: 1;
+    width: 100%;
+    background: linear-gradient(106.03deg, #132324 0%, #284143 64.31%, #132223 99.74%), #FFFFFF;
+}
+
+body.overflowhidden{
+    overflow: hidden;
 }
 
 img{
@@ -44,6 +50,7 @@ img{
 }
 
 .wrapper{
+    width: 100%;
     display: flex;
     flex-direction: column;
     min-height: 100%;

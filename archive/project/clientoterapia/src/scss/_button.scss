@@ -38,10 +38,25 @@
     }
 }
 
+.btn.--not__decide{
+    width: vw(339);
+    height: vw(64);
+}
+
+.btn.--next{
+    width: vmin(139);
+    height: vmin(51);
+}
+
 .btn.--hero{
     width: vw(338);
     height: vw(110);
     margin-top: vw(45);
+}
+
+.btn.--selection{
+    width: vw(408);
+    height: vw(99);
 }
 
 .btn.--discuss{
@@ -54,6 +69,15 @@
         width: vmin(338);
         height: vmin(110);
         margin-top: vmin(45);
+    }
+
+    .btn.--selection{
+        width: vmin(283);
+        height: vmin(72);
+    }
+
+    .btn.--selection.--fill{
+        font-size: vmin(11);
     }
 
     .btn.--fill{

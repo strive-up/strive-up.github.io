@@ -1,5 +1,5 @@
 .hero{
-    height: vw(800);
+    height: vw(1065);
     position: relative;
     z-index: 1;
 
@@ -13,8 +13,8 @@
         position: absolute;
         bottom: 0;
         right: 0;
-        width: vw(1400);
-        height: vw(892);
+        width: vw(1428);
+        height: vw(1136);
         z-index: -1;
 
         img{
@@ -112,31 +112,27 @@
         &:first-child{
             margin-left: 0;
         }
-    }
 
-    p.benefits__number{
-        background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0.19) 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
-        font-family: DrukTextWide-Bold;
-        font-size: vw(36);
-        display: flex;
-        align-items: center;
+        .benefits__number{
 
-        span{
-            font-family: RFDewiExtended-SemiBold;
+            font-family: $DTW-Medium;
+            font-size: vw(36);
+            background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0.19) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+    
+        p.benefits__text{
+            font-size: vw(16);
+            font-family: $MS-Regular;
+            color: #fff;
+            line-height: 120%;
+            text-align: center;
         }
     }
 
-    p.benefits__text{
-        font-size: vw(16);
-        font-family: $MS-Regular;
-        color: #fff;
-        line-height: 120%;
-        text-align: center;
-    }
 }
 
 .hero__pagination{
@@ -266,34 +262,26 @@
             flex-direction: column;
             align-items: center;
             margin-left: 0;
-    
-            &:first-child{
-                margin-left: 0;
+
+            .benefits__number{
+
+                font-family: $DTW-Medium;
+                font-size: vmin(24);
+                background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0.19) 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-fill-color: transparent;
             }
-        }
-    
-        p.benefits__number{
-            background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0.19) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            text-fill-color: transparent;
-            font-family: DrukTextWide-Bold;
-            font-size: vmin(24);
-            display: flex;
-            align-items: center;
-    
-            span{
-                font-family: RFDewiExtended-SemiBold;
+
+            p.benefits__text{
+                font-size: vmin(14);
+                font-family: $MS-Regular;
+                color: #fff;
+                line-height: 120%;
+                text-align: center;
+                padding-top: vmin(5);
             }
-        }
-    
-        p.benefits__text{
-            font-size: vmin(14);
-            font-family: $MS-Regular;
-            color: #fff;
-            line-height: 120%;
-            text-align: center;
         }
     }
 

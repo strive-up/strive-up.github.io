@@ -1,3 +1,6 @@
 import './components/menu.js'
 import './components/services.js'
 import './components/svg-fill.js'
+import './components/portfolio.js'
+import './components/modal.js'
+import './components/quiz.js'

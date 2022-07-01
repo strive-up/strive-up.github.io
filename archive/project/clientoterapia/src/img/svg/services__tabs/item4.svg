@@ -1,24 +1,6 @@
-<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M29.8 7.79997C29.2 6.59998 28.2 5.59998 27.4 4.59998L18 14V15.8L20 17.8L29.8 7.79997Z" fill="url(#paint0_linear_39_614)"/>
-<path d="M18 0V8.2L24.2 2C22.4 1 20.2 0.4 18 0V0Z" fill="url(#paint1_linear_39_614)"/>
-<path d="M31.3998 11.8L22.7998 20.4L28.3998 26C31.5998 22.2 32.7998 17 31.3998 11.8Z" fill="url(#paint2_linear_39_614)"/>
-<path d="M14 0C6.2 1 0 7.8 0 16C0 24.8 7.2 32 16 32C19.6 32 22.8 30.8 25.4 28.8L14 17.4V0Z" fill="url(#paint3_linear_39_614)"/>
-<defs>
-<linearGradient id="paint0_linear_39_614" x1="23.9" y1="4.59998" x2="23.9" y2="17.8" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0.44"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint1_linear_39_614" x1="21.1" y1="0" x2="21.1" y2="8.2" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0.44"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint2_linear_39_614" x1="27.3886" y1="11.8" x2="27.3886" y2="26" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0.44"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint3_linear_39_614" x1="12.7" y1="0" x2="12.7" y2="32" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0.44"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</linearGradient>
-</defs>
+<svg width="69" height="69" viewBox="0 0 69 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M64.2562 16.8188C62.9625 14.2313 60.8062 12.075 59.0812 9.91876L38.8125 30.1875V34.0688L43.125 38.3813L64.2562 16.8188Z" fill="white"/>
+<path d="M38.8125 0V17.6812L52.1813 4.3125C48.3 2.15625 43.5563 0.8625 38.8125 0V0Z" fill="white"/>
+<path d="M67.7058 25.4438L49.1621 43.9876L61.2371 56.0626C68.1371 47.8689 70.7246 36.6563 67.7058 25.4438Z" fill="white"/>
+<path d="M30.1875 0C13.3687 2.15625 0 16.8188 0 34.5C0 53.475 15.525 69 34.5 69C42.2625 69 49.1625 66.4125 54.7687 62.1L30.1875 37.5187V0Z" fill="white"/>
 </svg>

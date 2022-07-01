@@ -1,0 +1,122 @@
+.get-kp{
+    position: relative;
+    z-index: 15;
+}
+
+.get-kp__container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.get-kp__images{
+    position: absolute;
+    width: vw(1447);
+    height: vw(1210);
+    z-index: 10;
+    left: 0;
+    top: vmin(-75);
+
+    img{
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        object-fit: cover;
+    }
+}
+
+.get-kp__wrapp{
+    display: flex;
+    flex-direction: column;
+    width: vw(570);
+    margin-bottom: vw(250);
+    position: relative;
+    z-index: 20;
+
+    .get-kp__decor{
+        position: absolute;
+        z-index: 5;
+        transform: rotate(180deg);
+        width: vw(1039);
+        height: vw(1065);
+        top: vw(-250);
+        left: vw(-220);
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 5;
+        }
+    }
+
+    p.title{
+        font-size: vw(30);
+        font-family: $DTW-Bold;
+        color: white;
+        line-height: 120%;
+        position: relative;
+        z-index: 25;
+    }
+
+    .btn{
+        margin-top: vw(55);
+        z-index: 25;
+    }
+
+    p.text{
+        font-size: vw(20);
+        font-family: $MS-Regular;
+        line-height: 140%;
+        color: rgba($color: #fff, $alpha: 0.8);
+        margin-top: vw(55);
+        position: relative;
+        z-index: 25;
+    }
+}
+
+@media (max-width: 990px){
+    .get-kp__container{
+        justify-content: center;
+    }
+
+    .get-kp__wrapp{
+        display: flex;
+        flex-direction: column;
+        width: vmin(292);
+        margin-bottom: 0;
+        align-items: center;
+        text-align: center;
+    
+        .get-kp__decor{
+            display: none;
+        }
+    
+        p.title{
+            font-size: vmin(16);
+        }
+    
+        .btn{
+            margin-top: vmin(350);
+
+            &.--selection.--fill{
+                font-size: vmin(14);
+                padding: 0 vmin(15);
+            }
+        }
+    
+        p.text{
+            font-size: vmin(13);
+            margin-top: vmin(15);
+        }
+    }
+
+    .get-kp__images{
+        position: absolute;
+        width: vmin(504);
+        height: vmin(387);
+        z-index: 10;
+        left: 0;
+        top: vmin(100);
+    }
+}
