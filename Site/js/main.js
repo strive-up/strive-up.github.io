@@ -12,8 +12,46 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_search__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/search */ "./src/js/components/search.js");
 /* harmony import */ var _components_search__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_components_search__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_slider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/slider */ "./src/js/components/slider.js");
+/* harmony import */ var _components_quiz__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/quiz */ "./src/js/components/quiz.js");
+/* harmony import */ var _components_quiz__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_components_quiz__WEBPACK_IMPORTED_MODULE_2__);
 
 
+
+
+/***/ }),
+
+/***/ "./src/js/components/quiz.js":
+/*!***********************************!*\
+  !*** ./src/js/components/quiz.js ***!
+  \***********************************/
+/***/ (() => {
+
+$('.quiz').each(function () {
+  let quiz = $(this).find('.quiz__pagination li');
+  let quizItem = $(this).find('.quiz__page__content').hide();
+  $(".guiz__page .quiz__page__content.active").show();
+  quiz.each(function (i) {
+    $(this).click(function () {
+      $(this).addClass('active').show();
+      quiz.not(this).removeClass('active');
+      $(quizItem[i]).addClass('active').show();
+      quizItem.not(quizItem[i]).removeClass('active').hide();
+    });
+  });
+});
+$('.btn__quiz').click(function () {
+  if ($(this).hasClass('btn__quiz--prev')) {
+    if ($('.quiz__pagination .quiz__pag__item.active').prev().length) {
+      $('.quiz__pagination .quiz__pag__item.active').prev().addClass('active').siblings().removeClass('active');
+      $('.quiz__page__content.active').prev().show().addClass('active').siblings().hide().removeClass('active');
+    }
+  } else if ($(this).hasClass('btn__quiz--next')) {
+    if ($('.quiz__pagination .quiz__pag__item.active').next().length) {
+      $('.quiz__pagination .quiz__pag__item.active').next().addClass('active').siblings().removeClass('active');
+      $('.quiz__page__content.active').next().show().addClass('active').siblings().hide().removeClass('active');
+    }
+  }
+});
 
 /***/ }),
 
