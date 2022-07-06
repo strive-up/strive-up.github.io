@@ -301,85 +301,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! swiper */ "./node_modules/swiper/swiper.esm.js");
 
 swiper__WEBPACK_IMPORTED_MODULE_0__["default"].use([swiper__WEBPACK_IMPORTED_MODULE_0__.Navigation, swiper__WEBPACK_IMPORTED_MODULE_0__.Pagination]);
-var site = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".site", {
-  slidesPerView: 3,
-  spaceBetween: 30,
+var swipers = document.querySelectorAll(".slider"); //Находим все слайдеры в tab'ах
+
+swipers.forEach(function (value) {
+  var swiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](value, {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    init: false,
+    navigation: {
+      nextEl: value.closest('.slider__wrapper').querySelector('.swiper-button-next'),
+      //инициализируем кнопки управления у ДАННОГО слайдера через поиск querySelector()
+      prevEl: value.closest('.slider__wrapper').querySelector('.swiper-button-prev') //инициализируем кнопки управления у ДАННОГО слайдера через поиск querySelector()
+
+    },
+    pagination: {
+      el: value.closest('.slider__wrapper').querySelector(".swiper-pagination"),
+      //инициализируем пагиницию у ДАННОГО слайдера через поиск querySelector()
+      clickable: true
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1
+      },
+      990: {
+        slidesPerView: 1
+      },
+      991: {
+        slidesPerView: 3
+      }
+    },
+    observer: true,
+    observerParents: true
+  });
+  swiper.on("slideChange afterInit init", function () {
+    var currentSlide = this.activeIndex + 1;
+    value.closest('.slider__wrapper').querySelector('.counter').innerHTML = "\n  <span class=\"counter__current\">\n  ".concat(currentSlide < 10 ? '0' + currentSlide : currentSlide, "\n  </span>  \n  <span class=\"counter__total\">\n    /").concat(this.slides.length, "\n  </span>");
+  });
+  swiper.init();
+});
+var site__content = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".site__content", {
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev'
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true
-  },
-  breakpoints: {
-    320: {
-      slidesPerView: 1
-    },
-    990: {
-      slidesPerView: 1
-    },
-    991: {
-      slidesPerView: 3
-    }
+    nextEl: ".swiper-button-content-next",
+    prevEl: ".swiper-button-content-prev"
   }
 });
-/* if(window.innerWidth < 990){
-  $('.work__header').appendTo('.swiper-wrapper');
-} */
+/* $('.slider__wrapper').each(function(){
 
-/* const smm = new Swiper(".mySwiper", {
-  slidesPerView: 3,
-  spaceBetween: 30,
+  [...document.querySelectorAll('.portfoliobtn')].forEach(function(item){
 
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-});
-
-const context = new Swiper(".mySwiper", {
-  slidesPerView: 3,
-  spaceBetween: 30,
-
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-});
-
-const branding = new Swiper(".mySwiper", {
-  slidesPerView: 3,
-  spaceBetween: 30,
-
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-});
-
-const presentation = new Swiper(".mySwiper", {
-  slidesPerView: 3,
-  spaceBetween: 30,
-
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-});
-
-const polygraphy = new Swiper(".mySwiper", {
-  slidesPerView: 3,
-  spaceBetween: 30,
-
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+    const caseBtn = item.querySelector('.btn-more');
+    const caseCloseBtn = item.querySelector('.close__content');
+    const caseContent = item.querySelector('.portfolio__content');
+  
+    caseBtn.addEventListener('click', (event) => {
+      event.stopPropagation();
+      caseContent.classList.add('case__active');
+      document.body.classList.add('overflowhidden');
+      $('.portfolio__content').appendTo('body');
+      $('ul.tabs#portfolio').appendTo('.portfolio__content .pc__container .pc__header');
+      $('.swiper-button-next').appendTo('.portfolio__content .pc__container .sbc__wrapp');
+      $('.swiper-button-prev').appendTo('.portfolio__content .pc__container .sbc__wrapp');
+    });
+  
+    caseCloseBtn.addEventListener('click', (event) => {
+      event.stopPropagation();
+      caseContent.classList.remove('case__active');
+      document.body.classList.remove('overflowhidden');
+    });
+  
+  });
 
 }); */
 
