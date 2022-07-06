@@ -72,6 +72,10 @@ $('.search__ico').click(function () {
   }
 });
 
+if (window.innerWidth < 990) {
+  $('.footer__right__last').appendTo('.footer__container');
+}
+
 /***/ }),
 
 /***/ "./src/js/components/slider.js":
@@ -91,6 +95,17 @@ var swiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".mySwiper", {
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev"
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1
+    },
+    990: {
+      slidesPerView: 1
+    },
+    991: {
+      slidesPerView: 2
+    }
   }
 });
 
