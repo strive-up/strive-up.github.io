@@ -339,39 +339,164 @@ swipers.forEach(function (value) {
   });
   swiper.init();
 });
-var site__content = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".site__content", {
+var caseBtn = document.querySelectorAll('.btn-more');
+var caseCloseBtn = document.querySelector('.close__content');
+var casebackBtn = document.querySelector('a.back');
+var caseContent = document.querySelector('.portfolio__content__wrapper');
+/* caseCloseBtn.addEventListener('click', (event) => {
+  event.stopPropagation();
+  caseContent.classList.remove('case__active');
+  document.body.classList.remove('overflowhidden');
+  $('ul.tabs#portfolio').appendTo('.portfolio__headers'); 
+  $('.portfolio__content .services__content .tab_container').appendTo('.portfolio .portfolio__container .services__content');
+}); */
+
+var site = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".site", {
+  simulateTouch: false,
+  init: true,
   navigation: {
-    nextEl: ".swiper-button-content-next",
-    prevEl: ".swiper-button-content-prev"
+    nextEl: ".swiper-button-content-next-site",
+    prevEl: ".swiper-button-content-prev-site"
+  },
+  pagination: {
+    el: ".swiper-pagination-site",
+    clickable: true
   }
 });
-/* $('.slider__wrapper').each(function(){
+site.on("slideChange afterInit init", function () {
+  var currentSlide = this.activeIndex + 1;
+  var totalSlide = this.slides.length;
+  document.querySelector('.counter-site').innerHTML = "\n  <span class=\"counter__current\">\n  ".concat(currentSlide < 10 ? '0' + currentSlide : currentSlide, "\n  </span>  \n  <span class=\"counter__total\">\n    <span>/ </span>").concat(totalSlide < 10 ? '0' + totalSlide : totalSlide, "\n  </span>");
+});
+var smm = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".smms", {
+  simulateTouch: false,
+  init: true,
+  navigation: {
+    nextEl: ".swiper-button-content-next-smm",
+    prevEl: ".swiper-button-content-prev-smm"
+  },
+  pagination: {
+    el: ".swiper-pagination-smm",
+    clickable: true
+  }
+});
+smm.on("slideChange afterInit init", function () {
+  var currentSlide = this.activeIndex + 1;
+  var totalSlide = this.slides.length;
+  document.querySelector('.counter-smm').innerHTML = "\n  <span class=\"counter__current\">\n  ".concat(currentSlide < 10 ? '0' + currentSlide : currentSlide, "\n  </span>  \n  <span class=\"counter__total\">\n    <span>/ </span>").concat(totalSlide < 10 ? '0' + totalSlide : totalSlide, "\n  </span>");
+});
+var context__content = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".context__content", {
+  simulateTouch: false,
+  init: true,
+  navigation: {
+    nextEl: ".swiper-button-content-next-context",
+    prevEl: ".swiper-button-content-prev-context"
+  },
+  pagination: {
+    el: ".swiper-pagination-context",
+    clickable: true
+  }
+});
+context__content.on("slideChange afterInit init", function () {
+  var currentSlide = this.activeIndex + 1;
+  var totalSlide = this.slides.length;
+  document.querySelector('.counter-context').innerHTML = "\n  <span class=\"counter__current\">\n  ".concat(currentSlide < 10 ? '0' + currentSlide : currentSlide, "\n  </span>  \n  <span class=\"counter__total\">\n    <span>/ </span>").concat(totalSlide < 10 ? '0' + totalSlide : totalSlide, "\n  </span>");
+});
+var branding = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".branding", {
+  simulateTouch: false,
+  init: true,
+  navigation: {
+    nextEl: ".swiper-button-content-next-branding",
+    prevEl: ".swiper-button-content-prev-branding"
+  },
+  pagination: {
+    el: ".swiper-pagination-branding",
+    clickable: true
+  }
+});
+branding.on("slideChange afterInit init", function () {
+  var currentSlide = this.activeIndex + 1;
+  var totalSlide = this.slides.length;
+  document.querySelector('.counter-branding').innerHTML = "\n  <span class=\"counter__current\">\n  ".concat(currentSlide < 10 ? '0' + currentSlide : currentSlide, "\n  </span>  \n  <span class=\"counter__total\">\n    <span>/ </span>").concat(totalSlide < 10 ? '0' + totalSlide : totalSlide, "\n  </span>");
+});
+var presentation = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".presentation", {
+  simulateTouch: false,
+  init: true,
+  navigation: {
+    nextEl: ".swiper-button-content-next-presentation",
+    prevEl: ".swiper-button-content-prev-presentation"
+  },
+  pagination: {
+    el: ".swiper-pagination-presentation",
+    clickable: true
+  }
+});
+presentation.on("slideChange afterInit init", function () {
+  var currentSlide = this.activeIndex + 1;
+  var totalSlide = this.slides.length;
+  document.querySelector('.counter-presentation').innerHTML = "\n  <span class=\"counter__current\">\n  ".concat(currentSlide < 10 ? '0' + currentSlide : currentSlide, "\n  </span>  \n  <span class=\"counter__total\">\n    <span>/ </span>").concat(totalSlide < 10 ? '0' + totalSlide : totalSlide, "\n  </span>");
+});
+var polygraphy = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".polygraphy", {
+  simulateTouch: false,
+  init: true,
+  navigation: {
+    nextEl: ".swiper-button-content-next-polygraphy",
+    prevEl: ".swiper-button-content-prev-polygraphy"
+  },
+  pagination: {
+    el: ".swiper-pagination-polygraphy",
+    clickable: true
+  }
+});
+polygraphy.on("slideChange afterInit init", function () {
+  var currentSlide = this.activeIndex + 1;
+  var totalSlide = this.slides.length;
+  document.querySelector('.counter-polygraphy').innerHTML = "\n  <span class=\"counter__current\">\n  ".concat(currentSlide < 10 ? '0' + currentSlide : currentSlide, "\n  </span>  \n  <span class=\"counter__total\">\n    <span>/ </span>").concat(totalSlide < 10 ? '0' + totalSlide : totalSlide, "\n  </span>");
+});
+caseBtn.forEach(function (emploee) {
+  return emploee.addEventListener('click', function () {
+    document.body.style.overflow = 'hidden';
+    caseContent.classList.add('case__active');
+    $('ul.tabs#portfolio').appendTo('.portfolio__content__wrapper .services__content .portfolio__content .portfolio__content__container');
+    $('.portfolio .portfolio__container .services__content .tab_container').appendTo('.portfolio__content__wrapper .services__content .portfolio__content');
 
-  [...document.querySelectorAll('.portfoliobtn')].forEach(function(item){
+    if (emploee.getAttribute('data-site')) {
+      var siteA = emploee.getAttribute('data-site');
+      site.init();
+      site.slideTo(siteA);
+    }
 
-    const caseBtn = item.querySelector('.btn-more');
-    const caseCloseBtn = item.querySelector('.close__content');
-    const caseContent = item.querySelector('.portfolio__content');
-  
-    caseBtn.addEventListener('click', (event) => {
-      event.stopPropagation();
-      caseContent.classList.add('case__active');
-      document.body.classList.add('overflowhidden');
-      $('.portfolio__content').appendTo('body');
-      $('ul.tabs#portfolio').appendTo('.portfolio__content .pc__container .pc__header');
-      $('.swiper-button-next').appendTo('.portfolio__content .pc__container .sbc__wrapp');
-      $('.swiper-button-prev').appendTo('.portfolio__content .pc__container .sbc__wrapp');
-    });
-  
-    caseCloseBtn.addEventListener('click', (event) => {
-      event.stopPropagation();
-      caseContent.classList.remove('case__active');
-      document.body.classList.remove('overflowhidden');
-    });
-  
+    if (emploee.getAttribute('data-smm')) {
+      var smmA = emploee.getAttribute('data-smm');
+      smm.init();
+      smm.slideTo(smmA);
+    }
+
+    if (emploee.getAttribute('data-context')) {
+      var contextA = emploee.getAttribute('data-context');
+      context__content.init();
+      context__content.slideTo(contextA);
+    }
+
+    if (emploee.getAttribute('data-branding')) {
+      var brandingA = emploee.getAttribute('data-branding');
+      branding.init();
+      branding.slideTo(brandingA);
+    }
+
+    if (emploee.getAttribute('data-presentation')) {
+      var presentationA = emploee.getAttribute('data-presentation');
+      presentation.init();
+      presentation.slideTo(presentationA);
+    }
+
+    if (emploee.getAttribute('data-polygraphy')) {
+      var polygraphyA = emploee.getAttribute('data-polygraphy');
+      polygraphy.init();
+      polygraphy.slideTo(polygraphyA);
+    }
   });
-
-}); */
+});
 
 /***/ }),
 
