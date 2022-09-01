@@ -12566,6 +12566,43 @@ const swiper = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"]('.about
     prevEl: '.swiper-button-prev'
   }
 });
+const about = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"]('.about-us', {
+  slidesPerView: 1,
+  loop: true,
+  spaceBetween: 30,
+  autoWidth: true,
+
+  /* autoHeight: true, */
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false
+  },
+  pagination: {
+    el: '.swiper-pagination-about-us',
+    clickable: true
+  },
+  navigation: {
+    nextEl: '.swiper-button-next-about-us',
+    prevEl: '.swiper-button-prev-about-us'
+  }
+});
+const menuBtn = document.querySelector('.burger__menu');
+const menu = document.querySelector('ul.nav');
+const bodyTransform = document.querySelector('body');
+
+const hideMenu = event => {
+  menu.classList.remove('menu__active');
+  bodyTransform.classList.remove('menu__active');
+};
+
+const close = event => !menu.contains(event.target) && hideMenu(event);
+
+menuBtn.addEventListener('click', event => {
+  event.stopPropagation();
+  menu.classList.toggle('menu__active');
+  bodyTransform.classList.toggle('menu__active');
+});
+window.addEventListener('click', close);
 })();
 
 /******/ })()
