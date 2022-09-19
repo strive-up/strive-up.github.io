@@ -165,6 +165,12 @@ img {
   overflow: auto;
 }
 
+.steps__title {
+  font-size: 26px;
+  font-weight: 400;
+  color: #363636;
+}
+
 .steps__footer {
   width: 100%;
   height: 104px;
@@ -495,5 +501,231 @@ img {
   .last__step p.text {
     font-size: 16px;
   }
+}
+.choice__style__wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  -webkit-column-gap: 20px;
+  -moz-column-gap: 20px;
+  column-gap: 20px;
+  row-gap: 15px;
+  margin-top: 30px;
+}
+.choice__style__wrapp .choice__style__item {
+  width: calc(50% - 20px);
+  border: 1px solid #d9d9d9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 5px;
+  -webkit-transition: 0.15s linear;
+  -o-transition: 0.15s linear;
+  transition: 0.15s linear;
+}
+.choice__style__wrapp .choice__style__item.label__active {
+  border-color: rgba(211, 64, 133, 0.5);
+  -webkit-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+.choice__style__wrapp .choice__style__item:hover {
+  -webkit-box-shadow: 0 1px 3px 0 #d9d9d9;
+  box-shadow: 0 1px 3px 0 #d9d9d9;
+  -webkit-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+.choice__style__wrapp .choice__style__item label.quiz__labels {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+.choice__style__wrapp .choice__style__item label.quiz__labels input {
+  position: relative;
+}
+.choice__style__wrapp .choice__style__item label.quiz__labels input:after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.choice__style__wrapp .choice__style__item label.quiz__labels input:checked::after {
+  border: 2px solid #d34085;
+  -webkit-box-shadow: 0 2px 6px 0 #d34085;
+  box-shadow: 0 2px 6px 0 #d34085;
+  -webkit-transition: -webkit-box-shadow 0.3s ease;
+  transition: -webkit-box-shadow 0.3s ease;
+  -o-transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease, -webkit-box-shadow 0.3s ease;
+}
+.choice__style__wrapp .choice__style__item label.quiz__labels input:checked::before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #d34085;
+  z-index: 2;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: 1s linear;
+  -o-transition: 1s linear;
+  transition: 1s linear;
+}
+.choice__style__wrapp .choice__style__item label.quiz__labels span {
+  color: #363636;
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.choice__loc__option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.loc__option__item {
+  width: 350px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  position: relative;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.loc__option__item.quiz__item__active {
+  border-color: rgba(211, 64, 133, 0.5);
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.loc__option__item:hover {
+  -webkit-box-shadow: 0 1px 3px 0 #d9d9d9;
+  box-shadow: 0 1px 3px 0 #d9d9d9;
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.loc__option__item label {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 15;
+}
+.loc__option__item label input {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  width: 0;
+  height: 0;
+  -webkit-transition: 1s ease;
+  -o-transition: 1s ease;
+  transition: 1s ease;
+}
+.loc__option__item label input:checked::after {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border: 3px solid #d34085;
+  -webkit-box-shadow: 0 2px 6px 0 #d34085;
+  box-shadow: 0 2px 6px 0 #d34085;
+  -webkit-transition: -webkit-box-shadow 0.3s ease;
+  transition: -webkit-box-shadow 0.3s ease;
+  -o-transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease, -webkit-box-shadow 0.3s ease;
+  -webkit-transition: 1s ease;
+  -o-transition: 1s ease;
+  transition: 1s ease;
+}
+.loc__option__item label input:checked::before {
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-color: #d34085;
+  z-index: 2;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: 1s ease;
+  -o-transition: 1s ease;
+  transition: 1s ease;
+}
+.loc__option__item p.title {
+  color: #363636;
+  font-size: 15px;
+  padding: 10px 15px;
+}
+
+.loc__option__images {
+  width: 348px;
+  height: 219px;
+  position: relative;
+  z-index: 5;
+}
+.loc__option__images picture source, .loc__option__images picture img {
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 /*# sourceMappingURL=main.css.map */

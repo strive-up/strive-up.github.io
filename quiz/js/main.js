@@ -176,21 +176,37 @@ $(document).ready(function () {
         $(this).parent('label').removeClass('checked');
       }
     });
-    /* $('.steps').each(function(){
-        let btnActive = $(this).find('.btn__next');
-        
-        $('label.quiz__label').each(function(){
-            
-            
-            if ($(this).is('.checked')) {
-                $('.quiz__steps__footer').each(function(){btnActive.removeAttr('disabled');});
-                $(this).parent('.choice__style__item').addClass('label__active');
-            } else {	                            $(this).parent('.choice__style__item').removeClass('label__active');
-             btnActive.attr('disabled'); 
-            }   
-        });
-        
-    }) */
+    $('.steps__wrapp').each(function () {
+      $('label.quiz__label').each(function () {
+        if ($(this).is('.checked')) {
+          $(this).parent('.loc__option__item').addClass('quiz__item__active');
+          /* setTimeout(() =>{to_step(4, true);}, 500); */
+        } else {
+          $(this).parent('.loc__option__item').removeClass('quiz__item__active');
+        }
+      });
+      $('label.quiz__labels').each(function () {
+        if ($(this).is('.checked')) {
+          $(this).parent('.choice__style__item').addClass('label__active');
+
+          if ($(this).is('.quiz__labels-to__step4')) {
+            setTimeout(function () {
+              to_step(4, true);
+            }, 500);
+          } else if ($(this).is('.quiz__labels-to__step2')) {
+            setTimeout(function () {
+              to_step(2, true);
+            }, 500);
+          } else if ($(this).is('.quiz__labels-to__step3')) {
+            setTimeout(function () {
+              to_step(3, true);
+            }, 500);
+          }
+        } else {
+          $(this).parent('.choice__style__item').removeClass('label__active');
+        }
+      });
+    });
   });
 });
 
@@ -232,6 +248,12 @@ $(document).ready(function () {
   $("#back__step3").click(function (event) {
     event.preventDefault();
     to_step(3, true);
+  });
+  $("#to_step4-choice__style").click(function (event) {
+    event.preventDefault();
+    setTimeout(function () {
+      to_step(4, true);
+    }, 1000);
   }); // для возврата к предыдущему вопросу
 
   window.addEventListener("popstate", function (e) {
