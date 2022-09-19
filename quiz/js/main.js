@@ -176,20 +176,21 @@ $(document).ready(function () {
         $(this).parent('label').removeClass('checked');
       }
     });
-    $('.steps').each(function () {
-      var btnActive = $(this).find('.btn__next');
-      $('label.quiz__label').each(function () {
-        if ($(this).is('.checked')) {
-          $('.quiz__steps__footer').each(function () {
-            btnActive.removeAttr('disabled');
-          });
-          $(this).parent('.choice__style__item').addClass('label__active');
-        } else {
-          $(this).parent('.choice__style__item').removeClass('label__active');
-          btnActive.attr('disabled');
-        }
-      });
-    });
+    /* $('.steps').each(function(){
+        let btnActive = $(this).find('.btn__next');
+        
+        $('label.quiz__label').each(function(){
+            
+            
+            if ($(this).is('.checked')) {
+                $('.quiz__steps__footer').each(function(){btnActive.removeAttr('disabled');});
+                $(this).parent('.choice__style__item').addClass('label__active');
+            } else {	                            $(this).parent('.choice__style__item').removeClass('label__active');
+             btnActive.attr('disabled'); 
+            }   
+        });
+        
+    }) */
   });
 });
 
