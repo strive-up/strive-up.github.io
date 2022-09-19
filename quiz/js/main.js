@@ -159,6 +159,10 @@ function to_step(index, need_push) {
 }
 
 $(document).ready(function () {
+  var btn__nexts = document.querySelectorAll('.btn__next');
+  Array.from(btn__nexts, function (el) {
+    el.setAttribute("disabled", "disabled");
+  });
   jQuery('body').on('change', '#quiz_form', function () {
     // Обводка для label input[type=radio]
     $('input[type=radio]').each(function () {
@@ -180,6 +184,7 @@ $(document).ready(function () {
       $('label.quiz__label').each(function () {
         if ($(this).is('.checked')) {
           $(this).parent('.loc__option__item').addClass('quiz__item__active');
+          $('#step3').find('.btn__next').removeAttr('disabled', 'disabled');
           /* setTimeout(() =>{to_step(4, true);}, 500); */
         } else {
           $(this).parent('.loc__option__item').removeClass('quiz__item__active');
@@ -194,13 +199,13 @@ $(document).ready(function () {
               to_step(4, true);
             }, 500);
           } else if ($(this).is('.quiz__labels-to__step2')) {
-            setTimeout(function () {
-              to_step(2, true);
-            }, 500);
+            $('#step1').find('.btn__next').removeAttr('disabled', 'disabled');
+            /* setTimeout(() =>{
+            	to_step(2, true);
+            }, 500); */
           } else if ($(this).is('.quiz__labels-to__step3')) {
-            setTimeout(function () {
-              to_step(3, true);
-            }, 500);
+            $('#step2').find('.btn__next').removeAttr('disabled', 'disabled');
+            /* setTimeout(() =>{to_step(3, true);}, 500); */
           }
         } else {
           $(this).parent('.choice__style__item').removeClass('label__active');
