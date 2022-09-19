@@ -55,6 +55,7 @@ img {
   width: 100%;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
 }
 
 .btn__default {
@@ -146,6 +147,10 @@ img {
     position: fixed;
   }
 }
+#step0 {
+  display: none;
+}
+
 .first__step {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -287,6 +292,53 @@ img {
 @media (max-width: 604px) {
   .first__step__images {
     height: auto;
+  }
+}
+.last__step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 650px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0 30px;
+}
+.last__step p.title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 140%;
+  color: #363636;
+  text-align: center;
+}
+.last__step p.text {
+  font-weight: 400;
+  margin-top: 15px;
+  color: rgba(54, 54, 54, 0.7);
+  font-size: 18px;
+  text-align: center;
+}
+
+@media (max-width: 1280px) {
+  .last__step {
+    height: 100vh;
+  }
+}
+@media (max-width: 990px) {
+  .last__step p.title {
+    font-size: 24px;
+    line-height: 100%;
+  }
+  .last__step p.text {
+    font-size: 16px;
   }
 }
 /*# sourceMappingURL=main.css.map */
