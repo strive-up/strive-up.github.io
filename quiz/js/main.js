@@ -91,6 +91,158 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./_components */ "./src/js/_components.js");
 /* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_components__WEBPACK_IMPORTED_MODULE_0__);
 
+var quizValid = false;
+var steps = [false, false, false, false, false, false, false, false, false];
+var quizStepsUnBlock = false;
+var curr_step = 0;
+var int_val = 0; //для проверки площади
+// возможность возвращаться к предыдущему вопросу
+
+function set_history(index) {
+  if (!(window.history && history.pushState)) {
+    return false;
+  }
+
+  if (steps[index] == false) {
+    history.pushState({
+      'step_x': index
+    }, null, window.location.href);
+    steps[index] = true;
+  }
+} // переходы по шагам
+
+
+function to_step(index, need_push) {
+  curr_step = index;
+
+  for (var i = 0; i < steps.length; i++) {
+    if (!$("#step" + i).is(':hidden')) {
+      $("#step" + i).hide();
+    }
+  }
+
+  ;
+  $("#step" + index).show();
+  $("#progress_in").css({
+    width: 100 * index / steps.length + "%"
+  });
+  $("#curr_step").text("Шаг " + index + " из " + (steps.length - 1)); // Разделение на #step0, #other_steps и #last_step
+
+  if (index + 1 == 6) {
+    // если шаг равен общему количеству шагов
+    if (!$("#other_steps").is(':hidden')) {
+      $("#other_steps").hide();
+      $("#last_step").show();
+    }
+  } else if (index > 0) {
+    // если шаг больше ноля
+    if ($("#other_steps").is(':hidden')) {
+      $("#other_steps").show();
+    }
+
+    if (!$("#last_step").is(':hidden')) {
+      $("#last_step").hide();
+    }
+  } else if (!$("#other_steps").is(':hidden')) {
+    // если шаг равен нолю
+    $("#other_steps").hide();
+  }
+
+  if (need_push) {
+    if (index == 2) {
+      $("#area_input").focus();
+    } // Фокусировка на поле площадь
+
+
+    set_history(index);
+  }
+}
+
+$(document).ready(function () {
+  jQuery('body').on('change', '#quiz_form', function () {
+    // Обводка для label input[type=radio]
+    $('input[type=radio]').each(function () {
+      if ($(this).is(':checked')) {
+        $(this).parent('label').addClass('checked');
+      } else {
+        $(this).parent('label').removeClass('checked');
+      }
+    }); // Обводка для label input[type=checkbox]
+
+    $('input[type=checkbox]').each(function () {
+      if ($(this).is(':checked')) {
+        $(this).parent('label').addClass('checked');
+      } else {
+        $(this).parent('label').removeClass('checked');
+      }
+    });
+    $('.steps').each(function () {
+      var btnActive = $(this).find('.btn__next');
+      $('label.quiz__label').each(function () {
+        if ($(this).is('.checked')) {
+          $('.quiz__steps__footer').each(function () {
+            btnActive.removeAttr('disabled');
+          });
+          $(this).parent('.choice__style__item').addClass('label__active');
+        } else {
+          $(this).parent('.choice__style__item').removeClass('label__active');
+          btnActive.attr('disabled');
+        }
+      });
+    });
+  });
+});
+
+(function ($) {
+  var form__quiz = document.getElementById('quiz_form');
+  $(document).ready(function () {
+    to_step(0, true);
+  }); // задаем первоначальный индекс
+
+  $("#to_step1").click(function (event) {
+    event.preventDefault();
+    to_step(1, true);
+    quizValid = true;
+  });
+  $("#to_step2").click(function (event) {
+    event.preventDefault();
+    to_step(2, true);
+  });
+  $("#to_step3").click(function (event) {
+    event.preventDefault();
+    to_step(3, true);
+  });
+  $("#to_step4").click(function (event) {
+    event.preventDefault();
+    to_step(4, true);
+  });
+  $("#to_step5").click(function (event) {
+    event.preventDefault();
+    to_step(5, true);
+  });
+  $("#back__step1").click(function (event) {
+    event.preventDefault();
+    to_step(1, true);
+  });
+  $("#back__step2").click(function (event) {
+    event.preventDefault();
+    to_step(2, true);
+  });
+  $("#back__step3").click(function (event) {
+    event.preventDefault();
+    to_step(3, true);
+  }); // для возврата к предыдущему вопросу
+
+  window.addEventListener("popstate", function (e) {
+    var step = 0;
+
+    if (e.state) {
+      step = e.state.step_x;
+    }
+
+    to_step(step);
+  });
+})(jQuery);
 })();
 
 /******/ })()
