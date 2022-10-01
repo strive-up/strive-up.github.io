@@ -1,4 +1,0 @@
-"AcknowledgedViolators"
-{
-	"guilds_violator"		"1"
-}

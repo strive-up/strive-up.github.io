@@ -1,8 +1,0 @@
-"config"
-{
-	"bindings"
-	{
-		"\"		"toggleconsole"
-		"SPACE"		"+dota_camera_follow"
-	}
-}
