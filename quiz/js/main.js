@@ -218,24 +218,21 @@ $(document).ready(function () {
           } else if ($(this).is('.step2__label')) {
             $('#step2').find('.btn__next').removeAttr('disabled', 'disabled');
           } else if ($(this).is('.step4__label')) {
-            if ($(this).is('.econom')) {
-              $('.step5').addClass('econom');
+            /* if($(this).is('.econom')){
+            	$('.step5').addClass('econom');
             } else {
-              $('.step5').removeClass('econom');
+            	$('.step5').removeClass('econom');
             }
-
-            if ($(this).is('.standart')) {
-              $('.step5').addClass('standart');
+            if ($(this).is('.standart')){
+            	$('.step5').addClass('standart');
             } else {
-              $('.step5').removeClass('standart');
+            	$('.step5').removeClass('standart');
             }
-
-            if ($(this).is('.premium')) {
-              $('.step5').addClass('premium');
+            if ($(this).is('.premium')){
+            	$('.step5').addClass('premium');
             } else {
-              $('.step5').removeClass('premium');
-            }
-
+            	$('.step5').removeClass('premium');
+            } */
             $('#step4').find('.btn__next').removeAttr('disabled', 'disabled');
           } else if ($(this).is('.step5__label')) {
             if ($(this).is('.gift__item1')) {

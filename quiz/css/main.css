@@ -989,8 +989,8 @@ img {
   }
 }
 .step5 {
-  -ms-grid-columns: 348px 348px !important;
-  grid-template-columns: 348px 348px !important;
+  -ms-grid-columns: 348px 348px 348px !important;
+  grid-template-columns: 348px 348px 348px !important;
   -webkit-box-pack: start !important;
   -ms-flex-pack: start !important;
   justify-content: flex-start !important;
@@ -1153,6 +1153,7 @@ img {
   font-weight: 400;
   color: #363636;
   text-align: center;
+  line-height: 120%;
 }
 .prelast__step .steps__content p.text {
   font-weight: 400;
@@ -1357,6 +1358,18 @@ img {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+
+.select__gift__icon {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto;
+}
+.select__gift__icon img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 @media (max-width: 990px) {
