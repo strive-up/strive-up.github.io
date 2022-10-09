@@ -1,0 +1,1 @@
+{"version":3,"file":"main.js","mappings":";;;;;AAAA;AACA;AACA;AACA;AACA,G","sources":["webpack://gulp-builder/./src/js/main.js"],"sourcesContent":["/* import './_vendor';\nimport vars from './_vars';\nimport './_functions';\nimport './_components';\n */"],"names":[],"sourceRoot":""}
