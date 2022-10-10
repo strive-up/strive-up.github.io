@@ -544,7 +544,7 @@ ul.header__nav li.header__nav__item a {
   }
   .get__gifts__buttons .btn__calc__price {
     cursor: pointer;
-    width: 100%;
+    width: calc(100% - 5px);
     height: 53px;
     background-color: #D40050;
     font-size: 16px;
@@ -620,9 +620,23 @@ ul.header__nav li.header__nav__item a {
   }
 }
 @media (max-width: 478px) {
+  .intro {
+    width: 100%;
+    height: 100%;
+  }
+  .intro__bg {
+    height: 333px;
+  }
+  .intro__bg img {
+    -o-object-fit: 100%;
+    object-fit: 100%;
+  }
   .intro__contents {
     margin-left: 0;
     padding: 0 10px;
+  }
+  .intro__slogan {
+    margin-top: 100px;
   }
   .intro__slogan p.slogan {
     font-size: 18px;
