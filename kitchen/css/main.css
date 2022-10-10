@@ -356,6 +356,7 @@ ul.header__nav li.header__nav__item a {
   position: relative;
   z-index: 15;
   margin-left: 12%;
+  margin-bottom: 30px;
 }
 
 .intro__slogan p.slogan {
@@ -639,7 +640,7 @@ ul.header__nav li.header__nav__item a {
     margin-top: 100px;
   }
   .intro__slogan p.slogan {
-    font-size: 18px;
+    font-size: 18.3px;
   }
   .intro__slogan p.slogan span::after {
     width: calc(100% + 4px);
