@@ -531,11 +531,11 @@ ul.header__nav li.header__nav__item a {
     content: url("../img/svg/intro/arrow.svg");
     position: absolute;
     display: block;
-    top: 40%;
-    -webkit-transform: translateX(-40%);
-    -ms-transform: translateX(-40%);
-    transform: translateX(-40%);
-    left: -80px;
+    top: -5px;
+    -webkit-transform: rotate(26deg);
+    -ms-transform: rotate(26deg);
+    transform: rotate(26deg);
+    left: -115px;
   }
   .get__gifts__buttons .btn__calc__price {
     cursor: pointer;
