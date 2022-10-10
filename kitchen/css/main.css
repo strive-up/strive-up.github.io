@@ -1084,7 +1084,7 @@ ul.header__nav li.header__nav__item a {
     -webkit-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
-    /* position: fixed; */
+    position: fixed;
   }
   .quiz__wrapp .quiz__close {
     top: 15px;
