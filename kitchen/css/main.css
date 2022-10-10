@@ -767,10 +767,10 @@ ul.header__nav li.header__nav__item a {
     padding: 0 10px;
   }
   .intro__slogan {
-    margin-top: 100px;
+    margin-top: 50px;
   }
   .intro__slogan p.slogan {
-    font-size: 18.3px;
+    font-size: 24px;
   }
   .intro__slogan p.slogan span::after {
     width: calc(100% + 4px);
