@@ -499,6 +499,9 @@ ul.header__nav li.header__nav__item a {
   color: white;
   position: relative;
 }
+.intro__slogan p.slogan span br {
+  display: none;
+}
 .intro__slogan p.slogan span::after {
   content: "";
   width: 100%;
@@ -771,6 +774,9 @@ ul.header__nav li.header__nav__item a {
   }
   .intro__slogan p.slogan {
     font-size: 24px;
+  }
+  .intro__slogan p.slogan span br {
+    display: block;
   }
   .intro__slogan p.slogan span::after {
     width: calc(100% + 4px);
