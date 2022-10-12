@@ -831,6 +831,7 @@ ul.header__nav li.header__nav__item a {
   left: 50%;
   transform: translate(-50%, -50%); */
   position: relative;
+  overflow: auto;
 }
 
 .steps__wrapp {
@@ -1078,7 +1079,7 @@ ul.header__nav li.header__nav__item a {
 @media (max-width: 1280px) {
   .quiz {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     top: 0;
     left: 0;
     -webkit-transform: translate(0, 0);
@@ -1231,7 +1232,6 @@ ul.header__nav li.header__nav__item a {
     flex-direction: column;
   }
   .benefits__item p.benefits__item__text {
-    font-size: 16px;
     text-align: center;
   }
   .benefits__item p.benefits__item__text br {
@@ -1243,17 +1243,16 @@ ul.header__nav li.header__nav__item a {
 }
 @media (max-width: 990px) {
   .first__step__images {
-    width: 100%;
-    height: 400px;
-    -webkit-box-ordinal-group: 2;
-    -ms-flex-order: 1;
-    order: 1;
+    display: none;
   }
   .first__step__images picture source, .first__step__images picture img {
     width: 100%;
     height: 100%;
     -o-object-fit: 100%;
     object-fit: 100%;
+  }
+  .benefits__item p.benefits__item__text {
+    font-size: 16px;
   }
   .first__step__content {
     width: auto;
@@ -1276,6 +1275,7 @@ ul.header__nav li.header__nav__item a {
   .first__step__content p.header__quiz {
     width: 500px;
     text-align: center;
+    font-size: 24px;
   }
   .first__step__content p.header__quiz::after {
     left: 50%;
@@ -1295,7 +1295,7 @@ ul.header__nav li.header__nav__item a {
     -ms-flex-direction: column;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     overflow: auto;
     padding-bottom: 50px;
   }
@@ -2083,7 +2083,7 @@ ul.header__nav li.header__nav__item a {
 }
 
 @media (max-width: 990px) {
-  #progress_bar {
+  #other_steps.last__step__bar #progress_bar {
     display: none;
   }
   .prelast__step .steps__content {

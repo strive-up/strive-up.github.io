@@ -5,6 +5,7 @@ var __webpack_exports__ = {};
   \************************/
 const menuBtn = document.querySelector('.header__burger');
 const menu = document.querySelector('.header__menu');
+var quizValid = false;
 
 const hideMenu = event => {
   $("body").css("overflow", "auto");
@@ -26,21 +27,35 @@ menuBtn.addEventListener('click', event => {
 });
 window.addEventListener('click', close);
 let quizOpen = false;
-$('.btn__calc__price').click(function () {
-  if (quizOpen == false) {
-    $('.quiz__wrapp').addClass('quiz__active');
-    document.body.style.overflow = 'hidden';
-    quizOpen = true;
-  }
+$(function () {
+  $('.btn__calc__price').click(function () {
+    if (quizOpen == false) {
+      $('.quiz__wrapp').addClass('quiz__active');
+      document.body.style.overflow = 'hidden';
+      quizOpen = true;
+    }
+  });
+  document.addEventListener('mousedown', function (e) {
+    if (quizOpen == true && quizValid == false) {
+      if (e.target.closest('.quiz') === null) {
+        $('.quiz__wrapp').removeClass('quiz__active');
+        document.body.style.overflow = 'auto';
+        quizOpen = false;
+      }
+    } else {
+      return;
+    }
+  });
+  $('.quiz__close').click(function () {
+    if (quizOpen == true && quizValid == false) {
+      $('.quiz__wrapp').removeClass('quiz__active');
+      document.body.style.overflow = 'auto';
+      quizOpen = false;
+    } else {
+      return;
+    }
+  });
 });
-$('.quiz__close').click(function () {
-  if (quizOpen == true) {
-    $('.quiz__wrapp').removeClass('quiz__active');
-    document.body.style.overflow = 'auto';
-    quizOpen = false;
-  }
-});
-var quizValid = false;
 var steps = [false, false, false, false, false, false, false, false, false];
 var quizStepsUnBlock = false;
 var curr_step = 0;
@@ -310,7 +325,33 @@ $(document).ready(function () {
   });
   $('#quiz_form').submit(function (event) {
     event.preventDefault();
-    to_step(7, true);
+    var quiz__name = $(this).find("input[name='quiz__name']").val();
+    var quiz__phone = $(this).find("input[name='quiz__phone']").val();
+    var quiz__style = document.querySelector(".choice__style label.checked input[type='radio']").value;
+    var quiz__fasad = document.querySelector(".choice__fasad label.checked input[type='radio']").value;
+    var quiz__loc = document.querySelector(".choice__location label.checked input[type='radio']").value;
+    var quiz__price = document.querySelector(".choice__price label.checked input[type='radio']").value;
+    var quiz__gift = document.querySelector(".choice__gift label.checked input[type='radio']").value;
+    $.ajax({
+      type: 'POST',
+      async: true,
+      cache: false,
+      data: {
+        name: quiz__name,
+        number: quiz__phone,
+        style: quiz__style,
+        fasad: quiz__fasad,
+        location: quiz__loc,
+        price: quiz__price,
+        gift: quiz__gift
+      },
+      url: "sendmail.php",
+      success: function (data) {
+        to_step(7, true);
+        quizValid = false;
+      }
+    });
+    return false;
   }); // для возврата к предыдущему вопросу
 
   window.addEventListener("popstate", function (e) {
