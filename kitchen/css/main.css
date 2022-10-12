@@ -134,7 +134,7 @@ main {
   }
 }
 .quiz__wrapp {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 999;
@@ -145,7 +145,7 @@ main {
   -ms-flex-align: center;
   align-items: center;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.6);
   font-family: "Roboto", sans-serif;
   display: none;
@@ -831,7 +831,7 @@ ul.header__nav li.header__nav__item a {
   left: 50%;
   transform: translate(-50%, -50%); */
   position: relative;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .steps__wrapp {
@@ -849,6 +849,7 @@ ul.header__nav li.header__nav__item a {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0 30px;
+  overflow-x: hidden;
 }
 
 .steps__content {
@@ -862,6 +863,7 @@ ul.header__nav li.header__nav__item a {
   -ms-flex-direction: column;
   flex-direction: column;
   overflow: auto;
+  overflow-x: hidden;
 }
 .steps__content::-webkit-scrollbar {
   width: 0;
@@ -1086,6 +1088,7 @@ ul.header__nav li.header__nav__item a {
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
     position: fixed;
+    overflow-x: hidden;
   }
   .quiz__wrapp .quiz__close {
     top: 15px;
@@ -1094,9 +1097,22 @@ ul.header__nav li.header__nav__item a {
   .quiz__wrapp .quiz__close::after, .quiz__wrapp .quiz__close::before {
     background-color: #ADADAD;
   }
+  .steps__header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 30px;
+  }
+  .steps__footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-right: 30px;
+  }
   .steps__wrapp {
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 60px);
+    margin-top: 65px;
   }
 }
 #step0, #step1, #step2, #step3, #step4, #step5, #step6, #step7, #step8, #step9, #step10, #other_steps, #last_step {
