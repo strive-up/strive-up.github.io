@@ -44,33 +44,33 @@ __webpack_require__.r(__webpack_exports__);
 
 let geo, geoCity, choiceCityStatus, checkChoiceStatus, geoCityChange;
 choiceCityStatus = 0;
+checkChoiceStatus = (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.readCookie)('ChoiceCityStatus');
+function checkCity() {
+  if (checkChoiceStatus == undefined) {
+    if (choiceCityStatus == 0) {
+      $('.choice__city__question').css('display', 'flex');
+      $('.choise-city-name').html(geoCity);
+      $('.choice__city__question__name span').html(geoCity + '?');
+    }
+  }
+  if (checkChoiceStatus == 1) {
+    $('.choice__city__question').css('display', 'none');
+    $('.choise-city-name').html(geoCityChange);
+  }
+}
+$(function () {
+  if (!(0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.readCookie)('City') == "") {
+    $('.choise-city-name').html((0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.readCookie)('City'));
+  }
+});
 ymaps.ready(function () {
   geo = ymaps.geolocation;
   geoCity = geo.city;
-  checkChoiceStatus = (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.readCookie)('ChoiceCityStatus');
-  $(function () {
-    if (checkChoiceStatus == 0) {
-      $('.choice__city__question').css('display', 'flex');
-    } else {
-      $('.choice__city__question').css('display', 'none');
-    }
-    if (!geoCityChange == "") {
-      $('.choise-city-name').html(geoCityChange);
-    } else {
-      $('.choise-city-name').html(geoCity);
-    }
-  });
   function updateCity() {
-    if (geoCityChange == "") {
-      $('.choise-city-name').html(geoCity);
-    } else {
-      $('.choise-city-name').html(geoCityChange);
-      (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.writeCookie)('City', geoCityChange, 30);
-    }
+    $('.choise-city-name').html(geoCityChange);
     $('.choice__city__question__name span').html(geoCity + '?');
-    (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.writeCookie)('ChoiceCityStatus', choiceCityStatus, 30);
   }
-  updateCity();
+  checkCity();
   $('.choice__city__question').each(function () {
     let agree = $(this).find('.btn__agree'),
       disagree = $(this).find('.btn__disagree'),
@@ -78,7 +78,9 @@ ymaps.ready(function () {
       cityName = $(this).find('input[name="choice__city"]');
     agree.on('click', function () {
       choiceCityStatus = 1;
-      geoCityChange = cityName.val();
+      (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.writeCookie)('ChoiceCityStatus', choiceCityStatus, 30);
+      geoCityChange = geoCity;
+      (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.writeCookie)('City', geoCityChange, 30);
       $('.choice__city__question').css('display', 'none');
       updateCity();
     });
@@ -92,7 +94,9 @@ ymaps.ready(function () {
         return;
       } else {
         geoCityChange = cityName.val();
+        (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.writeCookie)('City', geoCityChange, 30);
         choiceCityStatus = 1;
+        (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.writeCookie)('ChoiceCityStatus', choiceCityStatus, 30);
         updateCity();
         $('.choice__city__question').css('display', 'none');
       }

@@ -16735,9 +16735,7 @@ a.policy {
   width: 300px;
   background: -o-radial-gradient(56.22% -42.69%, 70.1% 110.5%, #A160ED 0%, #6531A2 100%), #FFFFFF;
   background: radial-gradient(70.1% 110.5% at 56.22% -42.69%, #A160ED 0%, #6531A2 100%), #FFFFFF;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   border-radius: 16px;
   padding: 20px;
   -webkit-box-orient: vertical;
