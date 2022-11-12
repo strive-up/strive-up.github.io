@@ -34,29 +34,41 @@ $('.breakBtn').each(function () {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "checkChoiceStatus": () => (/* binding */ checkChoiceStatus),
 /* harmony export */   "choiceCityStatus": () => (/* binding */ choiceCityStatus),
 /* harmony export */   "geo": () => (/* binding */ geo),
-/* harmony export */   "geoCity": () => (/* binding */ geoCity)
+/* harmony export */   "geoCity": () => (/* binding */ geoCity),
+/* harmony export */   "geoCityChange": () => (/* binding */ geoCityChange)
 /* harmony export */ });
 /* harmony import */ var _functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../functions/cookie_func */ "./src/js/functions/cookie_func.js");
 
-let geo, geoCity, choiceCityStatus;
+let geo, geoCity, choiceCityStatus, checkChoiceStatus, geoCityChange;
 choiceCityStatus = 0;
-$(function () {
-  if (choiceCityStatus == 0) {
-    $('.choice__city__question').css('display', 'flex');
-  } else {
-    $('.choice__city__question').css('display', 'none');
-  }
-});
 ymaps.ready(function () {
   geo = ymaps.geolocation;
   geoCity = geo.city;
+  checkChoiceStatus = (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.readCookie)('ChoiceCityStatus');
+  $(function () {
+    if (checkChoiceStatus == 0) {
+      $('.choice__city__question').css('display', 'flex');
+    } else {
+      $('.choice__city__question').css('display', 'none');
+    }
+    if (!geoCityChange == "") {
+      $('.choise-city-name').html(geoCityChange);
+    } else {
+      $('.choise-city-name').html(geoCity);
+    }
+  });
   function updateCity() {
-    $('.choise-city-name').html(geoCity);
+    if (geoCityChange == "") {
+      $('.choise-city-name').html(geoCity);
+    } else {
+      $('.choise-city-name').html(geoCityChange);
+      (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.writeCookie)('City', geoCityChange, 30);
+    }
     $('.choice__city__question__name span').html(geoCity + '?');
     (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.writeCookie)('ChoiceCityStatus', choiceCityStatus, 30);
-    (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.writeCookie)('City', geoCity, 30);
   }
   updateCity();
   $('.choice__city__question').each(function () {
@@ -66,6 +78,7 @@ ymaps.ready(function () {
       cityName = $(this).find('input[name="choice__city"]');
     agree.on('click', function () {
       choiceCityStatus = 1;
+      geoCityChange = cityName.val();
       $('.choice__city__question').css('display', 'none');
       updateCity();
     });
@@ -78,7 +91,7 @@ ymaps.ready(function () {
       if (cityName.length && cityName.val() == "") {
         return;
       } else {
-        geoCity = cityName.val();
+        geoCityChange = cityName.val();
         choiceCityStatus = 1;
         updateCity();
         $('.choice__city__question').css('display', 'none');
