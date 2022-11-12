@@ -3,109 +3,109 @@
   font-family: "MontserratBlack";
   font-style: normal;
   font-weight: 900;
-  src: url("../../fonts/Montserrat-Black.ttf");
+  src: url("../fonts/Montserrat-Black.ttf");
 }
 @font-face {
   font-family: "MontserratBlackItalic";
   font-style: italic;
   font-weight: 900;
-  src: url("../../fonts/Montserrat-BlackItalic.ttf");
+  src: url("../fonts/Montserrat-BlackItalic.ttf");
 }
 @font-face {
   font-family: "MontserratBold";
   font-style: normal;
   font-weight: 700;
-  src: url("../../fonts/Montserrat-Bold.ttf");
+  src: url("../fonts/Montserrat-Bold.ttf");
 }
 @font-face {
   font-family: "MontserratBoldItalic";
   font-style: normal;
   font-weight: 700;
-  src: url("../../fonts/Montserrat-BoldItalic.ttf");
+  src: url("../fonts/Montserrat-BoldItalic.ttf");
 }
 @font-face {
   font-family: "MontserratExtraBold";
   font-style: normal;
   font-weight: 800;
-  src: url("../../fonts/Montserrat-ExtraBold.ttf");
+  src: url("../fonts/Montserrat-ExtraBold.ttf");
 }
 @font-face {
   font-family: "MontserratBoldItalic";
   font-style: italic;
   font-weight: 800;
-  src: url("../../fonts/Montserrat-ExtraBoldItalic.ttf");
+  src: url("../fonts/Montserrat-ExtraBoldItalic.ttf");
 }
 @font-face {
   font-family: "MontserratExtraLight";
   font-style: normal;
   font-weight: 200;
-  src: url("../../fonts/Montserrat-ExtraLight.ttf");
+  src: url("../fonts/Montserrat-ExtraLight.ttf");
 }
 @font-face {
   font-family: "MontserratExtraLightItalic";
   font-style: italic;
   font-weight: 200;
-  src: url("../../fonts/Montserrat-ExtraLightItalic.ttf");
+  src: url("../fonts/Montserrat-ExtraLightItalic.ttf");
 }
 @font-face {
   font-family: "MontserratItalic";
   font-style: italic;
   font-weight: 400;
-  src: url("../../fonts/Montserrat-Italic.ttf");
+  src: url("../fonts/Montserrat-Italic.ttf");
 }
 @font-face {
   font-family: "MontserratLight";
   font-style: normal;
   font-weight: 300;
-  src: url("../../fonts/Montserrat-Light.ttf");
+  src: url("../fonts/Montserrat-Light.ttf");
 }
 @font-face {
   font-family: "MontserratLightItalic";
   font-style: italic;
   font-weight: 300;
-  src: url("../../fonts/Montserrat-LightItalic.ttf");
+  src: url("../fonts/Montserrat-LightItalic.ttf");
 }
 @font-face {
   font-family: "MontserratMedium";
   font-style: normal;
   font-weight: 500;
-  src: url("../../fonts/Montserrat-Medium.ttf");
+  src: url("../fonts/Montserrat-Medium.ttf");
 }
 @font-face {
   font-family: "MontserratMediumItalic";
   font-style: italic;
   font-weight: 500;
-  src: url("../../fonts/Montserrat-MediumItalic.ttf");
+  src: url("../fonts/Montserrat-MediumItalic.ttf");
 }
 @font-face {
   font-family: "MontserratRegular";
   font-style: normal;
   font-weight: 400;
-  src: url("../../fonts/Montserrat-Regular.ttf");
+  src: url("../fonts/Montserrat-Regular.ttf");
 }
 @font-face {
   font-family: "MontserratSemiBold";
   font-style: normal;
   font-weight: 600;
-  src: url("../../fonts/Montserrat-SemiBold.ttf");
+  src: url("../fonts/Montserrat-SemiBold.ttf");
 }
 @font-face {
   font-family: "MontserratSemiBoldItalic";
   font-style: italic;
   font-weight: 600;
-  src: url("../../fonts/Montserrat-SemiBoldItalic.ttf");
+  src: url("../fonts/Montserrat-SemiBoldItalic.ttf");
 }
 @font-face {
   font-family: "MontserratThin";
   font-style: normal;
   font-weight: 100;
-  src: url("../../fonts/Montserrat-Thin.ttf");
+  src: url("../fonts/Montserrat-Thin.ttf");
 }
 @font-face {
   font-family: "MontserratThinItalic";
   font-style: italic;
   font-weight: 100;
-  src: url("../../fonts/Montserrat-ThinItalic.ttf");
+  src: url("../fonts/Montserrat-ThinItalic.ttf");
 }
 :root {
   --blue: #007bff;
@@ -8838,7 +8838,7 @@ footer .container .row a:hover {
   top: 0;
   width: 550px;
   height: 680px;
-  background: url("../../images/bot.png") no-repeat;
+  background: url("../images/bot.png") no-repeat;
   background-size: 100%;
 }
 
@@ -8928,7 +8928,7 @@ footer .container .row a:hover {
   width: 100%;
   height: 100%;
   position: absolute;
-  background: url("../../images/svg/techodad/background.png") center no-repeat, url("../../images/svg/techodad/background-1.png") center no-repeat;
+  background: url("../images/svg/techodad/background.png") center no-repeat, url("../images/svg/techodad/background-1.png") center no-repeat;
   background-size: cover, cover;
   /*animation-name: animate-dad;
   animation-duration: 1.5s;
@@ -9230,7 +9230,7 @@ footer .container .row a:hover {
   display: flex;
   padding-top: 100px;
   height: 440px;
-  background: url("../../images/svg/vector_answer.svg") center no-repeat;
+  background: url("../images/svg/vector_answer.svg") center no-repeat;
 }
 
 .block-9 .content-answer p {
@@ -9245,8 +9245,8 @@ footer .container .row a:hover {
 .block-10 {
   margin-bottom: 50px;
   padding: 40px;
-  background: url("../../images/svg/doctor.svg") 40% bottom no-repeat, -o-radial-gradient(56.22% -53.37%, 70.1% 138.12%, #A160ED 0%, #6531A2 100%), #FFFFFF;
-  background: url("../../images/svg/doctor.svg") 40% bottom no-repeat, radial-gradient(70.1% 138.12% at 56.22% -53.37%, #A160ED 0%, #6531A2 100%), #FFFFFF;
+  background: url("../images/svg/doctor.svg") 40% bottom no-repeat, -o-radial-gradient(56.22% -53.37%, 70.1% 138.12%, #A160ED 0%, #6531A2 100%), #FFFFFF;
+  background: url("../images/svg/doctor.svg") 40% bottom no-repeat, radial-gradient(70.1% 138.12% at 56.22% -53.37%, #A160ED 0%, #6531A2 100%), #FFFFFF;
   -webkit-box-shadow: 0px 10px 20px rgba(34, 26, 51, 0.1);
   box-shadow: 0px 10px 20px rgba(34, 26, 51, 0.1);
   border-radius: 16px;
@@ -10061,7 +10061,7 @@ footer .container .row a:hover {
   content: "" !important;
   width: 86px !important;
   height: 75px !important;
-  background: url("../../images/svg/play.svg") no-repeat !important;
+  background: url("../images/svg/play.svg") no-repeat !important;
   background-size: contain !important;
 }
 
@@ -10261,189 +10261,189 @@ iframe.show {
 }
 @-webkit-keyframes animate-dad {
   0% {
-    background: url("../../images/svg/techodad/dad-1.png") no-repeat;
+    background: url("../images/svg/techodad/dad-1.png") no-repeat;
     background-position: center;
   }
   4.5% {
-    background: url("../../images/svg/techodad/dad-2.png") no-repeat;
+    background: url("../images/svg/techodad/dad-2.png") no-repeat;
     background-position: center;
   }
   9% {
-    background: url("../../images/svg/techodad/dad-3.png") no-repeat;
+    background: url("../images/svg/techodad/dad-3.png") no-repeat;
     background-position: center;
   }
   13.5% {
-    background: url("../../images/svg/techodad/dad-4.png") no-repeat;
+    background: url("../images/svg/techodad/dad-4.png") no-repeat;
     background-position: center;
   }
   18% {
-    background: url("../../images/svg/techodad/dad-5.png") no-repeat;
+    background: url("../images/svg/techodad/dad-5.png") no-repeat;
     background-position: center;
   }
   22.5% {
-    background: url("../../images/svg/techodad/dad-6.png") no-repeat;
+    background: url("../images/svg/techodad/dad-6.png") no-repeat;
     background-position: center;
   }
   27% {
-    background: url("../../images/svg/techodad/dad-7.png") no-repeat;
+    background: url("../images/svg/techodad/dad-7.png") no-repeat;
     background-position: center;
   }
   31.5% {
-    background: url("../../images/svg/techodad/dad-8.png") no-repeat;
+    background: url("../images/svg/techodad/dad-8.png") no-repeat;
     background-position: center;
   }
   36% {
-    background: url("../../images/svg/techodad/dad-9.png") no-repeat;
+    background: url("../images/svg/techodad/dad-9.png") no-repeat;
     background-position: center;
   }
   40.5% {
-    background: url("../../images/svg/techodad/dad-10.png") no-repeat;
+    background: url("../images/svg/techodad/dad-10.png") no-repeat;
     background-position: center;
   }
   45% {
-    background: url("../../images/svg/techodad/dad-11.png") no-repeat;
+    background: url("../images/svg/techodad/dad-11.png") no-repeat;
     background-position: center;
   }
   50% {
-    background: url("../../images/svg/techodad/dad-12.png") no-repeat;
+    background: url("../images/svg/techodad/dad-12.png") no-repeat;
     background-position: center;
   }
   54.5% {
-    background: url("../../images/svg/techodad/dad-11.png") no-repeat;
+    background: url("../images/svg/techodad/dad-11.png") no-repeat;
     background-position: center;
   }
   59% {
-    background: url("../../images/svg/techodad/dad-10.png") no-repeat;
+    background: url("../images/svg/techodad/dad-10.png") no-repeat;
     background-position: center;
   }
   63.5% {
-    background: url("../../images/svg/techodad/dad-9.png") no-repeat;
+    background: url("../images/svg/techodad/dad-9.png") no-repeat;
     background-position: center;
   }
   68% {
-    background: url("../../images/svg/techodad/dad-8.png") no-repeat;
+    background: url("../images/svg/techodad/dad-8.png") no-repeat;
     background-position: center;
   }
   72.5% {
-    background: url("../../images/svg/techodad/dad-7.png") no-repeat;
+    background: url("../images/svg/techodad/dad-7.png") no-repeat;
     background-position: center;
   }
   77% {
-    background: url("../../images/svg/techodad/dad-6.png") no-repeat;
+    background: url("../images/svg/techodad/dad-6.png") no-repeat;
     background-position: center;
   }
   81.5% {
-    background: url("../../images/svg/techodad/dad-5.png") no-repeat;
+    background: url("../images/svg/techodad/dad-5.png") no-repeat;
     background-position: center;
   }
   86% {
-    background: url("../../images/svg/techodad/dad-4.png") no-repeat;
+    background: url("../images/svg/techodad/dad-4.png") no-repeat;
     background-position: center;
   }
   90.5% {
-    background: url("../../images/svg/techodad/dad-3.png") no-repeat;
+    background: url("../images/svg/techodad/dad-3.png") no-repeat;
     background-position: center;
   }
   95% {
-    background: url("../../images/svg/techodad/dad-2.png") no-repeat;
+    background: url("../images/svg/techodad/dad-2.png") no-repeat;
     background-position: center;
   }
   100% {
-    background: url("../../images/svg/techodad/dad-1.png") no-repeat;
+    background: url("../images/svg/techodad/dad-1.png") no-repeat;
     background-position: center;
   }
 }
 @keyframes animate-dad {
   0% {
-    background: url("../../images/svg/techodad/dad-1.png") no-repeat;
+    background: url("../images/svg/techodad/dad-1.png") no-repeat;
     background-position: center;
   }
   4.5% {
-    background: url("../../images/svg/techodad/dad-2.png") no-repeat;
+    background: url("../images/svg/techodad/dad-2.png") no-repeat;
     background-position: center;
   }
   9% {
-    background: url("../../images/svg/techodad/dad-3.png") no-repeat;
+    background: url("../images/svg/techodad/dad-3.png") no-repeat;
     background-position: center;
   }
   13.5% {
-    background: url("../../images/svg/techodad/dad-4.png") no-repeat;
+    background: url("../images/svg/techodad/dad-4.png") no-repeat;
     background-position: center;
   }
   18% {
-    background: url("../../images/svg/techodad/dad-5.png") no-repeat;
+    background: url("../images/svg/techodad/dad-5.png") no-repeat;
     background-position: center;
   }
   22.5% {
-    background: url("../../images/svg/techodad/dad-6.png") no-repeat;
+    background: url("../images/svg/techodad/dad-6.png") no-repeat;
     background-position: center;
   }
   27% {
-    background: url("../../images/svg/techodad/dad-7.png") no-repeat;
+    background: url("../images/svg/techodad/dad-7.png") no-repeat;
     background-position: center;
   }
   31.5% {
-    background: url("../../images/svg/techodad/dad-8.png") no-repeat;
+    background: url("../images/svg/techodad/dad-8.png") no-repeat;
     background-position: center;
   }
   36% {
-    background: url("../../images/svg/techodad/dad-9.png") no-repeat;
+    background: url("../images/svg/techodad/dad-9.png") no-repeat;
     background-position: center;
   }
   40.5% {
-    background: url("../../images/svg/techodad/dad-10.png") no-repeat;
+    background: url("../images/svg/techodad/dad-10.png") no-repeat;
     background-position: center;
   }
   45% {
-    background: url("../../images/svg/techodad/dad-11.png") no-repeat;
+    background: url("../images/svg/techodad/dad-11.png") no-repeat;
     background-position: center;
   }
   50% {
-    background: url("../../images/svg/techodad/dad-12.png") no-repeat;
+    background: url("../images/svg/techodad/dad-12.png") no-repeat;
     background-position: center;
   }
   54.5% {
-    background: url("../../images/svg/techodad/dad-11.png") no-repeat;
+    background: url("../images/svg/techodad/dad-11.png") no-repeat;
     background-position: center;
   }
   59% {
-    background: url("../../images/svg/techodad/dad-10.png") no-repeat;
+    background: url("../images/svg/techodad/dad-10.png") no-repeat;
     background-position: center;
   }
   63.5% {
-    background: url("../../images/svg/techodad/dad-9.png") no-repeat;
+    background: url("../images/svg/techodad/dad-9.png") no-repeat;
     background-position: center;
   }
   68% {
-    background: url("../../images/svg/techodad/dad-8.png") no-repeat;
+    background: url("../images/svg/techodad/dad-8.png") no-repeat;
     background-position: center;
   }
   72.5% {
-    background: url("../../images/svg/techodad/dad-7.png") no-repeat;
+    background: url("../images/svg/techodad/dad-7.png") no-repeat;
     background-position: center;
   }
   77% {
-    background: url("../../images/svg/techodad/dad-6.png") no-repeat;
+    background: url("../images/svg/techodad/dad-6.png") no-repeat;
     background-position: center;
   }
   81.5% {
-    background: url("../../images/svg/techodad/dad-5.png") no-repeat;
+    background: url("../images/svg/techodad/dad-5.png") no-repeat;
     background-position: center;
   }
   86% {
-    background: url("../../images/svg/techodad/dad-4.png") no-repeat;
+    background: url("../images/svg/techodad/dad-4.png") no-repeat;
     background-position: center;
   }
   90.5% {
-    background: url("../../images/svg/techodad/dad-3.png") no-repeat;
+    background: url("../images/svg/techodad/dad-3.png") no-repeat;
     background-position: center;
   }
   95% {
-    background: url("../../images/svg/techodad/dad-2.png") no-repeat;
+    background: url("../images/svg/techodad/dad-2.png") no-repeat;
     background-position: center;
   }
   100% {
-    background: url("../../images/svg/techodad/dad-1.png") no-repeat;
+    background: url("../images/svg/techodad/dad-1.png") no-repeat;
     background-position: center;
   }
 }
@@ -10456,7 +10456,7 @@ iframe.show {
   width: 16px;
   height: 20px;
   margin-right: 10px;
-  background: url("../../images/svg/geo.svg") no-repeat;
+  background: url("../images/svg/geo.svg") no-repeat;
   background-size: cover;
   float: left;
 }
@@ -10464,56 +10464,56 @@ iframe.show {
 .icon-pig-money {
   width: 24px;
   height: 24px;
-  background: url("../../images/svg/pigs_money.svg") no-repeat;
+  background: url("../images/svg/pigs_money.svg") no-repeat;
   background-size: contain;
 }
 
 .icon-arrow-up {
   width: 24px;
   height: 24px;
-  background: url("../../images/svg/arrow_up.svg") no-repeat;
+  background: url("../images/svg/arrow_up.svg") no-repeat;
   background-size: contain;
 }
 
 .icon-people-ok {
   width: 24px;
   height: 24px;
-  background: url("../../images/svg/people_ok.svg") no-repeat;
+  background: url("../images/svg/people_ok.svg") no-repeat;
   background-size: contain;
 }
 
 .icon-book {
   width: 26px;
   height: 22px;
-  background: url("../../images/svg/book.svg") no-repeat;
+  background: url("../images/svg/book.svg") no-repeat;
   background-size: contain;
 }
 
 .icon-brain {
   width: 26px;
   height: 22px;
-  background: url("../../images/svg/brain.svg") no-repeat;
+  background: url("../images/svg/brain.svg") no-repeat;
   background-size: contain;
 }
 
 .icon-accumulation {
   width: 26px;
   height: 22px;
-  background: url("../../images/svg/accumulation.svg") no-repeat;
+  background: url("../images/svg/accumulation.svg") no-repeat;
   background-size: contain;
 }
 
 .icon-laptop {
   width: 60px;
   height: 54px;
-  background: url("../../images/svg/laptop.svg") no-repeat;
+  background: url("../images/svg/laptop.svg") no-repeat;
   background-size: contain;
 }
 
 .icon-vk {
   width: 32px;
   height: 32px;
-  background: url("../../images/svg/vk.svg") no-repeat;
+  background: url("../images/svg/vk.svg") no-repeat;
   background-size: contain;
   -webkit-transition: 0.2s ease-in-out;
   -o-transition: 0.2s ease-in-out;
@@ -10521,13 +10521,13 @@ iframe.show {
 }
 
 .icon-vk:hover {
-  background: url("../../images/svg/vk_a.svg") no-repeat;
+  background: url("../images/svg/vk_a.svg") no-repeat;
 }
 
 .icon-facebook {
   width: 32px;
   height: 32px;
-  background: url("../../images/svg/facebook.svg") no-repeat;
+  background: url("../images/svg/facebook.svg") no-repeat;
   background-size: contain;
   -webkit-transition: 0.2s ease-in-out;
   -o-transition: 0.2s ease-in-out;
@@ -10535,13 +10535,13 @@ iframe.show {
 }
 
 .icon-facebook:hover {
-  background: url("../../images/svg/facebook_a.svg") no-repeat;
+  background: url("../images/svg/facebook_a.svg") no-repeat;
 }
 
 .icon-instagram {
   width: 32px;
   height: 32px;
-  background: url("../../images/svg/instagram.svg") no-repeat;
+  background: url("../images/svg/instagram.svg") no-repeat;
   background-size: contain;
   -webkit-transition: 0.2s ease-in-out;
   -o-transition: 0.2s ease-in-out;
@@ -10549,13 +10549,13 @@ iframe.show {
 }
 
 .icon-instagram:hover {
-  background: url("../../images/svg/instagram_a.svg") no-repeat;
+  background: url("../images/svg/instagram_a.svg") no-repeat;
 }
 
 .icon-telegram {
   width: 32px;
   height: 32px;
-  background: url("../../images/svg/telegram.svg") no-repeat;
+  background: url("../images/svg/telegram.svg") no-repeat;
   background-size: contain;
   -webkit-transition: 0.2s ease-in-out;
   -o-transition: 0.2s ease-in-out;
@@ -10563,13 +10563,13 @@ iframe.show {
 }
 
 .icon-telegram:hover {
-  background: url("../../images/svg/telegram_a.svg") no-repeat;
+  background: url("../images/svg/telegram_a.svg") no-repeat;
 }
 
 .icon-twitter {
   width: 32px;
   height: 32px;
-  background: url("../../images/svg/twitter.svg") no-repeat;
+  background: url("../images/svg/twitter.svg") no-repeat;
   background-size: contain;
   -webkit-transition: 0.2s ease-in-out;
   -o-transition: 0.2s ease-in-out;
@@ -10577,21 +10577,21 @@ iframe.show {
 }
 
 .icon-twitter:hover {
-  background: url("../../images/svg/twitter_a.svg") no-repeat;
+  background: url("../images/svg/twitter_a.svg") no-repeat;
 }
 
 .icon-close {
   width: 38px;
   height: 38px;
-  background: url("../../images/svg/close.svg") no-repeat;
+  background: url("../images/svg/close.svg") no-repeat;
   background-size: contain;
 }
 
 .icon-ok {
   width: 38px;
   height: 38px;
-  background: url("../../images/svg/ok_white.svg") no-repeat, -o-radial-gradient(79.46% -78.75%, 45.98% 193.12%, #9EE3ED 0%, #2DCBD0 100%);
-  background: url("../../images/svg/ok_white.svg") no-repeat, radial-gradient(45.98% 193.12% at 79.46% -78.75%, #9EE3ED 0%, #2DCBD0 100%);
+  background: url("../images/svg/ok_white.svg") no-repeat, -o-radial-gradient(79.46% -78.75%, 45.98% 193.12%, #9EE3ED 0%, #2DCBD0 100%);
+  background: url("../images/svg/ok_white.svg") no-repeat, radial-gradient(45.98% 193.12% at 79.46% -78.75%, #9EE3ED 0%, #2DCBD0 100%);
   background-position: center, center;
   background-size: 50%, 100%;
   border-radius: 50%;
@@ -10600,7 +10600,7 @@ iframe.show {
 .icon-ok-white {
   width: 32px;
   height: 32px;
-  background: url("../../images/svg/ok_w.svg") no-repeat;
+  background: url("../images/svg/ok_w.svg") no-repeat;
   background-position: center;
   border-radius: 50%;
 }
@@ -10608,7 +10608,7 @@ iframe.show {
 .icon-ok-gray {
   width: 32px;
   height: 32px;
-  background: url("../../images/svg/ok_gray.svg") no-repeat;
+  background: url("../images/svg/ok_gray.svg") no-repeat;
   background-position: center;
   border-radius: 50%;
 }
@@ -10616,105 +10616,105 @@ iframe.show {
 .icon-card-demo {
   width: 208px;
   height: 148px;
-  background: url("../../images/price/clinic01.png") no-repeat;
+  background: url("../images/price/clinic01.png") no-repeat;
   background-size: contain;
 }
 
 .icon-card-start {
   width: 208px;
   height: 148px;
-  background: url("../../images/price/clinic03.png") no-repeat;
+  background: url("../images/price/clinic03.png") no-repeat;
   background-size: contain;
 }
 
 .icon-card-pro {
   width: 208px;
   height: 148px;
-  background: url("../../images/price/clinic02.png") no-repeat;
+  background: url("../images/price/clinic02.png") no-repeat;
   background-size: contain;
 }
 
 .icon-card-expert {
   width: 208px;
   height: 148px;
-  background: url("../../images/price/clinic04.png") no-repeat;
+  background: url("../images/price/clinic04.png") no-repeat;
   background-size: contain;
 }
 
 .icon-arrow-right {
   width: 20px;
   height: 20px;
-  background: url("../../images/svg/arrow_right_a.svg") no-repeat;
+  background: url("../images/svg/arrow_right_a.svg") no-repeat;
   background-size: contain;
 }
 
 .icon-question {
   width: 34px;
   height: 34px;
-  background: url("../../images/svg/question_a.svg") no-repeat;
+  background: url("../images/svg/question_a.svg") no-repeat;
   background-size: contain;
 }
 
 .icon-q-arrow-right {
   width: 19px;
   height: 19px;
-  background: url("../../images/svg/arrow_right_i.svg") no-repeat;
+  background: url("../images/svg/arrow_right_i.svg") no-repeat;
   background-size: contain;
 }
 
 .icon-man-white {
   width: 60px;
   height: 72px;
-  background: url("../../images/svg/man_white.svg") no-repeat;
+  background: url("../images/svg/man_white.svg") no-repeat;
   background-size: contain;
 }
 
 .icon-man-purple {
   width: 60px;
   height: 72px;
-  background: url("../../images/svg/man_purple.svg") no-repeat;
+  background: url("../images/svg/man_purple.svg") no-repeat;
   background-size: contain;
 }
 
 .icon-time {
   width: 60px;
   height: 72px;
-  background: url("../../images/svg/time.svg") no-repeat;
+  background: url("../images/svg/time.svg") no-repeat;
   background-size: contain;
 }
 
 .icon-laptop-d {
   width: 60px;
   height: 72px;
-  background: url("../../images/svg/laptop_d.svg") no-repeat;
+  background: url("../images/svg/laptop_d.svg") no-repeat;
   background-size: contain;
 }
 
 .icon-doc {
   width: 60px;
   height: 72px;
-  background: url("../../images/svg/doc.svg") no-repeat;
+  background: url("../images/svg/doc.svg") no-repeat;
   background-size: contain;
 }
 
 .icon-line-circle {
   width: 9px;
   height: 9px;
-  background: url("../../images/svg/circle.svg") no-repeat;
+  background: url("../images/svg/circle.svg") no-repeat;
   background-size: contain;
 }
 
 .icon-no-card {
   width: 70px;
   height: 54px;
-  background: url("../../images/svg/no-card.svg") no-repeat;
+  background: url("../images/svg/no-card.svg") no-repeat;
   background-size: contain;
 }
 
 .icon-dad {
   width: 48px;
   height: 48px;
-  background: url("../../images/svg/dad.svg") no-repeat;
+  background: url("../images/svg/dad.svg") no-repeat;
   background-size: contain;
 }
 
@@ -10802,25 +10802,25 @@ iframe.show {
   .icon-card-demo {
     width: 182px;
     height: 128px;
-    background: url("../../images/price/clinic01.png") no-repeat;
+    background: url("../images/price/clinic01.png") no-repeat;
     background-size: contain;
   }
   .icon-card-start {
     width: 182px;
     height: 128px;
-    background: url("../../images/price/clinic02.png") no-repeat;
+    background: url("../images/price/clinic02.png") no-repeat;
     background-size: contain;
   }
   .icon-card-pro {
     width: 182px;
     height: 128px;
-    background: url("../../images/price/clinic03.png") no-repeat;
+    background: url("../images/price/clinic03.png") no-repeat;
     background-size: contain;
   }
   .icon-card-expert {
     width: 182px;
     height: 128px;
-    background: url("../../images/price/clinic04.png") no-repeat;
+    background: url("../images/price/clinic04.png") no-repeat;
     background-size: contain;
   }
 }
@@ -10852,13 +10852,13 @@ header .order-phone {
     height: 32px;
     position: absolute;
     right: 22px;
-    background: url("../../images/svg/close-hamburger.svg") no-repeat;
+    background: url("../images/svg/close-hamburger.svg") no-repeat;
     background-size: contain;
     border-radius: 0px !important;
     z-index: 1001;
   }
   header .navbar-toggler.collapsed {
-    background: url("../../images/svg/hamburger.svg") no-repeat;
+    background: url("../images/svg/hamburger.svg") no-repeat;
     background-size: contain;
   }
   header .navbar-collapse {
@@ -11004,13 +11004,13 @@ header .order-phone {
     height: 32px;
     position: absolute;
     right: 14px;
-    background: url("../../images/svg/close-hamburger.svg") no-repeat;
+    background: url("../images/svg/close-hamburger.svg") no-repeat;
     background-size: contain;
     border-radius: 0px !important;
     z-index: 1001;
   }
   header .navbar-toggler.collapsed {
-    background: url("../../images/svg/hamburger.svg") no-repeat;
+    background: url("../images/svg/hamburger.svg") no-repeat;
     background-size: contain;
   }
   header .navbar-collapse {
@@ -11423,13 +11423,13 @@ header .order-phone {
     height: 32px;
     position: absolute;
     right: 14px;
-    background: url("../../images/svg/close-hamburger.svg") no-repeat;
+    background: url("../images/svg/close-hamburger.svg") no-repeat;
     background-size: contain;
     border-radius: 0px !important;
     z-index: 1001;
   }
   header .navbar-toggler.collapsed {
-    background: url("../../images/svg/hamburger.svg") no-repeat;
+    background: url("../images/svg/hamburger.svg") no-repeat;
     background-size: contain;
   }
   header .navbar-collapse {
@@ -11842,13 +11842,13 @@ header .order-phone {
     height: 32px;
     position: absolute;
     right: 14px;
-    background: url("../../images/svg/close-hamburger.svg") no-repeat;
+    background: url("../images/svg/close-hamburger.svg") no-repeat;
     background-size: contain;
     border-radius: 0px !important;
     z-index: 1001;
   }
   header .navbar-toggler.collapsed {
-    background: url("../../images/svg/hamburger.svg") no-repeat;
+    background: url("../images/svg/hamburger.svg") no-repeat;
     background-size: contain;
   }
   header .navbar-collapse {
@@ -12278,13 +12278,13 @@ header .order-phone {
     height: 32px;
     position: absolute;
     right: 14px;
-    background: url("../../images/svg/close-hamburger.svg") no-repeat;
+    background: url("../images/svg/close-hamburger.svg") no-repeat;
     background-size: contain;
     border-radius: 0px !important;
     z-index: 1001;
   }
   header .navbar-toggler.collapsed {
-    background: url("../../images/svg/hamburger.svg") no-repeat;
+    background: url("../images/svg/hamburger.svg") no-repeat;
     background-size: contain;
   }
   header .navbar-collapse {
