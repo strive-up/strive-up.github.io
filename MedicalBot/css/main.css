@@ -16452,6 +16452,35 @@ form.form-radiobox input[type=radio]:checked:after {
   cursor: not-allowed;
 }
 
+.tab__img__margin {
+  margin: 30px 0;
+}
+
+.item .tab__img__margin img {
+  margin: 0 auto;
+}
+
+.newtabs {
+  border: 0;
+  margin-top: 30px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 540px) {
+  .newtabs {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    row-gap: 20px;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+  }
+}
 .modal .modal__close {
   cursor: pointer;
   position: absolute;

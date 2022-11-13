@@ -302,25 +302,91 @@
                         <h2 class="m-t-50">Что может делать чат-бот
                             в вашем медучереждении:</h2>
 
-                        <div class="button-content m-t-56">
-                            <button class="btn btn-outline-light-blue">анамнез</button>
-                            <button class="btn btn-outline-light-blue">запись</button>
-                            <button class="btn btn-outline-light-blue">поддержка</button>
-                            <button class="btn btn-outline-light-blue">отзывы</button>
-                        </div>
+                        <ul class="nav nav-tabs newtabs">
+
+                            <li class="nav-item">
+                                <button class=" active btn btn-outline-light-blue nav-item" data-toggle="tab" href="#amanez">анамнез</button>
+                            </li>
+
+                            <li class="nav-item">
+                                <button class=" btn btn-outline-light-blue nav-item" data-toggle="tab" href="#record">запись</button>
+                            </li>
+
+                            <li class="nav-item">
+                                <button class=" btn btn-outline-light-blue nav-item" data-toggle="tab" href="#support">поддержка</button>
+                            </li>
+
+                            <li class="nav-item">
+                                <button class=" btn btn-outline-light-blue nav-item" data-toggle="tab" href="#reviews">отзывы</button>
+                            </li>
+
+                        </ul>
 
                         <div class="line m-t-50"></div>
 
-                        <h3 class="m-t-50">Задавать вопросы
-                            и собирать анамнез.
-                        </h3>
+                        <div class="tab-content">
 
-                        <p class="m-t-44 m-b-114">
-                            Собирайте детально заполненные формы о жалобах
-                            и заболевании пациентов и отправляйте их врачу
-                            ещё до приёма. Напрвляйте пациентов к необходимым
-                            им специалистам, без лишних посещений клинки.
-                        </p>
+                            <div class="tab-pane fade show active" id="amanez">
+
+                                <h3 class="m-t-50">1 Задавать вопросы
+                                    и собирать анамнез.
+                                </h3>
+
+                                <p class="m-t-44 m-b-114">
+                                    Собирайте детально заполненные формы о жалобах
+                                    и заболевании пациентов и отправляйте их врачу
+                                    ещё до приёма. Напрвляйте пациентов к необходимым
+                                    им специалистам, без лишних посещений клинки.
+                                </p>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="record">
+
+                                <h3 class="m-t-50">2 Задавать вопросы
+                                    и собирать анамнез.
+                                </h3>
+
+                                <p class="m-t-44 m-b-114">
+                                    Собирайте детально заполненные формы о жалобах
+                                    и заболевании пациентов и отправляйте их врачу
+                                    ещё до приёма. Напрвляйте пациентов к необходимым
+                                    им специалистам, без лишних посещений клинки.
+                                </p>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="support">
+
+                                <h3 class="m-t-50">3 Задавать вопросы
+                                    и собирать анамнез.
+                                </h3>
+
+                                <p class="m-t-44 m-b-114">
+                                    Собирайте детально заполненные формы о жалобах
+                                    и заболевании пациентов и отправляйте их врачу
+                                    ещё до приёма. Напрвляйте пациентов к необходимым
+                                    им специалистам, без лишних посещений клинки.
+                                </p>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="reviews">
+
+                                <h3 class="m-t-50">4 Задавать вопросы
+                                    и собирать анамнез.
+                                </h3>
+
+                                <p class="m-t-44 m-b-114">
+                                    Собирайте детально заполненные формы о жалобах
+                                    и заболевании пациентов и отправляйте их врачу
+                                    ещё до приёма. Напрвляйте пациентов к необходимым
+                                    им специалистам, без лишних посещений клинки.
+                                </p>
+
+                            </div>
+
+                        </div>
 
                         <button class="btn btn-hover btn-indigo block-4-btn"  data-toggle="modal" data-target="#Connect"><span class="btn-hover-indigo"></span>попробовать бесплатно</button>
 
@@ -343,9 +409,16 @@
                                     <div class="wrapper-body">
 
                                         <div class="wrapper-content">
-                                            <p class="primary-text text-purple m-b-29">Выберите клинику?</p>
-                                            <p class="text-1 text-center m-b-51">Для записи к нужному
-                                                специалисту.</p>
+
+                                            <p class="primary-text text-purple m-b-29">1. Что вас беспокоит?</p>
+
+                                            <div class="text-center m-b-30 tab__img__margin">
+                                                <img class="doctor" src="images/doctor.svg">
+                                            </div>
+
+                                            <p class="text-1 text-center m-b-51">Я помогу вам записаться к нужному врачу на основе
+                                                ваших симптомов.</p>
+
                                         </div>
 
                                         <div class="wrapper-footer">
@@ -373,9 +446,55 @@
                                     <div class="wrapper-body">
 
                                         <div class="wrapper-content">
-                                            <p class="primary-text text-purple m-b-29">Выберите клинику?</p>
-                                            <p class="text-1 text-center m-b-51">Для записи к нужному 123
-                                                специалисту.</p>
+
+                                            <p class="primary-text text-purple m-b-29">2. Выберите один из вариантов</p>
+
+                                            <div class="text-center m-b-30 tab__img__margin">
+                                                <img class="doctor" src="html-bot/images/doctor_4.svg">
+                                            </div>
+
+                                            <p class="text-1 text-center m-b-51">Я помогу вам записаться к нужному врачу на основе
+                                                ваших симптомов.</p>
+                                        </div>
+
+                                        <div class="wrapper-footer">
+
+                                            <div class="btn-content">
+                                                <a class=" btn btn-hover btn-light-blue" href="#"><span class="btn-hover-light-blue"></span>Диагностика</a>
+                                                <a class="btn btn-outline-indigo" href="#">Клиники</a>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="item">
+
+                                <div class="wrapper">
+
+                                    <div class="wrapper-header">
+                                        <a href="#" class="logo"><i class="icon-logo"></i></a>
+                                        <p>ГИППОКРАТ</p>
+                                        <a href="#" class="setting"><i class="icon-setting"></i></a>
+                                    </div>
+
+                                    <div class="wrapper-body">
+
+                                        <div class="wrapper-content">
+
+                                            <p class="primary-text text-purple m-b-29">3. Готово! Получите результат.</p>
+
+                                            <div class="text-center m-b-30 tab__img__margin">
+                                                <img class="doctor" src="images/svg/success.svg">
+                                            </div>
+
+                                            <p class="text-1 text-center m-b-51">Я помогу вам записаться к нужному врачу на основе
+                                                ваших симптомов.</p>
+
                                         </div>
 
                                         <div class="wrapper-footer">
