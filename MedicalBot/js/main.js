@@ -39,10 +39,9 @@ if (animItems.length > 0) {
     };
   }
   animOnScroll();
-
-  /* setTimeout(() => {
-      animOnScroll()
-  }, 300) */
+  setTimeout(() => {
+    animOnScroll();
+  }, 300);
 }
 
 /***/ }),
@@ -69,6 +68,13 @@ $('.breakBtn').each(function () {
     (0,_functions_botControl_func__WEBPACK_IMPORTED_MODULE_0__.botStart)();
   });
 });
+
+/* if(botStatusButtons == 0){
+    $('.breakBtn').prop('disabled', false);
+}
+if(botStatusButtons == 1){
+    $('.breakBtn').prop('disabled', true);
+} */
 
 /***/ }),
 
@@ -214,20 +220,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "botClose": () => (/* binding */ botClose),
 /* harmony export */   "botStart": () => (/* binding */ botStart),
-/* harmony export */   "botStatus": () => (/* binding */ botStatus)
+/* harmony export */   "botStatus": () => (/* binding */ botStatus),
+/* harmony export */   "botStatusButtons": () => (/* binding */ botStatusButtons)
 /* harmony export */ });
-var botStatus = 0;
+var botStatus = 0,
+  botStatusButtons = 0;
 function botStart() {
-  botStatus = 1;
+  botStatus, botStatusButtons = 1;
   $('.iframe-bot').addClass('show');
   $('.bot-chat').css('display', 'none');
-  $('.breakBtn').prop('disabled', true);
+  document.querySelectorAll('.breakBtn').forEach(elem => elem.setAttribute('disabled', true));
 }
 function botClose() {
-  botStatus = 0;
-  $('.iframe-bot').removeClass('show');
-  $('.bot-chat').css('display', 'flex');
-  $('.breakBtn').prop('disabled', false);
+  window.parent.document.getElementById('iframe-bot').classList.remove('show');
+  window.parent.$('.bot-chat').css('display', 'flex');
+  botStatus, botStatusButtons = 0;
+  window.parent.document.querySelectorAll('.breakBtn').forEach(elem => elem.removeAttribute('disabled'));
 }
 
 /***/ }),
@@ -5693,6 +5701,20 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+window.addEventListener('scroll', function (e) {
+  let botFrame = $('.iframe-bot');
+  let botChat = $('.bot-chat');
+  let footer = $('footer');
+  let scroll = $(window).scrollTop() + $(window).height();
+  let offset = footer.offset().top;
+  if (scroll > offset) {
+    botFrame.css('bottom', `calc(10px + ${footer.height()}px)`);
+    botChat.css('bottom', `calc(10px + ${footer.height()}px)`);
+  } else {
+    botFrame.css('bottom', `calc(10px)`);
+    botChat.css('bottom', `calc(10px)`);
+  }
+});
 })();
 
 /******/ })()

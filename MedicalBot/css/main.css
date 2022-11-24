@@ -10128,7 +10128,7 @@ iframe {
   display: none;
   position: fixed;
   right: 20px;
-  top: 150px;
+  bottom: 10px;
   z-index: 5000;
 }
 
@@ -10963,8 +10963,16 @@ header .order-phone {
   .block-14 .clinic-address ul {
     margin-top: 16px;
   }
+  .btn--intro {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
 }
 @media (min-width: 425px) and (max-width: 767px) {
+  .btn--intro {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
   .container-fluid,
 .container-sm,
 .container-md,
@@ -11384,6 +11392,10 @@ header .order-phone {
   }
 }
 @media (min-width: 375px) and (max-width: 424px) {
+  .btn--intro {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
   .container-fluid,
 .container-sm,
 .container-md,
@@ -11803,6 +11815,10 @@ header .order-phone {
   }
 }
 @media (min-width: 320px) and (max-width: 374px) {
+  .btn--intro {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
   .container-fluid,
 .container-sm,
 .container-md,
@@ -12239,6 +12255,10 @@ header .order-phone {
   }
 }
 @media (max-width: 319px) {
+  .btn--intro {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
   .container-fluid,
 .container-sm,
 .container-md,
@@ -12671,6 +12691,10 @@ header .order-phone {
   }
 }
 @media (min-width: 0px) and (max-width: 767px) {
+  .btn--intro {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
   .m-m-b-20 {
     margin-bottom: 20px;
   }
@@ -16448,7 +16472,10 @@ form.form-radiobox input[type=radio]:checked:after {
   animation-name: zoomOutUp;
 }
 
-.breakBtn {
+/* .breakBtn{
+    cursor: not-allowed;
+} */
+.bot-chat[disabled=true] {
   cursor: not-allowed;
 }
 
@@ -16530,6 +16557,7 @@ a.policy {
 #ZvonokModal .modal__dialog .modal-content, #ZvonokModal .modal__dialog .modal-body, #Connect .modal__dialog .modal-content, #Connect .modal__dialog .modal-body, #Policy .modal__dialog .modal-content, #Policy .modal__dialog .modal-body {
   width: 630px;
   min-height: 300px;
+  height: 100%;
   background-color: transparent;
   border: 0;
 }
@@ -16717,7 +16745,7 @@ a.policy {
     position: fixed !important;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 480px) {
   #Policy .modal__dialog .modal-content, #Policy .modal__dialog .modal-body {
     width: 100% !important;
   }
@@ -16737,25 +16765,40 @@ a.policy {
     background-color: transparent;
     border: 0;
   }
+  .form__callback .form__footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .form__callback .form__footer button {
+    width: 100%;
+  }
 }
-@media (max-width: 420px) {
+@media (max-width: 480px) {
   #ZvonokModal, #Connect {
     width: 100%;
   }
   #ZvonokModal .modal__dialog, #Connect .modal__dialog {
     width: 100%;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    border: 0;
+    border-radius: 0;
   }
   #ZvonokModal .modal__dialog .modal-content, #ZvonokModal .modal__dialog .modal-body, #Connect .modal__dialog .modal-content, #Connect .modal__dialog .modal-body {
     width: 100%;
-    min-height: 300px;
+    height: 100vh;
     background-color: transparent;
     border: 0;
+    border-radius: 0;
+  }
+}
+@media (max-width: 420px) {
+  .form__callback {
+    margin-top: 40px;
   }
 }
 /* ======================================= */
@@ -17001,5 +17044,14 @@ a.policy {
 }
 .fade__start.anim__item.anim__active {
   opacity: 1;
+}
+
+@media (max-width: 990px) {
+  .footer__column__style {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
 }
 /*# sourceMappingURL=main.css.map */

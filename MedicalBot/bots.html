@@ -8,38 +8,65 @@
     <meta name="generator" content="">
     <title>Главная страница</title>
     <!-- Bootstrap core CSS -->
-    <link href="scss/style.css" rel="stylesheet">
+    <link href="vendor/bot.css" rel="stylesheet">
 
 </head>
-<body>
+<body class="bot">
+
     <section>
+
         <div class="wrapper">
+
             <div class="wrapper-header">
                 <a id="down" href="index1.html"><i class="icon-arrow-left"></i></a>
                 <a href="#" class="logo"><i class="icon-logo"></i></a>
                 <p>ГИППОКРАТ</p>
                 <a href="setting-1.html" class="setting"><i class="icon-setting"></i></a>
-                <a id="close"><i class="icon-close"></i></a>
+                <a id="close" class="bot__close"><i class="icon-close"></i></a>
             </div>
+
             <div class="wrapper-body">
+
                 <div class="wrapper-content">
-                    <p class="primary-text-1 text-purple m-b-25">Ничего не нашёл</p>
+
+                    <p class="primary-text text-purple m-b-29">Что вас беспокоит?</p>
+
                     <div class="text-center m-b-30">
-                        <img class="doctor" src="images/doctor_4.svg">
+                        <img class="doctor" src="images/doctor.svg">
                     </div>
-                    <div class="line m-b-30"></div>
-                    <p class="text-1 text-center">В моей базе данных ещё нет ответа, но вы можете оставить свои данные и команда наших опытных докторов свяжется с вами в ближайшее время или вы можете заказать обратный звонок от клиники.</p>
+
+                    <p class="text-1 text-center m-b-51">Я помогу вам записаться к нужному врачу на основе
+                        ваших симптомов.</p>
+
                 </div>
+
                 <div class="wrapper-footer">
+
                     <div class="btn-content">
-                        <a class="btn btn-hover btn-blue" href="#"><span class="btn-hover-blue"></span>записаться к врачу</a>
+                        <a class="btn btn-hover btn-blue" href="index2.html"><span class="btn-hover-blue"></span>Диагностика</a>
+                        <a class="btn btn-outline-purple" href="index10.html">Клиники</a>
                     </div>
+
                     <div class="a-content">
-                        <a href="#">Обратная связь</a>
+                        <a href="index14.html">Отзывы</a>
+                        <a href="index13.html">Обратная связь</a>
                     </div>
+
                 </div>
+
             </div>
+
+            <div class="content-arrow-left">
+
+            </div>
+
         </div>
+
     </section>
+
+    <!-- Include Scripts -->
+    <script src="vendor/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 </html>

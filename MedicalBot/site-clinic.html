@@ -18,7 +18,7 @@
 
             <div class="container">
 
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="/site-clinic.html">
 
                     <img src="images/svg/logo.svg" width="48" height="48" alt="Гиппократ">
 
@@ -42,7 +42,10 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="/index.html">Для пациентов</a>
+
+                                <!-- strive-up.github.io/MedicalBot-main/index.html -->
+
+                                <a class="nav-link" href="strive-up.github.io/MedicalBot-main/index.html">Для пациентов</a>
                             </li>
 
                             <li class="nav-item">
@@ -1047,6 +1050,10 @@
                         <div class="col-12">
 
                             <div class="form-group mb-3">
+                                <input class="form-control text-center" type="text" placeholder="Имя" />
+                            </div>
+
+                            <div class="form-group mb-3">
                                 <input class="form-control text-center" type="tel" placeholder="+ 7 (____) ____ - ___ - ___" />
                             </div>
 
@@ -1058,7 +1065,7 @@
 
                             <div class="form-group radio-group">
                                 <input type="checkbox" id="checkbox__from" />
-                                <label class="radio" for="checkbox__from">Согласен с политикой <a class="policy" data-toggle="modal" data-target="#Policy">кконфиденциальности</a></label>
+                                <label class="radio" for="checkbox__from">Согласен с политикой <a class="policy" data-toggle="modal" data-target="#Policy">конфиденциальности</a></label>
                             </div>
 
                         </div>
@@ -1298,7 +1305,7 @@
 
     </div>
 
-    <iframe id="iframe-bot" class="iframe-bot" src="html-bot/index1.html" width="336" height="740" frameborder="0" scrolling="no"></iframe>
+    <iframe id="iframe-bot" class="iframe-bot" src="bots.html" width="400" height="700" frameborder="0" scrolling="no"></iframe>
 
     <!-- Include Scripts -->
 
@@ -1311,12 +1318,6 @@
     <script src="player/afterglow/afterglow.min.js"></script>
     <script src="vendor/bootstrap.bundle.min.js"></script>
     <script src="vendor/owl.carousel.min.js"></script>
-
-    <script>
-        $(document).ready(function (){
-            //$('#ZvonokModal').modal('toggle');
-        })
-    </script>
 
     <script>
         $(document).ready(function () {
@@ -1350,25 +1351,6 @@
                 smartSpeed:1000
             })
         })
-    </script>
-
-    <script>
-        //Пробовал вариант 1
-        $(document).ready(function () {
-            $("#iframe-bot").on('load', function() {
-                $("#iframe-id").contents().find('.wrapper').on("click", "#content-close", function() {
-                    //do something
-                    console.log("asd");
-                });
-            });
-        })
-        //Следующий вариант 2
-        /*$('#iframe-bot').load(function (){
-            let iframe = $('#iframe-bot').contents();
-            iframe.find("#content-close").click(function (){
-                console.log("asd");
-            });
-        })*/
     </script>
 
 </body>
