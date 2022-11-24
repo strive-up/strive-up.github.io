@@ -17053,5 +17053,14 @@ a.policy {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+  .block__social {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+  }
+  .block__social ul {
+    margin-top: 20px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
