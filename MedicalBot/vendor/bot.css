@@ -883,6 +883,12 @@ form {
   background-size: contain; }
 
 
-.bot__close{
+.bot__close,
+.bot__reviews,
+.bot__feedback{
 	cursor: pointer;
 }
+
+/* .wrapper-body{
+  display: none;
+} */

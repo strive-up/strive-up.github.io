@@ -76,6 +76,19 @@ if(botStatusButtons == 1){
     $('.breakBtn').prop('disabled', true);
 } */
 
+$('.bot__reviews').each(function () {
+  $(this).on('click', function (e) {
+    e.preventDefault();
+    (0,_functions_botControl_func__WEBPACK_IMPORTED_MODULE_0__.changeContent)('reviews');
+  });
+});
+$('.bot__feedback').each(function () {
+  $(this).on('click', function (e) {
+    e.preventDefault();
+    (0,_functions_botControl_func__WEBPACK_IMPORTED_MODULE_0__.changeContent)('feedback');
+  });
+});
+
 /***/ }),
 
 /***/ "./src/js/components/geopos.js":
@@ -87,74 +100,91 @@ if(botStatusButtons == 1){
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "checkChoiceStatus": () => (/* binding */ checkChoiceStatus),
-/* harmony export */   "choiceCityStatus": () => (/* binding */ choiceCityStatus),
-/* harmony export */   "geo": () => (/* binding */ geo),
-/* harmony export */   "geoCity": () => (/* binding */ geoCity),
-/* harmony export */   "geoCityChange": () => (/* binding */ geoCityChange)
+/* harmony export */   "City": () => (/* binding */ City),
+/* harmony export */   "changeCity": () => (/* binding */ changeCity)
 /* harmony export */ });
 /* harmony import */ var _functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../functions/cookie_func */ "./src/js/functions/cookie_func.js");
 
-let geo, geoCity, choiceCityStatus, checkChoiceStatus, geoCityChange;
-choiceCityStatus = 0;
-checkChoiceStatus = (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.readCookie)('ChoiceCityStatus');
-function checkCity() {
-  if (checkChoiceStatus == undefined) {
-    if (choiceCityStatus == 0) {
-      $('.choice__city__question').css('display', 'flex');
-      $('.choise-city-name').html(geoCity);
-      $('.choice__city__question__name span').html(geoCity + '?');
-    }
-  }
-  if (checkChoiceStatus == 1) {
-    $('.choice__city__question').css('display', 'none');
-    $('.choise-city-name').html(geoCityChange);
+var City;
+function changeCity(name) {
+  City = name;
+  (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.writeCookie)("City", City, 30);
+  $('.choise-city-name').html(City);
+  $('.choice__city__question__name span').html(City + '?');
+}
+let autodetectCity;
+let CityStatus; // без значения - Город не опеределен, 
+// 0 - Город автоматически определен но не подтвержден
+// 1 - Город определен и подтвержден
+
+function changeCityStatus(statusId) {
+  CityStatus = statusId;
+  (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.writeCookie)("City status", CityStatus, 30);
+}
+function checkStatusCity() {
+  if ((0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.readCookie)('City') == undefined) {
+    City = "";
+    CityStatus = "";
+    return autoUpdateCity();
+  } else if (!(0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.readCookie)('City') == "" && (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.readCookie)('City status') == 1) {
+    City = (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.readCookie)('City');
+    $('.choise-city-name').html(City);
   }
 }
-$(function () {
-  if (!(0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.readCookie)('City') == "") {
-    $('.choise-city-name').html((0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.readCookie)('City'));
+function autoUpdateCity() {
+  if (City == "" && CityStatus == "") {
+    autodetectCity = YMaps.location.city;
+    changeCity(autodetectCity);
+    changeCityStatus(0);
+    return showChangeCity();
   }
-});
-ymaps.ready(function () {
-  geo = ymaps.geolocation;
-  geoCity = geo.city;
-  function updateCity() {
-    $('.choise-city-name').html(geoCityChange);
-    $('.choice__city__question__name span').html(geoCity + '?');
-  }
-  checkCity();
-  $('.choice__city__question').each(function () {
-    let agree = $(this).find('.btn__agree'),
-      disagree = $(this).find('.btn__disagree'),
-      choiceCity = $(this).find('form#choice__city'),
-      cityName = $(this).find('input[name="choice__city"]');
-    agree.on('click', function () {
-      choiceCityStatus = 1;
-      (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.writeCookie)('ChoiceCityStatus', choiceCityStatus, 30);
-      geoCityChange = geoCity;
-      (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.writeCookie)('City', geoCityChange, 30);
-      $('.choice__city__question').css('display', 'none');
-      updateCity();
-    });
-    disagree.on('click', function () {
-      $('.choice__city__question__btn__wrapp').css('display', 'none');
-      $('.choice__city__input__wrapp').css('display', 'flex');
-    });
-    choiceCity.submit(function (event) {
-      event.preventDefault();
-      if (cityName.length && cityName.val() == "") {
-        return;
-      } else {
-        geoCityChange = cityName.val();
-        (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.writeCookie)('City', geoCityChange, 30);
-        choiceCityStatus = 1;
-        (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.writeCookie)('ChoiceCityStatus', choiceCityStatus, 30);
-        updateCity();
-        $('.choice__city__question').css('display', 'none');
-      }
-    });
+}
+function showChangeCity() {
+  $('.choice__city__question').css('display', 'flex');
+  $('.choice__city__question__name span').html(City + '?');
+  const btn__agree = $('.btn__agree');
+  const btn__disagree = $('.btn__disagree');
+  btn__agree.on('click', function () {
+    $('.choice__city__question').css('display', 'none');
+    changeCityStatus(1);
   });
+  btn__disagree.on('click', function () {
+    $('.choice__city__question__btn__wrapp').css('display', 'none');
+    $('.choice__city__input__wrapp').css('display', 'flex');
+  });
+}
+function makeItem(title) {
+  return `<a class="dropdown-item"><i class="icon icon-line-circle"></i><span>${title}</span></a>`;
+}
+$('input[name="choice__city"]').keyup(function () {
+  $('.search__city .dropdown-menu').css('display', 'flex');
+  var value = $(this).val().toLowerCase();
+  $(".search__city .dropdown-menu .dropdown-item").filter(function () {
+    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+  });
+  let dataList = {};
+  fetch('../russia.json').then(response => response.json()).then(json => {
+    const itemsHtmlString = json.map(item => makeItem(item.city));
+    $('.search__city .dropdown-menu').html(itemsHtmlString);
+  });
+
+  /* if($(this).val() == ""){
+      $('.search__city .dropdown-menu').css('display', 'none');
+  } */
+
+  /* $(".search__city .dropdown-menu .dropdown-item span").on('click', function(e){
+      var target = $(e.target);
+      if (target.is('span')) {
+          $('input[name="choice__city"]').val(target.text());
+      }
+      $('.search__city .dropdown-menu').css('display', 'none');
+  }) */
+});
+
+/* showChangeCity(); */
+
+$(document).ready(function () {
+  checkStatusCity();
 });
 
 /***/ }),
@@ -221,7 +251,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "botClose": () => (/* binding */ botClose),
 /* harmony export */   "botStart": () => (/* binding */ botStart),
 /* harmony export */   "botStatus": () => (/* binding */ botStatus),
-/* harmony export */   "botStatusButtons": () => (/* binding */ botStatusButtons)
+/* harmony export */   "botStatusButtons": () => (/* binding */ botStatusButtons),
+/* harmony export */   "changeContent": () => (/* binding */ changeContent)
 /* harmony export */ });
 var botStatus = 0,
   botStatusButtons = 0;
@@ -230,12 +261,32 @@ function botStart() {
   $('.iframe-bot').addClass('show');
   $('.bot-chat').css('display', 'none');
   document.querySelectorAll('.breakBtn').forEach(elem => elem.setAttribute('disabled', true));
+  changeContent('main');
 }
 function botClose() {
   window.parent.document.getElementById('iframe-bot').classList.remove('show');
   window.parent.$('.bot-chat').css('display', 'flex');
   botStatus, botStatusButtons = 0;
   window.parent.document.querySelectorAll('.breakBtn').forEach(elem => elem.removeAttribute('disabled'));
+}
+function changeContent(name) {
+
+  /* $('.bot__wrapper').each(function(){
+      var n = $(this).find(`.wrapper-body .${name}`);
+      console.log(n)        
+  }) */
+
+  /* $('.bot__wrapper').find(`.wrapper-body .${name}`); */
+  /* $('.bot__wrapper').find(`.wrapper-body .${name}`).css('display', 'block');  */
+
+  /*  $(`.wrapper-body.${name}`).remove() */
+  /* const el = $(`.wrapper-body`).not(`.${name}`);
+  console.log(el) */
+
+  /* $('.iframe-bot').each(function(){
+       var n = $(this).find(`.wrapper-body.${name}`)
+       n.show();
+  }) */
 }
 
 /***/ }),

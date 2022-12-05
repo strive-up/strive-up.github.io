@@ -9230,7 +9230,7 @@ footer .container .row a:hover {
   display: flex;
   padding-top: 100px;
   height: 440px;
-  background: url("../images/svg/vector_answer.svg") center no-repeat;
+  background: url("../images/svg/vector_answer.gif") center no-repeat;
 }
 
 .block-9 .content-answer p {
@@ -16765,6 +16765,10 @@ a.policy {
     background-color: transparent;
     border: 0;
   }
+  .form__callback {
+    background: -o-radial-gradient(56.22% -42.69%, 70.1% 110.5%, #A160ED 0%, #6531A2 100%), #FFFFFF;
+    background: radial-gradient(70.1% 110.5% at 56.22% -42.69%, #A160ED 0%, #6531A2 100%), #FFFFFF;
+  }
   .form__callback .form__footer {
     padding-left: 10px;
     padding-right: 10px;
@@ -16815,6 +16819,10 @@ a.policy {
   -ms-flex-direction: column;
   flex-direction: column;
   margin-top: 40px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 .choice__city__question p.choice__city__question__name {
   font-family: "MontserratRegular";
@@ -16899,55 +16907,55 @@ a.policy {
   margin-top: 15px;
 }
 
-@media (max-width: 990px) {
-  .choice__city__question {
-    position: static;
-  }
-  .choise-city {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
+.search__city .dropdown-menu {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: static;
+  margin-top: 5px;
+  width: 260px;
+  height: 234px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(242, 245, 250, 0.1);
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-radius: 10px;
 }
-@media (max-width: 460px) {
-  .choice__city__question {
-    position: absolute;
-    width: 100vw;
-    left: 0;
-    border-radius: 0;
-    background: transparent;
-    margin-top: 150px;
-  }
-  .choice__city__question .choice__city__question__btn__wrapp {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
-  .choice__city__question .choice__city__question__btn__wrapp .btn__disagree {
-    margin-left: 30px;
-  }
-  .choice__city__question input#choice__city {
-    background: -o-radial-gradient(56.22% -42.69%, 70.1% 110.5%, #A160ED 0%, #6531A2 100%), #FFFFFF;
-    background: radial-gradient(70.1% 110.5% at 56.22% -42.69%, #A160ED 0%, #6531A2 100%), #FFFFFF;
-  }
-  .choise-city {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin-bottom: 50px;
-  }
-  .choise-city .choise-city-text {
-    display: none;
-  }
+.search__city .dropdown-menu::-webkit-scrollbar {
+  width: 7px;
+  background-color: transparent;
+  border-radius: 0;
 }
+.search__city .dropdown-menu::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: #A160ED;
+}
+.search__city .dropdown-menu .dropdown-item {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: "MontserratRegular";
+  color: white;
+  cursor: pointer;
+}
+.search__city .dropdown-menu .dropdown-item .icon-line-circle {
+  width: 12px;
+  height: 12px;
+}
+.search__city .dropdown-menu .dropdown-item:active {
+  background-color: transparent;
+  color: #221A33;
+}
+.search__city .dropdown-menu .dropdown-item:hover, .search__city .dropdown-menu .dropdown-item:focus {
+  color: rgb(0, 0, 0);
+  font-family: "MontserratMedium";
+}
+
 /* ======================================= */
 .fadeUp__start.anim__item {
   -webkit-transform: translate(0, 100px);

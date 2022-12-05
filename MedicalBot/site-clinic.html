@@ -53,15 +53,17 @@
 
                         <div class="choise-city dropdown">
 
-                            <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <!-- id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" -->
+
+                            <a class="dropdown-toggle" href="#">
                                 <i class="icon icon-geo"></i>
-                                <p class="choise-city-name">Краснодар</p>
+                                <p class="choise-city-name">Москва</p>
                                 <p class="choise-city-text">выбрать город</p>
                             </a>
 
                             <div class="choice__city__question">
 
-                                <p class="choice__city__question__name">Ваш город <span>Краснодар?</span></p>
+                                <p class="choice__city__question__name">Ваш город <span>Москва?</span></p>
 
                                 <div class="choice__city__question__btn__wrapp">
                                     <a class="choice__city__question__btn btn__agree">Всё верно</a>
@@ -69,17 +71,24 @@
                                 </div>
 
                                 <form id="choice__city" class="choice__city__input__wrapp">
-                                    <input type="text" name="choice__city" id="choice__city" placeholder="Введите город">
+
+                                    <div class="search__city">
+
+                                        <input type="text" name="choice__city" id="choice__city" placeholder="Введите город">
+
+                                        <div class="dropdown-menu" id="dropdown-menu__city">
+                                            <a class="dropdown-item"><i class="icon icon-line-circle"></i><span>Ростов</span></a>
+                                            <a class="dropdown-item"><i class="icon icon-line-circle"></i><span>Москва</span></a>
+                                            <a class="dropdown-item"><i class="icon icon-line-circle"></i><span>Анапа</span></a>
+                                            <a class="dropdown-item"><i class="icon icon-line-circle"></i><span>Сочи</span></a>
+                                        </div>
+
+                                    </div>
+
                                     <button class="choice__city__question__btn btn__enter">Ввести</button>
+
                                 </form>
 
-                            </div>
-
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#"><i class="icon icon-line-circle"></i>Ростов</a>
-                                <a class="dropdown-item" href="#"><i class="icon icon-line-circle"></i>Москва</a>
-                                <a class="dropdown-item" href="#"><i class="icon icon-line-circle"></i>Анапа</a>
-                                <a class="dropdown-item" href="#"><i class="icon icon-line-circle"></i>Сочи</a>
                             </div>
 
                         </div>
@@ -1307,7 +1316,7 @@
     <!-- Include Scripts -->
 
     <script src="vendor/jquery-3.6.0.min.js"></script>
-    <script src="//api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
+    <script src="//api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
     <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
     <script src="vendor/bootstrap.js"></script>
