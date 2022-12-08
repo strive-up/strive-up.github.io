@@ -167,24 +167,36 @@ $('input[name="choice__city"]').keyup(function () {
     const itemsHtmlString = json.map(item => makeItem(item.city));
     $('.search__city .dropdown-menu').html(itemsHtmlString);
   });
-
-  /* if($(this).val() == ""){
-      $('.search__city .dropdown-menu').css('display', 'none');
-  } */
-
-  /* $(".search__city .dropdown-menu .dropdown-item span").on('click', function(e){
-      var target = $(e.target);
-      if (target.is('span')) {
-          $('input[name="choice__city"]').val(target.text());
-      }
-      $('.search__city .dropdown-menu').css('display', 'none');
-  }) */
+  if ($(this).val() == "") {
+    $('.search__city .dropdown-menu').css('display', 'none');
+  }
+  $(".search__city .dropdown-menu .dropdown-item span").on('click', function (e) {
+    var target = $(e.target);
+    if (target.is('span')) {
+      $('input[name="choice__city"]').val(target.text());
+    }
+    $('.search__city .dropdown-menu').css('display', 'none');
+  });
 });
 
 /* showChangeCity(); */
 
+$('#choice__city').submit(function (event) {
+  event.preventDefault();
+  var input = $(this).find("input[name='choice__city']");
+  if (input.val() == "") {
+    return;
+  } else {
+    changeCity(input.val());
+    changeCityStatus(1);
+    $('.choice__city__question').css('display', 'none');
+  }
+});
 $(document).ready(function () {
   checkStatusCity();
+});
+$('a.change__city').on('click', function () {
+  showChangeCity();
 });
 
 /***/ }),
