@@ -262,11 +262,15 @@ function botStart() {
   $('.bot-chat').css('display', 'none');
   document.querySelectorAll('.breakBtn').forEach(elem => elem.setAttribute('disabled', true));
   changeContent('main');
+  if (window.innerWidth <= 900 && window.innerHeight <= 700) {
+    window.parent.$('body').addClass('botMobile');
+  }
 }
 function botClose() {
   window.parent.document.getElementById('iframe-bot').classList.remove('show');
   window.parent.$('.bot-chat').css('display', 'flex');
   botStatus, botStatusButtons = 0;
+  window.parent.$('body').removeClass('botMobile');
   window.parent.document.querySelectorAll('.breakBtn').forEach(elem => elem.removeAttribute('disabled'));
 }
 function changeContent(name) {
