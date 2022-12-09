@@ -9,6 +9,9 @@
     <title>Лендинг 01</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="vendor/owl.carousel.min.css">
+    <!-- <script src="//api-maps.yandex.ru/2.0/?apikey=b46747ec-b274-41db-af4b-dd7550f7e8aa&lang=ru_RU" type="text/javascript"></script> -->
+
+    <script src="//api-maps.yandex.ru/2.0/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
 </head>
 <body>
 
@@ -76,12 +79,7 @@
 
                                         <input type="text" name="choice__city" id="choice__city" placeholder="Введите город">
 
-                                        <div class="dropdown-menu" id="dropdown-menu__city">
-                                            <a class="dropdown-item"><i class="icon icon-line-circle"></i><span>Ростов</span></a>
-                                            <a class="dropdown-item"><i class="icon icon-line-circle"></i><span>Москва</span></a>
-                                            <a class="dropdown-item"><i class="icon icon-line-circle"></i><span>Анапа</span></a>
-                                            <a class="dropdown-item"><i class="icon icon-line-circle"></i><span>Сочи</span></a>
-                                        </div>
+                                        <div class="dropdown-menu" id="dropdown-menu__city"></div>
 
                                     </div>
 
@@ -1316,17 +1314,6 @@
     <!-- Include Scripts -->
 
     <script src="vendor/jquery-3.6.0.min.js"></script>
-    <script src="https://api-maps.yandex.ru/2.1/?apikey=b46747ec-b274-41db-af4b-dd7550f7e8aa&lang=ru_RU" type="text/javascript"></script>
-    <script>
-        $(document).ready(function(){
-            ymaps.ready(function(){
-                var geolocation = ymaps.geolocation;
-                console.log('Ваша страна: '+geolocation.country);
-                console.log('Ваш город: '+geolocation.city);
-                console.log('Ваш регион: '+geolocation.region);
-            });
-        });
-    </script>
     <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
     <script src="vendor/bootstrap.js"></script>

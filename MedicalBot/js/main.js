@@ -133,11 +133,21 @@ function checkStatusCity() {
 }
 function autoUpdateCity() {
   if (City == "" && CityStatus == "") {
-    /* autodetectCity = ymaps.geolocation.city; */
-
-    changeCity(autodetectCity);
-    changeCityStatus(0);
-    return showChangeCity();
+    ymaps.ready(init);
+    function init() {
+      var geolocation = ymaps.geolocation;
+      autodetectCity = geolocation.city;
+      if (autodetectCity == undefined) {
+        $('.btn__agree').css('display', 'none');
+        $('.choice__city__question__btn__wrapp').css('justify-content', 'center');
+        $('.choice__city__question__name span').html('не определен!');
+        return showChangeCity();
+      } else {
+        changeCity(autodetectCity);
+        changeCityStatus(0);
+        return showChangeCity();
+      }
+    }
   }
 }
 function showChangeCity() {
@@ -176,25 +186,31 @@ $('#choice__city').submit(function (event) {
 });
 $('input[name="choice__city"]').keyup(function () {
   $('.search__city .dropdown-menu').css('display', 'flex');
+
+  // ==============
+
   var value = $(this).val().toLowerCase();
   $(".search__city .dropdown-menu .dropdown-item").filter(function () {
-    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+    $(this).toggle($(this).text().toLowerCase().indexOf(value) == 0);
   });
-  let dataList = {};
-  fetch('../russia.json').then(response => response.json()).then(json => {
-    const itemsHtmlString = json.map(item => makeItem(item.city));
-    $('.search__city .dropdown-menu').html(itemsHtmlString);
-  });
+
+  // ==============
+
   if ($(this).val() == "") {
     $('.search__city .dropdown-menu').css('display', 'none');
   }
-  $(".search__city .dropdown-menu .dropdown-item span").on('click', function (e) {
+  $(".dropdown-item span").on('click', function (e) {
     var target = $(e.target);
     if (target.is('span')) {
       $('input[name="choice__city"]').val(target.text());
     }
     $('.search__city .dropdown-menu').css('display', 'none');
   });
+});
+let dataList = {};
+fetch('../russia.json').then(response => response.json()).then(json => {
+  const itemsHtmlString = json.map(item => makeItem(item.city));
+  $('.search__city .dropdown-menu').html(itemsHtmlString);
 });
 
 /***/ }),
