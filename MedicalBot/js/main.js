@@ -117,63 +117,62 @@ let CityStatus; // без значения - Город не опеределе�
 // 0 - Город автоматически определен но не подтвержден
 // 1 - Город определен и подтвержден
 
-ymaps.ready(function () {
-  function changeCityStatus(statusId) {
-    CityStatus = statusId;
-    (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.writeCookie)("City status", CityStatus, 30);
+function changeCityStatus(statusId) {
+  CityStatus = statusId;
+  (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.writeCookie)("City status", CityStatus, 30);
+}
+function checkStatusCity() {
+  if ((0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.readCookie)('City') == undefined) {
+    City = "";
+    CityStatus = "";
+    return autoUpdateCity();
+  } else if (!(0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.readCookie)('City') == "" && (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.readCookie)('City status') == 1) {
+    City = (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.readCookie)('City');
+    $('.choise-city-name').html(City);
   }
-  function checkStatusCity() {
-    if ((0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.readCookie)('City') == undefined) {
-      City = "";
-      CityStatus = "";
-      return autoUpdateCity();
-    } else if (!(0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.readCookie)('City') == "" && (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.readCookie)('City status') == 1) {
-      City = (0,_functions_cookie_func__WEBPACK_IMPORTED_MODULE_0__.readCookie)('City');
-      $('.choise-city-name').html(City);
-    }
+}
+function autoUpdateCity() {
+  if (City == "" && CityStatus == "") {
+    /* autodetectCity = ymaps.geolocation.city; */
+
+    changeCity(autodetectCity);
+    changeCityStatus(0);
+    return showChangeCity();
   }
-  function autoUpdateCity() {
-    if (City == "" && CityStatus == "") {
-      autodetectCity = ymaps.geolocation.city;
-      changeCity(autodetectCity);
-      changeCityStatus(0);
-      return showChangeCity();
-    }
-  }
-  function showChangeCity() {
-    $('.choice__city__question').css('display', 'flex');
-    $('.choice__city__question__name span').html(City + '?');
-    const btn__agree = $('.btn__agree');
-    const btn__disagree = $('.btn__disagree');
-    btn__agree.on('click', function () {
-      $('.choice__city__question').css('display', 'none');
-      changeCityStatus(1);
-    });
-    btn__disagree.on('click', function () {
-      $('.choice__city__question__btn__wrapp').css('display', 'none');
-      $('.choice__city__input__wrapp').css('display', 'flex');
-    });
-  }
-  function makeItem(title) {
-    return `<a class="dropdown-item"><i class="icon icon-line-circle"></i><span>${title}</span></a>`;
-  }
-  $(document).ready(function () {
-    checkStatusCity();
+}
+function showChangeCity() {
+  $('.choice__city__question').css('display', 'flex');
+  $('.choice__city__question__name span').html(City + '?');
+  const btn__agree = $('.btn__agree');
+  const btn__disagree = $('.btn__disagree');
+  btn__agree.on('click', function () {
+    $('.choice__city__question').css('display', 'none');
+    changeCityStatus(1);
   });
-  $('a.change__city').on('click', function () {
-    showChangeCity();
+  btn__disagree.on('click', function () {
+    $('.choice__city__question__btn__wrapp').css('display', 'none');
+    $('.choice__city__input__wrapp').css('display', 'flex');
   });
-  $('#choice__city').submit(function (event) {
-    event.preventDefault();
-    var input = $(this).find("input[name='choice__city']");
-    if (input.val() == "") {
-      return;
-    } else {
-      changeCity(input.val());
-      changeCityStatus(1);
-      $('.choice__city__question').css('display', 'none');
-    }
-  });
+}
+function makeItem(title) {
+  return `<a class="dropdown-item"><i class="icon icon-line-circle"></i><span>${title}</span></a>`;
+}
+$(document).ready(function () {
+  checkStatusCity();
+});
+$('a.change__city').on('click', function () {
+  showChangeCity();
+});
+$('#choice__city').submit(function (event) {
+  event.preventDefault();
+  var input = $(this).find("input[name='choice__city']");
+  if (input.val() == "") {
+    return;
+  } else {
+    changeCity(input.val());
+    changeCityStatus(1);
+    $('.choice__city__question').css('display', 'none');
+  }
 });
 $('input[name="choice__city"]').keyup(function () {
   $('.search__city .dropdown-menu').css('display', 'flex');

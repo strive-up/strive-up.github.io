@@ -987,6 +987,16 @@
 
     <script src="vendor/jquery-3.6.0.min.js"></script>
     <script src="https://api-maps.yandex.ru/2.1/?apikey=b46747ec-b274-41db-af4b-dd7550f7e8aa&lang=ru_RU" type="text/javascript"></script>
+    <script>
+        $(document).ready(function(){
+            ymaps.ready(function(){
+                var geolocation = ymaps.geolocation;
+                console.log('Ваша страна: '+geolocation.country);
+                console.log('Ваш город: '+geolocation.city);
+                console.log('Ваш регион: '+geolocation.region);
+            });
+        });
+    </script>
     <script src="js/main.js"></script>
     <script src="vendor/bootstrap.bundle.min.js"></script>
     <script src="vendor/owl.carousel.min.js"></script>
