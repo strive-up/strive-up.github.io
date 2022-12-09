@@ -208,7 +208,7 @@ $('input[name="choice__city"]').keyup(function () {
   });
 });
 let dataList = {};
-fetch('../russia.json').then(response => response.json()).then(json => {
+fetch('/../russia.json').then(response => response.json()).then(json => {
   const itemsHtmlString = json.map(item => makeItem(item.city));
   $('.search__city .dropdown-menu').html(itemsHtmlString);
 });
