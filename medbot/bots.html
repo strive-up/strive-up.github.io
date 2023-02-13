@@ -1,0 +1,831 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div class="bot bot__active">
+
+        <div class="header">
+
+            <div class="header__left__side">
+
+                <div class="btn__back">
+                    <img src="images/header/back.svg" alt="">
+                </div>
+
+                <div class="header__logo">
+                    <img src="images/header/logo.svg" alt="">
+                </div>
+
+            </div>
+
+            <div class="header__right__side">
+
+                <div class="btn__settings">
+                    <img src="images/header/settings.svg" alt="">
+                </div>
+
+                <div class="btn__close">
+                    <img src="images/header/close.svg" alt="">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="body main__active">
+
+            <div class="main__page">
+
+                <div class="page__content">
+
+                    <p class="title">
+                        Что вас <br>
+                        беспокоит?
+                    </p>
+
+                    <div class="diagnosis__images">
+                        <img src="images/diagnosis/langs__1.svg" alt="">
+                    </div>
+
+                    <p class="sub__title">
+                        Я помогу вам записаться<br>
+                        к нужному врачу на основе<br>
+                        ваших симптомов.
+                    </p>
+
+                </div>
+
+                <div class="page__footer">
+
+                    <button class="--btn --solid" start__diagnostic>Диагностика</button>
+                    <button class="--btn --transparent">Клиники</button>
+
+                    <div class="footer__links">
+                        <div class="footer__links__item" reviews>Отзывы</div>
+                        <div class="footer__links__item" callback>Обратная связь</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="clinic__page">
+
+                <p class="title">Выберите клинику</p>
+
+<div class="clinic__choice__wrapp">
+
+    <div class="clinic__choice__item">
+
+        <div class="item__text">
+
+            <p class="clinic__name">Сити-клиник</p>
+
+            <div class="item__text__wrapp">
+                <p class="clinic__adress sub__title">ул. Октябрьска, 97</p>
+                <p class="clinic__timetable sub__title">Пн-Вс с 9:00 до 21:00</p>
+            </div>
+
+        </div>
+
+        <div class="item__btn">
+            <button class="--btn --transparent">5 км</button>
+            <button class="--btn --solid">Сайт</button>
+        </div>
+
+    </div>
+
+    <div class="clinic__choice__item">
+
+        <div class="item__text">
+
+            <p class="clinic__name">Поликлиника № 1</p>
+
+            <div class="item__text__wrapp">
+                <p class="clinic__adress sub__title">ул. Ленина, 97</p>
+                <p class="clinic__timetable sub__title">Пн-Вс с 9:00 до 21:00</p>
+            </div>
+
+        </div>
+
+        <div class="item__btn">
+            <button class="--btn --transparent">6 км</button>
+            <button class="--btn --solid">Сайт</button>
+        </div>
+
+    </div>
+
+    <div class="clinic__choice__item">
+
+        <div class="item__text">
+
+            <p class="clinic__name">Поликлиника № 44</p>
+
+            <div class="item__text__wrapp">
+                <p class="clinic__adress sub__title">ул. Кирова, 97</p>
+                <p class="clinic__timetable sub__title">Пн-Вс с 9:00 до 21:00</p>
+            </div>
+
+        </div>
+
+        <div class="item__btn">
+            <button class="--btn --transparent">12 км</button>
+            <button class="--btn --solid">Сайт</button>
+        </div>
+
+    </div>
+
+    <div class="clinic__choice__item">
+
+        <div class="item__text">
+
+            <p class="clinic__name">МЦ Авицена</p>
+
+            <div class="item__text__wrapp">
+                <p class="clinic__adress sub__title">ул. Декабристов, 97</p>
+                <p class="clinic__timetable sub__title">Пн-Вс с 9:00 до 21:00</p>
+            </div>
+
+        </div>
+
+        <div class="item__btn">
+            <button class="--btn --transparent">48 км</button>
+            <button class="--btn --solid">Сайт</button>
+        </div>
+
+    </div>
+
+    <div class="clinic__choice__item">
+
+        <div class="item__text">
+
+            <p class="clinic__name">МЦ Авицена</p>
+
+            <div class="item__text__wrapp">
+                <p class="clinic__adress sub__title">ул. Декабристов, 97</p>
+                <p class="clinic__timetable sub__title">Пн-Вс с 9:00 до 21:00</p>
+            </div>
+
+        </div>
+
+        <div class="item__btn">
+            <button class="--btn --transparent">48 км</button>
+            <button class="--btn --solid">Сайт</button>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="page__footer">
+    <button class="--btn --solid">Выбрать ближайшую</button>
+</div>
+
+            </div>
+
+            <div class="diagnostic__page">
+
+                <div class="diagnostic__step" step="1" active>
+
+    <div class="diagnostic__header">
+
+        <p class="title">
+            Начнём <br>
+            диагностику…
+        </p>
+
+        <p class="sub__title sub__title__line">
+            Выберите симптомы, <br>
+            которые вас беспокоят:
+        </p>
+
+    </div>
+
+    <div class="diagnostic__checkbox__wrapp">
+
+        <div class="diagnostic__checkbox__item">
+
+            <p class="diagnostic__checkbox__title">Боль в горле</p>
+
+            <label class="diagnostic__checkbox">
+                <input type="checkbox" name="choice__symptom">
+            </label>
+
+        </div>
+
+        <div class="diagnostic__checkbox__item">
+
+            <p class="diagnostic__checkbox__title">Тяжело дышать</p>
+
+            <label class="diagnostic__checkbox">
+                <input type="checkbox" name="choice__symptom">
+            </label>
+
+        </div>
+
+        <div class="diagnostic__checkbox__item">
+
+            <p class="diagnostic__checkbox__title">Температура</p>
+
+            <label class="diagnostic__checkbox">
+                <input type="checkbox" name="choice__symptom">
+            </label>
+
+        </div>
+
+        <div class="diagnostic__checkbox__item">
+
+            <p class="diagnostic__checkbox__title">Насморк</p>
+
+            <label class="diagnostic__checkbox">
+                <input type="checkbox" name="choice__symptom">
+            </label>
+
+        </div>
+
+        <div class="diagnostic__checkbox__item">
+
+            <p class="diagnostic__checkbox__title">Болит горло</p>
+
+            <label class="diagnostic__checkbox">
+                <input type="checkbox" name="choice__symptom">
+            </label>
+
+        </div>
+
+        <div class="diagnostic__checkbox__item">
+
+            <p class="diagnostic__checkbox__title">Слабость</p>
+
+            <label class="diagnostic__checkbox">
+                <input type="checkbox" name="choice__symptom">
+            </label>
+
+        </div>
+
+        <div class="diagnostic__checkbox__item">
+
+            <p class="diagnostic__checkbox__title">Сыпь на теле</p>
+
+            <label class="diagnostic__checkbox">
+                <input type="checkbox" name="choice__symptom">
+            </label>
+
+        </div>
+
+        <div class="diagnostic__checkbox__item">
+
+            <p class="diagnostic__checkbox__title">Отёки</p>
+
+            <label class="diagnostic__checkbox">
+                <input type="checkbox" name="choice__symptom">
+            </label>
+
+        </div>
+
+        <div class="diagnostic__checkbox__item">
+
+            <p class="diagnostic__checkbox__title">Головная боль</p>
+
+            <label class="diagnostic__checkbox">
+                <input type="checkbox" name="choice__symptom">
+            </label>
+
+        </div>
+
+        <div class="diagnostic__checkbox__item">
+
+            <p class="diagnostic__checkbox__title">Сыпь на теле</p>
+
+            <label class="diagnostic__checkbox">
+                <input type="checkbox" name="choice__symptom">
+            </label>
+
+        </div>
+
+        <div class="diagnostic__checkbox__item">
+
+            <p class="diagnostic__checkbox__title">Слабость</p>
+
+            <label class="diagnostic__checkbox">
+                <input type="checkbox" name="choice__symptom">
+            </label>
+
+        </div>
+
+        <div class="diagnostic__checkbox__item">
+
+            <p class="diagnostic__checkbox__title">Боль в горле</p>
+
+            <label class="diagnostic__checkbox">
+                <input type="checkbox" name="choice__symptom">
+            </label>
+
+        </div>
+
+        <div class="diagnostic__checkbox__item">
+
+            <p class="diagnostic__checkbox__title">Отёки</p>
+
+            <label class="diagnostic__checkbox">
+                <input type="checkbox" name="choice__symptom">
+            </label>
+
+        </div>
+
+        <div class="diagnostic__checkbox__item">
+
+            <p class="diagnostic__checkbox__title">Рвота</p>
+
+            <label class="diagnostic__checkbox">
+                <input type="checkbox" name="choice__symptom">
+            </label>
+
+        </div>
+
+        <div class="diagnostic__checkbox__item">
+
+            <p class="diagnostic__checkbox__title">Насморк</p>
+
+            <label class="diagnostic__checkbox">
+                <input type="checkbox" name="choice__symptom">
+            </label>
+
+        </div>
+
+        <div class="diagnostic__checkbox__item">
+
+            <p class="diagnostic__checkbox__title">Температура</p>
+
+            <label class="diagnostic__checkbox">
+                <input type="checkbox" name="choice__symptom">
+            </label>
+
+        </div>
+
+        <div class="diagnostic__checkbox__item">
+
+            <p class="diagnostic__checkbox__title">Обморок</p>
+
+            <label class="diagnostic__checkbox">
+                <input type="checkbox" name="choice__symptom">
+            </label>
+
+        </div>
+
+        <div class="diagnostic__checkbox__item">
+
+            <p class="diagnostic__checkbox__title">Обморок</p>
+
+            <label class="diagnostic__checkbox">
+                <input type="checkbox" name="choice__symptom">
+            </label>
+
+        </div>
+
+        <div class="diagnostic__checkbox__item">
+
+            <p class="diagnostic__checkbox__title">Тяжело дышать</p>
+
+            <label class="diagnostic__checkbox">
+                <input type="checkbox" name="choice__symptom">
+            </label>
+
+        </div>
+
+        <div class="diagnostic__checkbox__item">
+
+            <p class="diagnostic__checkbox__title">Головная боль</p>
+
+            <label class="diagnostic__checkbox">
+                <input type="checkbox" name="choice__symptom">
+            </label>
+
+        </div>
+
+    </div>
+
+    <div class="page__footer">
+        <button class="--btn --solid">Далее</button>
+    </div>
+
+</div>
+                <div class="diagnostic__step" step="2">
+
+    <div class="diagnostic__header">
+
+        <p class="title">Сыпь на теле</p>
+        <p class="sub__title sub__title__line">
+            Она покрывает <br>
+            значительную часть тела?
+        </p>
+
+    </div>
+
+    <div class="page__footer">
+        <button class="--btn --solid">Да</button>
+        <button class="--btn --transparent">Нет</button>
+    </div>
+
+</div>
+                <div class="diagnostic__step" step="3">
+
+    <div class="diagnostic__header">
+
+        <p class="title">Сыпь на теле</p>
+        <p class="sub__title sub__title__line">
+            Имеется ли повышенная <br>
+            температура тела?
+        </p>
+
+    </div>
+
+    <div class="page__footer">
+        <button class="--btn --solid">Да</button>
+        <button class="--btn --transparent">Нет</button>
+    </div>
+
+</div>
+                <div class="diagnostic__results successful__results">
+
+    <div class="result__analysis">
+
+        <p class="sub__title">
+            Исходя из симптомов вам <br>
+            рекомендуется обратиться <br>
+            к следующему врачу:
+        </p>
+
+        <div class="diagnosis__images sub__title__line">
+            <img src="images/diagnosis/item7.png" alt="">
+        </div>
+
+        <p class="title">Аллерголог</p>
+
+    </div>
+
+    <div class="page__footer">
+
+        <button class="--btn --solid">Записаться к врачу</button>
+
+        <div class="footer__links">
+            <div class="footer__links__item" reviews>Отзывы</div>
+            <div class="footer__links__item" callback>Обратная связь</div>
+        </div>
+
+    </div>
+
+</div>
+                <div class="diagnostic__results undefined__results">
+
+    <div class="result__analysis">
+
+        <p class="title">Ничего не нашёл</p>
+
+        <div class="diagnosis__images sub__title__line">
+            <img src="images/diagnosis/undefined.png" alt="">
+        </div>
+
+        <p class="sub__title">В моей базе данных ещё нет ответа, но вы можете оставить свои данные и команда наших опытных докторов свяжется с вами в ближайшее время или вы можете заказать обратный звонок от клиники.</p>
+
+    </div>
+
+    <div class="page__footer">
+
+        <button class="--btn --solid">Записаться к врачу</button>
+
+        <div class="footer__links">
+            <div class="footer__links__item" callback>Обратная связь</div>
+        </div>
+
+    </div>
+
+</div>
+
+            </div>
+
+            <div class="reviews__page">
+
+                <form class="reviews__form active">
+
+    <div class="signup__wrapper">
+
+        <p class="title">
+            Оставьте отзыв
+        </p>
+
+        <p class="sub__title sub__title__line">
+            Чтобы мы могли улучшить сервис <br>
+            и качетсво обслуживания.
+        </p>
+
+        <div class="form__wrapper">
+
+            <div class="signup__input__item form__input">
+                <input type="text" placeholder="Ваши имя" name="name">
+            </div>
+
+            <div class="signup__input__item form__input textarea__size">
+                <textarea name="reviews" placeholder="Очень удобно. Порой дозвониться до регистратуры нереально, а когда получается, оказывается, что поздно. Ходить каждый раз просто записаться тоже тяжело, поэтому это приложение - просто спасение для меня. Спасибо!"></textarea>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="page__footer">
+        <button class="--btn --solid">Отправить отзыв</button>
+    </div>
+
+</form>
+                <div class="reviews__success">
+
+    <div class="result__analysis">
+
+        <p class="title">
+            Спасибо<br>
+            за ваш отзыв!
+        </p>
+
+        <div class="diagnosis__images sub__title__line">
+            <img src="images/successful.svg" alt="">
+        </div>
+
+        <p class="sub__title">В ближайшее время с вами свяжется специалист и запишет вас на приём к нужному врачу в удобное время.</p>
+
+    </div>
+
+    <div class="page__footer">
+        <button class="--btn --solid" back__to__site>На сайт</button>
+        <button class="--btn --transparent" change__reviews>Редактировать</button>
+    </div>
+
+</div>
+
+            </div>
+
+            <div class="callback__page">
+
+                <form class="callback__form active">
+
+    <div class="signup__wrapper">
+
+        <p class="title">
+            Оставьте <br>
+            свои данные
+        </p>
+
+        <p class="sub__title sub__title__line">
+            Мы свяжемся с вами в течении <br>
+            5 минут и всё обсудим.
+        </p>
+
+        <div class="form__wrapper">
+
+            <div class="signup__input__item form__input">
+                <input type="text" placeholder="Ваши имя" name="name">
+            </div>
+
+            <div class="signup__input__item form__input">
+                <input type="tel" placeholder="+ 7 (___) ___-____" name="phone" id="phone1">
+            </div>
+
+            <div class="diagnostic__checkbox__item">
+
+                <label class="diagnostic__checkbox">
+                    <input type="checkbox" name="policy">
+                </label>
+
+                <p class="diagnostic__checkbox__title">Согласен c политикой конфиденциальности</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="page__footer">
+        <button class="--btn --solid">Связаться со мной</button>
+    </div>
+
+</form>
+                <div class="callback__success">
+
+    <div class="result__analysis">
+
+        <p class="title">Ожидайте</p>
+
+        <div class="diagnosis__images sub__title__line">
+            <img src="images/successful.svg" alt="">
+        </div>
+
+        <p class="sub__title">
+            Мы свяжемся с вами в течении <br>
+            5 минут и всё обсудим.
+        </p>
+
+    </div>
+
+    <div class="page__footer">
+        <button class="--btn --solid" back__to__site>На сайт</button>
+        <button class="--btn --transparent" cancel__callback>Отменить</button>
+    </div>
+
+</div>
+
+            </div>
+
+        </div>
+
+        <div class="settings">
+
+            <div class="settings__menu">
+
+                <div class="settings__logo">
+                    <img src="images/settings__logo.svg" alt="">
+                </div>
+
+                <div class="settings__wrapper">
+                    <div class="settings__item --btn --transparent" settings__menu="settings"><span><img src="images/header/settings.svg" alt=""></span> Настройки бота</div>
+                    <div class="settings__item --btn --transparent" settings__menu="patent">Патент</div>
+                    <div class="settings__item --btn --transparent" settings__menu="developer">О разработчике</div>
+                    <div class="settings__item --btn --transparent" settings__menu="policy">Политика<br> конфиденциальности</div>
+                </div>
+
+            </div>
+
+            <div class="settings__content">
+
+                <div class="settings__content__item" settings>
+
+    <div class="content__wrapper">
+
+        <p class="sub__title">Выберите цвета</p>
+
+        <div class="choice__color__wrapper sub__title__line">
+
+            <div class="choice__color__item">
+
+                <div class="color__radio__wrapper">
+                    <label class="input__radio__wrapper item1"><input type="radio" name="solid__color" class="choice__color__radio" value-color="#5AD5DC"></label>
+                    <label class="input__radio__wrapper item2"><input type="radio" name="solid__color" class="choice__color__radio" value-color="#9BB8FF"></label>
+                    <label class="input__radio__wrapper item3"><input type="radio" name="solid__color" class="choice__color__radio" value-color="#874BCC"></label>
+                    <label class="input__radio__wrapper item4"><input type="radio" name="solid__color" class="choice__color__radio" value-color="#DCB05A"></label>
+                    <label class="input__radio__wrapper item5"><input type="radio" name="solid__color" class="choice__color__radio" value-color="#FF6868"></label>
+                    <label class="input__radio__wrapper item6"><input type="radio" name="solid__color" class="choice__color__radio" value-color="#1A2233"></label>
+                    <label class="input__radio__wrapper item7"><input type="radio" name="solid__color" class="choice__color__radio" value-color="#C4C4C4"></label>
+                </div>
+
+                <div class="color__input__wrapper first">
+                    <p class="sub__title color__value">#5AD5DC</p>
+                    <input type="color" class="choice__color__solid" value="#5AD5DC">
+                </div>
+
+            </div>
+
+            <div class="choice__color__item">
+
+                <div class="color__radio__wrapper">
+                    <label class="input__radio__wrapper item1"><input type="radio" name="transparent__color" class="choice__color__radio" value-color="#5AD5DC"></label>
+                    <label class="input__radio__wrapper item2"><input type="radio" name="transparent__color" class="choice__color__radio" value-color="#9BB8FF"></label>
+                    <label class="input__radio__wrapper item3"><input type="radio" name="transparent__color" class="choice__color__radio" value-color="#874BCC"></label>
+                    <label class="input__radio__wrapper item4"><input type="radio" name="transparent__color" class="choice__color__radio" value-color="#DCB05A"></label>
+                    <label class="input__radio__wrapper item5"><input type="radio" name="transparent__color" class="choice__color__radio" value-color="#FF6868"></label>
+                    <label class="input__radio__wrapper item6"><input type="radio" name="transparent__color" class="choice__color__radio" value-color="#1A2233"></label>
+                    <label class="input__radio__wrapper item7"><input type="radio" name="transparent__color" class="choice__color__radio" value-color="#C4C4C4"></label>
+                </div>
+
+                <div class="color__input__wrapper second">
+                    <p class="sub__title color__value">#6531A2</p>
+                    <input type="color" class="choice__color__transparent" value="#6531A2">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="form__wrapper">
+
+            <p class="sub__title">Код API</p>
+
+            <div class="form__input">
+                <input type="text" value="var API = (function () {...}" name="copy__code" id="copy__code" readonly>
+                <div class="copy__input__code"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="page__footer">
+
+        <div class="footer__links">
+            <div class="footer__links__item" reviews>Отзывы</div>
+            <div class="footer__links__item" callback>Обратная связь</div>
+        </div>
+
+    </div>
+
+</div>
+                <div class="settings__content__item" patent>
+
+    <div class="content__wrapper">
+        <p class="title">Патент</p>
+        <p class="sub__title">текст…</p>
+    </div>
+
+    <div class="page__footer">
+
+        <div class="footer__links">
+            <div class="footer__links__item" reviews>Отзывы</div>
+            <div class="footer__links__item" callback>Обратная связь</div>
+        </div>
+
+    </div>
+
+</div>
+                <div class="settings__content__item" developer>
+
+    <div class="content__wrapper">
+        <p class="title">О разработчике</p>
+        <p class="sub__title">текст…</p>
+    </div>
+
+    <div class="page__footer">
+
+        <div class="footer__links">
+            <div class="footer__links__item" reviews>Отзывы</div>
+            <div class="footer__links__item" callback>Обратная связь</div>
+        </div>
+
+    </div>
+
+</div>
+                <div class="settings__content__item" policy>
+
+    <div class="content__wrapper">
+        <p class="title">Политика конфиденциальности</p>
+        <p class="sub__title">текст…</p>
+    </div>
+
+    <div class="page__footer">
+
+        <div class="footer__links">
+            <div class="footer__links__item" reviews>Отзывы</div>
+            <div class="footer__links__item" callback>Обратная связь</div>
+        </div>
+
+    </div>
+
+</div>
+
+            </div>
+
+        </div>
+
+        <div class="close__bot">
+
+            <div class="close__bot__body">
+
+                <p class="title">Предупреждение</p>
+                <p class="sub__title">Вы действительно хотите закрыть медицинский бот?</p>
+
+                <div class="close__bot__btn">
+                    <button class="close__bot__agree --btn --solid">Да</button>
+                    <button class="close__bot__cancel --btn --transparent">Отмена</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="diagnostic__back">
+
+            <div class="close__bot__body">
+
+                <p class="title">Предупреждение</p>
+                <p class="sub__title">Вы действительно хотите завершить диагностику?</p>
+
+                <div class="close__bot__btn">
+                    <button class="close__bot__agree --btn --solid">Да</button>
+                    <button class="close__bot__cancel --btn --transparent">Отмена</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Include Scripts -->
+    <script src="vendor/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js" type="text/javascript"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
