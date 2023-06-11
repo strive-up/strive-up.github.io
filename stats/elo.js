@@ -16,6 +16,6 @@ function updateelo(){
     elo = JSON.parse(oReq.responseText).games.csgo.faceit_elo;
     matches = JSON.parse(oReq.responseText).games.csgo.faceit_matches;
     levelpic.src = "https://cdn-frontend.faceit.com/web/960/src/app/assets/images-compress/skill-icons/skill_level_"+ JSON.parse(oReq.responseText).games.csgo.skill_level + "_svg.svg";
-    elodisplay.innerText = elo + 'lox' + matches;
+    elodisplay.innerText = elo;
   }
 }
