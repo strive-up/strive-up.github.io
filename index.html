@@ -1,20 +1,133 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мои проекты | strive-up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 2rem 1rem;
+            background: #222;
+            color: white;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        main {
+            max-width: 1100px;
+            margin: auto;
+            padding: 2rem 1rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 1.5rem;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: flex;
+            flex-direction: column;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+        }
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 1rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .card-title {
+            font-size: 1.2rem;
+            margin: 0 0 0.5rem 0;
+        }
+        .card-desc {
+            flex-grow: 1;
+            font-size: 0.9rem;
+            color: #555;
+        }
+        .card-link {
+            margin-top: 1rem;
+            text-align: center;
+            display: block;
+            background: #0077ff;
+            color: white;
+            padding: 0.6rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+        .card-link:hover {
+            background: #005ad1;
+        }
+    </style>
 
-    <head>
-        <meta charset="UTF-8">
-        <link rel="icon" href="/favicon.ico">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Vite App</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-      <script type="module" crossorigin src="/assets/index-CSKMUIRf.js"></script>
-      <link rel="stylesheet" crossorigin href="/assets/index-BEVYzX5Z.css">
-    </head>
+</head>
 
-    <body>
-        <div id="app"></div>
-    </body>
+<body>
 
+    <!-- <header>
+        <h1>Мои проекты</h1>
+        <p>Портфолио разработчика strive-up</p>
+    </header> -->
+
+    <main id="projects-container"></main>
+
+    <script>
+        const projects = [
+            {
+                title: "Money Tube Games",
+                desc: "An ecosystem with products based on the TON blockchain",
+                img: "preview/moneytubegames.png",
+                link: "https://strive-up.github.io/project/moneytubegames/"
+            },
+            /* {
+                title: "Web App: Пример",
+                desc: "Приложение с фронтендом и бэкендом.",
+                img: "https://placehold.co/400x200",
+                link: "https://strive-up.github.io/my-web-app"
+            },
+            {
+                title: "Game Project",
+                desc: "Небольшая браузерная игра.",
+                img: "https://placehold.co/400x200",
+                link: "https://strive-up.github.io/my-game"
+            } */
+        ];
+
+        const container = document.getElementById('projects-container');
+
+        projects.forEach(p => {
+            const card = document.createElement('div');
+            card.className = 'card';
+            card.innerHTML = `
+                <img src="${p.img}" alt="${p.title}">
+                <div class="card-content">
+                    <h3 class="card-title">${p.title}</h3>
+                    <p class="card-desc">${p.desc}</p>
+                    <a class="card-link" href="${p.link}" target="_blank">Смотреть</a>
+                </div>
+            `;
+            container.appendChild(card);
+        });
+    </script>
+
+</body>
 </html>
