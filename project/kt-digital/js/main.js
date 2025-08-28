@@ -961,7 +961,7 @@ polygraphy.on("slideChange afterInit init", function () {
 });
 caseBtn.forEach(function (emploee) {
   return emploee.addEventListener('click', function () {
-    document.body.style.overflow = 'hidden';
+    /* document.body.classList.add('hidden'); */
     caseContent.classList.add('case__active');
     $('#chaty-widget-0 .chaty-widget').addClass('bottomWidget');
     $('ul.tabs#portfolio').appendTo('.portfolio__content__wrapper .services__content .portfolio__content .portfolio__content__container');

@@ -21,6 +21,10 @@ body {
   margin: 0;
 }
 
+body.hidden {
+  overflow: hidden;
+}
+
 /**
  * Render the `main` element consistently in IE.
  */
